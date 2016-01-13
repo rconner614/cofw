@@ -12,7 +12,7 @@ if($_POST)
     
     // CONFIGURATION
     
-    $to_Email       = "email@host.com"; //Put the email here where the message will be sent. It will also appear as the sender but not the reply-to. It should better be an email hosted in the same host as the Site because some hosts don't allow php to send emails from unknown senders due to antispam policies.
+    $to_Email       = "info@cofwevents.org"; //Put the email here where the message will be sent. It will also appear as the sender but not the reply-to. It should better be an email hosted in the same host as the Site because some hosts don't allow php to send emails from unknown senders due to antispam policies.
 
     //check if its an ajax request, exit if not
     if(!isset($_SERVER['HTTP_X_REQUESTED_WITH']) AND strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) != 'xmlhttprequest') {
