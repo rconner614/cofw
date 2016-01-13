@@ -4,6 +4,12 @@ var myApp = angular.module("myApp", [
     'cofw.core'
 ]);
 
+myApp.run(function($rootScope){
+    $rootScope.$on('$stateChangeSuccess',function(){
+        $("html, body").animate({ scrollTop: 0 }, 300);
+    })
+});
+
 myApp.controller('appCtrl', appCtrl);
 appCtrl.$inject = ['$scope', '$state'];
 function appCtrl($scope, $state){
