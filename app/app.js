@@ -1,8 +1,7 @@
 var myApp = angular.module("myApp", [
     'ui.router',
     'ui.bootstrap',
-    'cofw.core',
-    'angular-flexslider'
+    'cofw.core'
 ]);
 
 myApp.controller('appCtrl', appCtrl);
