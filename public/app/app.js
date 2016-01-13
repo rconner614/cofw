@@ -71,7 +71,7 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
         //controller: 'contestCtrl'
     }).state('members', {
         url: "/members",
-        templateUrl: "/views/_members.html"
+        templateUrl: "/app/views/_members.html"
         //controller: 'membersCtrl',
         //resolve: {
         //    members: ['memberSrv', function(memberSrv){
