@@ -13,12 +13,12 @@ function appCtrl($scope, $state){
 }
 
 myApp.config(config);
-config.$inject = ['$stateProvider', '$urlRouterProvider'];
-function config($stateProvider, $urlRouterProvider) {
+config.$inject = ['$stateProvider', '$urlRouterProvider', '$locationProvider'];
+function config($stateProvider, $urlRouterProvider, $locationProvider) {
     $urlRouterProvider.otherwise('/');
     $stateProvider.state('home', {
         url: "/",
-        templateUrl: "/cofw/app/views/_home.html"
+        templateUrl: "/app/views/_home.html"
         //controller: 'homeCtrl',
         //resolve:{
         //    posts: ['postSrv', function(postSrv){
@@ -30,7 +30,7 @@ function config($stateProvider, $urlRouterProvider) {
         //}
     }).state('post', {
         url: "/post/:id",
-        templateUrl: "/cofw/app/views/_post.html"
+        templateUrl: "/app/views/_post.html"
         //controller: 'postCtrl',
         //resolve:{
         //    post: ['postSrv', '$stateParams', function(postSrv, $stateParams){
@@ -39,7 +39,7 @@ function config($stateProvider, $urlRouterProvider) {
         //}
     }).state('about', {
         url: "/about",
-        templateUrl: "/cofw/app/views/_about.html"
+        templateUrl: "/app/views/_about.html"
         //controller: 'aboutCtrl',
         //resolve: {
         //    info: ['infoSrv', function(infoSrv){
@@ -48,7 +48,7 @@ function config($stateProvider, $urlRouterProvider) {
         //}
     }).state('contact', {
         url: "/contact",
-        templateUrl: "/cofw/app/views/_contact.html"
+        templateUrl: "/app/views/_contact.html"
         //controller: 'contactCtrl',
         //resolve: {
         //    contactInfo: ['infoSrv', function(info){
@@ -57,7 +57,11 @@ function config($stateProvider, $urlRouterProvider) {
         //}
     }).state('contest', {
         url: "/contest",
-        templateUrl: "/cofw/app/views/_contest.html"
+        templateUrl: "/app/views/_contest.html"
+        //controller: 'contestCtrl'
+    }).state('meetings', {
+        url: "/meetings",
+        templateUrl: "/app/views/_meetings.html"
         //controller: 'contestCtrl'
     }).state('members', {
         url: "/members",
@@ -70,7 +74,7 @@ function config($stateProvider, $urlRouterProvider) {
         //}
     }).state('member', {
         url: "/members/member/:id",
-        templateUrl: "/cofw/app/views/_member.html"
+        templateUrl: "/app/views/_member.html"
         //controller: 'memberCtrl',
         //resolve: {
         //    member: ['memberSrv', '$stateParams', function(memberSrv, $stateParams){
@@ -78,4 +82,5 @@ function config($stateProvider, $urlRouterProvider) {
         //    }]
         //}
     });
+    $locationProvider.html5Mode(true);
 }

@@ -49,9 +49,9 @@ var window_top = jQuery(window).scrollTop();
             nav.removeClass("absolute");
 	  nav.css( "top", "0px" );
         }           
-      
-jQuery('.collapsing_header .full_page_photo').css( "top", header_height );    
-jQuery('.collapsing_header .main').css( "top", total_height );    
+//
+//jQuery('.collapsing_header .full_page_photo').css( "top", header_height );
+//jQuery('.collapsing_header .main').css( "top", total_height );
 
 
 

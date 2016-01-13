@@ -40,6 +40,7 @@
   "main": "karma.conf.js",
   "author": "",
   "dependencies": {
+    "ejs": "^2.3.4",
     "express": "^4.13.3",
     "http": "0.0.0"
   }
