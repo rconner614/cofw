@@ -2,26 +2,38 @@
     'use strict';
     angular.module('cofw.core')
         .factory('postSrv', postSrv);
-    function postSrv(){
-        var posts = [
-            {
-                id: 1,
-                date: new Date(0, 9, 2016),
-                headline: 'This is the first post',
-                subHeadline: 'This is a sub headline',
-                content: 'This is the first post'
-            }
-        ];
+    postSrv.$inject = ['$q','$http'];
+    function postSrv($http){
+        function getAllPosts(){
+            var df = $q.defer();
+            $http.get('/data/posts.json').then(function(resp){
+                console.log('pulled data', resp);
+                df.resolve(resp.data.posts);
+            }, function(resp){
+                console.log('failed to pull posts', resp);
+                df.reject(resp);
+            });
+            return df.promise;
+        }
+
         function getPost(x){
-            return posts.filter(function(sItem){
-                return sItem.id === x;
-            })[0];
+            var posts = null;
+            getAllPosts().then(function(resp){
+                posts = resp.data.posts;
+            }, function(resp){
+                console.log('failed to pull posts', resp);
+            });
+            if(posts){
+                return posts.filter(function(sItem){
+                    return sItem.id === x;
+                })[0];
+            } else{
+                return null;
+            }
         }
 
         return{
-            getAllPosts: function(){
-                return posts;
-            },
+            getAllPosts: getAllPosts,
             getPost: getPost
         }
     }

@@ -24,16 +24,16 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
     $urlRouterProvider.otherwise('/');
     $stateProvider.state('home', {
         url: "/",
-        templateUrl: "/app/views/_home.html"
-        //controller: 'homeCtrl',
-        //resolve:{
-        //    posts: ['postSrv', function(postSrv){
-        //        return postSrv.getAllPosts();
-        //    }],
+        templateUrl: "/app/views/_home.html",
+        controller: 'homeCtrl',
+        resolve:{
+            posts: ['postSrv', function(postSrv){
+                return postSrv.getAllPosts();
+            }]
         //    info: ['infoSrv', function(infoSrv){
         //        return infoSrv.getInformation();
         //    }]
-        //}
+        }
     }).state('post', {
         url: "/post/:id",
         templateUrl: "/app/views/_post.html"

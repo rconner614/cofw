@@ -1,22 +1,41 @@
 <section class="call_to_action">
-        <h3>Dedicated to the support and education of romance writers.</h3>
-        <h4>“There is only one plot—things are not what they seem.” —Jim Thompson</h4>
+        <h4>Dedicated to the promotion of <strong>excellence</strong> in romantic fiction <br>by <strong>helping</strong> writers become <strong>published</strong> and establish careers in their writing field.</h4>
 </section>
 <section class="features_teasers_wrapper">
     <div class="container">
         <div class="row">
-            <div class="feature_teaser col-sm-4 col-md-4"> <img alt="responsive" src="/app/images/responsive.png">
-                <h3>Clean, Responsive Design</h3>
-                <p>A multipurpose but mainly<strong> business oriented</strong> design, built to serve as a foundation for your web projects. Suspendisse nec risus fermentum sapien congue fermentum sed at lorem.</p>
+            <div class="feature_teaser col-md-offset-2 col-sm-4 col-md-4">
+                <!--<img alt="responsive" src="/app/images/responsive.png">-->
+                <span class="fa-stack fa-4x">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-calculator fa-stack-1x fa-inverse"></i>
+                </span>
+                <h3>January Meeting</h3>
+                <p>Don't miss out on our speaker, <strong>Donna MacMeans</strong>. Get answers to your pressing questions from an award-winning,
+                    multi-published author who is also a CPA. <br>
+                    <address><strong>Location:</strong>  Fire Station 83<br> 4283 Davidson Road<br>  Hilliard, OH 43026</address>
+                </p>
             </div>
-            <div class="feature_teaser col-sm-4 col-md-4"> <img alt="responsive" src="/app/images/git.png">
-                <h3>Based on Twitter Bootstrap</h3>
-                <p>The front-end development framework with a <strong>steep learning curve</strong>. It changes the way you develop sites. Suspendisse nec risus fermentum sapien congue fermentum sed at lorem.</p>
+            <div class="feature_teaser col-sm-4 col-md-4">
+                <!--<img alt="responsive" src="/app/images/git.png">-->
+                <span class="fa-stack fa-4x">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-desktop fa-stack-1x fa-inverse"></i>
+                </span>
+                <h3>February Meeting</h3>
+                <p>With our speaker, <strong>Gigi Morgan</strong>, meet the one piece of software that will change how you write forever. Plotter, pantser, and everyone in-between can benefit from the innovative features of Literature and Latte’s Scrivener 2.
+                    <address><strong>Location:</strong>  Fire Station 83<br> 4283 Davidson Road<br>  Hilliard, OH 43026</address>
+                </p>
             </div>
-            <div class="feature_teaser col-sm-4 col-md-4"> <img alt="responsive" src="/app/images/less.png">
-                <h3>Makes real use of {LESS}</h3>
-                <p><strong>Restart</strong> comes with a style.less file that tries to use all the power of <strong>{less} and bootstrap combined</strong>. Suspendisse nec risus fermentum sapien congue fermentum sed at lorem.</p>
-            </div>
+            <!--<div class="feature_teaser col-sm-4 col-md-4"> -->
+                <!--&lt;!&ndash;<img alt="responsive" src="/app/images/less.png">&ndash;&gt;-->
+                <!--<span class="fa-stack fa-4x">-->
+                  <!--<i class="fa fa-circle fa-stack-2x"></i>-->
+                  <!--<i class="fa fa-calculator fa-stack-1x fa-inverse"></i>-->
+                <!--</span>-->
+                <!--<h3>Makes real use of {LESS}</h3>-->
+                <!--<p><strong>Restart</strong> comes with a style.less file that tries to use all the power of <strong>{less} and bootstrap combined</strong>. Suspendisse nec risus fermentum sapien congue fermentum sed at lorem.</p>-->
+            <!--</div>-->
         </div>
     </div>
 </section>
@@ -33,40 +52,23 @@
     <div class="container animated wow fadeInUp">
         <div class="row">
             <div id="leftcol" class="col-sm-8 col-md-8">
-                <article class="post">
+                <article class="post" ng-repeat="post in posts | limitTo:maxItems | filter:tagName">
                     <div class="post_header">
                         <h3 class="post_title">
-                            <a href="single_post.html">January Meeting - New Location!</a>
+                            <a ng-href="/post/{{post.id}}">{{post.title}}</a>
                         </h3>
                         <div class="post_sub">
-                            <i class="fa-time"></i> March 1, 2013
+                            <i class="fa-time"></i> {{post.createdOn | date:'MM/dd/yyyy'}}
                         </div>
                     </div>
                     <div class="post_content">
                         <figure>
-                            <a href="single_post.html">
-                                <img alt="0" src="/app/images/portfolio/p4.jpg">
+                            <a ng-href="/post/{{post.id}}">
+                                <img alt="0" ng-src="{{post.image}}">
                             </a>
                         </figure>
-                        <p>Speaker – Donna MacMeans.
-                            <br>Donna is a multi-published author and Certified Public Accountant.
-                            <br>DATE:  Jan. 16, 2016
-                            <br>TIME:  Business meeting at 12:30 pm, Speaker at 1:30 pm
-                            <br>LOCATION – We will be meeting at this new location for the first several months of 2016:
-                            <br><br>Fire Station 83
-                            <br>4283 Davidson Road
-                            <br>Hilliard, OH 43026
-                            <br><br>TOPIC – With the holidays behind us, it’s time to turn our attention to taxes. Let Donna answer your pressing tax questions as it relates to writing – you’re sure to learn things you didn’t know!
-                            <ul>
-                                <li>Is your writing a business or a hobby?  Nine questions you need to answer to know if your writing is a business.</li>
-                                <li>How to maximize your deductions to reduce income</li>
-                                <li>As an indie or traditional author, what forms must YOU send to the IRS to report certain transactions?</li>
-                                <li>Now that you’ve published, what forms can you expect to receive to assist you in preparing your return?</li>
-                                <li>Self-employment tax, do you owe it? How is it calculated?</li>
-                                <li>Suggestions on making your bookkeeping easier for 2016.</li>
-                                </ul>
-                        </p>
-                        <a href="single_post.html" class="btn btn-primary">Read More</a> </div>
+                        {{post.content}}
+                        <a ng-href="/post/{{post.id}}" class="btn btn-primary">Read More</a> </div>
                 </article>
                 <uib-pagination boundary-links="true" total-items="totalItems" ng-model="currentPage" class="pagination-lg" previous-text="&lsaquo;" next-text="&rsaquo;" first-text="&laquo;" last-text="&raquo;">
                 </uib-pagination>
@@ -75,9 +77,10 @@
                 <aside class="widget">
                     <h4>Blog Categories</h4>
                     <ul class="nav nav-pills nav-stacked">
-                        <li class="active"><a href="#">All</a></li>
-                        <li><a href="#">News</a></li>
-                        <li><a href="#">Press</a></li>
+                        <li ng-class="{'active': category === 1}" ng-click="category = 1; tagName = null"><a href="#">All</a></li>
+                        <li ng-class="{'active': category === 2}" ng-click="category = 2; tagName = 'Meeting'"><a href="#">Meetings</a></li>
+                        <li ng-class="{'active': category === 3}" ng-click="category = 3; tagName = 'News'"><a href="#">News</a></li>
+                        <li ng-class="{'active': category === 4}" ng-click="category = 4; tagName = 'Speaker'"><a href="#">Speakers</a></li>
                     </ul>
                 </aside>
                 <aside class="widget ads clearfix">

@@ -5,8 +5,10 @@
   homeCtrl.$inject = ['$scope', 'posts'];
   function homeCtrl($scope, posts){
     $scope.posts = posts;
-    $scope.totalItems = 64;
+    $scope.totalItems = posts.length;
     $scope.currentPage = 4;
+    $scope.category = 1;
+    $scope.tagName = null;
 
     $scope.setPage = function (pageNo) {
       $scope.currentPage = pageNo;
@@ -16,6 +18,6 @@
       $log.log('Page changed to: ' + $scope.currentPage);
     };
 
-    $scope.maxSize = 5;
+    $scope.maxItems = 5;
   }
 }());

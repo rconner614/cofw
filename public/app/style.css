@@ -6728,17 +6728,18 @@ header .container {
   padding: 0px;
 }
 .navbar a.navbar-brand {
-  margin: 0px 0;
+  margin: -20px 0;
   padding: 0px;
   overflow: hidden;
-  width: 315px;
-  height: 90px;
+  width: 300px;
+  height: 100px;
 }
 .navbar a.navbar-brand img {
   float: left;
   margin: 0 6px 0 0;
-  width: 90px;
-  height: 90px;
+  width: 260px;
+  height: 100px;
+  z-index: 3000;
 }
 .navbar a.navbar-brand span.logo_title {
   font-size: 36px;

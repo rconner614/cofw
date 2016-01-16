@@ -1,0 +1,38 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "createdOn" : "12-29-2015",
+      "image" : "/app/images/portfolio/p1.jpg",
+      "title" : "January Meeting - New Location!",
+      "postTags" : [
+        {
+          "tag" : "Meeting",
+          "id" : 1
+        },
+        {
+          "tag" : "Speaker",
+          "id" : 2
+        }
+      ],
+      "content" : "<p>Speaker – Donna MacMeans.<br>Donna is a multi-published author and Certified Public Accountant.<br>DATE:  Jan. 16, 2016<br>TIME:  Business meeting at 12:30 pm, Speaker at 1:30 pm<br>LOCATION – We will be meeting at this new location for the first several months of 2016:<br><br>Fire Station 83<br>4283 Davidson Road<br>Hilliard, OH 43026<br><br>TOPIC – With the holidays behind us, it’s time to turn our attention to taxes. Let Donna answer your pressing tax questions as it relates to writing – you’re sure to learn things you didn’t know!<ul><li>Is your writing a business or a hobby?  Nine questions you need to answer to know if your writing is a business.</li><li>How to maximize your deductions to reduce income</li><li>As an indie or traditional author, what forms must YOU send to the IRS to report certain transactions?</li><li>Now that you’ve published, what forms can you expect to receive to assist you in preparing your return?</li><li>Self-employment tax, do you owe it? How is it calculated?</li><li>Suggestions on making your bookkeeping easier for 2016.</li></ul></p>"
+    },
+    {
+      "id" : "2",
+      "createdOn" : "12-29-2015",
+      "image" : "/app/images/portfolio/p1.jpg",
+      "title" : "February Meeting",
+      "postTags" : [
+        {
+          "tag" : "Meeting",
+          "id" : 1
+        },
+        {
+          "tag" : "Speaker",
+          "id" : 2
+        }
+      ],
+      "content" : "<p>Meet the one piece of software that will change how you write forever. Plotter, pantser, and everyone in-between can benefit from the innovative features of Literature and Latte’s Scrivener 2. From keeping you more organized, never letting you lose another draft, or creating an e-book, Scrivener is the toolbox every writer needs. Get your feet wet before the presentation by downloading the free trial version today. Available for both Apple and Windows computers, the free trial version contains full functionality and 30 days of use.</p>"
+    }
+  ]
+}
