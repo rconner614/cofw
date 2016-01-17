@@ -5,7 +5,6 @@
     <div class="container">
         <div class="row">
             <div class="feature_teaser col-md-offset-2 col-sm-4 col-md-4">
-                <!--<img alt="responsive" src="/app/images/responsive.png">-->
                 <span class="fa-stack fa-4x">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-calculator fa-stack-1x fa-inverse"></i>
@@ -17,7 +16,6 @@
                 </p>
             </div>
             <div class="feature_teaser col-sm-4 col-md-4">
-                <!--<img alt="responsive" src="/app/images/git.png">-->
                 <span class="fa-stack fa-4x">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-desktop fa-stack-1x fa-inverse"></i>
@@ -27,15 +25,6 @@
                     <address><strong>Location:</strong>  Fire Station 83<br> 4283 Davidson Road<br>  Hilliard, OH 43026</address>
                 </p>
             </div>
-            <!--<div class="feature_teaser col-sm-4 col-md-4"> -->
-                <!--&lt;!&ndash;<img alt="responsive" src="/app/images/less.png">&ndash;&gt;-->
-                <!--<span class="fa-stack fa-4x">-->
-                  <!--<i class="fa fa-circle fa-stack-2x"></i>-->
-                  <!--<i class="fa fa-calculator fa-stack-1x fa-inverse"></i>-->
-                <!--</span>-->
-                <!--<h3>Makes real use of {LESS}</h3>-->
-                <!--<p><strong>Restart</strong> comes with a style.less file that tries to use all the power of <strong>{less} and bootstrap combined</strong>. Suspendisse nec risus fermentum sapien congue fermentum sed at lorem.</p>-->
-            <!--</div>-->
         </div>
     </div>
 </section>
@@ -52,7 +41,7 @@
     <div class="container animated wow fadeInUp">
         <div class="row">
             <div id="leftcol" class="col-sm-8 col-md-8">
-                <article class="post" ng-repeat="post in posts | limitTo:maxItems | filter:tagName">
+                <article class="post" ng-repeat="post in posts | limitTo:maxItems | orderBy:'createdOn'">
                     <div class="post_header">
                         <h3 class="post_title">
                             <a ng-href="/post/{{post.id}}">{{post.title}}</a>
@@ -67,84 +56,43 @@
                                 <img alt="0" ng-src="{{post.image}}">
                             </a>
                         </figure>
-                        {{post.content}}
+                        <span ng-bind-html="safeHTML(post.content)"></span>
                         <a ng-href="/post/{{post.id}}" class="btn btn-primary">Read More</a> </div>
                 </article>
-                <uib-pagination boundary-links="true" total-items="totalItems" ng-model="currentPage" class="pagination-lg" previous-text="&lsaquo;" next-text="&rsaquo;" first-text="&laquo;" last-text="&raquo;">
+                <uib-pagination ng-if="posts.length > 5" boundary-links="true" total-items="totalItems" ng-model="currentPage" class="pagination-lg" previous-text="&lsaquo;" next-text="&rsaquo;" first-text="&laquo;" last-text="&raquo;">
                 </uib-pagination>
             </div>
             <div id="sidebar" class="col-sm-4 col-md-4">
                 <aside class="widget">
                     <h4>Blog Categories</h4>
                     <ul class="nav nav-pills nav-stacked">
-                        <li ng-class="{'active': category === 1}" ng-click="category = 1; tagName = null"><a href="#">All</a></li>
-                        <li ng-class="{'active': category === 2}" ng-click="category = 2; tagName = 'Meeting'"><a href="#">Meetings</a></li>
+                        <li ng-class="{'active': category === 1}" ng-click="category = 1; tagName = 'a'"><a href="#">All</a></li>
+                        <li ng-class="{'active': category === 2}" ng-click="category = 2; tagName = 'Meetings'"><a href="#">Meetings</a></li>
                         <li ng-class="{'active': category === 3}" ng-click="category = 3; tagName = 'News'"><a href="#">News</a></li>
-                        <li ng-class="{'active': category === 4}" ng-click="category = 4; tagName = 'Speaker'"><a href="#">Speakers</a></li>
+                        <li ng-class="{'active': category === 4}" ng-click="category = 4; tagName = 'Speakers'"><a href="#">Speakers</a></li>
                     </ul>
                 </aside>
                 <aside class="widget ads clearfix">
                     <h4>Tabs</h4>
-                    <ul class="nav nav-tabs" id="myTab">
-                        <li class="active"><a data-toggle="tab" href="#recent">Recent</a></li>
-                        <li class=""><a data-toggle="tab" href="#tags">Tags</a></li>
+                    <ul class="nav nav-tabs">
+                        <li ng-class="{'active': tab === 1}"><a href="#" ng-click="tab = 1">Recent</a></li>
+                        <li ng-class="{'active': tab === 2}"><a href="#" ng-click="tab = 2">Tags</a></li>
                     </ul>
-                    <div class="tab-content" id="myTabContent">
-                        <div id="recent" class="tab-pane fade active in">
+                    <div class="tab-content">
+                        <div class="tab-pane" ng-class="{'active': tab === 1}" ng-show="tab === 1">
                             <ul class="media-list">
-                                <li class="media">
-                                    <a href="#" class="media-photo" style="background-image:url(/app/images/portfolio/t5.jpg)"></a>
-                                    <a href="#" class="media-date">19<span>FEB</span></a>
+                                <li class="media" ng-repeat="post in posts">
+                                    <a href="#" class="media-photo" style="background-image:url({{post.image}})"></a>
+                                    <a href="#" class="media-date">{{post.createdOn | date:'dd'}}<span>{{post.createdOn | date:'MMM'}}</span></a>
                                     <h5 class="media-heading">
-                                        <a href="#">Media heading, this is a title of a news...</a>
+                                        <a href="#">{{post.title}}</a>
                                     </h5>
-                                    <p>Fugiat dapibus, tellus ac cursus commodo, ut fermentum...</p>
-                                </li>
-                                <li class="media">
-                                    <a href="#" class="media-photo" style="background-image:url(/app/images/portfolio/t4.jpg)"></a>
-                                    <a href="#" class="media-date">18<span>FEB</span></a>
-                                    <h5 class="media-heading">
-                                        <a href="#">Media heading, of a news item.</a>
-                                    </h5>
-                                    <p>Fugiat dapibus, tellus ac cursus commodo, condime ntum nibh, ut fermentum...</p>
-                                </li>
-                                <li class="media">
-                                    <a href="#" class="media-photo" style="background-image:url(/app/images/portfolio/t5.jpg)"></a>
-                                    <a href="#" class="media-date">17<span>FEB</span></a>
-                                    <h5 class="media-heading"><a href="#">Media heading, this is a title of a news...</a></h5>
-                                    <p>Fugiat dapibus, tellus ac cursus commodo, ut fermentum...</p>
-                                </li>
-                                <li class="media">
-                                    <a href="#" class="media-photo" style="background-image:url(/app/images/portfolio/t4.jpg)"></a>
-                                    <a href="#" class="media-date">16<span>FEB</span></a>
-                                    <h5 class="media-heading">
-                                        <a href="#">Media heading, of a news item.</a>
-                                    </h5>
-                                    <p>Fugiat dapibus, tellus ac cursus commodo, condime ntum nibh, ut fermentum...</p>
+                                    <span style="clear: left" ng-bind-html="safeHTML(post.content.split('.')[0])"></span>
                                 </li>
                             </ul>
                         </div>
-                        <div id="tags" class="tab-pane fade">
-                            <a class="label label-default">Default</a>
-                            <a class="label label-primary">Primary</a>
-                            <a class="label label-success">Success</a>
-                            <a class="label label-warning">Warning</a>
-                            <a class="label label-danger">Danger</a>
-                            <a class="label label-info">Info</a>
-                            <a class="label label-default">Default</a>
-                            <a class="label label-success">Success</a>
-                            <a class="label label-danger">Danger</a>
-                            <a class="label label-info">Info</a>
-                            <a class="label label-default">Default</a>
-                            <a class="label label-success">Success</a>
-                            <a class="label label-success">Success</a>
-                            <a class="label label-warning">Warning</a>
-                            <a class="label label-danger">Danger</a>
-                            <a class="label label-warning">Warning</a>
-                            <a class="label label-warning">Warning</a>
-                            <a class="label label-danger">Danger</a>
-                            <a class="label label-info">Info</a>
-                            <a class="label label-inverse">Inverse</a>
+                        <div class="tab-pane" ng-class="{'active': tab === 2}" ng-show="tab === 2">
+                            <a ng-repeat="tag in tags" style="float: left" ng-click="tagName = String(tag.title)" class="label" ng-class="{'label-default': tag.type === 'default', 'label-success': tag.type === 'success', 'label-warning': tag.type === 'warning', 'label-danger': tag.type === 'danger', 'label-info': tag.type === 'info'}">{{tag.title}}</a>
                         </div>
                     </div>
                 </aside>

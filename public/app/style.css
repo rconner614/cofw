@@ -7965,7 +7965,7 @@ article.post .post_content .btn {
 }
 .ads a {
   display: block;
-  float: left;
+  /*float: left;*/
   margin: 0 10px 10px 0;
 }
 #tags a {

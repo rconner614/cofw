@@ -19,9 +19,15 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/app/apple-touch-icon-72x72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="/app/apple-touch-fa-57x57-precomposed.png">
     <link rel="shortcut icon" href="/app/favicon.png">
+    <style>
+        [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+            display: none !important;
+        }
+
+    </style>
 </head>
 <body class="collapsing_header"  ng-controller="appCtrl">
-<header>
+<header ng-cloak>
     <div class="container">
         <div class="navbar navbar-default" role="navigation">
             <div class="navbar-header">
@@ -48,7 +54,7 @@
         <div id="social_media_wrapper"> <a href="https://www.facebook.com/COFWriters/"><i class="fa fa-facebook"></i></a> <a href="https://twitter.com/cofwriters"><i class="fa fa-twitter"></i></a></div>
     </div>
 </header>
-<span ng-if="state.includes('home')">
+<span ng-if="state.includes('home')" ng-cloak>
 <div class="full_page_photo" ng-style="{'top': state.includes('home') ? '153px' : '0'}" style="background-image: url(/app/images/1.jpg);">
     <div class="container">
         <section class="call_to_action">
@@ -59,7 +65,7 @@
     </div>
 </div>
 </span>
-<div class="main"  ng-style="{'top': state.includes('home') ? '563px' : '153px'}">
+<div class="main"  ng-style="{'top': state.includes('home') ? '563px' : '153px'}" ng-cloak>
     <div ui-view class="animated bounceInUp"></div>
 
     <footer>
@@ -73,18 +79,13 @@
                         <p><i class="fa fa-envelope"></i> cofwpresident@yahoo.com</p>
                     </div>
                     <div class="footer_teaser col-sm-4 col-md-4">
-                        <h3>Latest News</h3>
+                        <h3>Latest Posts</h3>
                         <ul class="media-list">
-                            <li class="media">
-                                <a href="#" class="media-photo" style="background-image:url(images/portfolio/t5.jpg)"></a>
-                                <a href="#" class="media-date">19<span>FEB</span></a>
-                                <h5 class="media-heading"><a href="#">Media heading, this is a title of a news...</a></h5>
-                                <p>Fugiat dapibus, tellus ac cursus commodo, ut fermentum...</p>
-                            </li>
-                            <li class="media"> <a href="#" class="media-photo" style="background-image:url(images/portfolio/t4.jpg)"></a>
-                                <a href="#" class="media-date">18<span>FEB</span></a>
-                                <h5 class="media-heading"><a href="#">Media heading, of a news item.</a></h5>
-                                <p>Fugiat dapibus, tellus ac cursus commodo, condime ntum nibh, ut fermentum...</p>
+                            <li class="media" ng-repeat="post in posts | limitTo:2">
+                                <a href="/post/{{post.id}}" class="media-photo" style="background-image:url(/app/images/portfolio/t5.jpg)"></a>
+                                <a href="/post/{{post.id}}" class="media-date">{{post.createdOn | date:'dd'}}<span>{{post.createdOn | date:'MMM'}}</span></a>
+                                <h5 class="media-heading"><a href="/post/{{post.id}}">{{post.title}}</a></h5>
+                                <span ng-bind-html="safeHTML(post.content.split('.')[0])"></span>
                             </li>
                         </ul>
                     </div>
@@ -125,4 +126,5 @@
 <script src="/app/app.js"></script>
 <script src="/app/controllers/core.js"></script>
 <script src="/app/controllers/homeCtrl.js"></script>
+<script src="/app/services/postSrv.js"></script>
 </html>

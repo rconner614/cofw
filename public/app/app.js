@@ -11,11 +11,21 @@ myApp.run(function($rootScope){
 });
 
 myApp.controller('appCtrl', appCtrl);
-appCtrl.$inject = ['$scope', '$state'];
-function appCtrl($scope, $state){
+appCtrl.$inject = ['$scope', '$state', '$http', '$sce'];
+function appCtrl($scope, $state, $http, $sce){
     $scope.today = new Date();
-    $scope.mySlides = ['images/backgrounds/desk.jpg', 'images/wild_olivia.jpg'];
     $scope.state = $state;
+    $scope.posts = $http.get('/app/data/posts.json').then(function(resp){
+        $scope.posts = resp.data.posts;
+    });
+
+    $scope.safeHTML = function(x){
+        return $sce.trustAsHtml(x);
+    };
+    for(var i = 0; i < $scope.posts.length; i++){
+        $scope.posts[i].createdOn = new Date($scope.posts[i].date);
+    }
+
 }
 
 myApp.config(config);
@@ -25,15 +35,20 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
     $stateProvider.state('home', {
         url: "/",
         templateUrl: "/app/views/_home.html",
-        controller: 'homeCtrl',
-        resolve:{
-            posts: ['postSrv', function(postSrv){
-                return postSrv.getAllPosts();
-            }]
+        controller: 'homeCtrl'
+        //resolve:{
+        //    posts: ['postSrv', function(postSrv){
+        //        console.log('hitting posts');
+        //        return postSrv.getAllPosts();
+        //    }],
+        //    tags: ['postSrv', function(postSrv){
+        //        console.log('hitting tags');
+        //        return postSrv.getTags();
+        //    }]
         //    info: ['infoSrv', function(infoSrv){
         //        return infoSrv.getInformation();
         //    }]
-        }
+        //}
     }).state('post', {
         url: "/post/:id",
         templateUrl: "/app/views/_post.html"

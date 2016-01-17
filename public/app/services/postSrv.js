@@ -4,25 +4,16 @@
         .factory('postSrv', postSrv);
     postSrv.$inject = ['$q','$http'];
     function postSrv($http){
-        function getAllPosts(){
-            var df = $q.defer();
-            $http.get('/data/posts.json').then(function(resp){
-                console.log('pulled data', resp);
-                df.resolve(resp.data.posts);
+        var getAllPosts = function(){
+            $http.get('../data/posts.json').then(function(resp){
+                console.log('success', resp);
             }, function(resp){
-                console.log('failed to pull posts', resp);
-                df.reject(resp);
+                console.log('failed', resp);
             });
-            return df.promise;
-        }
+        };
 
-        function getPost(x){
-            var posts = null;
-            getAllPosts().then(function(resp){
-                posts = resp.data.posts;
-            }, function(resp){
-                console.log('failed to pull posts', resp);
-            });
+        var getPost = function(x){
+            var posts = getAllPosts();
             if(posts){
                 return posts.filter(function(sItem){
                     return sItem.id === x;
@@ -30,11 +21,21 @@
             } else{
                 return null;
             }
-        }
+        };
+
+        var getTags = function(){
+            return $http.get('../data/posts.json').success(function(resp) {
+                return resp.data.tags;
+            });
+        };
 
         return{
-            getAllPosts: getAllPosts,
-            getPost: getPost
+            getAllPosts: function(){
+                console.log('got to service');
+                return getAllPosts();
+            },
+            getPost: getPost,
+            getTags: getTags
         }
     }
 }());
