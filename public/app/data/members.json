@@ -7,7 +7,7 @@
       "blurb": "Abbie Roads is a 2014 Golden Heart® Finalist. She is represented by Michelle Grajkowski of 3 Seas Literary. Abbie writes darkly emotional novels and always gives her damaged characters a happy ending. During the day, she’s a mental health counselor known as much for her blunt honest style of therapy as for the shoes she wears. She believes that many of life’s problems can be solved with a kick-ass pair of heels and a chocolate martini—or three. If that doesn’t work—seek professional help.",
       "facebook": "http://www.facebook.com/abbieroads2",
       "website": "www.abbieroads.com",
-      "image": "Roads.jpg"
+      "image": "Roads.jpeg"
     },
     {
       "firstName": "Alicia",
@@ -24,6 +24,7 @@
       "facebook": "www.facebook.com/BarbaraLohrAuthor",
       "twitter": "www.twitter.com/BarbaraJLohr",
       "website": "www.BarbaraLohrAuthor.com",
+      "image": "Lohr.jpeg",
       "blurb": "Barbara Lohr writes contemporary romance, adult as well as new adult, often with a humorous twist. Her early positions teaching writing and literature provided a springboard for a career in advertising and marketing. Literature remained her passion and more than two hundred of her short stories have been published in national magazines. In her novels feisty women take on hunky heroes and life’s issues. Windy City Romance, her first series, features resilient women, who were high school friends, and the men they love. Barbara lives in the Midwest and the South with her Hunky Hero Husband and their cat, who claims he was Heathcliff in another life. In addition to travel, her interests include golf and cooking. Dark Chocolate is her favorite food group and she makes a mean popover.",
       "novels": ["Her Favorite Mistake",
         "Her Favorite Honeymoon",
@@ -104,6 +105,7 @@
       "firstName": "Elysa",
       "lastName": "Hendricks",
       "id": 7,
+      "image": "Hendricks.png",
       "blurb": "After trying her hand at a variety of careers, insurance underwriter, video store owner, home day care and cleaning houses, Elysa Hendricks, a longtime reader sat down to write a short contemporary novel. When her heroine turned out to be a winged, telepathic alien, Elysa decided she enjoyed writing stories set in different places and times. While living in north east Illinois she helped found the Windy City Chapter and the Futuristic, Fantasy & Paranormal Chapters of Romance Writers of America and taught workshops on writing at writer’s conferences and at local community colleges. Recently relocated to central Ohio she’s happy to be part of the COFW family. Someday she dreams of writing on a laptop while sitting on a tropical beach. In the meantime she keeps warms during Ohio’s chilling winters by creating sizzling love scenes.",
       "email": "elysa@elysahendricks.com",
       "website": "www.elysahendricks.com",
@@ -139,7 +141,7 @@
       "lastName": "Forshey",
       "id": 9,
       "email": "lvkkincaid7@yahoo.com",
-      "image": "Forshey.jpg",
+      "image": "Forshey.png",
       "blurb":"J. Paulette Forshey is an award-winning author who lives in a small Ohio town with her husband, a Basset Hound and a tiny Papillion who both believe they are princesses in disguise. Paulette’s mornings belong to her writing, her days are spent loving her five grandbabies, and her nights belong to her husband, the inspiration for her heroes. Paulette has a naughty side and pens those stories under the name of Genevieve Delacroix.",
       "facebook": "http://www.facebook.com/paulette.forshey",
       "twitter": "https://twitter.com/ForsheyJ",
@@ -187,6 +189,7 @@
       "linkedIn": null,
       "twitter": null,
       "googlePlus": null,
+      "website": "http://www.amazon.com/Julia-Blaine/e/B00Q0R2GHW",
       "image": "Blaine.jpg",
       "blurb": "Julia Blaine lives on a rural country road in a home surrounded with trees, two cats, one dog and the neighbor’s animals that come over to play. The cats don’t always want to play but one grumpy husband keeps letting them outside. Ohio is beautiful but Julia finds her mind wandering to Regency England, vampires, ghosts and even to peculiar occurrences in the modern world. What if two men awakened in each others’ bodies after a terrible auto accident? What if they both loved the same woman and one was married to her? That’s just one plot among her many pre-published novels and novellas. Look on Amazon. “Shot through the Heart,” is a traditional Regency available on Kindle. Beautiful women and dashing heroes negotiate the pitfalls of the Season. Is the duel in Hyde Park just an excuse for murder? Meddling aunts and annoying animals are not totally helpful in solving the mystery. Watch for more postings on Amazon in the near future."
     },
@@ -245,7 +248,7 @@
       "website": "www.MarciaJames.net",
       "facebook": "www.facebook.com/MarciaJamesAuthor",
       "twitter": "http://twitter.com/Marcia_James",
-      "images": "James.png",
+      "image": "James.png",
       "novels": [
         "At Her Command",
         "Sex and the Single Therapist",
@@ -328,7 +331,7 @@
       "firstName": "Rebecca",
       "lastName": "Henderson Palmer",
       "id": 23,
-      "image": "HendersonPalmer.jpg",
+      "image": "HendersonPalmer.png",
       "website": "www.rhendersonpalmer.com",
       "blurb": "Biography:  Rebecca Henderson Palmer is an author, book reviewer, and blogger living in central Ohio. Rebecca is currently writing a two-book series centered upon Lady Margaret Beaufort. Published:  Rebecca’s first historical fiction manuscript is currently being offered to agents for representation."
 
@@ -381,7 +384,7 @@
       "firstName": "Stacy",
       "lastName": "McKitrick",
       "id": 28,
-      "email": "http://www.stacymckitrick.com/",
+      "website": "http://www.stacymckitrick.com/",
       "blurb": "Stacy McKitrick fell in love with paranormal romance, decided to write her own and found her passion in life. She used to work in accounting, now she spends her time with vampires, ghosts, and aliens. Born in California, she currently resides inOhio with her husband. They have two grown children. You can find her at website www.stacymckitrick.com or her blog www.stacysrantings.blogspot.com.",
       "image": "McKitrick.jpg",
       "novels": [

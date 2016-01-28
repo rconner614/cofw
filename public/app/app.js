@@ -36,72 +36,34 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
         url: "/",
         templateUrl: "/app/views/_home.html",
         controller: 'homeCtrl'
-        //resolve:{
-        //    posts: ['postSrv', function(postSrv){
-        //        console.log('hitting posts');
-        //        return postSrv.getAllPosts();
-        //    }],
-        //    tags: ['postSrv', function(postSrv){
-        //        console.log('hitting tags');
-        //        return postSrv.getTags();
-        //    }]
-        //    info: ['infoSrv', function(infoSrv){
-        //        return infoSrv.getInformation();
-        //    }]
-        //}
     }).state('post', {
         url: "/post/:id",
-        templateUrl: "/app/views/_post.html"
-        //controller: 'postCtrl',
-        //resolve:{
-        //    post: ['postSrv', '$stateParams', function(postSrv, $stateParams){
-        //        return postSrv.getPost($stateParams.id);
-        //    }]
-        //}
+        templateUrl: "/app/views/_post.html",
+        controller: 'postCtrl'
     }).state('about', {
         url: "/about",
-        templateUrl: "/app/views/_about.html"
-        //controller: 'aboutCtrl',
-        //resolve: {
-        //    info: ['infoSrv', function(infoSrv){
-        //        return infoSrv.getInformation();
-        //    }]
-        //}
+        templateUrl: "/app/views/_about.html",
+        controller: 'aboutCtrl'
     }).state('contact', {
         url: "/contact",
-        templateUrl: "/app/views/_contact.html"
-        //controller: 'contactCtrl',
-        //resolve: {
-        //    contactInfo: ['infoSrv', function(info){
-        //        return infoSrv.getContactInfo();
-        //    }]
-        //}
+        templateUrl: "/app/views/_contact.html",
+        controller: 'contactCtrl'
     }).state('contest', {
         url: "/contest",
-        templateUrl: "/app/views/_contest.html"
-        //controller: 'contestCtrl'
+        templateUrl: "/app/views/_contest.html",
+        controller: 'contestCtrl'
     }).state('meetings', {
         url: "/meetings",
-        templateUrl: "/app/views/_meetings.html"
-        //controller: 'contestCtrl'
+        templateUrl: "/app/views/_meetings.html",
+        controller: 'contestCtrl'
     }).state('members', {
         url: "/members",
-        templateUrl: "/app/views/_members.html"
-        //controller: 'membersCtrl',
-        //resolve: {
-        //    members: ['memberSrv', function(memberSrv){
-        //        return memberSrv.getMembers();
-        //    }]
-        //}
+        templateUrl: "/app/views/_members.html",
+        controller: 'membersCtrl'
     }).state('member', {
         url: "/members/member/:id",
-        templateUrl: "/app/views/_member.html"
-        //controller: 'memberCtrl',
-        //resolve: {
-        //    member: ['memberSrv', '$stateParams', function(memberSrv, $stateParams){
-        //        return memberSrv.getMember($stateParams.id);
-        //    }]
-        //}
+        templateUrl: "/app/views/_member.html",
+        controller: 'memberCtrl'
     });
     $locationProvider.html5Mode(true);
 }
