@@ -1,130 +1,142 @@
 <!DOCTYPE html>
-<html class="no-js" data-ng-app="myApp" lang="en">
+<html data-ng-app="myApp" lang="en">
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+
 <head>
     <base href="/">
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,600italic,700,700italic,300italic" rel="stylesheet" type="text/css">
     <meta charset="utf-8">
-    <title><%title%></title>
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="/app/animate.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="/app/js/woothemes-FlexSlider-06b12f8/flexslider.css" type="text/css" media="screen">
-    <link rel="stylesheet" href="/app/js/prettyPhoto_3.1.5/prettyPhoto.css" type="text/css" media="screen">
-    <link rel="stylesheet" href="/app/bower_components/bootstrap/dist/css/bootstrap.min.css">
-    <link href="/app/style.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="/app/bower_components/font-awesome/css/font-awesome.min.css">
-    <script type="text/javascript" src="/app/js/modernizr.custom.48287.js"></script>
-    <!-- Fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/app/apple-touch-icon-114x114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/app/apple-touch-icon-72x72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="/app/apple-touch-fa-57x57-precomposed.png">
-    <link rel="shortcut icon" href="/app/favicon.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Pretty - Homepage</title>
+
+    <!-- Favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="/app/images/favicon.ico">
+    <link rel="apple-touch-icon" href="/app/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/app/images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/app/images/apple-touch-icon-114x114.png">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/app/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/app/css/jollyicons.css" rel="stylesheet">
+    <link href="/app/css/flexslider.css" rel="stylesheet">
+    <link href="/app/style2.css" rel="stylesheet">
+    <!--<link href="side-style.css" rel="stylesheet">-->
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <style>
         [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
             display: none !important;
         }
 
     </style>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
-<body class="collapsing_header"  ng-controller="appCtrl">
-<header ng-cloak>
+<body ng-controller="appCtrl">
+
+<div class="logo-wrapper">
+    <img src="/app/images/cofwONLINE.png" style="width: 400px; margin-top: 30px">
+</div>
+
+<div id="normal-header" class="container-fluid">
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-menu-2"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                <li ng-class="{'active': state.includes('home')}"><a href="/">Home</a></li>
+                <li ng-class="{'active': state.includes('about')}"><a href="/about">About Us</a></li>
+                <li ng-class="{'active': state.includes('meetings')}"><a href="meetings">Meetings</a></li>
+                <li ng-class="{'active': state.includes('contest')}"><a href="contest">Contest</a></li>
+                <li ng-class="{'active': state.includes('members')}"><a href="/members">Members</a></li>
+                <li ng-class="{'active': state.includes('contact')}"><a href="/contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+<div ui-view ng-cloak></div>
+
+<div class="clearfix"></div>
+
+<footer class="footer clearfix">
     <div class="container">
-        <div class="navbar navbar-default" role="navigation">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="/">
-                    <img src="/app/images/cofw-2.png" alt="optional logo">
-                    <!--<span class="logo_title"><strong>COFW</strong></span>-->
-                    <!--<span class="logo_subtitle">a proud chapter of RWA</span>-->
-                </a>
-                <a class="btn btn-navbar btn-default navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="nb_left pull-left"> <span class="fa fa-reorder"></span></span> <span class="nb_right pull-right">menu</span>
-                </a>
-            </div>
-            <div class="collapse navbar-collapse">
-                <ul class="nav pull-right navbar-nav">
-                    <li ng-class="{'active': state.includes('home')}"><a href="/">Home</a></li>
-                    <li ng-class="{'active': state.includes('about')}"><a href="/about">About Us</a></li>
-                    <li ng-class="{'active': state.includes('meetings')}"><a href="meetings">Meetings</a></li>
-                    <li ng-class="{'active': state.includes('contest')}"><a href="contest">Contest</a></li>
-                    <li ng-class="{'active': state.includes('members')}"><a href="/members">Members</a></li>
-                    <li ng-class="{'active': state.includes('contact')}"><a href="/contact">Contact</a></li>
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <ul class="list-inline menu-footer clearfix">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About Us</a></li>
+                    <li><a href="meetings">Meetings</a></li>
+                    <li><a href="contest">Contest</a></li>
+                    <li><a href="/members">Members</a></li>
+                    <li><a href="/contact">Contact</a></li>
                 </ul>
+                <ul class="list-inline social-icons">
+                    <li><a href="#"><i class="icon-facebook"></i></a></li>
+                    <li><a href="#"><i class="icon-twitter"></i></a></li>
+                    <li><a href="#"><i class="icon-pinterest"></i></a></li>
+                    <li><a href="#"><i class="icon-instagram"></i></a></li>
+                </ul>
+                <a class="back-to-top" href="#"><i class="icon-up-open-mini"></i></a>
             </div>
         </div>
-        <div id="social_media_wrapper"> <a href="https://www.facebook.com/COFWriters/"><i class="fa fa-facebook"></i></a> <a href="https://twitter.com/cofwriters"><i class="fa fa-twitter"></i></a></div>
     </div>
-</header>
-<span ng-if="state.includes('home')" ng-cloak>
-<div class="full_page_photo" ng-style="{'top': state.includes('home') ? '153px' : '0'}" style="background-image: url(/app/images/1.jpg);">
-    <div class="container">
-        <section class="call_to_action">
-            <h3 class="animated bounceInDown skincolored">We are <strong>C</strong>entral <strong>O</strong>hio <strong>F</strong>iction <strong>W</strong>riters.</h3>
-            <br>
-            <h4 class="animated bounceInUp">Promoting excellence in romantic fiction.</h4>
-        </section>
-    </div>
-</div>
-</span>
-<div class="main"  ng-style="{'top': state.includes('home') ? '563px' : '153px'}" ng-cloak>
-    <div ui-view class="animated bounceInUp" ng-cloak></div>
+</footer>
 
-    <footer>
-        <section id="footer_teasers_wrapper">
-            <div class="container">
-                <div class="row">
-                    <div class="footer_teaser col-sm-4 col-md-4">
-                        <h3>About us</h3>
-                        <p>We are a chapter of Romance Writers of America, dedicated to supporting writers in Central Ohio.</p>
-                        <p><i class="fa fa-map-marker"></i> P.O. Box 1234</p>
-                        <p><i class="fa fa-envelope"></i> cofwpresident@yahoo.com</p>
-                    </div>
-                    <div class="footer_teaser col-sm-4 col-md-4">
-                        <h3>Latest Posts</h3>
-                        <ul class="media-list">
-                            <li class="media" ng-repeat="post in posts | limitTo:2">
-                                <a href="/post/{{post.id}}" class="media-photo" style="background-image:url(/app/images/portfolio/t5.jpg)"></a>
-                                <a href="/post/{{post.id}}" class="media-date">{{post.createdOn | date:'dd'}}<span>{{post.createdOn | date:'MMM'}}</span></a>
-                                <h5 class="media-heading"><a href="/post/{{post.id}}">{{post.title}}</a></h5>
-                                <span ng-bind-html="safeHTML(post.content.split('.')[0])"></span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="footer_teaser col-sm-4 col-md-4" id="latest-flickr-images">
-                        <h3>FlickrFeed</h3>
-                        <ul></ul> <p>All photos © by <a href="http://www.dimitragiannouka.com" target="_blank">Dimitra Giannouka</a>.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="copyright">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6 col-md-6"> Copyright ©{{today | date:'yyyy'}} All Rights Reserved </div>
-                </div>
-            </div>
-        </section>
-    </footer>
-</div>
-</body>
+<!-- jQuery -->
 <script src="/app/bower_components/jquery/dist/jquery.min.js"></script>
 <script src="/app/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="/app/js/woothemes-FlexSlider-06b12f8/jquery.flexslider-min.js"></script>
-<script src="/app/js/prettyPhoto_3.1.5/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
-<script src="/app/js/isotope/jquery.isotope.min.js" type="text/javascript"></script>
-<script type="text/javascript" src="/app/js/jquery.ui.totop.js"></script>
-<script type="text/javascript" src="/app/js/easing.js"></script>
-<script type="text/javascript" src="/app/js/wow.min.js"></script>
-<script type="text/javascript" src="/app/js/snap.svg-min.js"></script>
-<script type="text/javascript" src="/app/js/restart_theme.js"></script>
-<script type="text/javascript" src="/app/js/contact_form.js"></script>
-
+<!--<script src="/app/js/classie.js"></script>-->
+<script src="/app/js/retina.js"></script>
+<!--<script src="/app/js/custom.js"></script>-->
+<!--<script src="/app/js/jquery.fitvids.js"></script>-->
+<!--&lt;!&ndash; Fit Video Scripts&ndash;&gt;-->
+<!--<script type="text/javascript">-->
+    <!--(function($) {-->
+        <!--"use strict";-->
+        <!--$(".media-element").fitVids();-->
+    <!--})(jQuery);-->
+<!--</script>-->
+<!--&lt;!&ndash; FlexSlider Scripts&ndash;&gt;-->
+<!--<script src="/app/js/jquery.flexslider.js"></script>-->
+<!--<script type="text/javascript">-->
+    <!--(function($) {-->
+        <!--"use strict";-->
+        <!--$('.flexslider').flexslider({-->
+            <!--animation: 'fade',-->
+            <!--slideshow: true,-->
+            <!--controlNav: false,-->
+            <!--animationLoop: true,-->
+        <!--});-->
+    <!--})(jQuery);-->
+<!--</script>-->
 <script src="/app/bower_components/angular/angular.js"></script>
 <script src="/app/bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
 <script src="/app/bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
 <script src="/app/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
-<!--<script src="/app/bower_components/angular-flexslider/angular-flexslider.js"></script>-->
 <script src="/app/app.js"></script>
 <script src="/app/controllers/core.js"></script>
 <script src="/app/controllers/homeCtrl.js"></script>
 <script src="/app/controllers/membersCtrl.js"></script>
+
+
+</body>
 </html>

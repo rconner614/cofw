@@ -1,0 +1,40 @@
+<section class="content clearfix">
+<div class="container">
+    <div class="row">
+        <div ng-repeat="post in posts | limitTo:maxItems | orderBy:'createdOn'">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-preview text-center clearfix">
+                    <small>{{post.createdOn | date:'longDate'}}</small>
+                    <a ng-href="/post/{{post.id}}">
+                        <h2 class="post-title">{{post.title}}</h2>
+                    </a>
+                    <p class="post-meta">Posted by Semanta Category <a href="#">Trends</a></p>
+
+                    <div class="media-element entry">
+                        <img ng-src="{{post.image}}" class="img-responsive">
+                        <div class="magnifier">
+                            <div class="buttons">
+                                <a ng-href="/post/{{post.id}}" title=""><i class="icon-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="desc text-left">
+                        <span ng-bind-html="safeHTML(post.content)"></span>
+                        <a ng-href="/post/{{post.id}}" class="readmore" title="">continue reading</a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <ul class="pager">
+                <li class="next">
+                    <a href="#">Older Posts &rarr;</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+</section>

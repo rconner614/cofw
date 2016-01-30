@@ -34,7 +34,7 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
     $urlRouterProvider.otherwise('/');
     $stateProvider.state('home', {
         url: "/",
-        templateUrl: "/app/views/_home.html",
+        templateUrl: "/app/views/_homePage.html",
         controller: 'homeCtrl'
     }).state('post', {
         url: "/post/:id",
@@ -42,11 +42,11 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
         controller: 'postCtrl'
     }).state('about', {
         url: "/about",
-        templateUrl: "/app/views/_about.html",
+        templateUrl: "/app/views/_aboutPage.html",
         controller: 'aboutCtrl'
     }).state('contact', {
         url: "/contact",
-        templateUrl: "/app/views/_contact.html",
+        templateUrl: "/app/views/_contactPage.html",
         controller: 'contactCtrl'
     }).state('contest', {
         url: "/contest",
@@ -58,7 +58,7 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
         controller: 'contestCtrl'
     }).state('members', {
         url: "/members",
-        templateUrl: "/app/views/_members.html",
+        templateUrl: "/app/views/_memberPage.html",
         controller: 'membersCtrl'
     }).state('member', {
         url: "/members/member/:id",
