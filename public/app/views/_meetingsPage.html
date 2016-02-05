@@ -1,0 +1,46 @@
+<section class="content clearfix">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-8">
+                <div ng-repeat="post in filtered | startFrom:(currentPage-1)*entryLimit | limitTo:entryLimit">
+                    <div class="post-preview text-center clearfix">
+                        <small>{{post.createdOnDate}}</small>
+                        <a ng-href="/post/{{post.id}}">
+                            <h2 class="post-title">{{post.title}}</h2>
+                        </a>
+                        <img src="/app/images/swirl.png" style="margin-left: auto; margin-right: auto; width: 150px; margin-bottom: 20px">
+                        <p class="post-meta">Posted by Jane | Category <a href="#">{{post.type}}</a></p>
+                        <div class="desc text-left">
+                            <span ng-bind-html="safeHTML(post.content)"></span>
+                            <a ng-href="/post/{{post.id}}" class="readmore" title="">continue reading</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+                <div id="sidebar" class="text-center">
+                    <div class="widget">
+                        <div class="widget-title clearfix">
+                            <h3>Post Categories</h3>
+                        </div>
+                        <ul class="categories">
+                            <li><a ng-click="word = 'meeting'">Meetings</a></li>
+                            <li><a ng-click="word = 'speaker'">Speaker</a></li>
+                            <li><a ng-click="word = 'news'">News</a></li>
+                            <li><a ng-click="word = 'contest'">Contest</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="pager">
+                    <li class="next">
+                        <a href="#">Older Posts &rarr;</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>

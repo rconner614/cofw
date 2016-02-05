@@ -20,7 +20,8 @@
 ------------------------------------------------------- */
 
 body {
-    background: #fff;
+    background: #fff4f7;
+    background-image: url('images/damask.png');
     color: #121212;
     font-weight: 400;
     font-size: 1.7em;
@@ -107,7 +108,7 @@ p.drop-caps:first-child:first-letter {
     
 p.drop-caps.full:first-child:first-letter {
     color: #fff;
-    background: #ffd4be;
+    background: transparent;
     padding: 7px;
     margin-right: 7px;
 }
@@ -342,7 +343,7 @@ button.trigger span::before {
 .content {
     position: relative;
     display: block;
-    background: #fff;
+    background: transparent;
     margin: 0 auto 0;
     padding: 1em 0 3em;
 }
@@ -361,7 +362,7 @@ button.trigger span::before {
     font-size: 1.4em;
 }
 .content .custom {
-    background: #ffd4be;
+    background: transparent;
     border-left:0;
     color: #b28771;
     font-family: "Lora",serif;
@@ -382,7 +383,7 @@ button.trigger span::before {
     margin:30px 0;
 }
 .pager li > a, .pager li > span {
-    background-color: #fff;
+    background-color: transparent;
     border: 1px solid #121212;
     border-radius: 0;
     display: block;
@@ -393,13 +394,13 @@ button.trigger span::before {
 }
 
 .pager li > a:hover, .pager li > span:hover {
-    background-color: #fff;
+    background-color: transparent;
     border-color:#ffd4be;
     color:#121212;
 }
 .footer {
-    background:#fff;
-    border-top: 1px solid #eee;
+    background: transparent;
+    /*border-top: 1px solid #eee;*/
     color: #121212;
     display: block;
     overflow: hidden;
@@ -621,7 +622,7 @@ color:#ffd4be;
 .panel-default > .panel-heading:hover,
 .panel-default > .panel-heading:focus,
 .panel-default > .panel-heading {
-    background-color:#fff;
+    background-color: transparent;
 }
 
 .rating {
@@ -871,8 +872,8 @@ color:#ffd4be;
 }
 
 .container-fluid {
-	border-bottom:1px solid #eee;
-	border-top:1px solid #eee;
+	/*border-bottom:1px solid #eee;*/
+	/*border-top:1px solid #eee;*/
 }
 
 #normal-header {
@@ -881,7 +882,7 @@ color:#ffd4be;
 }
 
 .navbar-default {
-	background:#fff;
+	background: transparent;
 	border:none;
 	padding:4px 15px 0;
 	margin-bottom:0;
@@ -889,14 +890,14 @@ color:#ffd4be;
 }
 
 .navbar-default .navbar-nav > li > a {
-   color: #121212;
+    color: #121212;
     font-family: "Playfair Display",serif;
     font-size:16px;
 }
 .logo-wrapper {
 	text-align:center}
 .logo-wrapper h1 {
-   color: #121212;
+    color: #121212;
     font-family: "Playfair Display",serif;
     font-size: 3.8em;
     font-weight: bold;
@@ -905,7 +906,7 @@ color:#ffd4be;
 }
 
 .logo-wrapper p {
-	 color: #121212;
+    color: #121212;
     font-family: "Playfair Display",serif;
     font-size: 1.3em !important;
 }
@@ -913,14 +914,22 @@ color:#ffd4be;
 .navbar-default .navbar-nav > .open > a, 
 .navbar-default .navbar-nav > .open > a:hover, 
 .navbar-default .navbar-nav > .open > a:focus {
-    background: #fff;
+    background: transparent;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #121212;
+    background-color: #ffdae4;
+    border-radius: 4px;
 }
 
 .dropdown-menu {
 	padding:0
 }
 .dropdown-menu > li > a {
-    border-bottom: 1px solid #eee;
+    /*border-bottom: 1px solid #eee;*/
     clear: both;
     color: #121212;
     display: block;

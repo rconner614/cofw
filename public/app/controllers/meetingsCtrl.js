@@ -1,9 +1,9 @@
 (function () {
     'use strict';
     angular.module('cofw.core')
-        .controller('homeCtrl', homeCtrl);
-    homeCtrl.$inject = ['$scope', '$http', '$sce', 'filterFilter'];
-    function homeCtrl($scope, $http, $sce, filterFilter) {
+        .controller('meetingsCtrl', meetingsCtrl);
+    meetingsCtrl.$inject = ['$scope', '$http', '$sce', 'filterFilter'];
+    function meetingsCtrl($scope, $http, $sce, filterFilter) {
         $http.get('/app/data/posts.json').then(function (resp) {
             $scope.posts = resp.data.posts;
             console.log($scope.posts);

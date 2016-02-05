@@ -17,10 +17,10 @@
 
     <!-- Favicons
     ================================================== -->
-    <link rel="shortcut icon" href="/app/images/favicon.ico">
-    <link rel="apple-touch-icon" href="/app/images/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/app/images/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/app/images/apple-touch-icon-114x114.png">
+    <link rel="shortcut icon" href="/app/favicon.png">
+    <link rel="apple-touch-icon" href="/app/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/app/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/app/apple-touch-icon-114x114.png">
 
     <!-- Bootstrap Core CSS -->
     <link href="/app/css/bootstrap.min.css" rel="stylesheet">
@@ -49,7 +49,7 @@
 <body ng-controller="appCtrl">
 
 <div class="logo-wrapper">
-    <img src="/app/images/cofwONLINE.png" style="width: 400px; margin-top: 30px">
+    <img src="/app/images/cofwONLINE.png" style="width: 300px; margin-top: 30px">
 </div>
 
 <div id="normal-header" class="container-fluid">
@@ -64,8 +64,8 @@
             <ul class="nav navbar-nav">
                 <li ng-class="{'active': state.includes('home')}"><a href="/">Home</a></li>
                 <li ng-class="{'active': state.includes('about')}"><a href="/about">About Us</a></li>
-                <li ng-class="{'active': state.includes('meetings')}"><a href="meetings">Meetings</a></li>
-                <li ng-class="{'active': state.includes('contest')}"><a href="contest">Contest</a></li>
+                <li ng-class="{'active': state.includes('meetings')}"><a href="/meetings">Meetings</a></li>
+                <li ng-class="{'active': state.includes('contest')}"><a href="/contest">Contest</a></li>
                 <li ng-class="{'active': state.includes('members')}"><a href="/members">Members</a></li>
                 <li ng-class="{'active': state.includes('contact')}"><a href="/contact">Contact</a></li>
             </ul>
@@ -102,8 +102,8 @@
 </footer>
 
 <!-- jQuery -->
-<script src="/app/bower_components/jquery/dist/jquery.min.js"></script>
-<script src="/app/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/app/app/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="/app/app/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 <!--<script src="/app/js/classie.js"></script>-->
 <script src="/app/js/retina.js"></script>
 <!--<script src="/app/js/custom.js"></script>-->
@@ -128,14 +128,16 @@
         <!--});-->
     <!--})(jQuery);-->
 <!--</script>-->
-<script src="/app/bower_components/angular/angular.js"></script>
-<script src="/app/bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
-<script src="/app/bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
-<script src="/app/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+<script src="/app/app/bower_components/angular/angular.js"></script>
+<script src="/app/app/bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
+<script src="/app/app/bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+<script src="/app/app/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+<script src="/app/app/bower_components/moment/min/moment.min.js"></script>
 <script src="/app/app.js"></script>
 <script src="/app/controllers/core.js"></script>
 <script src="/app/controllers/homeCtrl.js"></script>
 <script src="/app/controllers/membersCtrl.js"></script>
+<script src="/app/controllers/meetingsCtrl.js"></script>
 
 
 </body>

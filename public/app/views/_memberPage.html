@@ -1,187 +1,27 @@
 <section class="content clearfix">
     <div class="container">
         <div class="row">
-            <div class="col-lg-9 col-md-9">
+            <div class="col-lg-12">
                 <div class="single-post clearfix">
-                    <small>Trends of Makeup</small>
-                    <a title="" href="single.html">
-                        <h2 class="post-title">Shopping</h2>
-                    </a>
-                    <p class="post-meta">Your Cart <a href="#">2 ITEM</a> Go to <a href="#">Checkout <i class="icon-right-thin"></i></a></p>
-
+                    <small>CENTRAL OHIO FICTION WRITERS</small>
+                    <h2 class="post-title">Members</h2>
                     <div class="row">
-                        <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12" ng-repeat="member in members">
                             <div class="shop-item entry">
-                                <img src="demos/shop_01.jpg" alt="" class="img-responsive">
+                                <img ng-src="/app/images/members/{{member.image}}" alt="member.firstName" class="img-responsive">
                                 <div class="magnifier">
                                     <div class="buttons">
-                                        <a href="cart.html" title=""><i class="icon-cart"></i></a>
-                                        <a href="single-shop.html" title=""><i class="icon-search"></i></a>
-                                    </div><!-- end buttons -->
+                                        <a ng-if="member.facebook" ng-href="{{member.facebook}}" ><i class="icon-facebook"></i></a>
+                                        <a ng-if="member.website" ng-href="{{member.website}}" ><i class="icon-desktop"></i></a>
+                                        <a ng-if="member.twitter" ng-href="{{member.twitter}}" ><i class="icon-twitter"></i></a>
+                                        <a ng-if="member.pinterest" ng-href="{{member.pinterest}}" ><i class="icon-pinterest"></i></a>
+                                    </div>
                                 </div>
-                            </div><!-- end shop item -->
+                            </div>
                             <div class="shop-title text-center">
-                                <h3><a href="single-shop.html" title="">Shop Item</a></h3>
-                                <small>$19.00</small>
-                            </div><!-- end shop-title -->
-                        </div><!-- end col -->
-
-                        <div class="col-md-4 col-sm-6 col-xs-12">
-                            <div class="shop-item entry">
-                                <img src="demos/shop_09.jpg" alt="" class="img-responsive">
-                                <div class="magnifier">
-                                    <div class="buttons">
-                                        <a href="cart.html" title=""><i class="icon-cart"></i></a>
-                                        <a href="single-shop.html" title=""><i class="icon-search"></i></a>
-                                    </div><!-- end buttons -->
-                                </div>
-                            </div><!-- end shop item -->
-                            <div class="shop-title text-center">
-                                <h3><a href="single-shop.html" title="">Shop Item</a></h3>
-                                <small>$19.00</small>
-                            </div><!-- end shop-title -->
-                        </div><!-- end col -->
-
-                        <div class="col-md-4 col-sm-6 col-xs-12">
-                            <div class="shop-item entry">
-                                <img src="demos/shop_03.jpg" alt="" class="img-responsive">
-                                <div class="magnifier">
-                                    <div class="buttons">
-                                        <a href="cart.html" title=""><i class="icon-cart"></i></a>
-                                        <a href="single-shop.html" title=""><i class="icon-search"></i></a>
-                                    </div><!-- end buttons -->
-                                </div>
-                            </div><!-- end shop item -->
-                            <div class="shop-title text-center">
-                                <h3><a href="single-shop.html" title="">Shop Item</a></h3>
-                                <small>$19.00</small>
-                            </div><!-- end shop-title -->
-                        </div><!-- end col -->
-
-                        <div class="col-md-4 col-sm-6 col-xs-12">
-                            <div class="shop-item entry">
-                                <img src="demos/shop_04.jpg" alt="" class="img-responsive">
-                                <div class="magnifier">
-                                    <div class="buttons">
-                                        <a href="cart.html" title=""><i class="icon-cart"></i></a>
-                                        <a href="single-shop.html" title=""><i class="icon-search"></i></a>
-                                    </div><!-- end buttons -->
-                                </div>
-                            </div><!-- end shop item -->
-                            <div class="shop-title text-center">
-                                <h3><a href="single-shop.html" title="">Shop Item</a></h3>
-                                <small>$19.00</small>
-                            </div><!-- end shop-title -->
-                        </div><!-- end col -->
-
-                        <div class="col-md-4 col-sm-6 col-xs-12">
-                            <div class="shop-item entry">
-                                <img src="demos/shop_05.jpg" alt="" class="img-responsive">
-                                <div class="magnifier">
-                                    <div class="buttons">
-                                        <a href="cart.html" title=""><i class="icon-cart"></i></a>
-                                        <a href="single-shop.html" title=""><i class="icon-search"></i></a>
-                                    </div><!-- end buttons -->
-                                </div>
-                            </div><!-- end shop item -->
-                            <div class="shop-title text-center">
-                                <h3><a href="single-shop.html" title="">Shop Item</a></h3>
-                                <small>$19.00</small>
-                            </div><!-- end shop-title -->
-                        </div><!-- end col -->
-
-                        <div class="col-md-4 col-sm-6 col-xs-12">
-                            <div class="shop-item entry">
-                                <img src="demos/shop_06.jpg" alt="" class="img-responsive">
-                                <div class="magnifier">
-                                    <div class="buttons">
-                                        <a href="cart.html" title=""><i class="icon-cart"></i></a>
-                                        <a href="single-shop.html" title=""><i class="icon-search"></i></a>
-                                    </div><!-- end buttons -->
-                                </div>
-                            </div><!-- end shop item -->
-                            <div class="shop-title text-center">
-                                <h3><a href="single-shop.html" title="">Shop Item</a></h3>
-                                <small>$19.00</small>
-                            </div><!-- end shop-title -->
-                        </div><!-- end col -->
-
-                        <div class="col-md-4 col-sm-6 col-xs-12">
-                            <div class="shop-item entry">
-                                <img src="demos/shop_07.jpg" alt="" class="img-responsive">
-                                <div class="magnifier">
-                                    <div class="buttons">
-                                        <a href="cart.html" title=""><i class="icon-cart"></i></a>
-                                        <a href="single-shop.html" title=""><i class="icon-search"></i></a>
-                                    </div><!-- end buttons -->
-                                </div>
-                            </div><!-- end shop item -->
-                            <div class="shop-title text-center">
-                                <h3><a href="single-shop.html" title="">Shop Item</a></h3>
-                                <small>$19.00</small>
-                            </div><!-- end shop-title -->
-                        </div><!-- end col -->
-
-                        <div class="col-md-4 col-sm-6 col-xs-12">
-                            <div class="shop-item entry">
-                                <img src="demos/shop_08.jpg" alt="" class="img-responsive">
-                                <div class="magnifier">
-                                    <div class="buttons">
-                                        <a href="cart.html" title=""><i class="icon-cart"></i></a>
-                                        <a href="single-shop.html" title=""><i class="icon-search"></i></a>
-                                    </div><!-- end buttons -->
-                                </div>
-                            </div><!-- end shop item -->
-                            <div class="shop-title text-center">
-                                <h3><a href="single-shop.html" title="">Shop Item</a></h3>
-                                <small>$19.00</small>
-                            </div><!-- end shop-title -->
-                        </div><!-- end col -->
-
-                        <div class="col-md-4 col-sm-6 col-xs-12">
-                            <div class="shop-item entry">
-                                <img src="demos/shop_02.jpg" alt="" class="img-responsive">
-                                <div class="magnifier">
-                                    <div class="buttons">
-                                        <a href="cart.html" title=""><i class="icon-cart"></i></a>
-                                        <a href="single-shop.html" title=""><i class="icon-search"></i></a>
-                                    </div><!-- end buttons -->
-                                </div>
-                            </div><!-- end shop item -->
-                            <div class="shop-title text-center">
-                                <h3><a href="single-shop.html" title="">Shop Item</a></h3>
-                                <small>$19.00</small>
-                            </div><!-- end shop-title -->
-                        </div><!-- end col -->
-
-                        <!-- Pager -->
-                        <ul class="pager col-md-12 col-sm-12 col-xs-12 clearfix">
-                            <li class="next">
-                                <a href="#">Older Items &rarr;</a>
-                            </li>
-                        </ul>
-                    </div><!-- end row -->
-                </div><!-- end post-preview -->
-            </div><!-- end col-lg-9 -->
-
-            <div class="col-lg-3 col-md-3">
-                <div id="sidebar" class="text-center">
-                    <div class="widget">
-                        <div class="widget-title clearfix">
-                            <h3>About Pretty</h3>
+                                <h3><a ng-href="/member/{{member.id}}">{{member.firstName}} {{member.lastName}}</a></h3>
+                            </div>
                         </div>
-                        <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</p>
-                    </div>
-                    <div class="widget">
-                        <div class="widget-title clearfix">
-                            <h3>Post Categories</h3>
-                        </div>
-                        <ul class="categories">
-                            <li><a href="#" title="">Meetings</a></li>
-                            <li><a href="#" title="">Speaker</a></li>
-                            <li><a href="#" title="">News</a></li>
-                            <li><a href="#" title="">Contest</a></li>
-                        </ul>
                     </div>
                 </div>
             </div>

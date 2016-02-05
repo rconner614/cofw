@@ -44,31 +44,31 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
     $urlRouterProvider.otherwise('/');
     $stateProvider.state('home', {
         url: "/",
-        templateUrl: "/app/views/_homePage.html",
-        controller: 'homeCtrl'
+        templateUrl: "/app/views/_home.html",
+        controller: 'homePageCtrl'
     }).state('post', {
         url: "/post/:id",
         templateUrl: "/app/views/_post.html",
         controller: 'postCtrl'
     }).state('about', {
         url: "/about",
-        templateUrl: "/app/views/_aboutPage.html",
+        templateUrl: "/app/views/_about.html",
         controller: 'aboutCtrl'
     }).state('contact', {
         url: "/contact",
-        templateUrl: "/app/views/_contactPage.html",
+        templateUrl: "/app/views/_contact.html",
         controller: 'contactCtrl'
     }).state('contest', {
         url: "/contest",
-        templateUrl: "/app/views/_contestPage.html",
+        templateUrl: "/app/views/_contest.html",
         controller: 'contestCtrl'
     }).state('meetings', {
         url: "/meetings",
-        templateUrl: "/app/views/_meetingsPage.html",
-        controller: 'meetingsCtrl'
+        templateUrl: "/app/views/_meetings.html",
+        controller: 'contestCtrl'
     }).state('members', {
         url: "/members",
-        templateUrl: "/app/views/_memberPage.html",
+        templateUrl: "/app/views/_members.html",
         controller: 'membersCtrl'
     }).state('member', {
         url: "/members/member/:id",
