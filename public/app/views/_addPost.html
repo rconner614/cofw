@@ -1,0 +1,36 @@
+<section class="content clearfix">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-offset-2 col-md-8" style="background: #eee; padding: 10px">
+                <form ng-submit="addPost()">
+                    <div class="col-sm-6">
+                        <label>Post Headline</label>
+                        <input class="form-control" type="text" ng-model="post.title">
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="col-sm-6">
+                        <label>Image Name <small><small> *path is provided</small></small></label>
+                        <input class="form-control" type="text" ng-model="post.image" placeholder="ex: image.jpg">
+                        <label>Post Type</label>
+                        <select class="form-control" ng-options="tag.title for tag in tags" ng-model="post.type"></select>
+                    </div>
+                    <div class="col-sm-6">
+                        <label>Post Tags</label>
+                        <select style="height: 150px" multiple class="form-control" ng-options="tag.id as tag.title for tag in tags" ng-model="post.tags"></select>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="col-sm-12">
+                        <label>Post Content</label>
+                        <!--add wysiwyg-->
+                        <textarea style="height: 200px; font-family: 'Times New Roman', sans-serif; font-style: normal" class="form-control" ng-model="post.content"></textarea>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="col-sm-3 pull-right">
+                        <button type="submit" class="btn btn-primary btn-lg pull-right">Post</button>
+                    </div>
+                    <div class="clearfix"></div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

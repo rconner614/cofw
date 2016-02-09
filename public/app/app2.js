@@ -48,8 +48,20 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
         controller: 'homePageCtrl'
     }).state('post', {
         url: "/post/:id",
-        templateUrl: "/app/views/_post.html",
-        controller: 'postCtrl'
+        templateUrl: "/app/views/_postPage.html",
+        controller: 'postCtrl',
+        resolve: {
+            post: ['$http', '$stateParams', function($http, $stateParams){
+                $http.get('/app/data/posts.json').then(function(resp){
+                    return resp.data.posts.filter(function(sItem){
+                        return sItem.id === $stateParams.id;
+                    })[0];
+                }, function(resp){
+                    console.log('failed', resp);
+                    return null;
+                });
+            }]
+        }
     }).state('about', {
         url: "/about",
         templateUrl: "/app/views/_about.html",

@@ -2,15 +2,22 @@
     'use strict';
     angular.module('cofw.core')
         .controller('homeCtrl', homeCtrl);
-    homeCtrl.$inject = ['$scope', '$http', '$sce', 'filterFilter'];
-    function homeCtrl($scope, $http, $sce, filterFilter) {
-        $http.get('/app/data/posts.json').then(function (resp) {
-            $scope.posts = resp.data.posts;
-            console.log($scope.posts);
-            $scope.tags = resp.data.tags;
-        }, function(resp){
-            console.log(resp);
-        });
+    homeCtrl.$inject = ['$scope', 'data', '$sce', 'filterFilter', 'postSrv'];
+    function homeCtrl($scope, data, $sce, filterFilter, postSrv) {
+        //$http.get('/app/data/posts.json').then(function (resp) {
+        //    $scope.posts = resp.data.posts;
+        //    console.log($scope.posts);
+        //    $scope.tags = resp.data.tags;
+        //}, function(resp){
+        //    console.log(resp);
+        //});
+        $scope.posts = data.posts;
+        $scope.tags = data.tags;
+        //console.log(postSrv.getAllPosts());
+        //console.log($scope.posts);
+        //$scope.tags = postSrv.getTags();
+
+        console.log($scope.posts, $scope.tags);
         $scope.currentPage = 1;
         $scope.entryLimit = 5;
 

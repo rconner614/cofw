@@ -45,11 +45,30 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
     $stateProvider.state('home', {
         url: "/",
         templateUrl: "/app/views/_homePage.html",
-        controller: 'homeCtrl'
+        controller: 'homeCtrl',
+        resolve: {
+            data: ['postSrv', function(postSrv){
+                return postSrv.getAllPosts();
+            }]
+        }
     }).state('post', {
         url: "/post/:id",
         templateUrl: "/app/views/_post.html",
-        controller: 'postCtrl'
+        controller: 'postCtrl',
+        resolve: {
+            data: ['postSrv', function(postSrv){
+                return postSrv.getAllPosts();
+            }]
+        }
+    }).state('addPost', {
+        url: "/new/post",
+        templateUrl: "/app/views/_addPost.html",
+        controller: 'addPostCtrl',
+        resolve: {
+            data: ['postSrv', function(postSrv){
+                return postSrv.getAllPosts();
+            }]
+        }
     }).state('about', {
         url: "/about",
         templateUrl: "/app/views/_aboutPage.html",

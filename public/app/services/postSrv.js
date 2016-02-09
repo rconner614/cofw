@@ -2,15 +2,19 @@
     'use strict';
     angular.module('cofw.core')
         .factory('postSrv', postSrv);
-    postSrv.$inject = ['$q','$http'];
-    function postSrv($http){
-        var getAllPosts = function(){
-            $http.get('../data/posts.json').then(function(resp){
-                console.log('success', resp);
+    postSrv.$inject = ['$http', '$q'];
+    function postSrv($http, $q){
+        function getAllPosts(){
+            var df = $q.defer();
+            $http.get('../app/data/posts.json').then(function(resp){
+                console.log('success', resp.data);
+                df.resolve(resp.data);
             }, function(resp){
                 console.log('failed', resp);
+                df.reject(resp);
             });
-        };
+            return df.promise;
+        }
 
         var getPost = function(x){
             var posts = getAllPosts();
@@ -23,19 +27,32 @@
             }
         };
 
-        var getTags = function(){
-            return $http.get('../data/posts.json').success(function(resp) {
-                return resp.data.tags;
+        function getTags(){
+            var df = $q.defer();
+            $http.get('../app/data/posts.json').then(function(resp) {
+                console.log(resp, 'tags');
+                df.resolve(resp.data.tags);
+            }, function(resp){
+                console.log('failed to get tags', resp);
+                df.reject(resp);
             });
-        };
+            return df.promise;
+        }
+
+        function savePost(x){
+            var df = $q.defer();
+            var obj = x;
+            var length;
+            $http.post('../app/data/posts.json', x).then(function(data) {
+                $scope.msg = 'Data saved';
+            });
+        }
 
         return{
-            getAllPosts: function(){
-                console.log('got to service');
-                return getAllPosts();
-            },
+            getAllPosts: getAllPosts,
             getPost: getPost,
-            getTags: getTags
+            getTags: getTags,
+            savePost: savePost
         }
     }
 }());
