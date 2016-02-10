@@ -8,14 +8,7 @@
                         <h2 class="post-title">{{post.title}}</h2>
                     </a>
                     <p class="post-meta">Posted by Jane | Category <a href="#">{{post.type}}</a></p>
-                    <div class="media-element entry">
-                        <img ng-src="{{post.image}}" class="img-responsive">
-                        <div class="magnifier">
-                            <div class="buttons">
-                                <a ng-href="/post/{{post.id}}" title=""><i class="icon-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
+                    <img ng-src="{{post.image}}" class="img-responsive">
                     <div class="desc text-left">
                         <span ng-bind-html="safeHTML(post.content)"></span>
                     </div>

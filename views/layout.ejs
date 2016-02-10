@@ -84,8 +84,8 @@
                 <ul class="list-inline menu-footer clearfix">
                     <li><a href="/">Home</a></li>
                     <li><a href="/about">About Us</a></li>
-                    <li><a href="meetings">Meetings</a></li>
-                    <li><a href="contest">Contest</a></li>
+                    <li><a href="/meetings">Meetings</a></li>
+                    <li><a href="/contest">Contest</a></li>
                     <li><a href="/members">Members</a></li>
                     <li><a href="/contact">Contact</a></li>
                 </ul>
@@ -142,6 +142,12 @@
 <script src="/app/services/postSrv.js"></script>
 <script src="/app/controllers/contestCtrl.js"></script>
 <script src="/app/controllers/addPostCtrl.js"></script>
+<script>
+    jQuery('a.back-to-top').click(function(){
+        jQuery('html, body').animate({scrollTop: '0px'}, 800);
+        return false;
+    });
+</script>
 
 
 </body>

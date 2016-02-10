@@ -71,8 +71,7 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
         }
     }).state('about', {
         url: "/about",
-        templateUrl: "/app/views/_aboutPage.html",
-        controller: 'aboutCtrl'
+        templateUrl: "/app/views/_aboutPage.html"
     }).state('contact', {
         url: "/contact",
         templateUrl: "/app/views/_contactPage.html",

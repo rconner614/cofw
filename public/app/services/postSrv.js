@@ -41,11 +41,12 @@
 
         function savePost(x){
             var df = $q.defer();
-            var obj = x;
-            var length;
-            $http.post('../app/data/posts.json', x).then(function(data) {
-                $scope.msg = 'Data saved';
+            $http.post('../app/data/posts.json', x).then(function(resp) {
+                df.resolve(resp);
+            }, function(resp){
+                df.reject(resp);
             });
+            return df.promise;
         }
 
         return{

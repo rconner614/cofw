@@ -31,7 +31,51 @@ body {
     -webkit-font-smoothing: antialiased;
     overflow-x: hidden;
 }
-a { 
+
+.pagination > li{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.pagination>li:last-child{
+    margin-left: 50px;
+}
+
+.pagination>li:first-child{
+    margin-right: 50px;
+}
+
+.pagination > li a {
+    float: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.pagination>li:last-child>a,
+.pagination>li:first-child>a{
+    padding: 10px 20px;
+    color: #000;
+    background-color: transparent;
+    border: 1px solid #121212;
+    font-size: 1em;
+    margin-top:30px;
+    font-weight: 400;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.pagination>li:last-child>a:hover,
+.pagination>li:first-child>a:hover {
+    background-color: transparent;
+    border-color:#ffdae4;
+    color:#121212;
+}
+
+a {
     color:#121212;
     padding: 0;
     margin: 0;
@@ -45,7 +89,7 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color:#ffd4be;   
+  color:#ffdae4;
 }
 
 h1 {
@@ -395,7 +439,7 @@ button.trigger span::before {
 
 .pager li > a:hover, .pager li > span:hover {
     background-color: transparent;
-    border-color:#ffd4be;
+    border-color:#ffdae4;
     color:#121212;
 }
 .footer {
@@ -455,7 +499,7 @@ textarea.form-control {
     margin-bottom:20px;
 }
 .form-control:focus {
-  border-color: #ffd4be;
+  border-color: #ffdae4;
   outline: 0;
     box-shadow: none;
 }
@@ -494,7 +538,7 @@ textarea.form-control {
     font-size:14px;
     color:#121212 !important;
     padding:0 0 3px;
-    border-bottom: 1px double #ffd4be;
+    border-bottom: 1px double #ffdae4;
     font-weight: normal;
 }
 
@@ -585,7 +629,7 @@ color:#121212;
 
 
 .shop-rating i:hover {
-color:#ffd4be;
+color:#ffdae4;
 }
 
 .shop-desc {
@@ -633,7 +677,7 @@ color:#ffd4be;
     margin-bottom: 15px;
 }
 .post-meta a:hover {
-    background:#ffd4be;
+    background:#ffdae4;
     color:#fff;
 }
 .post-meta a {
@@ -724,7 +768,7 @@ color:#ffd4be;
 }
 .magnifier {
     position:absolute;
-    background:rgba(255,212,190,0.8);
+    background:rgba(255, 218, 228,0.8);
     text-align:center;
     top:15px;
     left:15px;
