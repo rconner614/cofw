@@ -8,20 +8,24 @@
         $scope.tags = data.tags;
         $scope.currentPage = 1;
         $scope.entryLimit = 5;
+        $scope.tag = '';
 
         for (var i = 0; i < $scope.posts.length; i++) {
             $scope.posts[i].createdOnDate = moment($scope.posts[i].date).format("dddd, MMMM Do YYYY");
         }
-        $scope.update = function () {
-            $scope.filtered = filterFilter($scope.posts, {type: $scope.word});
-            $scope.totalPosts = $scope.filtered.length;
+        $scope.totalPosts = $scope.posts.length;
+
+        $scope.typeFilter = function(x){
+            console.log(x);
+            $scope.tag = ($scope.tags.filter(function(sItem){
+                return sItem.title.toLowerCase() === x.toLowerCase();
+            })[0]).id;
+            console.log($scope.tag);
         };
 
-        $scope.resetFilters = function () {
-            $scope.word = null;
-        };
-
-        $scope.update();
+        $scope.$watch('tag', function(){
+            console.log($scope.tag);
+        });
 
         $scope.tab = 1;
         $scope.category = 1;

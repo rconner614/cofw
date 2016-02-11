@@ -80,18 +80,36 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
         url: "/contest",
         templateUrl: "/app/views/_contestPage.html",
         controller: 'contestCtrl'
+    }).state('membership', {
+        url: "/membership",
+        templateUrl: "/app/views/_membership.html"
     }).state('meetings', {
         url: "/meetings",
         templateUrl: "/app/views/_meetingsPage.html",
-        controller: 'meetingsCtrl'
+        controller: 'meetingsCtrl',
+        resolve: {
+            data: ['postSrv', function(postSrv){
+                return postSrv.getAllPosts();
+            }]
+        }
     }).state('members', {
         url: "/members",
         templateUrl: "/app/views/_memberPage.html",
-        controller: 'membersCtrl'
+        controller: 'membersCtrl',
+        resolve: {
+            data: ['memberSrv', function(memberSrv){
+                return memberSrv.getMembers();
+            }]
+        }
     }).state('member', {
         url: "/members/member/:id",
         templateUrl: "/app/views/_member.html",
-        controller: 'memberCtrl'
+        controller: 'memberCtrl',
+        resolve: {
+            data: ['memberSrv', function(memberSrv){
+                return memberSrv.getMembers();
+            }]
+        }
     });
     $locationProvider.html5Mode(true);
 }

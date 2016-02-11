@@ -366,6 +366,13 @@ button.trigger span::before {
     list-style: none;
 }
 
+ul.categories > li > a.active{
+    background-color: #FDCBD8;
+    color: #fff;
+    border-radius: 4px;
+    padding: 6px 12px;
+}
+
 #sidebar .widget-title {
     padding:0;
 }
@@ -474,7 +481,7 @@ button.trigger span::before {
     border-width: 0 0 3px;
     box-shadow: none;
     height: 50px;
-    font-style: italic;
+    /*font-style: italic;*/
     margin-bottom: 5px;
 }
 .table img {
@@ -696,7 +703,7 @@ color:#ffdae4;
 }
 .menu-footer li a:hover,
 .social-icons li a:hover {
-    color:#858e97;
+    color:#FDCBD8;
 }
 
 .single-post small,
@@ -964,8 +971,8 @@ color:#ffdae4;
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #121212;
-    background-color: #ffdae4;
+    color: #fff;
+    background-color: #FDCBD8;
     border-radius: 4px;
 }
 
@@ -986,9 +993,29 @@ color:#ffdae4;
 .navbar-nav > li > .dropdown-menu {
 	box-shadow:none;
 }
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form{
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #C9C9C9;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus{
+    background-color: transparent;
+}
+
+.navbar-toggle {
+    border-radius: 0;
+    padding: 10px 15px;
+}
+
 @media screen and (max-width: 47em) {
 .navbar .navbar-collapse {
-	text-align:left;
+	text-align:center;
 }
 
 .logo-wrapper h1 {

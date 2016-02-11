@@ -2,13 +2,13 @@
 <div class="container">
     <div class="row">
         <div class="col-lg-8 col-md-8">
-            <div ng-repeat="post in filtered | orderBy:'createdOnDate':true">
+            <div ng-repeat="post in posts | orderBy:'createdOnDate':true | filter:{postTags: tag}">
                 <div class="post-preview text-center clearfix">
                     <small>{{post.createdOnDate}}</small>
                     <a ng-href="/post/{{post.id}}">
                         <h2 class="post-title">{{post.title}}</h2>
                     </a>
-                    <p class="post-meta">Posted by Jane | Category <a href="#">{{post.type}}</a></p>
+                    <p class="post-meta">Posted by {{post.createdBy}} | Category <a href="#" ng-click="typeFilter(post.type)">{{post.type}}</a></p>
 
                     <div class="media-element entry">
                         <img ng-src="{{post.image}}" class="img-responsive">
@@ -37,11 +37,11 @@
                             <h3>Post Categories</h3>
                         </div>
                         <ul class="categories">
-                            <li><a style="cursor: pointer" ng-click="resetFilters()">All</a></li>
-                            <li><a style="cursor: pointer" ng-click="word = 'meeting'">Meetings</a></li>
-                            <li><a style="cursor: pointer" ng-click="word = 'speaker'">Speaker</a></li>
-                            <li><a style="cursor: pointer" ng-click="word = 'news'">News</a></li>
-                            <li><a style="cursor: pointer" ng-click="word = 'contest'">Contest</a></li>
+                            <li><a style="cursor: pointer" ng-class="{'active': tag === ''}" ng-click="tag = ''">All</a></li>
+                            <li><a style="cursor: pointer" ng-class="{'active': tag === 1}" ng-click="tag = 1">Meetings</a></li>
+                            <li><a style="cursor: pointer" ng-class="{'active': tag === 2}" ng-click="tag = 2">Speaker</a></li>
+                            <li><a style="cursor: pointer" ng-class="{'active': tag === 3}" ng-click="tag = 3">Newsletter</a></li>
+                            <li><a style="cursor: pointer" ng-class="{'active': tag === 4}" ng-click="tag = 4">Contest</a></li>
                         </ul>
                     </div>
                 </div>

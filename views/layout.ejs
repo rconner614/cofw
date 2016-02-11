@@ -62,11 +62,12 @@
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
-                <li ng-class="{'active': state.includes('home')}"><a href="/">Home</a></li>
+                <li ng-class="{'active': state.includes('home') || state.includes('post')}"><a href="/">Home</a></li>
                 <li ng-class="{'active': state.includes('about')}"><a href="/about">About Us</a></li>
+                <li ng-class="{'active': state.includes('membership')}"><a href="/membership">Membership</a></li>
                 <li ng-class="{'active': state.includes('meetings')}"><a href="/meetings">Meetings</a></li>
                 <li ng-class="{'active': state.includes('contest')}"><a href="/contest">Contest</a></li>
-                <li ng-class="{'active': state.includes('members')}"><a href="/members">Members</a></li>
+                <li ng-class="{'active': state.includes('members') || state.includes('member')}"><a href="/members">Our Members</a></li>
                 <li ng-class="{'active': state.includes('contact')}"><a href="/contact">Contact</a></li>
             </ul>
         </div>
@@ -90,10 +91,10 @@
                     <li><a href="/contact">Contact</a></li>
                 </ul>
                 <ul class="list-inline social-icons">
-                    <li><a href="#"><i class="icon-facebook"></i></a></li>
-                    <li><a href="#"><i class="icon-twitter"></i></a></li>
-                    <li><a href="#"><i class="icon-pinterest"></i></a></li>
-                    <li><a href="#"><i class="icon-instagram"></i></a></li>
+                    <li><a href="https://www.facebook.com/COFWriters/" target="_blank"><i class="icon-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/cofwriters" target="_blank"><i class="icon-twitter"></i></a></li>
+                    <li><a href="https://www.pinterest.com/COFWofRWA" target="_blank"><i class="icon-pinterest"></i></a></li>
+                    <!--<li><a href="#"><i class="icon-instagram"></i></a></li>-->
                 </ul>
                 <a class="back-to-top" href="#"><i class="icon-up-open-mini"></i></a>
             </div>
@@ -137,9 +138,11 @@
 <script src="/app/controllers/core.js"></script>
 <script src="/app/controllers/homeCtrl.js"></script>
 <script src="/app/controllers/membersCtrl.js"></script>
+<script src="/app/controllers/memberCtrl.js"></script>
 <script src="/app/controllers/meetingsCtrl.js"></script>
 <script src="/app/controllers/postCtrl.js"></script>
 <script src="/app/services/postSrv.js"></script>
+<script src="/app/services/memberSrv.js"></script>
 <script src="/app/controllers/contestCtrl.js"></script>
 <script src="/app/controllers/addPostCtrl.js"></script>
 <script>

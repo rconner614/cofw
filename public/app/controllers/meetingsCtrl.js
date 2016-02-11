@@ -2,40 +2,29 @@
     'use strict';
     angular.module('cofw.core')
         .controller('meetingsCtrl', meetingsCtrl);
-    meetingsCtrl.$inject = ['$scope', '$http', '$sce', 'filterFilter'];
-    function meetingsCtrl($scope, $http, $sce, filterFilter) {
-        $http.get('/app/data/posts.json').then(function (resp) {
-            $scope.posts = resp.data.posts;
-            console.log($scope.posts);
-            $scope.tags = resp.data.tags;
-        }, function(resp){
-            console.log(resp);
-        });
+    meetingsCtrl.$inject = ['$scope', 'data', '$sce', 'filterFilter'];
+    function meetingsCtrl($scope, data, $sce, filterFilter) {
+        $scope.posts = data.posts;
+        $scope.tags = data.tags;
         $scope.currentPage = 1;
         $scope.entryLimit = 5;
-
-        $scope.tagName = 'a';
+        $scope.tag = '';
 
         for (var i = 0; i < $scope.posts.length; i++) {
             $scope.posts[i].createdOnDate = moment($scope.posts[i].date).format("dddd, MMMM Do YYYY");
         }
+        $scope.totalPosts = $scope.posts.length;
 
-        $scope.update = function () {
-            $scope.filtered = filterFilter($scope.posts, {type: $scope.word});
-            console.log($scope.filtered);
-            $scope.totalPosts = $scope.filtered.length;
+        $scope.typeFilter = function(x){
+            console.log(x);
+            $scope.tag = ($scope.tags.filter(function(sItem){
+                return sItem.title.toLowerCase() === x.toLowerCase();
+            })[0]).id;
+            console.log($scope.tag);
         };
-        $scope.resetFilters = function () {
-            $scope.word = null;
-        };
-        $scope.updateSearch = function () {
-            $scope.filtered = filterFilter($scope.posts, {type: String($scope.word)});
-        };
-        $scope.update();
 
         $scope.tab = 1;
         $scope.category = 1;
-        $scope.tagName = '';
 
         $scope.safeHTML = function (x) {
             return $sce.trustAsHtml(x);
