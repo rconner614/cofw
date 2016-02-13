@@ -3,7 +3,7 @@
     {
       "id": 1,
       "createdOn" : "2015-12-29T00:00:00",
-      "image" : "/app/images/portfolio/p1.jpg",
+      "image" : "/app/images/posts/january_16.jpg",
       "title" : "January Meeting - New Location!",
       "postTags" : [1, 2],
       "createdBy" : "Rachel",
@@ -13,22 +13,22 @@
     {
       "id" : 2,
       "createdOn" : "2015-12-29T00:00:00",
-      "image" : "/app/images/portfolio/p1.jpg",
+      "image" : "/app/images/posts/February_16.jpg",
       "title" : "February Meeting",
       "createdBy" : "Rachel",
       "postTags" : [1, 2],
       "type": "Meeting",
-      "content" : "<p>Meet the one piece of software that will change how you write forever. Plotter, pantser, and everyone in-between can benefit from the innovative features of Literature and Latte’s Scrivener 2. From keeping you more organized, never letting you lose another draft, or creating an e-book, Scrivener is the toolbox every writer needs. Get your feet wet before the presentation by downloading the free trial version today. Available for both Apple and Windows computers, the free trial version contains full functionality and 30 days of use.</p>"
+      "content" : "<p>Speaker – Gigi Morgan<br>DATE:  Feb. 13, 2016<br>TIME:  Business meeting at 12:30 pm, Speaker at 1:30 pm<br>LOCATION:<br><br>Fire Station 83<br>4283 Davidson Road<br>Hilliard, OH 43026<br><br>TOPIC- Introduction to Scrivener 2. Meet the one piece of software that will change how you write forever. Plotter, pantser, and everyone in-between can benefit from the innovative features of Literature and Latte’s Scrivener 2. From keeping you more organized, never letting you lose another draft, or creating an e-book, Scrivener is the toolbox every writer needs. Get your feet wet before the presentation by downloading the free trial version today. Available for both Apple and Windows computers, the free trial version contains full functionality and 30 days of use.</p>"
     },
     {
       "id" : 3,
       "createdOn" : "2016-02-10T00:00:00",
-      "image" : "/app/images/portfolio/p1.jpg",
-      "title" : "January Newsletter",
+      "image" : "/app/images/posts/igniteFlame_Feb.jpg",
+      "title" : "Contest Coming Soon!",
       "createdBy" : "Rachel",
-      "postTags" : [3],
-      "type": "Newsletter",
-      "content" : "<p>The January newsletter is available! Member's should check their email for the exclusive download link.</p><p>Read all about the activities of COFW for the first month of 2016!</p>"
+      "postTags" : [4],
+      "type": "Contest",
+      "content" : "<p>The annual Ignite the Flame Contest is gearing up for 2016! Judges have been assigned and categories have been announced! For more information, head over to the <a class='btn btn-primary' href='/contest'>Contest Page</a></p>"
     }
   ],
   "tags": [
@@ -46,7 +46,7 @@
       "id" : 3
     },{
       "title": "Contest",
-      "type": "primary",
+      "type": "default",
       "id" : 4
     }
   ]

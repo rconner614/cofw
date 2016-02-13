@@ -8,17 +8,9 @@
                     <div class="row">
                         <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12" ng-repeat="member in members">
                             <div class="shop-item entry">
-                                <img ng-src="/app/images/members/{{member.image}}" alt="member.firstName" class="img-responsive">
-                                <div class="magnifier">
-                                    <a ng-href="/members/member/{{member.id}}">
-                                        <div class="buttons">
-                                            <a ng-if="member.facebook" target="_blank" href="http://{{member.facebook}}" ><i class="icon-facebook"></i></a>
-                                            <a ng-if="member.website" target="_blank" href="http://{{member.website}}" ><i class="icon-desktop"></i></a>
-                                            <a ng-if="member.twitter" target="_blank" href="http://{{member.twitter}}" ><i class="icon-twitter"></i></a>
-                                            <a ng-if="member.pinterest" target="_blank" href="http://{{member.pinterest}}" ><i class="icon-pinterest"></i></a>
-                                        </div>
-                                    </a>
-                                </div>
+                                <a ng-href="/members/member/{{member.id}}">
+                                    <img ng-src="/app/images/members/{{member.image}}" alt="member.firstName" class="img-responsive">
+                                </a>
                             </div>
                             <div class="shop-title text-center">
                                 <h3><a ng-href="/members/member/{{member.id}}">{{member.firstName}} {{member.lastName}}</a></h3>

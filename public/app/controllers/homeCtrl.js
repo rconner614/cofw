@@ -23,10 +23,6 @@
             console.log($scope.tag);
         };
 
-        $scope.$watch('tag', function(){
-            console.log($scope.tag);
-        });
-
         $scope.tab = 1;
         $scope.category = 1;
 

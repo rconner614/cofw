@@ -10,29 +10,29 @@
 </section>
 <section class="service_teasers">
     <div class="container">
-        <div class="service_teaser">
+        <div class="service_teaser" ng-repeat="post in posts | orderBy:'createdOnDate':true | filter:{postTags: 1}">
             <div class="row">
                 <div class="service_photo col-sm-4 col-md-4">
-                    <figure style="background-image:url(/app/images/1.jpg)"></figure>
+                    <figure style="background-image:url({{post.image}}); background-size: contain;"></figure>
                 </div>
                 <div class="service_details col-sm-8 col-md-8">
-                    <h2 class="section_header skincolored"><b>January</b> Meeting<small></h2>
-                    <p>Speaker: <strong>Donna MacMeans</strong></p>
+                    <h2 class="section_header skincolored">{{post.title}}</h2>
+                    <span ng-bind-html="safeHTML(post.content)"></span>
                     <!--<a class="btn btn-primary pull-right" href="documentation/index.html"><i class="fa fa-gears"></i>&nbsp; Read Full Documentation</a> -->
                 </div>
             </div>
         </div>
-        <div class="service_teaser">
-            <div class="row">
-                <div class="service_photo col-sm-4 col-md-4">
-                    <figure style="background-image:url(images/serv_3.jpg)"></figure>
-                </div>
-                <div class="service_details col-sm-8 col-md-8">
-                    <h2 class="section_header skincolored"><b>Another</b>Service<small>this default style is about minimalism and simplicity</small></h2>
-                    <p><strong>Restart</strong> makes real use of the power of {LESS} syntax!. It is built upon Bootstrap, a front-end development framework with a steep learning curve. It comes with a style.less file that tries to use <strong>all the power of {less} and bootstrap combined</strong>. </p>
-                </div>
-            </div>
-        </div>
+        <!--<div class="service_teaser">-->
+            <!--<div class="row">-->
+                <!--<div class="service_photo col-sm-4 col-md-4">-->
+                    <!--<figure style="background-image:url(images/serv_3.jpg)"></figure>-->
+                <!--</div>-->
+                <!--<div class="service_details col-sm-8 col-md-8">-->
+                    <!--<h2 class="section_header skincolored"><b>Another</b>Service<small>this default style is about minimalism and simplicity</small></h2>-->
+                    <!--<p><strong>Restart</strong> makes real use of the power of {LESS} syntax!. It is built upon Bootstrap, a front-end development framework with a steep learning curve. It comes with a style.less file that tries to use <strong>all the power of {less} and bootstrap combined</strong>. </p>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
         <!--<div class="service_teaser right">-->
             <!--<div class="row">-->
                 <!--<div class="service_details col-sm-8 col-md-8 wow animated slideInLeft">-->

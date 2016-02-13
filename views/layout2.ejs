@@ -32,7 +32,7 @@
         <div class="navbar navbar-default" role="navigation">
             <div class="navbar-header">
                 <a class="navbar-brand" href="/">
-                    <img src="/app/images/cofw-2.png" alt="optional logo">
+                    <!--<img src="/app/images/cofw-2.png" alt="optional logo">-->
                     <!--<span class="logo_title"><strong>COFW</strong></span>-->
                     <!--<span class="logo_subtitle">a proud chapter of RWA</span>-->
                 </a>
@@ -54,18 +54,21 @@
         <div id="social_media_wrapper"> <a href="https://www.facebook.com/COFWriters/"><i class="fa fa-facebook"></i></a> <a href="https://twitter.com/cofwriters"><i class="fa fa-twitter"></i></a></div>
     </div>
 </header>
-<span ng-if="state.includes('home')" ng-cloak>
-<div class="full_page_photo" ng-style="{'top': state.includes('home') ? '153px' : '0'}" style="background-image: url(/app/images/1.jpg);">
+<span ng-cloak>
+<div class="full_page_photo" style="background-image: url(/app/images/banner.jpg); top: 153px">
+     <!--ng-style="{'top': state.includes('home') ? '153px' : '0'}" -->
+
     <div class="container">
-        <section class="call_to_action">
-            <h3 class="animated bounceInDown skincolored">We are <strong>C</strong>entral <strong>O</strong>hio <strong>F</strong>iction <strong>W</strong>riters.</h3>
-            <br>
-            <h4 class="animated bounceInUp">Promoting excellence in romantic fiction.</h4>
-        </section>
+        <!--<section class="call_to_action">-->
+            <!--<h3 class="animated bounceInDown skincolored">We are <strong>C</strong>entral <strong>O</strong>hio <strong>F</strong>iction <strong>W</strong>riters.</h3>-->
+            <!--<br>-->
+            <!--<h4 class="animated bounceInUp">Promoting excellence in romantic fiction.</h4>-->
+        <!--</section>-->
     </div>
 </div>
 </span>
-<div class="main"  ng-style="{'top': state.includes('home') ? '563px' : '153px'}" ng-cloak>
+<div class="main"  style="top: 563px" ng-cloak>
+    <!--ng-style="{'top': state.includes('home') ? '563px' : '153px'}"-->
     <div ui-view class="animated bounceInUp" ng-cloak></div>
 
     <footer>
@@ -117,6 +120,7 @@
 <script type="text/javascript" src="/app/js/snap.svg-min.js"></script>
 <script type="text/javascript" src="/app/js/restart_theme.js"></script>
 <script type="text/javascript" src="/app/js/contact_form.js"></script>
+<script src="/app/app/bower_components/moment/min/moment.min.js"></script>
 
 <script src="/app/app/bower_components/angular/angular.js"></script>
 <script src="/app/app/bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
@@ -125,7 +129,10 @@
 <!--<script src="/app/app/bower_components/angular-flexslider/angular-flexslider.js"></script>-->
 <script src="/app/app2.js"></script>
 <script src="/app/controllers/core.js"></script>
-<script src="/app/controllers/homePageCtrl.js"></script>
+<script src="/app/controllers/homeCtrl.js"></script>
 <script src="/app/controllers/membersCtrl.js"></script>
+<script src="/app/services/membersSrv.js"></script>
 <script src="/app/controllers/postCtrl.js"></script>
+<script src="/app/services/postSrv.js"></script>
+<script src="/app/controllers/meetingsCtrl.js"></script>
 </html>

@@ -16,13 +16,13 @@
                     <div class="desc text-left">
                         <!--<span ng-bind-html="safeHTML(post.content)"></span>-->
                         <p>{{member.blurb}}</p>
-                        <div class="col-sm-6" ng-show="member.novels" style="padding-left: 0">
+                        <div class="col-sm-12" ng-show="member.novels" style="padding-left: 0">
                             <dl>
                                 <dt>Novels</dt>
                                 <dd ng-repeat="novel in member.novels">{{novel}}</dd>
                             </dl>
                         </div>
-                        <div class="col-sm-6" ng-show="member.novellas" style="padding-left: 0">
+                        <div class="col-sm-12" ng-show="member.novellas" style="padding-left: 0">
                             <dl>
                                 <dt>Novellas</dt>
                                 <dd ng-repeat="novella in member.novellas">{{novella}}</dd>

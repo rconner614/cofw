@@ -45,21 +45,19 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
     $stateProvider.state('home', {
         url: "/",
         templateUrl: "/app/views/_home.html",
-        controller: 'homePageCtrl'
+        controller: 'homeCtrl',
+        resolve: {
+            data: ['postSrv', function(postSrv){
+                return postSrv.getAllPosts();
+            }]
+        }
     }).state('post', {
         url: "/post/:id",
         templateUrl: "/app/views/_postPage.html",
         controller: 'postCtrl',
         resolve: {
-            post: ['$http', '$stateParams', function($http, $stateParams){
-                $http.get('/app/data/posts.json').then(function(resp){
-                    return resp.data.posts.filter(function(sItem){
-                        return sItem.id === $stateParams.id;
-                    })[0];
-                }, function(resp){
-                    console.log('failed', resp);
-                    return null;
-                });
+            data: ['postSrv', function(postSrv){
+                return postSrv.getAllPosts();
             }]
         }
     }).state('about', {
@@ -77,7 +75,12 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
     }).state('meetings', {
         url: "/meetings",
         templateUrl: "/app/views/_meetings.html",
-        controller: 'contestCtrl'
+        controller: 'meetingsCtrl',
+        resolve: {
+            data: ['postSrv', function(postSrv){
+                return postSrv.getAllPosts();
+            }]
+        }
     }).state('members', {
         url: "/members",
         templateUrl: "/app/views/_members.html",

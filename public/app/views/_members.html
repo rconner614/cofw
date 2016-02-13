@@ -16,10 +16,10 @@
                     <h5><a ng-href="/member/{{member.id}}">{{member.firstName}} {{member.lastName}}</a></h5>
                     <hr>
                     <div class="team_social">
-                        <a ng-if="member.facebook" target="_blank" href="http://{{member.facebook}}"><i class="fa fa-facebook"></i></a>
-                        <a ng-if="member.website" target="_blank" href="http://{{member.website}}"><i class="fa fa-desktop"></i></a>
-                        <a ng-if="member.twitter" target="_blank" href="http://{{member.twitter}}"><i class="fa fa-twitter"></i></a>
-                        <a ng-if="member.pinterest" target="_blank" href="http://{{member.pinterest}}"><i class="fa fa-pinterest"></i></a>
+                        <a ng-if="member.facebook" target="_blank" href="{{member.facebook}}"><i class="fa fa-facebook"></i></a>
+                        <a ng-if="member.website" target="_blank" href="{{member.website}}"><i class="fa fa-desktop"></i></a>
+                        <a ng-if="member.twitter" target="_blank" href="{{member.twitter}}"><i class="fa fa-twitter"></i></a>
+                        <a ng-if="member.pinterest" target="_blank" href="{{member.pinterest}}"><i class="fa fa-pinterest"></i></a>
                         <a ng-if="member.email" href="mailto:{{member.email}}"><i class="fa fa-envelope"></i></a>
                     </div>
                 </div>
