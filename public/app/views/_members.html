@@ -10,10 +10,10 @@
 <section class="team_members" ng-cloak>
     <div class="container">
         <div class="row">
-            <div class="col-sm-6 col-md-3" ng-repeat="member in members" style="margin-top: 10px; margin-bottom: 10px">
+            <div class="col-sm-6 col-md-3" ng-repeat="member in members" style="margin-top: 10px; height: 345px">
                 <div class="team_member wow animated fadeIn">
-                    <figure><a ng-href="/member/{{member.id}}"><img style="width: 120px; height: 120px; overflow: hidden" ng-src="/app/images/members/{{member.image}}"></a></figure>
-                    <h5><a ng-href="/member/{{member.id}}">{{member.firstName}} {{member.lastName}}</a></h5>
+                    <figure><a ng-href="members/member/{{member.id}}"><img style="width: 120px; height: 120px; overflow: hidden" ng-src="/app/images/members/{{member.image}}"></a></figure>
+                    <h5><a ng-href="members/member/{{member.id}}">{{member.firstName}} {{member.lastName}}</a></h5>
                     <hr>
                     <div class="team_social">
                         <a ng-if="member.facebook" target="_blank" href="{{member.facebook}}"><i class="fa fa-facebook"></i></a>

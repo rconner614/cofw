@@ -47,7 +47,7 @@
                             <a ng-href="/post/{{post.id}}">{{post.title}}</a>
                         </h3>
                         <div class="post_sub">
-                            <i class="fa-time"></i> {{post.createdOn | date:'MM/dd/yyyy'}}
+                            <i class="fa-time"></i> {{post.createdOnDate}}
                         </div>
                     </div>
                     <div class="post_content">
@@ -81,12 +81,12 @@
                         <div class="tab-pane" ng-class="{'active': tab === 1}" ng-show="tab === 1">
                             <ul class="media-list">
                                 <li class="media" ng-repeat="post in posts">
-                                    <a href="#" class="media-photo" style="background-image:url({{post.image}})"></a>
-                                    <a href="#" class="media-date">{{post.createdOn | date:'dd'}}<span>{{post.createdOn | date:'MMM'}}</span></a>
+                                    <a href="/post/{{post.id}}" class="media-photo" style="background-image:url({{post.image}})"></a>
+                                    <a href="/post/{{post.id}}" class="media-date">{{post.createdOn | date:'dd'}}<span>{{post.createdOn | date:'MMM'}}</span></a>
                                     <h5 class="media-heading">
-                                        <a href="#">{{post.title}}</a>
+                                        <a href="/post/{{post.id}}" >{{post.title}}</a>
                                     </h5>
-                                    <span style="clear: left" ng-bind-html="safeHTML(post.content.split('.')[0])"></span>
+                                    <span style="clear: left" ng-bind-html="safeHTML(post.content.split('<br>')[0])"></span>
                                 </li>
                             </ul>
                         </div>

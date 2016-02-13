@@ -28,7 +28,7 @@
       "createdBy" : "Rachel",
       "postTags" : [4],
       "type": "Contest",
-      "content" : "<p>The annual Ignite the Flame Contest is gearing up for 2016! Judges have been assigned and categories have been announced! For more information, head over to the <a class='btn btn-primary' href='/contest'>Contest Page</a></p>"
+      "content" : "<p>The annual Ignite the Flame Contest is gearing up for 2016! Judges have been assigned and categories have been announced!<br>For more information, head over to the <a class='btn btn-primary' href='/contest'>Contest Page</a></p>"
     }
   ],
   "tags": [

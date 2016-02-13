@@ -84,11 +84,21 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
     }).state('members', {
         url: "/members",
         templateUrl: "/app/views/_members.html",
-        controller: 'membersCtrl'
+        controller: 'membersCtrl',
+        resolve: {
+            data: ['memberSrv', function(memberSrv){
+                return memberSrv.getMembers();
+            }]
+        }
     }).state('member', {
         url: "/members/member/:id",
-        templateUrl: "/app/views/_member.html",
-        controller: 'memberCtrl'
+        templateUrl: "/app/views/_memberSingle.html",
+        controller: 'memberCtrl',
+        resolve: {
+            data: ['memberSrv', function(memberSrv){
+                return memberSrv.getMembers();
+            }]
+        }
     });
     $locationProvider.html5Mode(true);
 }
