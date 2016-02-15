@@ -1,12 +1,20 @@
 {
-  "name": "angular-seed",
-  "description": "A starter project for AngularJS",
+  "name": "cofw",
   "version": "0.0.0",
-  "homepage": "https://github.com/angular/angular-seed",
+  "homepage": "https://github.com/ksc4130/cofw",
+  "authors": [
+    "ksc4130 <ksc4130@gmail.com>"
+  ],
   "license": "MIT",
-  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/vendor",
+    "test",
+    "tests"
+  ],
   "dependencies": {
-    "angular": "~1.4.0",
     "angular-bootstrap": "~1.0.0",
     "angular-loader": "~1.4.0",
     "angular-mocks": "~1.4.0",
@@ -15,10 +23,6 @@
     "bootstrap": "~3.3.6",
     "font-awesome": "~4.5.0",
     "html5-boilerplate": "~5.2.0",
-    "jquery": "~2.2.0",
     "moment": "~2.11.1"
-  },
-  "resolutions": {
-    "angular": ">= 1.0.8"
   }
 }
