@@ -41,7 +41,7 @@
     <div class="container animated wow fadeInUp">
         <div class="row">
             <div id="leftcol" class="col-sm-8 col-md-8">
-                <article class="post" ng-repeat="post in posts | orderBy:'createdOnDate':true | filter:{postTags: tag}">
+                <article class="post" ng-repeat="post in posts | orderBy:'createdOnDate':true | filter:{postTags: tag}" style="background: rgba(255,255,255,.6)">
                     <div class="post_header">
                         <h3 class="post_title">
                             <a ng-href="/post/{{post.id}}">{{post.title}}</a>

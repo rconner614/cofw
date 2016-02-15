@@ -2,7 +2,7 @@
 <div class="container">
     <div class="row">
         <div class="col-lg-8 col-md-8">
-            <div ng-repeat="post in posts | orderBy:'createdOnDate':true | filter:{postTags: tag}">
+            <div ng-repeat="post in posts | orderBy:'createdOnDate':true | filter:{postTags: tag}" >
                 <div class="post-preview text-center clearfix">
                     <small>{{post.createdOnDate}}</small>
                     <a ng-href="/post/{{post.id}}">
