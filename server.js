@@ -1,5 +1,6 @@
 var express = require('express');
 var http = require('http');
+var port = process.env.p ? 80 : 8080;
 
 var app = express();
 
@@ -13,6 +14,6 @@ app.get('*', function (req, res) {
     });
 });
 
-app.listen(8080, function () {
-    console.log('server listening on port', 8080);
+app.listen(port, function () {
+    console.log('server listening on port', port);
 });
