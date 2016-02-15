@@ -1,6 +1,6 @@
 var express = require('express');
 var http = require('http');
-var port = process.env == 'p' ? 80 : 8080;
+var port = process.env.NODE_ENV == 'p' ? 80 : 8080;
 
 var app = express();
 
