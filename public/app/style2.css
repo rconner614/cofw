@@ -75,6 +75,7 @@ body {
     color:#121212;
 }
 
+
 a {
     color:#121212;
     padding: 0;
@@ -89,7 +90,7 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color:#ffdae4;
+  color: #fdbcd2;
 }
 
 h1 {

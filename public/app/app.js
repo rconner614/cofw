@@ -63,6 +63,9 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
     }).state('about', {
         url: "/about",
         templateUrl: "/app/views/_about.html"
+    }).state('newsletters', {
+        url: "/newsletters",
+        templateUrl: "/app/views/_newsletter.html"
     }).state('contact', {
         url: "/contact",
         templateUrl: "/app/views/_contact.html",
