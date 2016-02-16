@@ -1,101 +1,66 @@
-<section class="call_to_action">
-        <h4>Dedicated to the promotion of <strong>excellence</strong> in romantic fiction <br>by <strong>helping</strong> writers become <strong>published</strong> and establish careers in their writing field.</h4>
-</section>
-<section class="features_teasers_wrapper">
-    <div class="container">
-        <div class="row">
-            <div class="feature_teaser col-md-offset-2 col-sm-4 col-md-4">
-                <span class="fa-stack fa-4x">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-calculator fa-stack-1x fa-inverse"></i>
-                </span>
-                <h3>January Meeting</h3>
-                <p>Don't miss out on our speaker, <strong>Donna MacMeans</strong>. Get answers to your pressing questions from an award-winning,
-                    multi-published author who is also a CPA. <br>
-                    <address><strong>Location:</strong>  Fire Station 83<br> 4283 Davidson Road<br>  Hilliard, OH 43026</address>
-                </p>
-            </div>
-            <div class="feature_teaser col-sm-4 col-md-4">
-                <span class="fa-stack fa-4x">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-desktop fa-stack-1x fa-inverse"></i>
-                </span>
-                <h3>February Meeting</h3>
-                <p>With our speaker, <strong>Gigi Morgan</strong>, meet the one piece of software that will change how you write forever. Plotter, pantser, and everyone in-between can benefit from the innovative features of Literature and Latte’s Scrivener 2.
-                    <address><strong>Location:</strong>  Fire Station 83<br> 4283 Davidson Road<br>  Hilliard, OH 43026</address>
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="hgroup">
-    <div class="container">
-        <h1>Recent News</h1>
-        <h2>This is where we post any information about upcoming events or news! Be sure to check back often.</h2>
-        <ul class="breadcrumb pull-right">
-            <li class="active">Home</li>
-        </ul>
-    </div>
-</section>
-<section>
-    <div class="container animated wow fadeInUp">
-        <div class="row">
-            <div id="leftcol" class="col-sm-8 col-md-8">
-                <article class="post" ng-repeat="post in posts | orderBy:'createdOnDate':true | filter:{postTags: tag}" style="background: rgba(255,255,255,.6)">
-                    <div class="post_header">
-                        <h3 class="post_title">
-                            <a ng-href="/post/{{post.id}}">{{post.title}}</a>
-                        </h3>
-                        <div class="post_sub">
-                            <i class="fa-time"></i> {{post.createdOnDate}}
-                        </div>
+<section class="content clearfix">
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-md-8">
+            <div ng-repeat="post in posts | orderBy:'createdOnDate':true | filter:{postTags: tag}" >
+                <div class="post-preview text-center clearfix">
+                    <small>{{post.createdOnDate}}</small>
+                    <a ng-href="/post/{{post.id}}">
+                        <h2 class="post-title">{{post.title}}</h2>
+                    </a>
+                    <p class="post-meta">Posted by {{post.createdBy}} | Category <a href="#" ng-click="typeFilter(post.type)">{{post.type}}</a></p>
+
+                    <div class="media-element entry">
+                        <a ng-href="/post/{{post.id}}" title="">
+                            <img ng-src="{{post.image}}" class="img-responsive">
+                        </a>
                     </div>
-                    <div class="post_content">
-                        <a ng-href="/post/{{post.id}}">
-                            <img alt="0" ng-src="{{post.image}}">
-                        </a><br><br>
+                    <div class="desc text-left">
                         <span ng-bind-html="safeHTML(post.content)"></span>
-                        <a ng-href="/post/{{post.id}}" class="btn btn-primary">Read More</a> </div>
-                </article>
-                <uib-pagination ng-if="posts.length > 5" boundary-links="true" total-items="totalItems" ng-model="currentPage" class="pagination-lg" previous-text="&lsaquo;" next-text="&rsaquo;" first-text="&laquo;" last-text="&raquo;">
-                </uib-pagination>
-            </div>
-            <div id="sidebar" class="col-sm-4 col-md-4">
-                <aside class="widget">
-                    <h4>Blog Categories</h4>
-                    <ul class="nav nav-pills nav-stacked">
-                        <li ng-class="{'active': tag === ''}" ng-click="tag = '';"><a href="#">All</a></li>
-                        <li ng-class="{'active': tag === 1}" ng-click="tag = 1;"><a href="#">Meetings</a></li>
-                        <li ng-class="{'active': tag === 2}" ng-click="tag = 2;"><a href="#">Speakers</a></li>
-                        <li ng-class="{'active': tag === 3}" ng-click="tag = 3;"><a href="#">Newsletters</a></li>
-                        <li ng-class="{'active': tag === 4}" ng-click="tag = 4;"><a href="#">Contest</a></li>
-                    </ul>
-                </aside>
-                <aside class="widget ads clearfix">
-                    <h4>Tabs</h4>
-                    <ul class="nav nav-tabs">
-                        <li ng-class="{'active': tab === 1}"><a href="#" ng-click="tab = 1">Recent</a></li>
-                        <li ng-class="{'active': tab === 2}"><a href="#" ng-click="tab = 2">Tags</a></li>
-                    </ul>
-                    <div class="tab-content">
-                        <div class="tab-pane" ng-class="{'active': tab === 1}" ng-show="tab === 1">
-                            <ul class="media-list">
-                                <li class="media" ng-repeat="post in posts">
-                                    <a href="/post/{{post.id}}" class="media-photo" style="background-image:url({{post.image}})"></a>
-                                    <a href="/post/{{post.id}}" class="media-date">{{post.createdOn | date:'dd'}}<span>{{post.createdOn | date:'MMM'}}</span></a>
-                                    <h5 class="media-heading">
-                                        <a href="/post/{{post.id}}" >{{post.title}}</a>
-                                    </h5>
-                                    <span style="clear: left" ng-bind-html="safeHTML(post.content.split('<br>')[0])"></span>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="tab-pane" ng-class="{'active': tab === 2}" ng-show="tab === 2">
-                            <a ng-repeat="tag in tags" style="float: left" ng-click="tagName = String(tag.title)" class="label" ng-class="{'label-default': tag.type === 'default', 'label-success': tag.type === 'success', 'label-warning': tag.type === 'warning', 'label-danger': tag.type === 'danger', 'label-info': tag.type === 'info'}">{{tag.title}}</a>
-                        </div>
+                        <a ng-href="/post/{{post.id}}" class="readmore" title="">continue reading</a>
                     </div>
-                </aside>
+                </div>
             </div>
         </div>
+            <div class="col-lg-4 col-md-4">
+                <div id="sidebar" class="text-center">
+                    <div class="widget">
+                        <div class="widget-title clearfix">
+                            <h3>About COFW</h3>
+                        </div>
+                        <p>Since 1987, our mission is to promote excellence in romantic fiction, helping writers to become published and establish careers in their writing field.</p>
+                        <img src="/app/images/swirl.png" style="margin-left: auto; margin-right: auto; width: 100px; margin-bottom: 10px">
+                        <div class="widget-title clearfix">
+                            <h3>Post Categories</h3>
+                        </div>
+                        <ul class="categories">
+                            <li><a style="cursor: pointer" ng-class="{'active': tag === ''}" ng-click="tag = ''">All</a></li>
+                            <li><a style="cursor: pointer" ng-class="{'active': tag === 1}" ng-click="tag = 1">Meetings</a></li>
+                            <li><a style="cursor: pointer" ng-class="{'active': tag === 2}" ng-click="tag = 2">Speaker</a></li>
+                            <li><a style="cursor: pointer" ng-class="{'active': tag === 3}" ng-click="tag = 3">Newsletter</a></li>
+                            <li><a style="cursor: pointer" ng-class="{'active': tag === 4}" ng-click="tag = 4">Contest</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
     </div>
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+            <uib-pagination total-items="totalPosts" previous-text="Newer Posts" max-size="3" next-text="Older Posts" template-url="custompagination.html" ng-model="currentPage"></uib-pagination>
+            <!--<ul class="pager">-->
+                <!--<li class="next">-->
+                    <!--<a href="#">Older Posts &rarr;</a>-->
+                <!--</li>-->
+            <!--</ul>-->
+        </div>
+    </div>
+</div>
 </section>
+
+<script type="text/ng-template" id="custompagination.html">
+    <ul class="pagination">
+        <li ng-if="::directionLinks" ng-class="{disabled: noPrevious()||ngDisabled}" ng-show="page !== 1" class="pagination-prev"><a href ng-click="selectPage(page - 1, $event)">{{::getText('previous')}} &larr;</a></li>
+        <!--<li ng-repeat="page in pages track by $index" ng-class="{active: page.active,disabled: ngDisabled&&!page.active}" class="pagination-page"><a href ng-click="selectPage(page.number, $event)">{{page.text}}</a></li>-->
+        <li ng-if="::directionLinks" ng-class="{disabled: noNext()||ngDisabled}" ng-show="page !== totalPages" class="pagination-next"><a href ng-click="selectPage(page + 1, $event)">{{::getText('next')}} &rarr;</a></li>
+    </ul>
+</script>

@@ -1,26 +1,21 @@
-<section class="hgroup" ng-cloak>
-    <div class="container">
-        <h1>Our Members</h1>
-        <ul class="breadcrumb pull-right">
-            <li><a href="/">Home</a> </li>
-            <li class="active">Members</li>
-        </ul>
-    </div>
-</section>
-<section class="team_members" ng-cloak>
+<section class="content clearfix">
     <div class="container">
         <div class="row">
-            <div class="col-sm-6 col-md-3" ng-repeat="member in members" style="margin-top: 10px; height: 345px">
-                <div class="team_member wow animated fadeIn">
-                    <figure><a ng-href="members/member/{{member.id}}"><img style="width: 120px; height: 120px; overflow: hidden" ng-src="/app/images/members/{{member.image}}"></a></figure>
-                    <h5><a ng-href="members/member/{{member.id}}">{{member.firstName}} {{member.lastName}}</a></h5>
-                    <hr>
-                    <div class="team_social">
-                        <a ng-if="member.facebook" target="_blank" href="{{member.facebook}}"><i class="fa fa-facebook"></i></a>
-                        <a ng-if="member.website" target="_blank" href="{{member.website}}"><i class="fa fa-desktop"></i></a>
-                        <a ng-if="member.twitter" target="_blank" href="{{member.twitter}}"><i class="fa fa-twitter"></i></a>
-                        <a ng-if="member.pinterest" target="_blank" href="{{member.pinterest}}"><i class="fa fa-pinterest"></i></a>
-                        <a ng-if="member.email" href="mailto:{{member.email}}"><i class="fa fa-envelope"></i></a>
+            <div class="col-lg-12">
+                <div class="post-preview clearfix text-center">
+                    <small>CENTRAL OHIO FICTION WRITERS</small>
+                    <h2>Members</h2>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12" ng-repeat="member in members">
+                            <div class="shop-item entry">
+                                <a ng-href="/members/member/{{member.id}}">
+                                    <img ng-src="/app/images/members/{{member.image}}" alt="member.firstName" class="img-responsive member">
+                                </a>
+                            </div>
+                            <div class="shop-title text-center">
+                                <h3><a ng-href="/members/member/{{member.id}}">{{member.firstName}} {{member.lastName}}</a></h3>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

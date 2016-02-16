@@ -39,21 +39,11 @@
             return df.promise;
         }
 
-        function savePost(x){
-            var df = $q.defer();
-            $http.post('../app/data/posts.json', x).then(function(resp) {
-                df.resolve(resp);
-            }, function(resp){
-                df.reject(resp);
-            });
-            return df.promise;
-        }
 
         return{
             getAllPosts: getAllPosts,
             getPost: getPost,
-            getTags: getTags,
-            savePost: savePost
+            getTags: getTags
         }
     }
 }());

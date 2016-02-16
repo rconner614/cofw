@@ -44,7 +44,7 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
     $urlRouterProvider.otherwise('/');
     $stateProvider.state('home', {
         url: "/",
-        templateUrl: "/app/views/_homePage.html",
+        templateUrl: "/app/views/_home.html",
         controller: 'homeCtrl',
         resolve: {
             data: ['postSrv', function(postSrv){
@@ -60,32 +60,23 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
                 return postSrv.getAllPosts();
             }]
         }
-    }).state('addPost', {
-        url: "/new/post",
-        templateUrl: "/app/views/_addPost.html",
-        controller: 'addPostCtrl',
-        resolve: {
-            data: ['postSrv', function(postSrv){
-                return postSrv.getAllPosts();
-            }]
-        }
     }).state('about', {
         url: "/about",
-        templateUrl: "/app/views/_aboutPage.html"
+        templateUrl: "/app/views/_about.html"
     }).state('contact', {
         url: "/contact",
-        templateUrl: "/app/views/_contactPage.html",
+        templateUrl: "/app/views/_contact.html",
         controller: 'contactCtrl'
     }).state('contest', {
         url: "/contest",
-        templateUrl: "/app/views/_contestPage.html",
+        templateUrl: "/app/views/_contest.html",
         controller: 'contestCtrl'
     }).state('membership', {
         url: "/membership",
         templateUrl: "/app/views/_membership.html"
     }).state('meetings', {
         url: "/meetings",
-        templateUrl: "/app/views/_meetingsPage.html",
+        templateUrl: "/app/views/_meetings.html",
         controller: 'meetingsCtrl',
         resolve: {
             data: ['postSrv', function(postSrv){
@@ -94,7 +85,7 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
         }
     }).state('members', {
         url: "/members",
-        templateUrl: "/app/views/_memberPage.html",
+        templateUrl: "/app/views/_members.html",
         controller: 'membersCtrl',
         resolve: {
             data: ['memberSrv', function(memberSrv){
