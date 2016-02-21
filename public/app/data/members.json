@@ -22,17 +22,23 @@
       "lastName": "Lohr",
       "id": 3,
       "facebook": "http://www.facebook.com/BarbaraLohrAuthor",
+      "email": "blohr2014@gmail.com",
       "twitter": "http://www.twitter.com/BarbaraJLohr",
       "website": "http://www.BarbaraLohrAuthor.com",
       "image": "Lohr.jpg",
-      "blurb": "Barbara Lohr writes contemporary romance, adult as well as new adult, often with a humorous twist. Her early positions teaching writing and literature provided a springboard for a career in advertising and marketing. Literature remained her passion and more than two hundred of her short stories have been published in national magazines. In her novels feisty women take on hunky heroes and life’s issues. Windy City Romance, her first series, features resilient women, who were high school friends, and the men they love. Barbara lives in the Midwest and the South with her Hunky Hero Husband and their cat, who claims he was Heathcliff in another life. In addition to travel, her interests include golf and cooking. Dark Chocolate is her favorite food group and she makes a mean popover.",
-      "novels": ["Her Favorite Mistake",
-        "Her Favorite Honeymoon",
-        "Her Favorite Hot Doc",
-        "Finding Southern Comfort"
+      "blurb": "Barbara Lohr writes heartwarming romance with a flair for fun and subtly sexy love scenes. In her novels, feisty women take on hunky heroes and life’s issues. Family often figures in her stories. “No woman falls in love without some family influence, either positive or negative.” Her series include Windy City Romance and Man from Yesterday. Dark chocolate is her favorite food group, and she makes a mean popover. When she's not writing, she loves to bike, kayak or golf. Formerly an Ohio resident, Barbara now lives mainly in the South of the USA with her husband and a cat that insists he was Heathcliff in a former life. For more information on the author and her work, please see her website or Facebook.",
+      "novels": ["Windy City Romance",
+      "Finding Southern Comfort",
+      "Her Favorite Mistake",
+      "Her Favorite Honeymoon",
+      "Her Favorite Hot Doc",
+      "Rescuing the Reluctant Groom",
+      "Man from Yesterday",
+      "Coming Home to You",
+      "New Release coming February 2016"
       ],
       "novellas": [
-        "Summer of the Fireflies",
+        "The Firefly Summer",
         "Salty Carmel Christmas",
         "Summer Riptide",
         "The Christmas Baby Bundle"
@@ -44,7 +50,9 @@
       "id": 4,
       "image": "Barker.jpg",
       "website": "http://www.beckybarker.com",
-      "email": "books@beckybarker.com",
+      "twitter": "http://www.twitter.com/BeckyBarker",
+      "facebook": "http://www.facebook.com/BeckyBarker",
+      "email": "write@beckybarker.com",
       "blurb": "Becky Barker is a multi-published author whose romance novels have been translated into more than a dozen foreign languages, into electronic format, and have been reissued in trade paperback as well as large print, hardcover library editions. Her personal hero is a former Marine who helped her create three wonderful children. These days, Rachel and her husband, Jerramy; Amanda and her husband, Jay; and Thad and his wife, Dara, all live within a few miles of Mom and Dad in rural Ohio. Besides spending time with her family, Becky enjoys music, gardening and reading. She loves to hear from readers and can be reached through her website at BeckyBarker.com",
       "novels": [
         "CHEY’S COWBOY, Indie published, 2013",
@@ -199,8 +207,9 @@
       "id": 12,
       "email": "Karen.Harper.Author@gmail.com",
       "website": "http://www.KarenHarperAuthor.com",
+      "facebook": "http://www.facebook.com/KarenHarperAuthor",
       "image": "Harper.jpg",
-      "blurb": "Karen Harper is the New York Times and USA TODAY Best Selling author of romantic suspense and historical mysteries. A former college instructor and high school English teacher, Harper has been published since 1982 with over 50 novels. Harper's latest romantic suspense novels are a trilogy set in southern Ohio on the edge of Appalachia, SHATTERED SECRETS (Sept. 2014); FORBIDDEN GROUND (Nov. 2014); and BROKEN BONDS (Jan. 2015.)  Harper is the winner of the Mary Higgins Clark Award for her Amish-setting novel DARK ANGEL.  Booklist says \"Harper, a master of suspense, keeps readers guessing about crime and love until the very end.\" Her historical novels, mostly set in Tudor England, and published by Random House and Penguin USA, include THE LAST BOLEYN, THE IRISH PRINCESS, MISTRESS SHAKESPEARE, THE QUEEN’S GOVERNESS and MISTRESS OF MOURNING. Library Journal says Harper's historicals are \"as good as the best of Philippa Gregory.\" Harper’s books have been published in many countries including the UK where her publisher is Random House. A printable list of all her books is available on her website. A frequent speaker at libraries and conferences, Harper is a charter member of COFW. With her husband, she loves to travel and spend time with grandson Sean."
+      "blurb": "Karen Harper is the New York Times and USA TODAY bestselling author of romantic suspense and historical novels.  A lifelong Ohioan, Karen and her husband make their home in Columbus.  Formerly an Ohio State English instructor and high school teacher, Karen has written full time since 1990 with 70 novels in print.  She is the winner of the Mary Higgins Clark Award for her novel DARK ANGEL, set in Ohio Amish country.  Karen's British historicals focusing on the lives of real Tudor and Edwardian women have been bestsellers in England and Russia.  Her novels have been translated into many foreign languages and are available as ebooks and in large print and audio.  Her publishers are Mira Books and HarperCollins. Her most recent contemporary books are THE COLD CREEK TRILOGY: SHATTERED SECRETS, FORBIDDEN GROUND and BROKEN BONDS set in Appalachian Ohio.  Coming soon, THE SOUTH SHORE TRILOGY.  Her most recent historical novels are MISTRESS OF MOURNING and coming soon THE ROYAL NANNY."
     },
     {
       "firstName": "Karin",
@@ -233,12 +242,13 @@
       "firstName": "Lynn",
       "lastName": "Gale",
       "id": 16,
-      "image": "placeholder.jpg",
+      "image": "Gale.jpg",
       "blurb": "Lynn Gale has been a member of RWA and COFW for over twenty years. GARTH’S WOMAN is Lynn’s first full length book with Soul Mate Publishing. More full length books are in the works. She has had stories published in True Romance and True Confessions magazines. Lynn lives in the central Ohio area with her husband and three cats.",
       "website": "lynngale.wordpress.com",
       "novels": [
         "Garth’s Woman, Soul Mate Publishing, November 2012",
-        "Unspoken Love, Soul Mate Publishing, May 2014"
+        "Unspoken Love, Soul Mate Publishing, May 2014",
+        "His Thrilling Touch, Soul Mate Publishing, February 2016"
       ]
     },
     {
@@ -267,8 +277,11 @@
       "website": "http://www.marisadillon.com",
       "image": "Dillon.jpg",
       "blurb": "With a degree in journalism, Marisa has spent many years writing for the television industry. As an award-winning producer/director/marketer, she has worked on commercial production, show creation, product branding and social media. Marisa’s passion for writing began when her first-grade teacher read her poem aloud and posted it on the classroom wall. She soon followed up by writing plays for her neighborhood friends and hosting the productions in her garage. Marisa has always enjoyed reading romance novels and now realizes a dream come true, writing romantic adventures, not for the faint of heart. Her debut novel, from Soul Mate Publishing, The Lady of the Garter, is available on Amazon. She lives in Kettering, Ohio, with her first love and knight in shining armor, James.",
-      "facebook": "https://www.facebook.com/marisa.dillon.5?fref=ts",
-      "twitter": "https://twitter.com/marisadillon"
+      "facebook": "https://www.facebook.com/marisadillonauthor/",
+      "twitter": "http://twitter.com/marisadillon",
+      "novels": [
+        "The Lady of the Garter"
+      ],
     },
     {
       "firstName": "Mary",
@@ -294,8 +307,10 @@
     {
       "firstName": "Nancy L.",
       "lastName": "White",
+      "email": "nancywhite0529@gmail.com",
+      "website": "http://www.nancylwhiteauthor.com/",
       "id": 21,
-      "blurb": "I live in Columbus, Ohio with my Italian Greyhound.  I have a beautiful daughter and two cherished grandchildren.  I work at The Ohio State University Wexner Medical Center as an Administrative Assistant in the Managed Care Department.  I’m looking forward to retirement in two 1/2 years.  I’m not published yet, but it’s not for lack of trying.",
+      "blurb": "Nancy White is a freelance writer and a graduate of Capital University in Columbus, Ohio with a B.A. in English/Professional Writing.  She is a member of the Scribophile Critique Group online.  Her craft memberships include Romance Writers of America (PRO member), Central Ohio Fiction Writers, and The Writer’s Center.  Nancy’s first publication, Children Should be Seen, Not Heard, was published in the Only Trollops Shave Above the Knee anthology from Blue Lobster Book Co.  Mother’s Day 2015.   Currently, she is working on her first novel.",
       "image": "White.jpg"
     },
     {
