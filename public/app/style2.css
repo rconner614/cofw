@@ -22,13 +22,13 @@
 body {
     background: #FFF2F4;
     background-image: url('images/damask.png');
-    color: #121212;
-    font-weight: 400;
+    color: #121212 !important;
+    font-weight: 400 !important;
     font-size: 1.7em;
     line-height: 1.8;
     font-family: 'Playfair Display', serif;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
+    /*text-rendering: optimizeLegibility;*/
+    /*-webkit-font-smoothing: antialiased;*/
     overflow-x: hidden;
 }
 
@@ -144,7 +144,7 @@ h5 {
 
 h6 {
   font-size:16px;
-  font-weight:600;
+  font-weight: 700;
   margin-bottom:16px;
 }
 
@@ -172,7 +172,7 @@ p.drop-caps:first-child:first-letter {
     padding: 4px;
     margin-right: 7px;
     margin-top: 5px;
-    font-family: Georgia;
+    /*font-family: Georgia;*/
 }  
     
 p.drop-caps.full:first-child:first-letter {
@@ -254,7 +254,7 @@ blockquote {
 .title h1 {
     padding: 0 0 0.2em;
     color: #fff;
-    font-weight: 800;
+    font-weight: 900;
     font-size: 3em;
     margin: 0 auto;
 }
@@ -262,7 +262,7 @@ blockquote {
 .title p {
     color: #fff;
     padding: 0 0 0.6em;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 0.85em;
     margin: 0 auto;
 }
@@ -344,7 +344,7 @@ button.trigger span::before {
     font-variant: normal;
     font-family: 'jollyicons';
     line-height: 1;
-    speak: none;
+    /*speak: none;*/
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -382,7 +382,6 @@ button.trigger span::before {
     font-style: italic;
     margin: 10px 0;
     text-align: left;
-    padding:;
     text-transform: none !important;
 }
 
@@ -499,7 +498,7 @@ ul.categories > li > a.active{
     position: relative !important;
 }
 .form-control {
-    border-color: -moz-use-text-color -moz-use-text-color #eee;
+    /*border-color: -moz-use-text-color -moz-use-text-color #eee;*/
     border-left: 0 none;
     border-right: 0 none;
     border-style: none none solid;
@@ -845,28 +844,28 @@ color:#ffdae4;
     transform: rotate(-10deg) scale(1.4);
 }
 
-.animationload {
-    position: fixed;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    background-color:#343434; /* change if the mask should have another color then white */
-    z-index:999999; /* makes sure it stays on top */
-}
-.loader {
-    width:200px;
-    text-indent:-99999;
-    height:200px;
-    font-size:0;
-    position:absolute;
-    left:50%; /* centers the loading animation horizontally one the screen */
-    top:50%; /* centers the loading animation vertically one the screen */
-    background-image:url(images/loading.gif); /* path to your loading animation */
-    background-repeat:no-repeat;
-    background-position:center;
-    margin:-100px 0 0 -100px; /* is width and height divided by two */
-}
+/*.animationload {*/
+    /*position: fixed;*/
+    /*top:0;*/
+    /*left:0;*/
+    /*right:0;*/
+    /*bottom:0;*/
+    /*background-color:#343434; !* change if the mask should have another color then white *!*/
+    /*z-index:999999; !* makes sure it stays on top *!*/
+/*}*/
+/*.loader {*/
+    /*width:200px;*/
+    /*text-indent:-99999;*/
+    /*height:200px;*/
+    /*font-size:0;*/
+    /*position:absolute;*/
+    /*left:50%; !* centers the loading animation horizontally one the screen *!*/
+    /*top:50%; !* centers the loading animation vertically one the screen *!*/
+    /*background-image:url(images/loading.gif); !* path to your loading animation *!*/
+    /*background-repeat:no-repeat;*/
+    /*background-position:center;*/
+    /*margin:-100px 0 0 -100px; !* is width and height divided by two *!*/
+/*}*/
 
 /* ----------------------------------------------------
   RESPONSIVE
