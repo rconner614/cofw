@@ -27,7 +27,8 @@
       "website": "http://www.BarbaraLohrAuthor.com",
       "image": "Lohr.jpg",
       "blurb": "Barbara Lohr writes heartwarming romance with a flair for fun and subtly sexy love scenes. In her novels, feisty women take on hunky heroes and life’s issues. Family often figures in her stories. “No woman falls in love without some family influence, either positive or negative.” Her series include Windy City Romance and Man from Yesterday. Dark chocolate is her favorite food group, and she makes a mean popover. When she's not writing, she loves to bike, kayak or golf. Formerly an Ohio resident, Barbara now lives mainly in the South of the USA with her husband and a cat that insists he was Heathcliff in a former life. For more information on the author and her work, please see her website or Facebook.",
-      "novels": ["Windy City Romance",
+      "novels": [
+      "Windy City Romance",
       "Finding Southern Comfort",
       "Her Favorite Mistake",
       "Her Favorite Honeymoon",
@@ -281,7 +282,7 @@
       "twitter": "http://twitter.com/marisadillon",
       "novels": [
         "The Lady of the Garter"
-      ],
+      ]
     },
     {
       "firstName": "Mary",

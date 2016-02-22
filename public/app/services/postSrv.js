@@ -7,7 +7,7 @@
         function getAllPosts(){
             var df = $q.defer();
             $http.get('../app/data/posts.json').then(function(resp){
-                console.log('success', resp.data);
+                //console.log('success', resp.data);
                 df.resolve(resp.data);
             }, function(resp){
                 console.log('failed', resp);

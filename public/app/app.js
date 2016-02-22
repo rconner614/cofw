@@ -68,8 +68,8 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
         templateUrl: "/app/views/_newsletter.html"
     }).state('contact', {
         url: "/contact",
-        templateUrl: "/app/views/_contact.html",
-        controller: 'contactCtrl'
+        templateUrl: "/app/views/_contact.html"
+        //controller: 'contactCtrl'
     }).state('contest', {
         url: "/contest",
         templateUrl: "/app/views/_contest.html",
