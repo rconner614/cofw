@@ -48,35 +48,47 @@
 <!-- <div class="logo-wrapper">
     <img src="/app/images/cofwONLINE.png" style="width: 300px; margin-top: 30px">
 </div> -->
-<img src="/app/images/cofwbanner.png" class="banner hidden-sm hidden-xs" style="padding">
-<div class="post-preview text-center" style="margin-top: 10px !important; margin-bottom: 10px; padding-top: 5px !important; padding-bottom: 0">
-    <h1 class="text-center">
-        <img class="hidden-lg hidden-md" style="width: 80%;" src="/app/images/cofwlarge.png">
-    </h1>
-    <h2 class="text-center post-title hidden-sm hidden-xs">A Proud Chapter of<br>Romance Writers of America&trade;</h2>
-    <!-- <img src="/app/images/swirl.png" style="width: 70px"> -->
-    <h4 class="post-meta">Est. 1987 | Columbus, Ohio</h4>
-</div>
+
+<!--<div class="post-preview" style="margin-top: 10px !important; margin-bottom: 10px; padding-top: 5px !important; padding-bottom: 0">-->
+    <!--<h1 class="text-center">-->
+        <!--<img class="hidden-lg hidden-md" style="width: 80%;" src="/app/images/cofwlarge.png">-->
+    <!--</h1>-->
+
+    <!--<div class="col-sm-4">-->
+        <!--<h3 class="text-left">A Proud Chapter of<br>Romance Writers of America&trade;</h3>-->
+        <!--<h4 class="post-meta">Est. 1987 | Columbus, Ohio</h4>-->
+    <!--</div>-->
+    <!--<div class="clearfix"></div>-->
+<!--</div>-->
 <div id="normal-header" class="container-fluid">
-    <nav class="navbar navbar-default" role="navigation">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-menu-2"></span>
-            </button>
-        </div>
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
-            <ul class="nav navbar-nav">
-                <li ng-class="{'active': state.includes('home') || state.includes('post')}"><a href="/">Home</a></li>
-                <li ng-class="{'active': state.includes('about')}"><a href="/about">About Us</a></li>
-                <li ng-class="{'active': state.includes('membership')}"><a href="/membership">Membership</a></li>
-                <li ng-class="{'active': state.includes('meetings')}"><a href="/meetings">Meetings</a></li>
-                <li ng-class="{'active': state.includes('contest')}"><a href="/contest">Contest</a></li>
-                <li ng-class="{'active': state.includes('members') || state.includes('member')}"><a href="/members">Our Members</a></li>
-                <li ng-class="{'active': state.includes('contact')}"><a href="/contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
+    <div class="col-md-3 col-md-offset-2 col-sm-12">
+        <img src="/app/images/cofwlarge.png" class="banner">
+    </div>
+    <div class="clearfix visible-sm visible-xs"></div>
+    <div class="col-md-7 col-sm-12">
+        <h3 class="text-left banner-text"><strong>A Proud Chapter of Romance Writers of America&trade;</strong></h3>
+        <h4 class="post-meta">Est. 1987 | Columbus, Ohio</h4>
+        <nav class="navbar navbar-default navbar-left" role="navigation" style="margin-left: -30px;">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-menu-2"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li ng-class="{'active': state.includes('home') || state.includes('post')}"><a href="/">Home</a></li>
+                    <li ng-class="{'active': state.includes('about')}"><a href="/about">About Us</a></li>
+                    <li ng-class="{'active': state.includes('membership')}"><a href="/membership">Membership</a></li>
+                    <li ng-class="{'active': state.includes('meetings')}"><a href="/meetings">Meetings</a></li>
+                    <li ng-class="{'active': state.includes('contest')}"><a href="/contest">Contest</a></li>
+                    <li ng-class="{'active': state.includes('members') || state.includes('member')}"><a href="/members">Our Members</a></li>
+                    <li ng-class="{'active': state.includes('contact')}"><a href="/contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
 </div>
 
 <div ui-view ng-cloak></div>

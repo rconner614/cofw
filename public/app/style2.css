@@ -33,11 +33,27 @@ body {
 }
 
 .banner{
-     z-index: 3000; 
-     top: 0; 
-     left: 0; 
-     width: 23%; 
-     position: absolute;
+    float: right;
+    width: 380px;
+    margin-top: 10px;
+}
+
+.banner-text{
+    line-height: 29px;
+    margin-top: 10px;
+}
+
+@media(max-width: 991px){
+    .banner{
+        float: left;
+    }
+    .navbar-toggle {
+        float: left;
+    }
+    .banner-text{
+        line-height: 38px;
+        margin-top: 20px;
+    }
 }
 
 .pagination > li{
@@ -342,7 +358,7 @@ button.trigger span::before {
 #sidebar,
 .single-post,
 .post-preview {
-    padding:4em 0;
+    padding: 1.5em 0;
     position: relative;
     display:block;
 }
