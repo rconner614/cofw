@@ -7,7 +7,7 @@
                     <h2 class="post-title">{{meeting.title}}</h2>   
                     <img src="/app/images/swirl.png" style="margin-left: auto; margin-right: auto; width: 100px; margin-bottom: 10px">
                     <div class="desc text-left">
-                        <strong>Date: </strong><span ng-show="meeting.date">{{meeting.dateOrig}}</span><span ng-show="!meeting.time">TBA</span><br>
+                        <strong>Date: </strong><span ng-show="meeting.dateOrig">{{meeting.dateOrig}}</span><span ng-show="!meeting.dateOrig">TBA</span><br>
                         <strong>Time: </strong><span ng-show="meeting.time">{{meeting.time}}</span><span ng-show="!meeting.time">TBA</span><br>
                         <strong>Location:</strong><span ng-show="!meeting.location">TBA</span><br>
                         <span ng-bind-html="safeHTML(meeting.location)" ng-show="meeting.location"></span>
