@@ -28,12 +28,12 @@
       "createdBy" : "Rachel",
       "postTags" : [4],
       "type": "Contest",
-      "content" : "<p>The annual Ignite the Flame Contest is gearing up for 2016! Judges have been assigned and categories have been announced!<br>For more information, head over to the <a class='btn btn-primary' href='/contest'>Contest Page</a> or print out more information <a href='http://cofwevents.org/docs/ITF_Contest_Rules_2016.pdf' target='_blank'> >> here << </a></p>"
+      "content" : "<p>The annual Ignite the Flame Contest is gearing up for 2016! Judges have been assigned and categories have been announced!<br></p><div class='col-md-6 col-sm-12 text-center'><a class='btn btn-primary' href='/contest'>Contest Page</a><br><br><p class='text-left'>Click the link above to view the contest page. Any updates and forms will appear here. Check back for updates, as we will make any contest related announcements here.</p></div><div class='col-md-6 col-sm-12 text-center'><a class='btn btn-primary' href='http://cofwevents.org/docs/ITF_Contest_Rules_2016.pdf' target='_blank'> Contest Rules </a><br><br><p class='text-left'>You can also check out the rules and scoring information by visiting the above link. We've provided a printable pdf of information you will need to submit a contest entry.</p></div><div class='clearfix'></div>"
     },
     {
       "id" : 4,
       "createdOn" : "2016-02-23T00:00:00",
-      "image" : "/app/images/posts/March_16.jpg",
+      "image" : "/app/images/posts/March_2016.jpg",
       "title" : "Meeting - March 12th",
       "createdBy" : "Rachel",
       "postTags" : [1,2],
