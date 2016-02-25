@@ -83,7 +83,7 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
         controller: 'meetingsCtrl',
         resolve: {
             data: ['postSrv', function(postSrv){
-                return postSrv.getAllPosts();
+                return postSrv.getMeetings();
             }]
         }
     }).state('members', {

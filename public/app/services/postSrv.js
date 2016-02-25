@@ -16,16 +16,18 @@
             return df.promise;
         }
 
-        var getPost = function(x){
-            var posts = getAllPosts();
-            if(posts){
-                return posts.filter(function(sItem){
-                    return sItem.id === x;
-                })[0];
-            } else{
-                return null;
-            }
-        };
+        function getMeetings(){
+            var df = $q.defer();
+            $http.get('../app/data/meetings.json').then(function(resp){
+                //console.log('success', resp.data);
+                df.resolve(resp.data);
+            }, function(resp){
+                console.log('failed', resp);
+                df.reject(resp);
+            });
+            return df.promise;
+        }
+
 
         function getTags(){
             var df = $q.defer();
@@ -42,7 +44,7 @@
 
         return{
             getAllPosts: getAllPosts,
-            getPost: getPost,
+            getMeetings: getMeetings,
             getTags: getTags
         }
     }

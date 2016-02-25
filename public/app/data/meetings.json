@@ -1,0 +1,102 @@
+{
+  "meetings": [
+    {
+      "id": 1,
+      "title" : "January",
+      "speaker" : "Donna MacMeans",
+      "date" : "01-16-2016",
+      "time": "Business meeting at 12:30 pm, Speaker at 1:30 pm",
+      "location": "Fire Station 83<br>4283 Davidson Road<br>Hilliard, OH 43026<br><br>",
+      "topic":"Is your writing a business or a hobby?  Nine questions you need to answer to know if your writing is a business. How to maximize your deductions to reduce income."
+    },{
+      "id": 2,
+      "title" : "February",
+      "speaker" : "Gigi Morgan",
+      "date" : "02-13-2016",
+      "time": "Business meeting at 12:30 pm, Speaker at 1:30 pm",
+      "location": "Fire Station 83<br>4283 Davidson Road<br>Hilliard, OH 43026<br><br>",
+      "topic":"Introduction to Scrivener 2. Meet the one piece of software that will change how you write forever."
+    },{
+      "id": 3,
+      "title" : "March",
+      "speaker" : "Susan Gee Heino | Serena Gilley",
+      "date" : "03-12-2016",
+      "time": "Business meeting at 12:30 pm, Speaker at 1:30 pm",
+      "location": "Fire Station 83<br>4283 Davidson Road<br>Hilliard, OH 43026<br><br>",
+      "topic":"Cut Out The Middle, Man! Do you fall asleep writing chapters four through eleven? Well, say good-bye to the muddling middle!"
+    },{
+      "id": 4,
+      "title" : "April",
+      "speaker" : "Mel Jolly",
+      "date" : "04-16-2016",
+      "time": "Business meeting at 12:30 pm, Speaker at 1:30 pm",
+      "location": "Fire Station 83<br>4283 Davidson Road<br>Hilliard, OH 43026<br><br>",
+      "topic":"Learn from a Professional Author Assistant Stuff You Need to Know."
+    },{
+      "id": 5,
+      "title" : "May",
+      "speaker" : "N/A",
+      "date" : "05-14-2016",
+      "time": "Film screening begins at 1:30 pm, Published Author Networking Event 3-4 pm",
+      "location": "Norwich Township Safety and Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026<br><br>",
+      "topic":"Film Screening of \"Love Between the Covers\". Love stories are powerful. And so are the women who write them. Join us after the film for our Published Author Networking Event!"
+    },{
+      "id": 6,
+      "title" : "June",
+      "speaker" : "Elizabeth Heiter",
+      "date" : "06-18-2016",
+      "time": "Business meeting at 12:30 pm, Speaker at 1:30 pm",
+      "location": "Norwich Township Safety and Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026<br><br>",
+      "topic":"Putting the Suspense in Romantic Suspense. Elizabeth Heiter, a multi-published author, discusses elements of suspense in romance and how to make them work for your story."
+    },{
+      "id": 7,
+      "title" : "July",
+      "speaker" : "Beth Daniels",
+      "date" : "07-09-2016",
+      "time": null,
+      "location": null,
+      "topic":"Are you a Master Procrastinator? Become a Recovering Procrastinator!"
+    },{
+      "id": 8,
+      "title" : "August",
+      "speaker" : null,
+      "date" : null,
+      "time": null,
+      "location": null,
+      "topic": null
+    },{
+      "id": 9,
+      "title" : "September",
+      "speaker" : null,
+      "date" : null,
+      "time": null,
+      "location": null,
+      "topic":null
+    },{
+      "id": 10,
+      "title" : "October",
+      "speaker" : null,
+      "date" : null,
+      "time": null,
+      "location": null,
+      "topic":null
+    },{
+      "id": 11,
+      "title" : "November",
+      "speaker" : null,
+      "date" : null,
+      "time": null,
+      "location": null,
+      "topic":null
+    },{
+      "id": 12,
+      "title" : "December",
+      "speaker" : null,
+      "date" : null,
+      "time": null,
+      "location": null,
+      "topic":null
+    }
+    
+  ]
+}

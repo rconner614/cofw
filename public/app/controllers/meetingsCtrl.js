@@ -2,38 +2,22 @@
     'use strict';
     angular.module('cofw.core')
         .controller('meetingsCtrl', meetingsCtrl);
-    meetingsCtrl.$inject = ['$scope', 'data', '$sce', 'filterFilter'];
-    function meetingsCtrl($scope, data, $sce, filterFilter) {
-        $scope.posts = data.posts;
-        $scope.tags = data.tags;
-        $scope.currentPage = 1;
-        $scope.entryLimit = 5;
-        $scope.tag = '';
-
-        for (var i = 0; i < $scope.posts.length; i++) {
-            $scope.posts[i].createdOnDate = moment($scope.posts[i].date).format("dddd, MMMM Do YYYY");
-        }
-        $scope.totalPosts = $scope.posts.length;
-
-        $scope.typeFilter = function(x){
-            console.log(x);
-            $scope.tag = ($scope.tags.filter(function(sItem){
-                return sItem.title.toLowerCase() === x.toLowerCase();
-            })[0]).id;
-            console.log($scope.tag);
-        };
-
-        $scope.tab = 1;
-        $scope.category = 1;
-
+    meetingsCtrl.$inject = ['$scope', 'data', '$sce'];
+    function meetingsCtrl($scope, data, $sce) {
+        var meetings = data.meetings;
+        meetings.map(function(meeting){
+            meeting.date = meeting.date ? new Date(meeting.date) : null;
+            return meeting;
+        });
+        $scope.chunks = [];
+        $scope.chunks[0] = [meetings[0], meetings[1], meetings[2]];
+        $scope.chunks[1] = [meetings[3], meetings[4], meetings[5]];
+        $scope.chunks[2] = [meetings[6], meetings[7], meetings[8]];
+        $scope.chunks[3] = [meetings[9], meetings[10], meetings[11]];
         $scope.safeHTML = function (x) {
             return $sce.trustAsHtml(x);
         };
 
-        $scope.setPage = function (pageNo) {
-            $scope.currentPage = pageNo;
-        };
-
-        $scope.maxItems = 5;
+        
     }
 }());
