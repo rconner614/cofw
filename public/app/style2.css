@@ -43,6 +43,10 @@ body {
     margin-top: 10px;
 }
 
+.col-lg-3.col-md-4.col-sm-6.col-xs-12 {
+    height: 360px;
+}
+
 @media(max-width: 991px){
     .banner{
         float: left;
@@ -759,7 +763,7 @@ color:#ffdae4;
 }
 
 .shop-item {
-    border:1px solid #eee;
+    /*border:1px solid #eee;*/
     margin:15px 0;
 }
 
