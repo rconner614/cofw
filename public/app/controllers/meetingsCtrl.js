@@ -6,6 +6,7 @@
     function meetingsCtrl($scope, data, $sce) {
         var meetings = data.meetings;
         meetings.map(function(meeting){
+            meeting.dateOrig = angular.copy(meeting.date);
             meeting.date = meeting.date ? new Date(meeting.date) : null;
             return meeting;
         });
