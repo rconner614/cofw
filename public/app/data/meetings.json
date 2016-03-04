@@ -60,7 +60,7 @@
       "id": 8,
       "title" : "August",
       "speaker" : null,
-      "date" : null,
+      "date" : "08-13-2016",
       "time": null,
       "location": null,
       "topic": null
@@ -68,7 +68,7 @@
       "id": 9,
       "title" : "September",
       "speaker" : null,
-      "date" : null,
+      "date" : "09-17-2016",
       "time": null,
       "location": null,
       "topic":null
@@ -76,7 +76,7 @@
       "id": 10,
       "title" : "October",
       "speaker" : null,
-      "date" : null,
+      "date" : "10-15-2016",
       "time": null,
       "location": null,
       "topic":null
@@ -84,7 +84,7 @@
       "id": 11,
       "title" : "November",
       "speaker" : null,
-      "date" : null,
+      "date" : "11-19-2016",
       "time": null,
       "location": null,
       "topic":null
