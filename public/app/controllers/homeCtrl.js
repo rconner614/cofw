@@ -11,7 +11,7 @@
         $scope.tag = '';
 
         for (var i = 0; i < $scope.posts.length; i++) {
-            $scope.posts[i].createdOnDate = moment($scope.posts[i].date).format("dddd, MMMM Do YYYY");
+            $scope.posts[i].createdOnDate = moment($scope.posts[i].createdOn).format("dddd, MMMM Do YYYY");
         }
         $scope.totalPosts = $scope.posts.length;
 
