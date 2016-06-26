@@ -46,24 +46,8 @@
     <![endif]-->
 
 </head>
-<body ng-controller="appCtrl">
-
-<!-- <div class="logo-wrapper">
-    <img src="/app/images/cofwONLINE.png" style="width: 300px; margin-top: 30px">
-</div> -->
-
-<!--<div class="post-preview" style="margin-top: 10px !important; margin-bottom: 10px; padding-top: 5px !important; padding-bottom: 0">-->
-    <!--<h1 class="text-center">-->
-        <!--<img class="hidden-lg hidden-md" style="width: 80%;" src="/app/images/cofwlarge.png">-->
-    <!--</h1>-->
-
-    <!--<div class="col-sm-4">-->
-        <!--<h3 class="text-left">A Proud Chapter of<br>Romance Writers of America&trade;</h3>-->
-        <!--<h4 class="post-meta">Est. 1987 | Columbus, Ohio</h4>-->
-    <!--</div>-->
-    <!--<div class="clearfix"></div>-->
-<!--</div>-->
-<div id="normal-header" class="container-fluid">
+<body ng-controller="appCtrl" ng-cloak class="ng-cloak">
+<div id="normal-header" class="container-fluid ng-cloak">
     <div class="col-md-3 col-md-offset-2 col-sm-12">
         <img src="/app/images/cofwlarge.png" class="banner">
     </div>
@@ -94,11 +78,11 @@
 
 </div>
 
-<div ui-view ng-cloak></div>
+<div ui-view class="ng-cloak" ng-cloak></div>
 
 <div class="clearfix"></div>
 
-<footer class="footer clearfix">
+<footer class="footer clearfix ng-cloak">
     <div class="container">
         <div class="row">
             <div class="col-sm-12 text-center">
@@ -114,7 +98,6 @@
                     <li><a href="https://www.facebook.com/COFWriters/" target="_blank"><i class="icon-facebook"></i></a></li>
                     <li><a href="https://twitter.com/cofwriters" target="_blank"><i class="icon-twitter"></i></a></li>
                     <li><a href="https://www.pinterest.com/COFWofRWA" target="_blank"><i class="icon-pinterest"></i></a></li>
-                    <!--<li><a href="#"><i class="icon-instagram"></i></a></li>-->
                 </ul>
                 <a class="back-to-top" href="#"><i class="icon-up-open-mini"></i></a>
             </div>
@@ -125,30 +108,7 @@
 <!-- jQuery -->
 <script src="/vendor/jquery/dist/jquery.min.js"></script>
 <script src="/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
-<!--<script src="/app/js/classie.js"></script>-->
 <script src="/app/js/retina.js"></script>
-<!--<script src="/app/js/custom.js"></script>-->
-<!--<script src="/app/js/jquery.fitvids.js"></script>-->
-<!--&lt;!&ndash; Fit Video Scripts&ndash;&gt;-->
-<!--<script type="text/javascript">-->
-    <!--(function($) {-->
-        <!--"use strict";-->
-        <!--$(".media-element").fitVids();-->
-    <!--})(jQuery);-->
-<!--</script>-->
-<!--&lt;!&ndash; FlexSlider Scripts&ndash;&gt;-->
-<!--<script src="/app/js/jquery.flexslider.js"></script>-->
-<!--<script type="text/javascript">-->
-    <!--(function($) {-->
-        <!--"use strict";-->
-        <!--$('.flexslider').flexslider({-->
-            <!--animation: 'fade',-->
-            <!--slideshow: true,-->
-            <!--controlNav: false,-->
-            <!--animationLoop: true,-->
-        <!--});-->
-    <!--})(jQuery);-->
-<!--</script>-->
 <script src="/vendor/angular/angular.js"></script>
 <script src="/vendor/angular-bootstrap/ui-bootstrap.min.js"></script>
 <script src="/vendor/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
