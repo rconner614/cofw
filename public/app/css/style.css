@@ -21,7 +21,7 @@
 
 body {
     background: #FFF2F4;
-    background-image: url('images/damask.png');
+    background-image: url('../images/damask.png');
     color: #121212 !important;
     font-weight: 400 !important;
     font-size: 1.7em;
