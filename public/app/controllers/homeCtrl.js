@@ -2,8 +2,8 @@
     'use strict';
     angular.module('cofw.core')
         .controller('homeCtrl', homeCtrl);
-    homeCtrl.$inject = ['$scope', 'data', '$sce', 'filterFilter', 'postSrv'];
-    function homeCtrl($scope, data, $sce, filterFilter, postSrv) {
+    homeCtrl.$inject = ['$scope', 'data', '$sce', '$filter', 'postSrv'];
+    function homeCtrl($scope, data, $sce, $filter, postSrv) {
         $scope.posts = data.posts;
         $scope.tags = data.tags;
         $scope.currentPage = 1;
@@ -16,24 +16,57 @@
         $scope.totalPosts = $scope.posts.length;
 
         $scope.typeFilter = function(x){
-            console.log(x);
             $scope.tag = ($scope.tags.filter(function(sItem){
                 return sItem.title.toLowerCase() === x.toLowerCase();
             })[0]).id;
-            console.log($scope.tag);
         };
-
-        $scope.tab = 1;
-        $scope.category = 1;
 
         $scope.safeHTML = function (x) {
             return $sce.trustAsHtml(x);
         };
 
-        $scope.setPage = function (pageNo) {
-            $scope.currentPage = pageNo;
+        $scope.filteredList = function(){
+            var list = $filter('orderBy')($scope.posts, 'createdOn', true);
+            return $filter('filter')(list, {postTags: $scope.tag});
         };
 
-        $scope.maxItems = 5;
+        $scope.page = function(){
+            var begin = (($scope.currentPage - 1) * $scope.entryLimit),
+                end = begin + $scope.entryLimit;
+
+            return $scope.filteredList().slice(begin, end);
+        };
+
+        function setPage (pageNo) {
+            $scope.currentPage = pageNo;
+        }
+
+        $scope.pageCount = function() {
+            return Math.ceil($scope.filteredList().length / $scope.entryLimit);
+        };
+
+        $scope.forward = function(){
+            if($scope.currentPage !== $scope.pageCount()){
+                setPage($scope.currentPage + 1);
+            }
+        };
+
+        $scope.back = function(){
+            if($scope.currentPage !== 1){
+                setPage($scope.currentPage - 1);
+            }
+        };
+
+
+
+
+
+            //$scope.totalItems = $scope.friends.length;
+            //$scope.$watch('currentPage + itemsPerPage', function() {
+            //    var begin = (($scope.currentPage - 1) * $scope.itemsPerPage),
+            //        end = begin + $scope.itemsPerPage;
+            //
+            //    $scope.filteredFriends = $scope.friends.slice(begin, end);
+            //});
     }
 }());

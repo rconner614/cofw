@@ -2,7 +2,7 @@
 <div class="container">
     <div class="row">
         <div class="col-lg-8 col-md-8">
-            <div ng-repeat="post in posts | orderBy:'createdOn':true | filter:{postTags: tag}" >
+            <div ng-repeat="post in page()" >
                 <div class="post-preview text-center clearfix">
                     <small>{{post.createdOnDate}}</small>
                     <a ng-href="/post/{{post.id}}">
@@ -17,7 +17,6 @@
                     </div>
                     <div class="desc text-left">
                         <span ng-bind-html="safeHTML(post.content)"></span>
-                        <!--<a ng-href="/post/{{post.id}}" class="readmore" title="">continue reading</a>-->
                     </div>
                 </div>
             </div>
@@ -36,8 +35,7 @@
                         <ul class="categories">
                             <li><a style="cursor: pointer" ng-class="{'active': tag === ''}" ng-click="tag = ''">All</a></li>
                             <li><a style="cursor: pointer" ng-class="{'active': tag === 1}" ng-click="tag = 1">Meetings</a></li>
-                            <li><a style="cursor: pointer" ng-class="{'active': tag === 2}" ng-click="tag = 2">Speaker</a></li>
-                            <li><a style="cursor: pointer" ng-class="{'active': tag === 3}" ng-click="tag = 3">Newsletter</a></li>
+                            <li><a style="cursor: pointer" ng-class="{'active': tag === 2}" ng-click="tag = 2">Speakers</a></li>
                             <li><a style="cursor: pointer" ng-class="{'active': tag === 4}" ng-click="tag = 4">Contest</a></li>
                         </ul>
                     </div>
@@ -46,21 +44,15 @@
     </div>
     <div class="row">
         <div class="col-md-10 col-md-offset-1">
-            <uib-pagination total-items="totalPosts" previous-text="Newer Posts" max-size="3" next-text="Older Posts" template-url="custompagination.html" ng-model="currentPage"></uib-pagination>
-            <!--<ul class="pager">-->
-                <!--<li class="next">-->
-                    <!--<a href="#">Older Posts &rarr;</a>-->
-                <!--</li>-->
-            <!--</ul>-->
+            <ul class="pagination">
+                <li>
+                    <a ng-show="currentPage != 1" href="#" ng-click="back()">&larr; Newer Posts</a>
+                </li>
+                <li>
+                    <a href="#" ng-show="currentPage != pageCount()" ng-click="forward()">Older Posts &rarr;</a>
+                </li>
+            </ul>
         </div>
     </div>
 </div>
 </section>
-
-<script type="text/ng-template" id="custompagination.html">
-    <ul class="pagination">
-        <li ng-if="::directionLinks" ng-class="{disabled: noPrevious()||ngDisabled}" ng-show="page !== 1" class="pagination-prev"><a href ng-click="selectPage(page - 1, $event)">{{::getText('previous')}} &larr;</a></li>
-        <!--<li ng-repeat="page in pages track by $index" ng-class="{active: page.active,disabled: ngDisabled&&!page.active}" class="pagination-page"><a href ng-click="selectPage(page.number, $event)">{{page.text}}</a></li>-->
-        <li ng-if="::directionLinks" ng-class="{disabled: noNext()||ngDisabled}" ng-show="page !== totalPages" class="pagination-next"><a href ng-click="selectPage(page + 1, $event)">{{::getText('next')}} &rarr;</a></li>
-    </ul>
-</script>
