@@ -59,17 +59,17 @@
     },{
       "id": 8,
       "title" : "August",
-      "speaker" : null,
+      "speaker" : "N/A",
       "date" : "8-13-2016",
       "time": "Business meeting at 12:30 pm, Speaker at 1:30 pm",
       "location": "Norwich Township Safety and Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026<br><br>",
-      "topic": null
+      "topic": "RWA National Conference Recap"
     },{
       "id": 9,
       "title" : "September",
-      "speaker" : null,
+      "speaker" : "Alicia Rasley",
       "date" : "9-17-2016",
-      "time": "Business meeting at 12:30 pm, Speaker at 1:30 pm",
+      "time": "Business meeting at 12:00 pm, Speaker at 1 - 2:30pm, Break 2:30 - 3pm, Speaker continues 3 - 4:30pm",
       "location": "Norwich Township Safety and Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026<br><br>",
       "topic":null
     },{
