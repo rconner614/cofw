@@ -99,6 +99,16 @@
       "postTags" : [1,2],
       "type": "Meeting",
       "content" : "<p>DATE: August 13th, 2016<br>TIME: Business meeting at 12:30 pm, Speaker at 1:30 pm<br>LOCATION:<br>Norwich Township Safety and Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026<br>TOPIC: <strong>RWA National Conference Recap</strong><br><br> Chapter members that attended RWA National will share information from workshops.</p>"
+    },
+    {
+      "id" : 11,
+      "createdOn" : "2016-08-6T00:00:00",
+      "image" : "/app/images/posts/Contest_Winners.jpg",
+      "title" : "Contest Winners Announced!",
+      "createdBy" : "Rachel",
+      "postTags" : [4],
+      "type": "Contest",
+      "content" : "<p class='text-center'>Contest Winners have been announced!</p><div class='text-center'><h3 class='text-center'>Congratulations to the winners!</h3><a class='btn btn-primary' href='/contest'>Contest Page</a></div>"
     }
   ],
   "tags": [
