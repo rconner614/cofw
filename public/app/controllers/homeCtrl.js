@@ -46,16 +46,22 @@
         };
 
         $scope.forward = function(){
+            backToTop();
             if($scope.currentPage !== $scope.pageCount()){
                 setPage($scope.currentPage + 1);
             }
         };
 
         $scope.back = function(){
+            backToTop();
             if($scope.currentPage !== 1){
                 setPage($scope.currentPage - 1);
             }
         };
+
+        function backToTop(){
+            jQuery('html, body').animate({scrollTop: '0px'}, 800);
+        }
 
 
 
