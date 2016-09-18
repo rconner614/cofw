@@ -75,11 +75,11 @@
     },{
       "id": 10,
       "title" : "October",
-      "speaker" : null,
+      "speaker" : "N/A",
       "date" : "10-15-2016",
-      "time": "Business meeting at 12:30 pm, Speaker at 1:30 pm",
-      "location": "Norwich Township Safety and Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026<br><br>",
-      "topic":null
+      "time": "Business meeting at 10:00 am, Conference 10:30 am",
+      "location": "Upper Arlington, Main Library<br>2800 Tremont Rd<br>Columbus, OH 43221<br><br>",
+      "topic":"The Write Stuff Writer's Conference"
     },{
       "id": 11,
       "title" : "November",
