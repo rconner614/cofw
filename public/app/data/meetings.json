@@ -7,7 +7,7 @@
       "date" : "1-16-2016",
       "time": "Business meeting at 12:30 pm, Speaker at 1:30 pm",
       "location": "Fire Station 83<br>4283 Davidson Road<br>Hilliard, OH 43026<br><br>",
-      "topic":"Is your writing a business or a hobby?  Nine questions you need to answer to know if your writing is a business. How to maximize your deductions to reduce income."
+      "topic":"Is your writing a business or a hobby?"
     },{
       "id": 2,
       "title" : "February",
@@ -15,7 +15,7 @@
       "date" : "2-13-2016",
       "time": "Business meeting at 12:30 pm, Speaker at 1:30 pm",
       "location": "Fire Station 83<br>4283 Davidson Road<br>Hilliard, OH 43026<br><br>",
-      "topic":"Introduction to Scrivener 2. Meet the one piece of software that will change how you write forever."
+      "topic":"Introduction to Scrivener 2"
     },{
       "id": 3,
       "title" : "March",
@@ -23,7 +23,7 @@
       "date" : "3-12-2016",
       "time": "Business meeting at 12:30 pm, Speaker at 1:30 pm",
       "location": "Fire Station 83<br>4283 Davidson Road<br>Hilliard, OH 43026<br><br>",
-      "topic":"Cut Out The Middle, Man! Do you fall asleep writing chapters four through eleven? Well, say good-bye to the muddling middle!"
+      "topic":"Cut Out The Middle, Man!"
     },{
       "id": 4,
       "title" : "April",
@@ -31,7 +31,7 @@
       "date" : "4-16-2016",
       "time": "Business meeting at 12:30 pm, Speaker at 1:30 pm",
       "location": "Fire Station 83<br>4283 Davidson Road<br>Hilliard, OH 43026<br><br>",
-      "topic":"How to Improve (or Start!) Your Author Newsletter! A hands-on, how-to workshop designed to help beginners with the basics, and advanced users with improving."
+      "topic":"How to Improve (or Start!) Your Author Newsletter!"
     },{
       "id": 5,
       "title" : "May",
@@ -39,7 +39,7 @@
       "date" : "5-14-2016",
       "time": "Film screening begins at 1:30 pm, Published Author Networking Event 3-4 pm",
       "location": "Norwich Township Safety and Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026<br><br>",
-      "topic":"Film Screening of \"Love Between the Covers\". Love stories are powerful. And so are the women who write them. Join us after the film for our Published Author Networking Event!"
+      "topic":"Screening of \"Love Between the Covers\""
     },{
       "id": 6,
       "title" : "June",
@@ -47,7 +47,7 @@
       "date" : "6-18-2016",
       "time": "Business meeting at 12:30 pm, Speaker at 1:30 pm",
       "location": "Fire Station 83<br>4283 Davidson Road<br>Hilliard, OH 43026<br><br>",
-      "topic":"Putting the Suspense in Romantic Suspense. Elizabeth Heiter, a multi-published author, discusses elements of suspense in romance and how to make them work for your story."
+      "topic":"Putting the Suspense in Romantic Suspense"
     },{
       "id": 7,
       "title" : "July",
@@ -55,7 +55,7 @@
       "date" : "7-09-2016",
       "time": "Business meeting at 12:30 pm, Speaker at 1:30 pm",
       "location": "Fire Station 83<br>4283 Davidson Road<br>Hilliard, OH 43026<br><br>",
-      "topic":"Winning Against Procrastination. Multi-published author and RWA workshop teacher Beth Daniels shares her knowledge on beating procrastination."
+      "topic":"Winning Against Procrastination"
     },{
       "id": 8,
       "title" : "August",
@@ -83,11 +83,11 @@
     },{
       "id": 11,
       "title" : "November",
-      "speaker" : null,
+      "speaker" : "Tracy Brogan",
       "date" : "11-19-2016",
       "time": "Business meeting at 12:30 pm, Speaker at 1:30 pm",
       "location": "Norwich Township Safety and Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026<br><br>",
-      "topic":null
+      "topic":"Creating a Big Story from Small Moments"
     },{
       "id": 12,
       "title" : "December",
