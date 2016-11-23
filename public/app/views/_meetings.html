@@ -1,7 +1,7 @@
 <section class="content clearfix">
     <div class="container">
         <div class="row" ng-repeat="chunk in chunks">
-            <div class="col-md-4 col-sm-6" ng-repeat="meeting in chunk" style="padding: 10px 20px">
+            <div class="col-md-4 col-sm-6 fade-in-up" ng-repeat="meeting in chunk" style="padding: 10px 20px">
                 <div class="post-preview text-center">
                     <h3><span ng-show="meeting.date">{{meeting.date | date:'shortDate'}}</span><span ng-show="!meeting.date">Meeting Date TBA</span></h3>
                     <h2 class="post-title">{{meeting.title}}</h2>   
@@ -12,7 +12,7 @@
                         <strong>Location:</strong><span ng-show="!meeting.location">TBA</span><br>
                         <span ng-bind-html="safeHTML(meeting.location)" ng-show="meeting.location"></span>
                         <strong>Speaker: </strong><span ng-show="meeting.speaker">{{meeting.speaker}}</span><span ng-show="!meeting.speaker">TBA</span><br>
-                        <strong>Topic: </strong><span ng-show="meeting.topic">{{meeting.topic}}</span><span ng-show="!meeting.topic">TBA</span><br>
+                        <strong>Topic: </strong><span ng-bind-html="safeHTML(meeting.topic)" ng-show="meeting.topic"></span><span ng-show="!meeting.topic">TBA</span><br>
                     </div>
                 </div>
             </div>

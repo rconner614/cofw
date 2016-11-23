@@ -8,8 +8,10 @@
                         <h2 class="post-title">{{post.title}}</h2>
                     </a>
                     <p class="post-meta">Posted by {{post.createdBy}} | Category <a href="#">{{post.type}}</a></p>
-                    <img ng-src="{{post.image}}" class="img-responsive"><br>
-                    <div class="desc text-left">
+                    <div class="media-element entry text-center">
+                        <img ng-show="post.image" ng-src="{{post.image}}" class="img-responsive">
+                    </div><br>
+                    <div class="desc text-left full-post">
                         <span ng-bind-html="safeHTML(post.content)"></span>
                     </div>
                 </div>

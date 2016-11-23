@@ -92,10 +92,10 @@
       "id": 12,
       "title" : "December",
       "speaker" : null,
-      "date" : null,
-      "time": null,
+      "date" : "12-3-2016",
+      "time": "12:00 pm",
       "location": null,
-      "topic":null
+      "topic":"Annual Holiday Party!<br>Details will be emailed to members.<br><i class='fa fa-snowflake-o'></i> <i class='fa fa-tree'></i> Happy Holidays Everyone! <i class='fa fa-gift'></i> <i class='fa fa-snowflake-o'></i>"
     }
     
   ]

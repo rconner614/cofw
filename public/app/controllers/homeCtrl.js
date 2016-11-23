@@ -2,23 +2,29 @@
     'use strict';
     angular.module('cofw.core')
         .controller('homeCtrl', homeCtrl);
-    homeCtrl.$inject = ['$scope', 'data', '$sce', '$filter', 'postSrv'];
-    function homeCtrl($scope, data, $sce, $filter, postSrv) {
+    homeCtrl.$inject = ['$scope', 'data', '$sce', '$filter', '$location'];
+    function homeCtrl($scope, data, $sce, $filter, $location) {
         $scope.posts = data.posts;
         $scope.tags = data.tags;
         $scope.currentPage = 1;
         $scope.entryLimit = 5;
         $scope.tag = '';
 
-        for (var i = 0; i < $scope.posts.length; i++) {
-            $scope.posts[i].createdOnDate = moment($scope.posts[i].createdOn).format("dddd, MMMM Do YYYY");
-        }
+        $scope.$on('resetHome', function(){
+            $scope.currentPage = 1;
+        });
+
+        $scope.posts.forEach(function(post){
+            post.createdOnDate = moment(post.createdOn).format("dddd, MMMM Do YYYY");
+            if(post.content && post.content.indexOf("<span id='readmore-marker'></span>") > -1){
+                post.content = (String(post.content).split("<span id='readmore-marker'></span>"))[0] + "<a href='/post/" + post.id + "' class='readmore'>Continue Reading...</a>";
+            }
+        });
+
         $scope.totalPosts = $scope.posts.length;
 
-        $scope.typeFilter = function(x){
-            $scope.tag = ($scope.tags.filter(function(sItem){
-                return sItem.title.toLowerCase() === x.toLowerCase();
-            })[0]).id;
+        $scope.changeTag = function(x){
+            $scope.tag = x.postTags[0];
         };
 
         $scope.safeHTML = function (x) {
@@ -62,17 +68,5 @@
         function backToTop(){
             jQuery('html, body').animate({scrollTop: '0px'}, 800);
         }
-
-
-
-
-
-            //$scope.totalItems = $scope.friends.length;
-            //$scope.$watch('currentPage + itemsPerPage', function() {
-            //    var begin = (($scope.currentPage - 1) * $scope.itemsPerPage),
-            //        end = begin + $scope.itemsPerPage;
-            //
-            //    $scope.filteredFriends = $scope.friends.slice(begin, end);
-            //});
     }
 }());

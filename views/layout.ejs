@@ -45,7 +45,9 @@
 <body ng-controller="appCtrl" ng-cloak class="ng-cloak">
 <div id="normal-header" class="container-fluid ng-cloak">
     <div class="col-md-3 col-md-offset-2 col-sm-12">
-        <img src="/app/images/cofwlarge.png" class="banner">
+        <a href="/" ng-click="resetHome()">
+            <img src="/app/images/cofwlarge.png" class="banner">
+        </a>
     </div>
     <div class="clearfix visible-sm visible-xs"></div>
     <div class="col-md-7 col-sm-12">
@@ -60,7 +62,7 @@
             </div>
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav">
-                    <li ng-class="{'active': state.includes('home') || state.includes('post')}"><a href="/">Home</a></li>
+                    <li ng-class="{'active': state.includes('home') || state.includes('post')}"><a href="/" ng-click="resetHome()">Home</a></li>
                     <li ng-class="{'active': state.includes('about')}"><a href="/about">About Us</a></li>
                     <li ng-class="{'active': state.includes('membership')}"><a href="/membership">Membership</a></li>
                     <li ng-class="{'active': state.includes('meetings')}"><a href="/meetings">Meetings</a></li>
@@ -78,7 +80,7 @@
 
 <div class="clearfix"></div>
 
-<footer class="footer clearfix ng-cloak">
+<footer class="footer clearfix ng-cloak" ng-cloak>
     <div class="container">
         <div class="row">
             <div class="col-sm-12 text-center">

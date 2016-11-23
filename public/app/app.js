@@ -21,13 +21,17 @@ myApp.filter('startFrom', function () {
 });
 
 myApp.controller('appCtrl', appCtrl);
-appCtrl.$inject = ['$scope', '$state', '$http', '$sce'];
-function appCtrl($scope, $state, $http, $sce){
+appCtrl.$inject = ['$scope', '$state', '$http', '$sce', '$rootScope'];
+function appCtrl($scope, $state, $http, $sce, $rootScope){
     $scope.today = new Date();
     $scope.state = $state;
     $scope.posts = $http.get('/app/data/posts.json').then(function(resp){
         $scope.posts = resp.data.posts;
     });
+
+    $scope.resetHome = function(){
+        $rootScope.$broadcast('resetHome');
+    };
 
     $scope.safeHTML = function(x){
         return $sce.trustAsHtml(x);
