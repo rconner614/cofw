@@ -7,7 +7,7 @@
                     <a ng-href="/post/{{post.id}}">
                         <h2 class="post-title">{{post.title}}</h2>
                     </a>
-                    <p class="post-meta">Posted by {{post.createdBy}} | Category <a href="#">{{post.type}}</a></p>
+                    <p class="post-meta" ng-show="post.type">Category | <a href="" ng-click="changeTag(post)">{{post.type}}</a></p>
                     <div class="media-element entry text-center">
                         <img ng-show="post.image" ng-src="{{post.image}}" class="img-responsive">
                     </div><br>
