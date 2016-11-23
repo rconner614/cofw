@@ -19,9 +19,28 @@ body {
     margin-top: 10px;
 }
 
+@media(max-width: 380px){
+    .banner {
+        width: 100%;
+    }
+}
+
 .banner-text{
     line-height: 29px;
     margin-top: 10px;
+    text-align: left;
+}
+.banner-sub-text{
+    text-align: left;
+}
+
+@media(max-width: 991px){
+    .banner-text {
+        text-align: center;
+    }
+    .banner-sub-text{
+        text-align: center;
+    }
 }
 
 .col-lg-3.col-md-4.col-sm-6.col-xs-12 {
@@ -30,11 +49,11 @@ body {
 
 @media(max-width: 991px){
     .banner{
-        float: left;
+        float: none;
     }
-    .navbar-toggle {
-        float: left;
-    }
+    /*.navbar-toggle {*/
+        /*float: left;*/
+    /*}*/
     .banner-text{
         line-height: 38px;
         margin-top: 20px;
@@ -157,6 +176,19 @@ h6 {
   margin-right:auto;
   display:block;
   clear:both;
+}
+
+.dont-break-out {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    word-break: break-all;
+    word-break: break-word;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+
 }
 
 p.drop-caps:first-child:first-letter {
@@ -777,9 +809,9 @@ textarea.form-control {
 
 @media screen and (max-width: 47em) {
 
-    .title, .content {
-        font-size: 80%;
-    }
+    /*.title, .content {*/
+        /*font-size: 80%;*/
+    /*}*/
 
     .intro-effect-side .title {
         width: 100%;
@@ -832,9 +864,9 @@ textarea.form-control {
         transform: translateX(-50%);
     }
 
-    .title, .content {
-        font-size: 70%;
-    }
+    /*.title, .content {*/
+        /*font-size: 70%;*/
+    /*}*/
 
     button.trigger::before {
         display: none;
@@ -885,6 +917,16 @@ textarea.form-control {
     font-size: 1.3em !important;
 }
 
+.navbar-default.navbar.navbar-left{
+    margin-left: -30px;
+}
+
+@media(max-width: 991px){
+    .navbar-default.navbar.navbar-left{
+        margin-left: 0;
+    }
+}
+
 .navbar-default .navbar-nav > .open > a, 
 .navbar-default .navbar-nav > .open > a:hover, 
 .navbar-default .navbar-nav > .open > a:focus {
@@ -931,7 +973,9 @@ textarea.form-control {
 }
 
 .navbar-toggle {
+    float: none;
     border-radius: 0;
+    margin-right: 0;
     padding: 10px 15px;
 }
 
