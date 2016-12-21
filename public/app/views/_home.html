@@ -4,7 +4,7 @@
         <div class="col-lg-8 col-md-8">
             <div ng-repeat="post in page()" class="fade-in-up">
                 <div class="post-preview text-center clearfix">
-                    <small>{{post.createdOnDate}}</small>
+                    <!--<small>{{post.createdOnDate}}</small>-->
                     <a ng-href="/post/{{post.id}}">
                         <h2 class="post-title">{{post.title}}</h2>
                     </a>
@@ -27,6 +27,12 @@
             <div class="col-lg-offset-1 col-lg-3 col-md-4 hidden-sm hidden-xs fade-in-up">
                 <div id="sidebar" class="text-center">
                     <div class="widget">
+                        <div class="widget-title">
+                            <h3>Join COFW Member for 2017</h3>
+                        </div>
+                        <p style="text-decoration: underline">Don't forget to renew your membership for the new year!</p>
+                        <a class="btn btn-primary" href="/membership">Click here!</a>
+                        <br><br>
                         <div class="widget-title clearfix">
                             <h3>About COFW</h3>
                         </div>

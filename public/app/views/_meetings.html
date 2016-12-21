@@ -11,7 +11,10 @@
                         <strong>Time: </strong><span ng-show="meeting.time">{{meeting.time}}</span><span ng-show="!meeting.time">TBA</span><br>
                         <strong>Location:</strong><span ng-show="!meeting.location">TBA</span><br>
                         <span ng-bind-html="safeHTML(meeting.location)" ng-show="meeting.location"></span>
-                        <strong>Speaker: </strong><span ng-show="meeting.speaker">{{meeting.speaker}}</span><span ng-show="!meeting.speaker">TBA</span><br>
+                        <span ng-show="meeting.speaker"><strong>Speaker<span ng-show="meeting.speaker.length > 1">s</span>: </strong>
+                            <span ng-repeat="speaker in meeting.speaker">{{speaker}}<span ng-show="$index !== meeting.speaker.length - 1">, </span></span>
+                            <br>
+                        </span>
                         <strong>Topic: </strong><span ng-bind-html="safeHTML(meeting.topic)" ng-show="meeting.topic"></span><span ng-show="!meeting.topic">TBA</span><br>
                     </div>
                 </div>

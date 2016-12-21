@@ -149,6 +149,16 @@
       "postTags" : [5],
       "type": "",
       "content" : ""
+    },
+    {
+      "id" : 16,
+      "createdOn" : "2016-12-20T00:00:00",
+      "image" : "/app/images/posts/January_2017.png",
+      "title" : "First Meeting of 2017!",
+      "createdBy" : "Rachel",
+      "postTags" : [1,2],
+      "type": "Meeting",
+      "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; January 14th, 2017 - Business meeting at 12:30 pm, Speaker at 1:30 pm<br>LOCATION &nbsp; | &nbsp; <a href='http://maps.google.com/?q=5181 Northwest Parkway, Hilliard, OH 43026' target='_blank'>Norwich Twp Safety &amp; Services Building 5181 Northwest Parkway, Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>TOPIC &nbsp; | &nbsp; <strong>COFW Author Panel Discussion: Market Day</strong><br><br>Join us for this multiple-author panel comprised of an array of writers from COFW’s list of distinguished novelists. The discussion will concentrate on the current market in publishing these days, as seen through the eyes of our panelists. These talented authors were chosen as a microcosm of the vast spectrum within the publishing industry, ranging from traditionally published NYT best-sellers to small press authors and self-published works, as well as hybrid authors who do it all.  Each writer will offer a summary of their personal experiences with the industry and give their take on today’s market, before answering your questions during a Q&amp;A session. Our panelists are: <br><br><strong>Karen Harper</strong>, NYT and USA Today Best-selling author of historical fiction and contemporary romance. Karen has been traditionally published with Harlequin and other publishers for over 30 years. (<a href='http://karenharperauthor.com' target='_blank'>karenharperauthor.com</a>)<br><strong>Becky Barker</strong>, award winning author of contemporary romance and romantic suspense who has published works with multiple publishers (Harlequin, Kensington, Samhain, Dell and more) as well as Indie publishing her own work. (<a href='http://beckybarker.com' target='_blank'>beckybarker.com</a>)<br><strong>Donna MacMeans</strong>, award winning author of historical romances, as well as suspense. Donna is traditionally published with Berkley, e-pubbed with Samhain and has self-published too. (<a href='http://www.donnamacmeans.com' target='_blank'>donnamacmeans.com</a>)<br><strong>Robin Gianna</strong>, author of category romances for Harlequin’s Medical line. (<a href='http://www.robingianna.com' target='_blank'>robingianna.com</a>)<br><strong>Susan Gee Heino</strong>, award winning author of witty historical romances, both traditionally published with Berkley Publishing and Indie-Published too. <a href='http://susangh.com' target='_blank'>(susangh.com</a>)<br><strong>Karin Shah</strong>, author of paranormal romances for e-publishers, Samhain and Soul Mate Publishing. (<a href='http://facebook.com/KarinShahAuthor' target='_blank'>facebook.com/KarinShahAuthor</a>)</p>"
     }
   ],
   "tags": [

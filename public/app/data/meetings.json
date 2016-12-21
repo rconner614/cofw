@@ -3,99 +3,106 @@
     {
       "id": 1,
       "title" : "January",
-      "speaker" : "Donna MacMeans",
-      "date" : "1-16-2016",
+      "speaker" : [
+        "Karen Harper",
+        "Donna MacMeans",
+        "Becky Barker",
+        "Robin Gianna",
+        "Susan Gee Heino",
+        "Karin Shah"
+      ],
+      "date" : "1-14-2017",
       "time": "Business meeting at 12:30 pm, Speaker at 1:30 pm",
-      "location": "Fire Station 83<br>4283 Davidson Road<br>Hilliard, OH 43026<br><br>",
-      "topic":"Is your writing a business or a hobby?"
+      "location": "Norwich Township Safety and Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026<br>",
+      "topic":"COFW Author Panel Discussion: Market Day &nbsp;<a href='/post/16' class='readmore'>Continue Reading...</a>"
     },{
       "id": 2,
       "title" : "February",
-      "speaker" : "Gigi Morgan",
-      "date" : "2-13-2016",
-      "time": "Business meeting at 12:30 pm, Speaker at 1:30 pm",
-      "location": "Fire Station 83<br>4283 Davidson Road<br>Hilliard, OH 43026<br><br>",
-      "topic":"Introduction to Scrivener 2"
+      "speaker" : null,
+      "date" : null,
+      "time": null,
+      "location": null,
+      "topic": null
     },{
       "id": 3,
       "title" : "March",
-      "speaker" : "Susan Gee Heino | Serena Gilley",
-      "date" : "3-12-2016",
-      "time": "Business meeting at 12:30 pm, Speaker at 1:30 pm",
-      "location": "Fire Station 83<br>4283 Davidson Road<br>Hilliard, OH 43026<br><br>",
-      "topic":"Cut Out The Middle, Man!"
+      "speaker" : null,
+      "date" : null,
+      "time": null,
+      "location": null,
+      "topic": null
     },{
       "id": 4,
       "title" : "April",
-      "speaker" : "Mel Jolly",
-      "date" : "4-16-2016",
-      "time": "Business meeting at 12:30 pm, Speaker at 1:30 pm",
-      "location": "Fire Station 83<br>4283 Davidson Road<br>Hilliard, OH 43026<br><br>",
-      "topic":"How to Improve (or Start!) Your Author Newsletter!"
+      "speaker" : null,
+      "date" : null,
+      "time": null,
+      "location": null,
+      "topic": null
     },{
       "id": 5,
       "title" : "May",
-      "speaker" : "N/A",
-      "date" : "5-14-2016",
-      "time": "Film screening begins at 1:30 pm, Published Author Networking Event 3-4 pm",
-      "location": "Norwich Township Safety and Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026<br><br>",
-      "topic":"Screening of \"Love Between the Covers\""
+      "speaker" : null,
+      "date" : null,
+      "time": null,
+      "location": null,
+      "topic": null
     },{
       "id": 6,
       "title" : "June",
-      "speaker" : "Elizabeth Heiter",
-      "date" : "6-18-2016",
-      "time": "Business meeting at 12:30 pm, Speaker at 1:30 pm",
-      "location": "Fire Station 83<br>4283 Davidson Road<br>Hilliard, OH 43026<br><br>",
-      "topic":"Putting the Suspense in Romantic Suspense"
+      "speaker" : null,
+      "date" : null,
+      "time": null,
+      "location": null,
+      "topic": null
     },{
       "id": 7,
       "title" : "July",
-      "speaker" : "Beth Daniels",
-      "date" : "7-09-2016",
-      "time": "Business meeting at 12:30 pm, Speaker at 1:30 pm",
-      "location": "Fire Station 83<br>4283 Davidson Road<br>Hilliard, OH 43026<br><br>",
-      "topic":"Winning Against Procrastination"
+      "speaker" : null,
+      "date" : null,
+      "time": null,
+      "location": null,
+      "topic": null
     },{
       "id": 8,
       "title" : "August",
-      "speaker" : "N/A",
-      "date" : "8-13-2016",
-      "time": "Business meeting at 12:30 pm, Speaker at 1:30 pm",
-      "location": "Norwich Township Safety and Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026<br><br>",
-      "topic": "RWA National Conference Recap"
+      "speaker" : null,
+      "date" : null,
+      "time": null,
+      "location": null,
+      "topic": null
     },{
       "id": 9,
       "title" : "September",
-      "speaker" : "Alicia Rasley",
-      "date" : "9-17-2016",
-      "time": "Business meeting at 12:00 pm, Speaker at 1 - 2:30pm, Break & Refreshments 2:30 - 3pm, Speaker continues 3 - 4:30pm",
-      "location": "Norwich Township Safety and Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026<br><br>",
-      "topic":"Being, Doing, Becoming – The Heroic Flaw and The Heroic Journey"
+      "speaker" : null,
+      "date" : null,
+      "time": null,
+      "location": null,
+      "topic": null
     },{
       "id": 10,
       "title" : "October",
-      "speaker" : "N/A",
-      "date" : "10-15-2016",
-      "time": "Business meeting at 10:00 am, Conference 10:30 am",
-      "location": "Upper Arlington, Main Library<br>2800 Tremont Rd<br>Columbus, OH 43221<br><br>",
-      "topic":"The Write Stuff Writer's Conference"
+      "speaker" : null,
+      "date" : null,
+      "time": null,
+      "location": null,
+      "topic": null
     },{
       "id": 11,
       "title" : "November",
-      "speaker" : "Tracy Brogan",
-      "date" : "11-19-2016",
-      "time": "Business meeting at 12:30 pm, Speaker at 1:30 pm",
-      "location": "Norwich Township Safety and Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026<br><br>",
-      "topic":"Creating a Big Story from Small Moments"
+      "speaker" : null,
+      "date" : null,
+      "time": null,
+      "location": null,
+      "topic": null
     },{
       "id": 12,
       "title" : "December",
       "speaker" : null,
-      "date" : "12-3-2016",
-      "time": "12:00 pm",
+      "date" : null,
+      "time": null,
       "location": null,
-      "topic":"Annual Holiday Party!<br>Details will be emailed to members.<br><i class='fa fa-snowflake-o'></i> <i class='fa fa-tree'></i> Happy Holidays Everyone! <i class='fa fa-gift'></i> <i class='fa fa-snowflake-o'></i>"
+      "topic": null
     }
     
   ]
