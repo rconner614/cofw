@@ -6,9 +6,10 @@
                     <h2 class="post-title">{{member.firstName}} {{member.lastName}}</h2>
                     <p class="post-meta" ng-show="member.website">Website: <a target="_blank" href="{{member.website}}">{{member.website}}</a></p>
                     <ul class="list-inline social-icons">
-                        <li ng-show="member.facebook"><a href="{{member.facebook}}" target="_blank"><i class="icon-facebook"></i></a></li>
-                        <li ng-show="member.twitter"><a href="{{member.twitter}}" target="_blank"><i class="icon-twitter"></i></a></li>
-                        <li ng-show="member.pinterest"><a href="{{member.pinterest}}" target="_blank"><i class="icon-pinterest"></i></a></li>
+                        <li ng-show="member.facebook"><a href="{{member.facebook}}" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        <li ng-show="member.twitter"><a href="{{member.twitter}}" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                        <li ng-show="member.pinterest"><a href="{{member.pinterest}}" target="_blank"><i class="fa fa-pinterest"></i></a></li>
+                        <li ng-show="member.googlePlus"><a href="{{member.googlePlus}}" target="_blank"><i class="fa fa-google-plus"></i></a></li>
                     </ul>
                     <div class="text-center">
                         <img ng-src="/app/images/members/{{member.image}}" style="margin: 15px; width: 200px; height: 200px">
