@@ -18,11 +18,11 @@
     },{
       "id": 2,
       "title" : "February",
-      "speaker" : null,
+      "speaker" : "Donna Alward",
       "date" : null,
       "time": null,
       "location": null,
-      "topic": null
+      "topic": "Simplify and Thrive - Declutter Your Career"
     },{
       "id": 3,
       "title" : "March",
