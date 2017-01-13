@@ -14,6 +14,10 @@
             $scope.currentPage = 1;
         });
 
+        $scope.posts = $scope.posts.filter(function(sItem){
+            return !sItem.releaseOn || new Date(sItem.releaseOn) <= new Date();
+        });
+
         $scope.posts.forEach(function(post){
             post.createdOnDate = moment(post.createdOn).format("dddd, MMMM Do YYYY");
             if(post.content && post.content.indexOf("<span id='readmore-marker'></span>") > -1){
