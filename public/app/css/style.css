@@ -16,12 +16,24 @@ body {
 .banner{
     float: right;
     width: 380px;
+    padding-left: 20px;
     margin-top: 10px;
+}
+
+@media(max-width: 768px){
+    .banner{
+        padding-left: 0;
+    }
 }
 
 @media(max-width: 380px){
     .banner {
         width: 100%;
+    }
+}
+@media(min-width: 992px){
+    .header-banner.col-md-offset-1{
+        margin-left: 11.3333333%
     }
 }
 
@@ -397,7 +409,7 @@ button.trigger span::before {
 #sidebar,
 .single-post,
 .post-preview {
-    padding: 1.5em 0;
+    padding: 1.25em 0;
     position: relative;
     display:block;
 }
@@ -456,7 +468,7 @@ ul.categories > li > a.active{
 
 @media(min-width: 1200px){
     .container {
-        width: 1250px;
+        width: 1350px;
     }
 }
 
@@ -470,8 +482,14 @@ ul.categories > li > a.active{
 
 .content > div:not(.title) {
     margin: 0 auto 0;
-    max-width: 1250px;
+    max-width: 1350px;
     padding: 0 2.25em;
+}
+
+@media(max-width: 425px){
+    .content > div:not(.title) {
+        padding: 0 10px;
+    }
 }
 
 .content > div:not(.title) p {
