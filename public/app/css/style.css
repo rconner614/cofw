@@ -3,7 +3,7 @@
 ------------------------------------------------------- */
 
 body {
-    background: #FFF2F4;
+    background: #fef7f8;
     background-image: url('../images/damask.png');
     color: #121212 !important;
     font-weight: 400 !important;
@@ -759,7 +759,7 @@ textarea.form-control {
 }
 .menu-footer li a:hover,
 .social-icons li a:hover {
-    color:#FDCBD8;
+    color: #ffafd4;
 }
 
 .single-post small,
@@ -937,7 +937,7 @@ textarea.form-control {
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #FDCBD8;
+    background-color: #ffafd4;
     border-radius: 4px;
 }
 
