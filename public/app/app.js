@@ -78,6 +78,12 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
         url: "/contest",
         templateUrl: "/app/views/_contest.html",
         controller: 'contestCtrl'
+    }).state('retreat', {
+        url: "/retreat",
+        templateUrl: "/app/views/_retreat.html"
+    }).state('workshop', {
+        url: "/workshop",
+        templateUrl: "/app/views/_workshop.html"
     }).state('success', {
         url: "/contest/success",
         templateUrl: "/app/views/_success.html"

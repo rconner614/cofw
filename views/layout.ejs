@@ -44,7 +44,7 @@
 </head>
 <body ng-controller="appCtrl" ng-cloak class="ng-cloak">
 <div id="normal-header" class="container-fluid ng-cloak">
-    <div class="col-md-3 col-md-offset-2 col-sm-12 text-center">
+    <div class="col-md-3 col-md-offset-1 col-sm-12 text-center header-banner">
         <a href="/" ng-click="resetHome()">
             <img src="/app/images/cofwlarge.png" class="banner">
         </a>
@@ -65,15 +65,14 @@
                     <li ng-class="{'active': state.includes('about')}"><a href="/about">About Us</a></li>
                     <li ng-class="{'active': state.includes('membership')}"><a href="/membership">Membership</a></li>
                     <li ng-class="{'active': state.includes('meetings')}"><a href="/meetings">Meetings</a></li>
+                    <li ng-class="{'active': state.includes('retreat')}"><a href="/retreat">Retreat</a></li>
                     <li ng-class="{'active': state.includes('contest')}"><a href="/contest">Contest</a></li>
+                    <li ng-class="{'active': state.includes('workshop')}"><a href="/workshop">Workshop</a></li>
                     <li ng-class="{'active': state.includes('members') || state.includes('member')}"><a href="/members">Our Members</a></li>
                     <li ng-class="{'active': state.includes('contact')}"><a href="/contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
-    </div>
-    <div class="text-center visible-sm visible-xs"><br>
-        <img src="/app/images/swirl.png" style="margin-left: auto; margin-right: auto; width: 100px; margin-bottom: 10px" >
     </div>
 </div>
 
@@ -89,7 +88,9 @@
                     <li><a href="/">Home</a></li>
                     <li><a href="/about">About Us</a></li>
                     <li><a href="/meetings">Meetings</a></li>
+                    <li><a href="/retreat">Retreat</a></li>
                     <li><a href="/contest">Contest</a></li>
+                    <li><a href="/workshop">Workshop</a></li>
                     <li><a href="/members">Members</a></li>
                     <li><a href="/contact">Contact</a></li>
                 </ul>

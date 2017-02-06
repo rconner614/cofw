@@ -34,11 +34,11 @@
     },{
       "id": 4,
       "title" : "April",
-      "speaker" : null,
-      "date" : null,
-      "time": null,
-      "location": null,
-      "topic": null
+      "speaker" : ["Lori Foster"],
+      "date" : "4-15-2017",
+      "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
+      "location": "<a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>",
+      "topic": "Lori will share her personal experiences with the current industry and its changes along with her recent struggles with issues such as an insane schedule. Q&A too!"
     },{
       "id": 5,
       "title" : "May",
