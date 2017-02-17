@@ -84,9 +84,15 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
     }).state('workshop', {
         url: "/workshop",
         templateUrl: "/app/views/_workshop.html"
-    }).state('success', {
+    }).state('successContest', {
         url: "/contest/success",
-        templateUrl: "/app/views/_success.html"
+        templateUrl: "/app/views/_success-contest.html"
+    }).state('successRetreat', {
+        url: "/retreat/success",
+        templateUrl: "/app/views/_success-retreat.html"
+    }).state('successWorkshop', {
+        url: "/workshop/success",
+        templateUrl: "/app/views/_success-workshop.html"
     }).state('membership', {
         url: "/membership",
         templateUrl: "/app/views/_membership.html"
