@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html data-ng-app="myApp" lang="en">
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+
+<head>
+    <base href="/">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Official Website for the Central Ohio chapter of Romance Writers of America, Central Ohio Fiction Writers. Join us at our monthly meetings to network and learn from published authors and fellow writers!">
+    <meta name="author" content="Central Ohio Fiction Writers">
+
+    <title>Central Ohio Fiction Writers | Official Website</title>
+
+    <!-- Favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="/app/favicon.png">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/vendor/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/app/css/jollyicons.css" rel="stylesheet">
+    <link href="/app/css/style.css" rel="stylesheet">
+    <link href="/vendor/font-awesome/css/font-awesome.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <style>
+        [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+            display: none !important;
+        }
+
+    </style>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body ng-controller="appCtrl" ng-cloak class="ng-cloak">
+<div id="normal-header" class="container-fluid ng-cloak">
+    <div class="col-md-3 col-md-offset-1 col-sm-12 text-center header-banner">
+        <a href="/" ng-click="resetHome()">
+            <img src="/app/images/cofwlarge.png" class="banner">
+        </a>
+    </div>
+    <div class="clearfix visible-sm visible-xs"></div>
+    <div class="col-md-7 col-sm-12">
+        <h3 class="banner-text"><strong>A Proud Chapter of Romance Writers of America&trade;</strong></h3>
+        <h4 class="post-meta banner-sub-text">Est. 1987 | Columbus, Ohio</h4>
+        <nav class="navbar navbar-default navbar-left" role="navigation">
+            <div class="navbar-header text-center">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    MENU
+                </button>
+            </div>
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li ng-class="{'active': state.includes('home') || state.includes('post')}"><a href="/" ng-click="resetHome()">Home</a></li>
+                    <li ng-class="{'active': state.includes('about')}"><a href="/about">About Us</a></li>
+                    <li ng-class="{'active': state.includes('membership')}"><a href="/membership">Membership</a></li>
+                    <li ng-class="{'active': state.includes('meetings')}"><a href="/meetings">Meetings</a></li>
+                    <li ng-class="{'active': state.includes('retreat')}"><a href="/retreat">Retreat</a></li>
+                    <li ng-class="{'active': state.includes('contest')}"><a href="/contest">Contest</a></li>
+                    <li ng-class="{'active': state.includes('workshop')}"><a href="/workshop">Workshop</a></li>
+                    <li ng-class="{'active': state.includes('members') || state.includes('member')}"><a href="/members">Our Members</a></li>
+                    <li ng-class="{'active': state.includes('contact')}"><a href="/contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>
+
+<div ui-view class="ng-cloak" ng-cloak></div>
+
+<div class="clearfix"></div>
+
+<footer class="footer clearfix ng-cloak" ng-cloak>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <ul class="list-inline menu-footer clearfix">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About Us</a></li>
+                    <li><a href="/meetings">Meetings</a></li>
+                    <li><a href="/retreat">Retreat</a></li>
+                    <li><a href="/contest">Contest</a></li>
+                    <li><a href="/workshop">Workshop</a></li>
+                    <li><a href="/members">Members</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+                <ul class="list-inline social-icons">
+                    <li><a href="https://www.facebook.com/COFWriters/" target="_blank"><i class="icon-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/cofwriters" target="_blank"><i class="icon-twitter"></i></a></li>
+                    <li><a href="https://www.pinterest.com/COFWofRWA" target="_blank"><i class="icon-pinterest"></i></a></li>
+                </ul>
+                <a class="back-to-top" href="#"><i class="icon-up-open-mini"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/vendor/jquery/dist/jquery.min.js"></script>
+<script src="/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/app/js/retina.js"></script>
+<script src="/vendor/angular/angular.js"></script>
+<script src="/vendor/angular-bootstrap/ui-bootstrap.min.js"></script>
+<script src="/vendor/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+<script src="/vendor/angular-ui-router/release/angular-ui-router.min.js"></script>
+<script src="/vendor/moment/min/moment.min.js"></script>
+<script src="/app/app.js"></script>
+<script src="/app/controllers/core.js"></script>
+<script src="/app/controllers/homeCtrl.js"></script>
+<script src="/app/controllers/membersCtrl.js"></script>
+<script src="/app/controllers/memberCtrl.js"></script>
+<script src="/app/controllers/meetingsCtrl.js"></script>
+<script src="/app/controllers/postCtrl.js"></script>
+<script src="/app/services/postSrv.js"></script>
+<script src="/app/services/memberSrv.js"></script>
+<script src="/app/controllers/contestCtrl.js"></script>
+<script>
+    jQuery('a.back-to-top').click(function(){
+        jQuery('html, body').animate({scrollTop: '0px'}, 800);
+        return false;
+    });
+</script>
+
+
+</body>
+</html>

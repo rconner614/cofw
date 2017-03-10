@@ -1,0 +1,21 @@
+<section class="content clearfix">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 col-md-12">
+                <div class="post-preview text-center clearfix">
+                    <!--<small>{{post.createdOnDate}}</small>-->
+                    <a ng-href="/post/{{post.id}}">
+                        <h2 class="post-title">{{post.title}}</h2>
+                    </a>
+                    <p class="post-meta" ng-show="post.type">Category | {{post.type}}</p>
+                    <div class="media-element entry text-center">
+                        <img ng-show="post.image" ng-src="{{post.image}}" class="img-responsive">
+                    </div><br>
+                    <div class="desc text-left full-post">
+                        <span ng-bind-html="safeHTML(post.content)"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

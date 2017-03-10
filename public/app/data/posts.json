@@ -1,0 +1,59 @@
+{
+  "posts": [
+    {
+      "id" : 16,
+      "createdOn" : "2016-12-20T00:00:00",
+      "image" : "/app/images/posts/January_2017.png",
+      "title" : "First Meeting of 2017!",
+      "createdBy" : "Rachel",
+      "postTags" : [1,2],
+      "type": "Meeting",
+      "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; January 14th, 2017 - Business meeting at 12:30 pm, Speaker at 1:30 pm<br>LOCATION &nbsp; | &nbsp; <a href='http://maps.google.com/?q=5181 Northwest Parkway, Hilliard, OH 43026' target='_blank'>Norwich Twp Safety &amp; Services Building 5181 Northwest Parkway, Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>TOPIC &nbsp; | &nbsp; <strong>COFW Author Panel Discussion: Market Day</strong><br><br>Join us for this multiple-author panel comprised of an array of writers from COFW's list of distinguished novelists. The discussion will concentrate on the current market in publishing these days, as seen through the eyes of our panelists. These talented authors were chosen as a microcosm of the vast spectrum within the publishing industry, ranging from traditionally published NYT best-sellers to small press authors and self-published works, as well as hybrid authors who do it all.  Each writer will offer a summary of their personal experiences with the industry and give their take on today's market, before answering your questions during a Q&amp;A session. Our panelists are: <br><br><strong>Karen Harper</strong>, NYT and USA Today Best-selling author of historical fiction and contemporary romance. Karen has been traditionally published with Harlequin and other publishers for over 30 years. (<a href='http://karenharperauthor.com' target='_blank'>karenharperauthor.com</a>)<br><strong>Becky Barker</strong>, award winning author of contemporary romance and romantic suspense who has published works with multiple publishers (Harlequin, Kensington, Samhain, Dell and more) as well as Indie publishing her own work. (<a href='http://beckybarker.com' target='_blank'>beckybarker.com</a>)<br><strong>Donna MacMeans</strong>, award winning author of historical romances, as well as suspense. Donna is traditionally published with Berkley, e-pubbed with Samhain and has self-published too. (<a href='http://www.donnamacmeans.com' target='_blank'>donnamacmeans.com</a>)<br><strong>Robin Gianna</strong>, author of category romances for Harlequin's Medical line. (<a href='http://www.robingianna.com' target='_blank'>robingianna.com</a>)<br><strong>Susan Gee Heino</strong>, award winning author of witty historical romances, both traditionally published with Berkley Publishing and Indie-Published too. <a href='http://susangh.com' target='_blank'>(susangh.com</a>)<br><strong>Karin Shah</strong>, author of paranormal romances for e-publishers, Samhain and Soul Mate Publishing. (<a href='http://facebook.com/KarinShahAuthor' target='_blank'>facebook.com/KarinShahAuthor</a>)</p>"
+    },
+    {
+      "id" : 19,
+      "createdOn" : "2016-12-20T00:00:00",
+      "releaseOn" : "2017-01-14T23:59:00",
+      "image" : "/app/images/posts/February_2017.png",
+      "title" : "February Meeting",
+      "createdBy" : "Rachel",
+      "postTags" : [1,2],
+      "type": "Meeting",
+      "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; February 18th, 2017 - Business Meeting at 12:30 pm, Speaker at 1:30 pm<br>LOCATION &nbsp; | &nbsp; <a href='http://maps.google.com/?q=5181 Northwest Parkway, Hilliard, OH 43026' target='_blank'>Norwich Twp Safety &amp; Services Building 5181 Northwest Parkway, Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>TOPIC &nbsp; | &nbsp; <strong>Simplify and Thrive – Declutter your Career</strong><br><h5 style='letter-spacing: .2em; font-weight: 700'>HOUR ONE | YOUR CORE STORY AND YOUR BRAND</h5><p>Zeroing in on your core story provides clarity in your writing, branding, and overall satisfaction as an author. Who doesn't want to take away some of the stress and clutter and enjoy their job a little more? In this hour-long workshop, Donna Alward explains why simplifying is so helpful, how to find your core story, and how this helps with brand-building.</p><h5 style='letter-spacing: .2em; font-weight: 700'>HOUR TWO | PASSIVE AGGRESSIVE MARKETING</h5><p>Facebook parties. Bookbub Ads. Live Chats. Blog Tours. The list of \"must dos\" goes on and on – and how can an author possibly do it all and still maintain a rigorous publishing schedule (and avoid burnout)? If you have a love/hate relationship with marketing, join author Donna Alward for this one-hour workshop as she helps you get off the promotion merry-go-round, and develop simple strategies so that your marketing plan keeps working for you while you're sleeping - or busy writing your next bestseller.</p><p>Donna's Awards and Recognition</p><ul style='margin-top: -15px'><li>2012 Colorado Award of Excellence: How A Cowboy Stole Her Heart</li><li>2012 RITA Award Finalist: How a Cowboy Stole Her Heart</li><li>2011 Cataromance Reviewer's Choice Award: How A Cowboy Stole Her Heart</li><li>2011 Bookseller's Best Award: Her Lone Cowboy</li><li>2011 Colorado Award of Excellence: Her Lone Cowboy</li><li>2011 Dunes and Dreams Cover Contest: Sold to the Highest Bidder</li><li>2008 Cataromance Reviewer's Choice Award:  Falling for Mr. Dark and Dangerous</li><li>2008 Bookseller's Best Award:  Hired By The Cowboy</li><li>2007 Cataromance Reviewer's Choice Award:  Marriage at Circle M</li></ul><p>Donna lives on Canada's east coast with her family which includes a husband, a couple of kids, a senior dog and two crazy cats. When she's not writing she enjoys reading (of course!), knitting, gardening, cooking...and is a Masterpiece Theater addict. You can visit her on the web at <a href='http://www.DonnaAlward.com' target='_blank'>www.DonnaAlward.com</a></p>"
+    },
+    {
+      "id" : 19,
+      "createdOn" : "2016-12-20T00:00:00",
+      "releaseOn" : "2017-02-20T23:59:00",
+      "image" : "",
+      "title" : "Special COFW Event: March 18th!",
+      "createdBy" : "Rachel",
+      "postTags" : [1,2],
+      "type": "Meeting",
+      "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; March 18th, 2017 - Event begins at 8:30 am, download the full schedule <a href='/app/docs/March_18_Schedule.pdf' target='_blank'> here <i class='fa fa-file-pdf-o'></i>.</a><br>LOCATION &nbsp; | &nbsp; <a href='http://www.germanvillage.com' target='_blank'>German Village Society Haus 588 South Third St, Columbus, OH 43215</a><br><h5 class='text-center' style='text-transform: uppercase; letter-spacing: .2em'>Central Ohio Fiction Writers Is Proud to Host</h5><h3 class='text-center' style='margin-top: -5px'><strong>Deborah Gilbert, Publisher and lead Editor of SoulMate Publishing<br>&amp;<br>NYT Best-Selling Historical Author Eloisa James.</strong></h3><br><p>Join us for an all-day event on March 18, 2017 at the <a href='http://www.germanvillage.com' target='_blank'>German Village Society Haus 588 South Third St, Columbus, OH 43215</a>. Extra parking has been secured for the event; for parking information click <strong><a href='/app/docs/Parking-Info.pdf' target='_blank'>here.</a></strong></p><p>Free to COFW Members / $10 for non-members at door. <strong><a href='/membership'>Join COFW today</a></strong> to get into this event for free! Plus so much more!</p><p>Event begins at 8:30 am, download the full schedule <strong><a href='/app/docs/March_18_Schedule.pdf' target='_blank'> here <i class='fa fa-file-pdf-o'></i></a></strong><br>Eloisa James Book Signing: 3:30-5:00 pm. Signing is FREE and open to public!<br>Book signing hosted by <a href='http://www.bookloft.com' target='_blank'>The Book Loft</a> but will be held at the German Village Haus. For more information on the event, visit <a href='/march-2017-event' target='_blank'><strong>the event page</strong></a> or email coordinator <strong><a href='mailto:sherirenaeadkins@gmail.com'>Sheri Adkins</a></strong>.</p>"
+    }
+  ],
+  "tags": [
+    {
+      "title": "Meeting",
+      "type": "info",
+      "id": 1
+    },{
+      "title": "Speaker",
+      "type": "warning",
+      "id" : 2
+    },{
+      "title": "Newsletter",
+      "type": "success",
+      "id" : 3
+    },{
+      "title": "Contest",
+      "type": "default",
+      "id" : 4
+    },{
+      "title": "Misc",
+      "type": "default",
+      "id" : 5
+    }
+  ]
+}

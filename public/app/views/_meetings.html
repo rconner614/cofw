@@ -1,0 +1,25 @@
+<section class="content clearfix">
+    <div class="container">
+        <div class="row" ng-repeat="chunk in chunks">
+            <div class="col-md-4 col-sm-6 fade-in-up" ng-repeat="meeting in chunk" style="padding: 10px 20px">
+                <div class="post-preview text-center">
+                    <h3><span ng-show="meeting.date">{{meeting.date | date:'shortDate'}}</span><span ng-show="!meeting.date">Meeting Date TBA</span></h3>
+                    <h2 class="post-title">{{meeting.title}}</h2>   
+                    <img src="/app/images/swirl.png" style="margin-left: auto; margin-right: auto; width: 100px; margin-bottom: 10px">
+                    <div class="desc text-left">
+                        <strong>Date: </strong><span ng-show="meeting.dateOrig">{{meeting.dateOrig}}</span><span ng-show="!meeting.dateOrig">TBA</span><br>
+                        <strong>Time: </strong><span ng-bind-html="safeHTML(meeting.time)" ng-show="meeting.time"></span><span ng-show="!meeting.time">TBA</span><br>
+                        <strong>Location:</strong><span ng-show="!meeting.location">TBA</span><br>
+                        <span ng-bind-html="safeHTML(meeting.location)" ng-show="meeting.location"></span>
+                        <span ng-show="meeting.speaker"><strong>Speaker<span ng-show="meeting.speaker.length > 1">s</span>: </strong>
+                            <span ng-repeat="speaker in meeting.speaker">{{speaker}}<span ng-show="$index !== meeting.speaker.length - 1">, </span></span>
+                            <br>
+                        </span>
+                        <strong>Topic: </strong><span ng-bind-html="safeHTML(meeting.topic)" ng-show="meeting.topic"></span><span ng-show="!meeting.topic">TBA</span><br>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+</section>

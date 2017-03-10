@@ -1,0 +1,13 @@
+{
+  "name": "COFW",
+  "private": true,
+  "version": "0.0.0",
+  "description": "COFW",
+  "license": "MIT",
+  "homepage": "https://github.com/ksc4130/cofw",
+  "author": "Rachel",
+  "dependencies": {
+    "ejs": "^2.3.4",
+    "express": "^4.13.4"
+  }
+}

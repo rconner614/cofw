@@ -1,0 +1,24 @@
+{
+  "name": "cofw",
+  "version": "0.0.0",
+  "homepage": "https://github.com/ksc4130/cofw",
+  "authors": [
+    "ksc4130 <ksc4130@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-bootstrap": "~1.0.0",
+    "angular-ui-router": "~0.2.18",
+    "bootstrap": "~3.3.6",
+    "font-awesome": "~4.7.0",
+    "moment": "~2.11.1"
+  }
+}
