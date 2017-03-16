@@ -42,11 +42,11 @@
     },{
       "id": 5,
       "title" : "May",
-      "speaker" : null,
-      "date" : null,
-      "time": null,
-      "location": null,
-      "topic": null
+      "speaker" : ["Lorie Langdon"],
+      "date" : "5-13-2017",
+      "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
+      "location": "<a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>",
+      "topic": "How to Hook Your Reader<br>YA Author of the Amazon #1 Best-selling DOON series, <a href='http://www.lorielangdon.com/' target='_blank'>Lorie Langdon</a>, will speak to our chapter about emotionally descriptive writing."
     },{
       "id": 6,
       "title" : "June",
@@ -58,19 +58,19 @@
     },{
       "id": 7,
       "title" : "July",
-      "speaker" : null,
+      "speaker" : ["Laurie Schnebly"],
       "date" : null,
-      "time": null,
-      "location": null,
-      "topic": null
+      "time": "All Day Workshop",
+      "location": "<a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>",
+      "topic": "Plotting, Building Conflict and the Hero's Ladder<br>An all-day workshop by legendary workshop presenter, <a href='http://www.booklaurie.com' target='_blank'>Laurie Schnebly</a>."
     },{
       "id": 8,
       "title" : "August",
       "speaker" : null,
-      "date" : null,
-      "time": null,
-      "location": null,
-      "topic": null
+      "date" : "8-19-2017",
+      "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
+      "location": "<a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>",
+      "topic": "National Conference Recap<br>Members who attended the RWA National Conference will share their insights and information acquired at the conference."
     },{
       "id": 9,
       "title" : "September",
@@ -82,11 +82,11 @@
     },{
       "id": 10,
       "title" : "October",
-      "speaker" : null,
-      "date" : null,
-      "time": null,
-      "location": null,
-      "topic": null
+      "speaker" : ["Larry Brooks"],
+      "date" : "10-21-2017",
+      "time": "All Day Workshop",
+      "location": "<a href='https://goo.gl/maps/RUkXuKf1Q6P2' target='_blank'>The Courtyard Marriott, 2350 Westbest Drive, Columbus <i class='fa fa-map-marker'></i></a><br>",
+      "topic": "Story Fix and Story Engineering"
     },{
       "id": 11,
       "title" : "November",
