@@ -5,7 +5,7 @@
     emailSrv.$inject = ['$q', '$http'];
     function emailSrv($q, $http){
 
-        var template = "Registration for A Day of Storyfix Workshops with Larry Brooks\nSponsored by Central Ohio Fiction Writers\nSaturday, October 21, 2017\nName: <name>\nStreet Address: <sAddress>\nCity: <city>\nState: <state>\nZip: <zip>\nName to Appear on Badge: <badge>\nPaypal Account Name: <paypal>\nPhone: <phone>\nEmail: <email>\nFood Choice: <food>\nCOFW Member: <isMember>";
+        var template = "Registration for Larry Brooks Workshop\nName: <name>\nStreet Address: <sAddress>\nCity: <city>\nState: <state>\nZip: <zip>\nName to Appear on Badge: <badge>\nPaypal Account Name: <paypal>\nPhone: <phone>\nEmail: <email>\nFood Choice: <food>\nCOFW Member: <isMember>";
 
         function sendEmail(obj){
             var df = $q.defer();

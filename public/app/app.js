@@ -97,9 +97,6 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
     }).state('membership', {
         url: "/membership",
         templateUrl: "/app/views/_membership.html"
-    }).state('march-event', {
-        url: "/march-2017-event",
-        templateUrl: "/app/views/_marchEvent.html"
     }).state('meetings', {
         url: "/meetings",
         templateUrl: "/app/views/_meetings.html",
