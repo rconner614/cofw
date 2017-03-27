@@ -34,11 +34,11 @@
     },{
       "id": 4,
       "title" : "April",
-      "speaker" : ["Lori Foster"],
+      "speaker" : ["Lisa Cooke"],
       "date" : "4-15-2017",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
       "location": "<a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>",
-      "topic": "Lori will share her personal experiences with the current industry and its changes along with her recent struggles with issues such as an insane schedule. Q&A too!"
+      "topic": "The 12 Steps of Intimacy. This workshop will explore the 12 stages of intimacy that pull your reader into the passion between your characters."
     },{
       "id": 5,
       "title" : "May",
@@ -50,11 +50,11 @@
     },{
       "id": 6,
       "title" : "June",
-      "speaker" : null,
-      "date" : null,
-      "time": null,
-      "location": null,
-      "topic": null
+      "speaker" : ["Lori Foster"],
+      "date" : "6-17-2017",
+      "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
+      "location": "<a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>",
+      "topic": "Lori will share her personal experiences with the current industry and its changes along with her recent struggles with issues such as an insane schedule. Q&A too!"
     },{
       "id": 7,
       "title" : "July",
@@ -74,11 +74,11 @@
     },{
       "id": 9,
       "title" : "September",
-      "speaker" : null,
-      "date" : null,
-      "time": null,
+      "speaker" : ["Lita Lawson", "Kat Sheridan"],
+      "date" : "9-16-2017",
+      "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
       "location": null,
-      "topic": null
+      "topic": "Self Publishing Help. Self-Published Contemporary Author, <a href='http://www.litalawson.net' target='_blank'>Lita Lawson</a> discusses how to hire an editor and format your work, along with other handy tips regarding publishing your own work. And Self-Published Historical Author, <a href='http://www.facebook.com/Kat-Sheridan' target='_blank'>Kat Sheridan</a> will discuss how to write a back cover blurb for your book."
     },{
       "id": 10,
       "title" : "October",
@@ -102,7 +102,7 @@
       "date" : null,
       "time": null,
       "location": null,
-      "topic": null
+      "topic": "Annual Christmas Party - Members Only!"
     }
     
   ]
