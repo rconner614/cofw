@@ -1,0 +1,87 @@
+<section class="content clearfix">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-preview text-center clearfix">
+                    <h2 class="post-title">New Member Request Form</h2>
+                    <p class="post-meta">Please review the instructions below</p>
+                    <hr>
+                    <div class="desc">
+                        <p class="text-left"><strong>New Members:</strong> Please fill out the form below and your request will be submitted for review. The website administrator will send you an email directly for any needed images or other information.</p>
+                        <p class="text-left"><strong>Current Members:</strong> Please fill out the required fields and the fields you would like to update. <strong>Note:</strong> To help the web admin turn things around quickly, please provide <u>ONLY</u> the updated fields. Please don't supply information that is already listed on the website. For example: submit new novel titles vs sending all titles.</p>
+                        <h3 ng-hide="sent">Thank you!</h3>
+                        <hr>
+                        <h3 ng-show="sent">Your request has been successfully submitted!</h3>
+                        <p ng-show="sent">The web administrator will contact you soon. Thank you!</p>
+                        <p ng-show="!sent" class="post-meta">* Required Fields</p>
+                        <form class="text-left" ng-submit="memberForm()" ng-show="!sent">
+                            <input type="text" ng-model="member.catchMe" style="position: absolute; left: -4000px" autocomplete="off">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6 form-group">
+                                    <label>First Name *</label>
+                                    <input type="text" class="form-control" ng-model="member.firstName" placeholder="John" required>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 form-group">
+                                    <label>Last Name *</label>
+                                    <input type="text" class="form-control" ng-model="member.lastName" placeholder="Doe" required>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 form-group">
+                                    <label>Displayed First Name *</label>
+                                    <input type="text" class="form-control" ng-model="member.displayFirst" placeholder="Mark" required>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 form-group">
+                                    <label>Displayed Last Name *</label>
+                                    <input type="text" class="form-control" ng-model="member.displayLast" placeholder="Twain" required>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 form-group">
+                                    <label>Email *</label><br>
+                                    <input type="checkbox" class="checkbox-inline" ng-model="member.displayEmail" style="margin-top: 0"> Yes, you may display my email on the website!
+                                    <input type="email" class="form-control" ng-model="member.email" required placeholder="email@example.com">
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 form-group">
+                                    <label>Website Link</label>
+                                    <input type="text" class="form-control" ng-model="member.website" placeholder="http://www.examplewebsite.com">
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 form-group">
+                                    <label>Facebook Link</label>
+                                    <input type="text" class="form-control" ng-model="member.facebook" placeholder="https://www.facebook.com/exampleuser">
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 form-group">
+                                    <label>Twitter Link</label>
+                                    <input type="text" class="form-control" ng-model="member.twitter" placeholder="https://www.twitter.com/exampleuser">
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 form-group">
+                                    <label>Pinterest Link</label>
+                                    <input type="text" class="form-control" ng-model="member.pinterest" placeholder="https://www.pinterest.com/exampleuser">
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 form-group">
+                                    <label>Google Plus Link</label>
+                                    <input type="text" class="form-control" ng-model="member.googlePlus" placeholder="https://plus.google.com/u/0/000000000000000/">
+                                </div>
+                                <div class="col-lg-12 form-group">
+                                    <label>Blurb *</label>
+                                    <textarea class="form-control" ng-model="member.blurb" style="height: 200px" placeholder="Tell us about yourself! Please use third person, thank you!"></textarea>
+                                </div>
+                                <div class="col-lg-6 form-group">
+                                    <label>Novels</label>
+                                    <textarea class="form-control" ng-model="member.novels" style="height: 200px" placeholder="List your novels here..."></textarea>
+                                </div>
+                                <div class="col-lg-6 form-group">
+                                    <label>Novellas & Short Stories</label>
+                                    <textarea class="form-control" ng-model="member.novellas" style="height: 200px" placeholder="List your short stories or novellas here..."></textarea>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <button class="btn btn-primary" type="submit">
+                                    <span ng-show="!submitting">Submit</span>
+                                    <span ng-show="submitting"><i class="fa fa-spinner fa-pulse" style="color: #fff !important"></i></span>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -82,6 +82,10 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
         url: "/workshop",
         templateUrl: "/app/views/_workshop.html",
         controller: 'workshopCtrl'
+    }).state('newMember', {
+        url: "/member-form",
+        templateUrl: "/app/views/_addMember.html",
+        controller: 'newMemberCtrl'
     }).state('successContest', {
         url: "/contest/success",
         templateUrl: "/app/views/_success-contest.html"
