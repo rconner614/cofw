@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /node_modules
+Disallow: /public/app/images
+Disallow: /public/app/docs
+Disallow: /public/vendor
+Disallow: /public/app/css
+Disallow: /public/app/data
+Disallow: /public/app/fonts
+Allow: /public/app/views
