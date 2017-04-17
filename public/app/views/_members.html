@@ -6,7 +6,7 @@
                     <small>CENTRAL OHIO FICTION WRITERS</small>
                     <h2>Members</h2>
                     <div class="row">
-                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 fade-in-up" ng-repeat="member in members">
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 fade-in-up" ng-repeat="member in members | orderBy:'lastName'">
                             <div class="shop-item entry">
                                 <a ng-href="/members/member/{{member.id}}">
                                     <img ng-src="/app/images/members/{{member.image}}" alt="member.firstName" class="img-responsive member">
@@ -16,6 +16,11 @@
                                 <h3><a ng-href="/members/member/{{member.id}}">{{member.firstName}} {{member.lastName}}</a></h3>
                             </div>
                         </div>
+                    </div><br><br>
+                    <img src="/app/images/swirl.png" style="width: 100px">
+                    <div class="row">
+                        <h4>Are we missing your information? Need to make an update?</h4>
+                        <a class="btn btn-primary" href="/member-form">Submit a Request</a>
                     </div>
                 </div>
             </div>

@@ -7,6 +7,8 @@
 
         var template = "Registration for Larry Brooks Workshop\nName: <name>\nStreet Address: <sAddress>\nCity: <city>\nState: <state>\nZip: <zip>\nName to Appear on Badge: <badge>\nPaypal Account Name: <paypal>\nPhone: <phone>\nEmail: <email>\nFood Choice: <food>\nCOFW Member: <isMember>";
 
+        var memberTemplate = "Name: <name>\nDisplayed Name: <displayName>\nEmail: <email>\nDisplay Email?: <displayEmail>\nWebsite: <website>\nFacebook: <facebook>\nTwitter: <twitter>\nPinterest: <pinterest>\nGoogle Plus: <googlePlus>\nNovels: <novels>\nNovellas: <novellas>\nBlurb: <blurb>";
+
         function sendEmail(obj){
             var df = $q.defer();
             $http.post('/email-send', obj).then(function(resp){
@@ -27,6 +29,9 @@
             sendEmail: sendEmail,
             template: function(){
                 return template;
+            },
+            memberTemplate: function(){
+                return memberTemplate;
             }
         }
     }
