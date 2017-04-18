@@ -32,6 +32,13 @@ function sendEmail(obj){
     });
 }
 
+app.get('/robots.txt', function(req, res){
+    var filepath = __dirname + '/robots.txt';
+    var stat = fs.statSync(filepath);
+    res.writeHead(200, {'Content-Type': "text/plain" });
+    fs.createReadStream(filepath).pipe(res);
+});
+
 app.post('/email-send', function (req, res) {
     var answer = sendEmail(req.body);
     res.json({response: answer});
