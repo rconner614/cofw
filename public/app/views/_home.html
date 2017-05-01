@@ -6,7 +6,7 @@
                     <a ng-href="/post/{{post.id}}">
                         <h2 class="post-title">{{post.title}}</h2>
                     </a>
-                    <p class="post-meta" ng-show="post.type">Category | <a href="" ng-click="changeTag(post)">{{post.type}}</a></p>
+                    <p class="post-meta" ng-show="post.type">Category | {{post.type}}</p>
 
                     <div class="hidden-xs media-element entry text-center">
                         <a ng-href="/post/{{post.id}}" title="">
@@ -30,7 +30,7 @@
                         <div class="widget-title clearfix">
                             <h3>Ignite the Flame Contest</h3>
                         </div>
-                        <p style="margin-bottom: 3px">Entries will be accepted starting May 1st!</p>
+                        <p style="margin-bottom: 3px">Entries are being accepted until May 31st!</p>
                         <a class="btn btn-primary" href="/contest">
                             Contest Page
                         </a>
