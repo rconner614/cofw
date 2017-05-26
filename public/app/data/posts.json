@@ -64,6 +64,17 @@
       "postTags" : [4],
       "type": "Contest",
       "content" : "<p>Visit the <a href='/contest'>Contest Page</a> to learn more!</p>"
+    },
+    {
+      "id" : 23,
+      "createdOn" : "2017-05-01T00:00:00",
+      "releaseOn" : "2017-03-18T23:59:00",
+      "image" : "/app/images/posts/June_2017.jpg",
+      "title" : "June Meeting with Lori Foster",
+      "createdBy" : "Rachel",
+      "postTags" : [1,2],
+      "type": "Meeting",
+      "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; June 17th, 2017 - Business Meeting at 12:30 pm, Speaker at 1:30 pm<br>LOCATION &nbsp; | &nbsp; <a href='http://maps.google.com/?q=5181 Northwest Parkway, Hilliard, OH 43026' target='_blank'>Norwich Twp Safety &amp; Services Building 5181 Northwest Parkway, Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>TOPIC &nbsp; | &nbsp; <strong>A Visit from NYT Best-Selling Author, Lori Foster</strong><br><p>Join us for one of our favorite presenters, Lori Foster, who has always been a strong supporter of COFW. Lori will give us a run down of her career thus far, share her take on the current industry and all its changes, as well divulge some of the struggles she's faced in her illustrious career.</p><p>If time allows (and she always makes sure it does!) Lori has graciously agreed to follow up with a Q&A, so bring your questions for this veteran of the romance genre!</p>"
     }
   ],
   "tags": [
