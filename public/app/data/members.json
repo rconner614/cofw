@@ -95,7 +95,7 @@
     },{
       "firstName": "Denise",
       "lastName": "Gwen",
-      "id": 31,
+      "id": 16,
       "facebook": "https://www.facebook.com/denise.barone.50",
       "twitter": "https://twitter.com/BaroneLiterary",
       "website": "http://www.denisegwen.com/",
@@ -409,6 +409,20 @@
         "MIDNIGHT ASH, November 2012, Soul Mate Publishing",
         "POOL OF CRIMSON, April 2012, Soul Mate Publishing",
         "CURSED, March 2009, Strategic Book Publishing"
+      ]
+    },
+    {
+      "firstName": "Jenna",
+      "lastName": "Grinstead",
+      "id": 31,
+      "image": "Grinstead.jpg",
+      "website": "http://jennagrinstead.com",
+      "email": "jennagrinstead@gmail.com",
+      "facebook": "http://www.facebook.com/jennagrinstead",
+      "twitter": "https://twitter.com/storiestobe",
+      "blurb": "Jenna Grinstead lives with her husband and four children in Columbus Ohio. When she's not plotting her next novel you can find her eating mint chocolate chip ice cream. Sadly, she's addicted to young adult fiction and dark chocolate and refuses to seek help. Visit www.jennagrinstead.com for more information.",
+      "novellas": [
+        "YOU AIN'T NO 5'10\", Summer's Double Edge Anthology, 2013, Elephant's Book Shelf Press"
       ]
     }
   ]
