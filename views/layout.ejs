@@ -65,7 +65,6 @@
                     <li ng-class="{'active': state.includes('about')}"><a href="/about">About Us</a></li>
                     <li ng-class="{'active': state.includes('membership')}"><a href="/membership">Membership</a></li>
                     <li ng-class="{'active': state.includes('meetings')}"><a href="/meetings">Meetings</a></li>
-                    <li ng-class="{'active': state.includes('retreat')}"><a href="/retreat">Retreat</a></li>
                     <li ng-class="{'active': state.includes('contest')}"><a href="/contest">Contest</a></li>
                     <li ng-class="{'active': state.includes('workshop')}"><a href="/workshop">Workshop</a></li>
                     <li ng-class="{'active': state.includes('members') || state.includes('member')}"><a href="/members">Our Members</a></li>
@@ -88,7 +87,6 @@
                     <li><a href="/">Home</a></li>
                     <li><a href="/about">About Us</a></li>
                     <li><a href="/meetings">Meetings</a></li>
-                    <li><a href="/retreat">Retreat</a></li>
                     <li><a href="/contest">Contest</a></li>
                     <li><a href="/workshop">Workshop</a></li>
                     <li><a href="/members">Members</a></li>
@@ -114,16 +112,19 @@
 <script src="/vendor/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
 <script src="/vendor/angular-ui-router/release/angular-ui-router.min.js"></script>
 <script src="/vendor/moment/min/moment.min.js"></script>
-<script src="/app/app.js"></script>
 <script src="/app/controllers/core.js"></script>
 <script src="/app/controllers/homeCtrl.js"></script>
 <script src="/app/controllers/membersCtrl.js"></script>
 <script src="/app/controllers/memberCtrl.js"></script>
 <script src="/app/controllers/meetingsCtrl.js"></script>
 <script src="/app/controllers/postCtrl.js"></script>
+<script src="/app/controllers/workshopCtrl.js"></script>
 <script src="/app/services/postSrv.js"></script>
 <script src="/app/services/memberSrv.js"></script>
+<script src="/app/services/emailSrv.js"></script>
 <script src="/app/controllers/contestCtrl.js"></script>
+<script src="/app/controllers/newMemberCtrl.js"></script>
+<script src="/app/app.js"></script>
 <script>
     jQuery('a.back-to-top').click(function(){
         jQuery('html, body').animate({scrollTop: '0px'}, 800);

@@ -6,7 +6,7 @@
                     <a ng-href="/post/{{post.id}}">
                         <h2 class="post-title">{{post.title}}</h2>
                     </a>
-                    <p class="post-meta" ng-show="post.type">Category | <a href="" ng-click="changeTag(post)">{{post.type}}</a></p>
+                    <p class="post-meta" ng-show="post.type">Category | {{post.type}}</p>
 
                     <div class="hidden-xs media-element entry text-center">
                         <a ng-href="/post/{{post.id}}" title="">
@@ -28,22 +28,12 @@
                     <hr style="margin-top: 10px">
                     <div class="widget">
                         <div class="widget-title clearfix">
-                            <h3>March 18th Event</h3>
+                            <h3 style="margin-top: 0">October 21st Workshop with Larry Brooks</h3>
                         </div>
-                        <p>Don't miss out on our special March meeting!</p>
-                        <a class="btn btn-primary" href="/march-2017-event">
-                            Event Page
+                        <p style="margin-bottom: 3px">Author of <em>Story Fix</em> and <em>Story Engineering</em></p>
+                        <a class="btn btn-primary" href="/workshop">
+                            Workshop Page
                         </a>
-                        <hr style="width: 50%">
-                        <div class="widget-title clearfix">
-                            <h3>Writer's Retreat</h3>
-                        </div>
-                        <p>Visit the <a href="/retreat">Retreat page</a> to register for our 2017 Writer's Retreat!</p>
-                        <hr style="width: 50%">
-                        <div class="widget-title clearfix">
-                            <h3>October 21st Workshop with Larry Brooks</h3>
-                        </div>
-                        <p>Visit the <a href="/workshop">Workshop page</a> to learn more!</p>
                         <hr>
                         <h4 class="post-meta">About COFW</h4>
                         <hr>

@@ -28,15 +28,17 @@
       "image": "Lohr.jpg",
       "blurb": "Barbara Lohr writes heartwarming romance with a flair for fun and subtly sexy love scenes. In her novels, feisty women take on hunky heroes and life's issues. Family often figures in her stories. “No woman falls in love without some family influence, either positive or negative.” Her series include Windy City Romance and Man from Yesterday. Dark chocolate is her favorite food group, and she makes a mean popover. When she's not writing, she loves to bike, kayak or golf. Formerly an Ohio resident, Barbara now lives mainly in the South of the USA with her husband and a cat that insists he was Heathcliff in a former life. For more information on the author and her work, please see her website or Facebook.",
       "novels": [
-      "Windy City Romance",
+      "Windy City Romance - Series",
       "Finding Southern Comfort",
       "Her Favorite Mistake",
       "Her Favorite Honeymoon",
       "Her Favorite Hot Doc",
       "Rescuing the Reluctant Groom",
-      "Man from Yesterday",
+      "The Southern Comfort Christmas",
+      "Man from Yesterday - Series",
       "Coming Home to You",
-      "New Release coming February 2016"
+      "Always on His Mind",
+      "In His Eyes"
       ],
       "novellas": [
         "The Firefly Summer",
@@ -93,7 +95,7 @@
     },{
       "firstName": "Denise",
       "lastName": "Gwen",
-      "id": 31,
+      "id": 16,
       "facebook": "https://www.facebook.com/denise.barone.50",
       "twitter": "https://twitter.com/BaroneLiterary",
       "website": "http://www.denisegwen.com/",
@@ -191,7 +193,7 @@
         "The Welcome Mat",
         "The Billiards Game",
         "Millie and the Vampire",
-        "The Tarczal connection",
+        "The Tarczal Connection",
         "Job Security"
       ]
     },
@@ -259,19 +261,6 @@
       "website": "http://www.allromancenovels.com"
     },
     {
-      "firstName": "Lynn",
-      "lastName": "Gale",
-      "id": 16,
-      "image": "Gale.jpg",
-      "blurb": "Lynn Gale has been a member of RWA and COFW for over twenty years. GARTH'S WOMAN is Lynn's first full length book with Soul Mate Publishing. More full length books are in the works. She has had stories published in True Romance and True Confessions magazines. Lynn lives in the central Ohio area with her husband and three cats.",
-      "website": "lynngale.wordpress.com",
-      "novels": [
-        "Garth's Woman, Soul Mate Publishing, November 2012",
-        "Unspoken Love, Soul Mate Publishing, May 2014",
-        "His Thrilling Touch, Soul Mate Publishing, February 2016"
-      ]
-    },
-    {
       "firstName": "Marcia",
       "lastName": "James",
       "id": 17,
@@ -329,45 +318,6 @@
       "image": "White.jpg"
     },
     {
-      "firstName": "Paige",
-      "lastName": "Cuccaro",
-      "id": 22,
-      "website": "http://www.paigecuccaro.com",
-      "image": "Paige.jpg",
-      "blurb": "Paige Cuccaro has been a COFW member since 2000 and served as the previous COFW web mistress. She writes paranormal and contemporary romance as well as urban fantasy. Paige lives in Ohio, with her husband, and three daughters. When she’s not writing she can be found doing the mom thing with a book in one hand and a notepad and pen in the other. Ideas come without warning and the best way to stimulate your imagination is to enjoy the imagination of others.",
-      "novels": [
-        "HELLSBANE HEREAFTER, Entangled Publishing 2014",
-        "HEAVEN AND HELLSBANE, Entangled Publishing 2013",
-        "HELLSBANE, Entangled Publishing 2011",
-        "THE GIFT OF LOVE, Berkley Publishing 2010",
-        "NAUGHTY BITS 2, Harlequin Spice Briefs 2010",
-        "LITTLE RED AND THE WOLF, Samhain Publishing 2010",
-        "PROVOCATIVE PEARL, Ellora’s Cave Publishing 2009",
-        "AMETHYST ATTRACTION, Ellora’s Cave Publishing 2009",
-        "GIFTED, Samhain Publishing 2009",
-        "NAUGHTY BITS, Harlequin Spice Briefs 2009",
-        "TAME HORSES WILD HEARTS, Samhain Publishing 2009",
-        "AMETHYST RAIN, Ellora's Cave 2008",
-        "WITCH LORE, Ellora's Cave 2007",
-        "QUEEN OF HEARTS, Cerridwen Press 2006",
-        "DREAMS OF THE OASIS, Ellora's Cave 2006",
-        "THE SHAMAN'S DAUGHTER, Treble Heart Books 2001"
-      ],
-      "novellas": [
-        "From Here to Eternity, Entangled Publishing 2013",
-        "Commencement (A Hellsbane Novella), Entangled Publishing 2012",
-        "Glass Slipper Scandal, Ellora's Cave 2012",
-        "RAVEN, Harlequin Spice Briefs 2009",
-        "OBEY ME, Samhain Publishing 2008",
-        "MEDUSA’S FOLLY, Harlequin Spice Briefs 2008",
-        "SOUL OF THE SEA, Ellora's Cave 2008",
-        "DARK MOON GATHERING, Harlequin Spice Briefs 2008",
-        "CANDY CARESSES, Ellora's Cave 2008",
-        "I, ROBOT VALENTINE, Ellora's Cave 2007",
-        "FALLEN FOR YOU, Ellora's Cave 2006"
-      ]
-    },
-    {
       "firstName": "Sandy",
       "lastName": "Loyd",
       "id": 24,
@@ -421,7 +371,7 @@
       "novels": [
         "My Sunny Vampire",
         "Bite Me, I'm Yours (Books 1 & 2 of the Bitten by Love series)",
-        "Ghostly Liaison” (Book 1 of the Ghostly Encounter series)"
+        "Ghostly Liaison (Book 1 of the Ghostly Encounter series)"
       ]
     },
     {
@@ -459,6 +409,20 @@
         "MIDNIGHT ASH, November 2012, Soul Mate Publishing",
         "POOL OF CRIMSON, April 2012, Soul Mate Publishing",
         "CURSED, March 2009, Strategic Book Publishing"
+      ]
+    },
+    {
+      "firstName": "Jenna",
+      "lastName": "Grinstead",
+      "id": 31,
+      "image": "Grinstead.jpg",
+      "website": "http://jennagrinstead.com",
+      "email": "jennagrinstead@gmail.com",
+      "facebook": "http://www.facebook.com/jennagrinstead",
+      "twitter": "https://twitter.com/storiestobe",
+      "blurb": "Jenna Grinstead lives with her husband and four children in Columbus Ohio. When she's not plotting her next novel you can find her eating mint chocolate chip ice cream. Sadly, she's addicted to young adult fiction and dark chocolate and refuses to seek help. Visit www.jennagrinstead.com for more information.",
+      "novellas": [
+        "YOU AIN'T NO 5'10\", Summer's Double Edge Anthology, 2013, Elephant's Book Shelf Press"
       ]
     }
   ]

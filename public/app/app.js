@@ -78,27 +78,23 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
         url: "/contest",
         templateUrl: "/app/views/_contest.html",
         controller: 'contestCtrl'
-    }).state('retreat', {
-        url: "/retreat",
-        templateUrl: "/app/views/_retreat.html"
     }).state('workshop', {
         url: "/workshop",
-        templateUrl: "/app/views/_workshop.html"
+        templateUrl: "/app/views/_workshop.html",
+        controller: 'workshopCtrl'
+    }).state('newMember', {
+        url: "/member-form",
+        templateUrl: "/app/views/_addMember.html",
+        controller: 'newMemberCtrl'
     }).state('successContest', {
         url: "/contest/success",
         templateUrl: "/app/views/_success-contest.html"
-    }).state('successRetreat', {
-        url: "/retreat/success",
-        templateUrl: "/app/views/_success-retreat.html"
     }).state('successWorkshop', {
         url: "/workshop/success",
         templateUrl: "/app/views/_success-workshop.html"
     }).state('membership', {
         url: "/membership",
         templateUrl: "/app/views/_membership.html"
-    }).state('march-event', {
-        url: "/march-2017-event",
-        templateUrl: "/app/views/_marchEvent.html"
     }).state('meetings', {
         url: "/meetings",
         templateUrl: "/app/views/_meetings.html",
