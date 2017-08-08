@@ -16,7 +16,7 @@
                     </div>
                     <div class="desc text-left">
                         <!--<span ng-bind-html="safeHTML(post.content)"></span>-->
-                        <p>{{member.blurb}}</p>
+                        <p ng-bind-html="safeHTML(member.blurb)"></p>
                         <div class="col-sm-12" ng-show="member.novels" style="padding-left: 0">
                             <dl>
                                 <dt>Novels</dt>
