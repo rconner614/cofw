@@ -27,7 +27,7 @@
             catchMe: null
         };
 
-        $scope.foodChoices = ['Ham and Swiss','Beef and Cheddar','Turkey and Swiss', 'Other [Contact Linda Rice]'];
+        $scope.foodChoices = ['Ham and Swiss','Beef and Cheddar','Turkey and Swiss', 'Grilled Vegetable Wrap','Other [Contact Linda Rice]'];
 
         $scope.sendEmail = function(){
             if($scope.form.catchMe){
