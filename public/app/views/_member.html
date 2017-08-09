@@ -20,13 +20,17 @@
                         <div class="col-sm-12" ng-show="member.novels" style="padding-left: 0">
                             <dl>
                                 <dt>Novels</dt>
-                                <dd ng-repeat="novel in member.novels">{{novel}}</dd>
+                                <dd ng-repeat="novel in member.novels">
+                                    <span ng-bind-html="safeHTML(novel)"></span>
+                                </dd>
                             </dl>
                         </div>
                         <div class="col-sm-12" ng-show="member.novellas" style="padding-left: 0">
                             <dl>
                                 <dt>Novellas & Short Stories</dt>
-                                <dd ng-repeat="novella in member.novellas">{{novella}}</dd>
+                                <dd ng-repeat="novella in member.novellas">
+                                    <span ng-bind-html="safeHTML(novella)"></span>
+                                </dd>
                             </dl>
                         </div>
                         <!--<dl>-->
