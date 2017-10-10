@@ -97,6 +97,17 @@
       "postTags" : [1,2],
       "type": "Meeting",
       "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; September 16th, 2017 - Business Meeting at 12:30 pm, Speakers at 1:30 pm<br>LOCATION &nbsp; | &nbsp; <a href='http://maps.google.com/?q=5181 Northwest Parkway, Hilliard, OH 43026' target='_blank'>Norwich Twp Safety &amp; Services Building 5181 Northwest Parkway, Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>TOPIC &nbsp; | &nbsp; <strong>Self-Publishing with Lita Lawson and Kat Sheridan</strong><br><p><u>Editing and Formatting</u><br>Lita Lawson, self-published, contemporary author and COFW member, will discuss how to hire an editor and format your work, along with other handy tips regarding publishing your own work. <a href='www.litalawson.net' target='_blank'>www.litalawson.net</a></p>A COFW member off and on for over 15 years, Lita says, \"I love COFW as we have so many great speakers at our monthly meetings, annual conference or workshop. COFW has an amazing group of authors willing to share their experience in writing romance. COFW rocks!\" <a href='https://www.facebook.com/authorlitalawson' target='_blank'>https://www.facebook.com/authorlitalawson</a></p><p><u>Writing the Back Cover Blurb</u><br> Kat Sheridan, self-published historical author, will discuss how to write a back cover blurb for your book.</p><p>Kat is addicted to historical, gothic novels and any romance that includes storms, castles, bat-shit crazy villains and a high body count. Heroes and heroines must be larger than life. She's excessively fond of shiny things and bourbon and is non-functioning until she's had her coffee. Her latest release is a Victorian Gothic Romance Echoes in Stone. <a href='www.facebook.com/Kat-Sheridan' target='_blank'>www.facebook.com/Kat-Sheridan</a></p>"
+    },
+    {
+      "id" : 27,
+      "createdOn" : "2017-09-04T00:00:00",
+      "releaseOn" : "2017-09-04T00:59:00",
+      "image" : null,
+      "title" : "October 21st Workshop!",
+      "createdBy" : "Rachel",
+      "postTags" : [2,6],
+      "type": "Workshop",
+      "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; October 21st, 2017 - 9am - 5pm<br>LOCATION &nbsp; | &nbsp; <a href='https://goo.gl/maps/RUkXuKf1Q6P2' target='_blank'>The Courtyard Marriott, 2350 Westbest Drive, Columbus <i class='fa fa-map-marker'></i></a><br><p>Join us for an all-day workshop with Larry Brooks, author of <em>Story Fix and Story Engineering</em></p><h4>To register or for more information, visit the <a href='/workshop' class='btn btn-primary'>Workshop Page</a></h4><p>Larry is a recognized writing expert and loves to share his expertise and love of the craft. He is the author of several excellent books on writing, including STORY ENGINEERING, STORY PHYSICS, and STORY FIX. The workshop will help you understand the principles and craft of fiction, and harness the various forces of storytelling.</p><p><strong>Workshop Topics:</strong></p><ol><li>The Hidden Secrets of Story Structure</li><li>The Beautiful Collision of Concept and Premise</li><li>Dramatic Arc as the Key to Everything (including character)</li><li>When Every Month is NanoWriMo</li></ol>"
     }
   ],
   "tags": [
@@ -120,6 +131,10 @@
       "title": "Misc",
       "type": "default",
       "id" : 5
+    },{
+      "title": "Workshop",
+      "type": "default",
+      "id" : 6
     }
   ]
 }
