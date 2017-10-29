@@ -91,17 +91,17 @@
       "id": 11,
       "title" : "November",
       "speaker" : null,
-      "date" : null,
-      "time": null,
-      "location": null,
-      "topic": null
+      "date" : "11-18-2017",
+      "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
+      "location": "<a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>",
+      "topic": "Making COFW Stronger. Brainstorming. Idea Sharing.<br>Attend the November 18 COFW meeting as we engage in small and large group sharing. Voice your opinion. Express your needs as a writer, yet-to-be published and  published. How can COFW help you? Be a part of the discussion."
     },{
       "id": 12,
       "title" : "December",
       "speaker" : null,
-      "date" : null,
-      "time": null,
-      "location": null,
+      "date" : "12-02-2017",
+      "time": "Noon",
+      "location": "Home of Robin Gianna<br>",
       "topic": "Annual Christmas Party - Members Only!"
     }
     
