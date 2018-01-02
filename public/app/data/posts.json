@@ -119,6 +119,17 @@
       "postTags" : [1,2],
       "type": "Meeting",
       "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; November 18th, 2017 - Business Meeting at 12:30 pm, Speakers at 1:30 pm<br>LOCATION &nbsp; | &nbsp; <a href='http://maps.google.com/?q=5181 Northwest Parkway, Hilliard, OH 43026' target='_blank'>Norwich Twp Safety &amp; Services Building 5181 Northwest Parkway, Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>TOPIC &nbsp; | &nbsp; <strong>Making COFW Stronger. Brainstorming. Idea Sharing.<br></strong></p><p>Attend the November 18 COFW meeting as we engage in small and large group sharing. Voice your opinion. Express your needs as a writer, yet-to-be published and  published. How can COFW help you? Be a part of the discussion.</p>"
+    },
+    {
+      "id" : 29,
+      "createdOn" : "2017-11-04T00:00:00",
+      "releaseOn" : "2017-11-04T00:59:00",
+      "image" : "/app/images/posts/holidayPost.jpg",
+      "title" : "Happy Holidays from COFW!",
+      "createdBy" : "Rachel",
+      "postTags" : [1,2],
+      "type": "Meeting",
+      "content" : null
     }
   ],
   "tags": [
