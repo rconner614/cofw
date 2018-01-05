@@ -72,8 +72,15 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
         templateUrl: "/app/views/_newsletter.html"
     }).state('contact', {
         url: "/contact",
-        templateUrl: "/app/views/_contact.html"
-        //controller: 'contactCtrl'
+        templateUrl: "/app/views/_contact.html",
+        controller: ['$scope', 'leadership', function($scope, leadership){
+            $scope.leadership = leadership.leadership;
+        }],
+        resolve: {
+            leadership: ['memberSrv', function(memberSrv){
+                return memberSrv.getMembers();
+            }]
+        }
     }).state('contest', {
         url: "/contest",
         templateUrl: "/app/views/_contest.html",
@@ -82,21 +89,17 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
         url: "/member-form",
         templateUrl: "/app/views/_addMember.html",
         controller: 'newMemberCtrl'
-    })
-        /*.state('workshop', {
-        url: "/workshop",
-        templateUrl: "/app/views/_workshop.html",
-        controller: 'workshopCtrl'
-    }).state('successContest', {
-        url: "/contest/success",
-        templateUrl: "/app/views/_success-contest.html"
-    }).state('successWorkshop', {
-        url: "/workshop/success",
-        templateUrl: "/app/views/_success-workshop.html"
-    })*/
-        .state('membership', {
+    }).state('membership', {
         url: "/membership",
-        templateUrl: "/app/views/_membership.html"
+        templateUrl: "/app/views/_membership.html",
+        controller: ['$scope', 'leadership', function($scope, leadership){
+            $scope.leadership = leadership.leadership;
+        }],
+        resolve: {
+            leadership: ['memberSrv', function(memberSrv){
+                return memberSrv.getMembers();
+            }]
+        }
     }).state('meetings', {
         url: "/meetings",
         templateUrl: "/app/views/_meetings.html",
@@ -127,3 +130,15 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
     });
     $locationProvider.html5Mode(true);
 }
+
+/*.state('workshop', {
+        url: "/workshop",
+        templateUrl: "/app/views/_workshop.html",
+        controller: 'workshopCtrl'
+    }).state('successContest', {
+        url: "/contest/success",
+        templateUrl: "/app/views/_success-contest.html"
+    }).state('successWorkshop', {
+        url: "/workshop/success",
+        templateUrl: "/app/views/_success-workshop.html"
+    })*/

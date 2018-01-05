@@ -1,4 +1,18 @@
 {
+  "leadership": {
+    "president": {
+      "name": "Jenessa McRoy",
+      "email": "cofwpresident@gmail.com"
+    },
+    "secretary": {
+      "name": "Susan Heino",
+      "email": "susan.heino@gmail.com"
+    },
+    "treasurer": {
+      "name": "Jeanne Estridge",
+      "email": "cofwtreasurer@gmail.com"
+    }
+  },
   "members": [
     {
       "firstName": "Abbie",
