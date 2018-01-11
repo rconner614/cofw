@@ -5,11 +5,7 @@
     meetingsCtrl.$inject = ['$scope', 'data', '$sce'];
     function meetingsCtrl($scope, data, $sce) {
         // var meetings = data.meetings;
-        var meetings = data.meetings.map(function(meeting){
-            meeting.dateOrig = angular.copy(meeting.date);
-            meeting.date = meeting.date ? new Date(meeting.date) : null;
-            return meeting;
-        });
+        var meetings = data.meetings;
         $scope.chunks = [];
         $scope.chunks[0] = [meetings[0], meetings[1], meetings[2]];
         $scope.chunks[1] = [meetings[3], meetings[4], meetings[5]];

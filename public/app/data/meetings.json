@@ -4,105 +4,101 @@
       "id": 1,
       "title" : "January",
       "speaker" : [
-        "Karen Harper",
-        "Donna MacMeans",
-        "Becky Barker",
-        "Robin Gianna",
-        "Susan Gee Heino",
-        "Karin Shah"
+        "Saralee Etter"
       ],
-      "date" : "1-14-2017",
+      "date" : "1/13/2018",
+      "longDate" : "January 13th 2018",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
       "location": "<a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>",
-      "topic":"COFW Author Panel Discussion: Market Day &nbsp;<a href='/post/16' class='readmore'>Continue Reading...</a>"
+      "topic":"Planning a Great 2018"
     },{
       "id": 2,
       "title" : "February",
-      "speaker" : ["Donna Alward"],
-      "date" : "2-18-2017",
-      "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
-      "location": "<a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>",
-      "topic": "Simplify and Thrive - Declutter Your Career"
+      "speaker" : null,
+      "date" : null,
+      "time": "TBA",
+      "location": null,
+      "topic": "TBA"
     },{
       "id": 3,
       "title" : "March",
       "speaker" : null,
-      "date" : "3-18-2017",
-      "time": "Event starts at 8:30",
-      "location": "<a href='https://goo.gl/maps/JvpM2vwy2T42' target='_blank'>German Village Society Haus 588 South Third St, Columbus, OH 43215 <i class='fa fa-map-marker'></i></a><br>",
-      "topic": "Special COFW Event: Deborah Gilbert, Publisher and lead Editor of SoulMate Publishing & NYT Best-Selling Historical Author Eloisa James"
+      "date" : null,
+      "time": "TBA",
+      "location": null,
+      "topic": "TBA"
     },{
       "id": 4,
       "title" : "April",
-      "speaker" : ["Lisa Cooke"],
-      "date" : "4-15-2017",
-      "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
-      "location": "<a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>",
-      "topic": "The 12 Steps of Intimacy. This workshop will explore the 12 stages of intimacy that pull your reader into the passion between your characters."
+      "speaker" : null,
+      "date" : null,
+      "time": "TBA",
+      "location": null,
+      "topic": "TBA"
     },{
       "id": 5,
       "title" : "May",
-      "speaker" : ["Lorie Langdon"],
-      "date" : "5-13-2017",
-      "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
-      "location": "<a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>",
-      "topic": "How to Hook Your Reader<br>YA Author of the Amazon #1 Best-selling DOON series, <a href='http://www.lorielangdon.com/' target='_blank'>Lorie Langdon</a>, will speak to our chapter about emotionally descriptive writing."
+      "speaker" : null,
+      "date" : null,
+      "time": "TBA",
+      "location": null,
+      "topic": "TBA"
     },{
       "id": 6,
       "title" : "June",
-      "speaker" : ["Lori Foster"],
-      "date" : "6-17-2017",
-      "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
-      "location": "<a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>",
-      "topic": "Lori will share her personal experiences with the current industry and its changes along with her recent struggles with issues such as an insane schedule. Q&A too!"
+      "speaker" : null,
+      "date" : null,
+      "time": "TBA",
+      "location": null,
+      "topic": "TBA"
     },{
       "id": 7,
       "title" : "July",
-      "speaker" : ["Laurie Schnebly"],
-      "date" : "7-15-2017",
-      "time": "9:00 am to 5:00 pm",
-      "location": "<a href='https://goo.gl/maps/sUuCpSvssXs' target='_blank'>Columbus Metropolitan Library (Auditorium)<br>96 S Grant Ave<br>Columbus, OH 43215 <i class='fa fa-map-marker'></i></a><br>",
-      "topic": "Plotting, Building Conflict and \"Alpha Males from Abe to Zeus\"<br>A workshop by legendary workshop presenter, <a href='http://www.booklaurie.com' target='_blank'>Laurie Schnebly</a>. Free to members. $10 donation requested from non-members. All proceeds will help offset the cost of the event."
+      "speaker" : null,
+      "date" : null,
+      "time": "TBA",
+      "location": null,
+      "topic": "TBA"
     },{
       "id": 8,
       "title" : "August",
       "speaker" : null,
-      "date" : "8-19-2017",
-      "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
-      "location": "<a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>",
-      "topic": "National Conference Recap<br>Members who attended the RWA National Conference will share their insights and information acquired at the conference."
+      "date" : null,
+      "time": "TBA",
+      "location": null,
+      "topic": "TBA"
     },{
       "id": 9,
       "title" : "September",
-      "speaker" : ["Lita Lawson", "Kat Sheridan"],
-      "date" : "9-16-2017",
-      "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
-      "location": "<a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>",
-      "topic": "Self Publishing Help. Self-Published Contemporary Author, <a href='http://www.litalawson.net' target='_blank'>Lita Lawson</a> discusses how to hire an editor and format your work, along with other handy tips regarding publishing your own work. And Self-Published Historical Author, <a href='http://www.facebook.com/Kat-Sheridan' target='_blank'>Kat Sheridan</a> will discuss how to write a back cover blurb for your book."
+      "speaker" : null,
+      "date" : null,
+      "time": "TBA",
+      "location": null,
+      "topic": "TBA"
     },{
       "id": 10,
       "title" : "October",
-      "speaker" : ["Larry Brooks"],
-      "date" : "10-21-2017",
-      "time": "All Day Workshop",
-      "location": "<a href='https://goo.gl/maps/RUkXuKf1Q6P2' target='_blank'>The Courtyard Marriott, 2350 Westbest Drive, Columbus <i class='fa fa-map-marker'></i></a><br>",
-      "topic": "Story Fix and Story Engineering<br>Larry is a recognized writing expert and loves to share his expertise and love of the craft.  He is the author of several excellent books on writing, including STORY ENGINEERING, STORY PHYSICS, and STORY FIX. <a href='/workshop'>Register Here</a>"
+      "speaker" : null,
+      "date" : null,
+      "time": "TBA",
+      "location": null,
+      "topic": "TBA"
     },{
       "id": 11,
       "title" : "November",
       "speaker" : null,
-      "date" : "11-18-2017",
-      "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
-      "location": "<a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>",
-      "topic": "Making COFW Stronger. Brainstorming. Idea Sharing.<br>Attend the November 18 COFW meeting as we engage in small and large group sharing. Voice your opinion. Express your needs as a writer, yet-to-be published and  published. How can COFW help you? Be a part of the discussion."
+      "date" : null,
+      "time": "TBA",
+      "location": null,
+      "topic": "TBA"
     },{
       "id": 12,
       "title" : "December",
       "speaker" : null,
-      "date" : "12-02-2017",
-      "time": "Noon",
-      "location": "Home of Robin Gianna<br>",
-      "topic": "Annual Christmas Party - Members Only!"
+      "date" : null,
+      "time": "TBA",
+      "location": null,
+      "topic": "TBA"
     }
     
   ]
