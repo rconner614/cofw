@@ -14,11 +14,12 @@
     },{
       "id": 2,
       "title" : "February",
-      "speaker" : null,
-      "date" : null,
-      "time": "TBA",
-      "location": null,
-      "topic": "TBA"
+      "speaker" : ["Andrea McConnell"],
+      "date" : "2/17/2018",
+      "longDate": "February 17th 2018",
+      "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
+      "location": "<a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>",
+      "topic": "Social Media Setup<br>Andrea McConnell will provide \"hands on\" social media setup to members. Everyone is encouraged to bring their cell phones, laptop, tablets, etc. and Andrea will assist in getting HootSuite, Twitter and other social media platforms ready for your use."
     },{
       "id": 3,
       "title" : "March",
