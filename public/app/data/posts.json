@@ -154,6 +154,17 @@
       "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; February 17th, 2018 - Business Meeting at 12:30 pm, Speaker at 1:30 pm<br>LOCATION &nbsp; | &nbsp; <a href='http://maps.google.com/?q=5181 Northwest Parkway, Hilliard, OH 43026' target='_blank'>Norwich Twp Safety &amp; Services Building 5181 Northwest Parkway, Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>TOPIC &nbsp; | &nbsp; <strong>Social Media Setup<br></strong></p><p>Andrea McConnell will provide \"hands on\" social media setup to members. Everyone is encouraged to bring their cell phones, laptop, tablets, etc. and Andrea will assist in getting HootSuite, Twitter and other social media platforms ready for your use.</p>"
     },
     {
+      "id" : 31,
+      "createdOn" : "2018-01-21T00:00:00",
+      "releaseOn" : "2018-01-04T00:59:00",
+      "image" : null,
+      "title" : "March 17th Meeting",
+      "createdBy" : "Rachel",
+      "postTags" : [1,2],
+      "type": "Meeting",
+      "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; March 17th, 2018 - Business Meeting at 12:30 pm, Speaker at 1:30 pm<br>LOCATION &nbsp; | &nbsp; <a href='http://maps.google.com/?q=5181 Northwest Parkway, Hilliard, OH 43026' target='_blank'>Norwich Twp Safety &amp; Services Building 5181 Northwest Parkway, Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>TOPIC &nbsp; | &nbsp; <strong>Creating Female Characters for Historical with Sarah Portman<br></strong></p><p></p>"
+    },
+    {
       "id" : 32,
       "createdOn" : "2018-03-01T00:00:00",
       "releaseOn" : "2018-03-01T00:59:00",
