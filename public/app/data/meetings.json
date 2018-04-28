@@ -71,7 +71,7 @@
       "speaker" : null,
       "date" : "8/18/2018",
       "longDate" : "August 18th 2018",
-      "time": "TBA",
+      "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
       "location": null,
       "topic": "RWA National Recap"
     },{
@@ -80,25 +80,25 @@
       "speaker" : ["J. Leigh Bailey"],
       "date" : "9/15/2018",
       "longDate" : "September 15th 2018",
-      "time": "TBA",
+      "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
       "location": null,
       "topic": "Mastering the Meet-Cute"
     },{
       "id": 10,
       "title" : "October",
-      "speaker" : null,
+      "speaker" : ["Suzanne Sabol"],
       "date" : "10/13/2018",
       "longDate" : "October 13th 2018",
-      "time": "TBA",
+      "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
       "location": null,
-      "topic": "TBA"
+      "topic": "Mapping Your Series"
     },{
       "id": 11,
       "title" : "November",
       "speaker" : null,
       "date" : "11/17/2018",
       "longDate" : "November 17th 2018",
-      "time": "TBA",
+      "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
       "location": null,
       "topic": "Write In"
     },{
