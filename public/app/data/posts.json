@@ -185,6 +185,17 @@
       "postTags" : [1,2],
       "type": "Meeting",
       "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; May 19th, 2018 - Business Meeting at 12:30 pm, Speaker at 1:30 pm<br>LOCATION &nbsp; | &nbsp; <a href='http://maps.google.com/?q=5181 Northwest Parkway, Hilliard, OH 43026' target='_blank'>Norwich Twp Safety &amp; Services Building 5181 Northwest Parkway, Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>TOPIC &nbsp; | &nbsp; <strong>Group Activity<br></strong></p><p>This meeting will provide various options for members to work collectively to plot, critique, brainstorm and otherwise help each other on furthering their current work in progress.</p>"
+    },
+    {
+      "id" : 34,
+      "createdOn" : "2018-04-01T00:00:00",
+      "releaseOn" : "2018-05-01T00:59:00",
+      "image" : null,
+      "title" : "June 16th Meeting",
+      "createdBy" : "Rachel",
+      "postTags" : [1,2],
+      "type": "Meeting",
+      "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; June 16th, 2018 - Business Meeting at 12:30 pm, Speaker at 1:30 pm<br>LOCATION &nbsp; | &nbsp; <a href='http://maps.google.com/?q=5181 Northwest Parkway, Hilliard, OH 43026' target='_blank'>Norwich Twp Safety &amp; Services Building 5181 Northwest Parkway, Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>TOPIC &nbsp; | &nbsp; <strong>Publicity & Marketing Tips with Danielle Barclay<br></strong></p>"
     }
   ],
   "tags": [
