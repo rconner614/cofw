@@ -190,12 +190,12 @@
       "id" : 34,
       "createdOn" : "2018-04-01T00:00:00",
       "releaseOn" : "2018-05-01T00:59:00",
-      "image" : null,
+      "image" : "/app/images/posts/June_2018.png",
       "title" : "June 16th Meeting",
       "createdBy" : "Rachel",
       "postTags" : [1,2],
       "type": "Meeting",
-      "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; June 16th, 2018 - Business Meeting at 12:30 pm, Speaker at 1:30 pm<br>LOCATION &nbsp; | &nbsp; <a href='http://maps.google.com/?q=5181 Northwest Parkway, Hilliard, OH 43026' target='_blank'>Norwich Twp Safety &amp; Services Building 5181 Northwest Parkway, Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>TOPIC &nbsp; | &nbsp; <strong>Publicity & Marketing Tips with Danielle Barclay<br></strong></p>"
+      "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; June 16th, 2018 - Business Meeting at 12:30 pm, Speaker at 1:30 pm<br>LOCATION &nbsp; | &nbsp; <a href='http://maps.google.com/?q=5181 Northwest Parkway, Hilliard, OH 43026' target='_blank'>Norwich Twp Safety &amp; Services Building 5181 Northwest Parkway, Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>TOPIC &nbsp; | &nbsp; <strong>Publicity & Marketing Tips with Danielle Barclay<br></strong></p><p>Danielle is the owner of Barclay Publicity, a boutique public relations agency specializing in author publicity and book promotion. She started her career in publishing close to twenty years ago honing her sales skills as an advertising account executive and working as a freelance marketing consultant. Before founding Barclay Publicity, she held the position of publicity director at <a target='_blank' href='http://www.entangledpublishing.com/'>Entangled Publishing</a> helping launch and brand six of the company's twelve imprints. She also provided publicity support for the <a target='_blank' href='https://www.rtconvention.com/'>RT Booklovers Convention</a> in 2010 and 2011.</p><p>As an industry recognized award winning social media expert, she has created and implemented over 700 publicity campaigns. She conducts presentations for writers groups and has a passion for mentoring aspiring and debut authors. As a public relations professional, Danielle strives to get her clients in the right place to connect with readers so they can tell their story to as many people as possible. Aside from her marketing responsibilities, she also acts as copywriter, media buyer, and graphic designer for the company. She has worked with numerous New York Times bestselling authors including Shannon McKenna, Sarah Castille, Sharon Hamilton, Tracy Wolff, Noelle Adams, Katee Robert, Gina Maxwell, Jennifer Probst, Laura Kaye,  Jennifer L. Armentrout, and Tawny Weber.</p>"
     }
   ],
   "tags": [
