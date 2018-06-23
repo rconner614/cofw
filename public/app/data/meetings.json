@@ -64,7 +64,7 @@
       "longDate" : "July 14th 2018",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
       "location": "<a href='https://goo.gl/maps/2qzD4mB4fJs' target='_blank'>Norwich Township Fire Station 83<br>4283 Davidson Rd<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a>",
-      "topic": "Visit from Edgar Nominated Author and Journalist Robin Yocum"
+      "topic": "Keeping Motivated and Keep On Writing with Robin Yocum<br>Edgar-nominated author and former Columbus Dispatch investigative reporter Robin Yocum will share his tips on overcoming impediments that keep you from writing your first novel or staying on track with your current novel."
     },{
       "id": 8,
       "title" : "August",
@@ -95,12 +95,12 @@
     },{
       "id": 11,
       "title" : "November",
-      "speaker" : null,
-      "date" : "11/17/2018",
-      "longDate" : "November 17th 2018",
-      "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
-      "location": null,
-      "topic": "Write In"
+      "speaker" : ["Allie Pleiter"],
+      "date" : "11/10/2018",
+      "longDate" : "November 10th 2018",
+      "time": "9:30 am - 4 pm, Registration starts at 9 am",
+      "location": "<a href='https://goo.gl/maps/V7TXtXDVJP42' target='_blank'>The Clintonville Woman's Club, 3951 N High St, Columbus <i class='fa fa-map-marker'></i></a>",
+      "topic": "Chucky Writing Method<br>The afternoon will consist of writing time for attendees to work on their NANO projects.<br>Bring your laptops, extension cords and enthusiasm for a day of information and synergy of being in company of other writers."
     },{
       "id": 12,
       "title" : "December",

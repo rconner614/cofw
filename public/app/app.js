@@ -127,15 +127,14 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
                 return memberSrv.getMembers();
             }]
         }
+    }).state('workshop', {
+        url: "/workshop",
+        templateUrl: "/app/views/_workshop.html"
     });
     $locationProvider.html5Mode(true);
 }
 
-/*.state('workshop', {
-        url: "/workshop",
-        templateUrl: "/app/views/_workshop.html",
-        controller: 'workshopCtrl'
-    }).state('successContest', {
+/*.state('successContest', {
         url: "/contest/success",
         templateUrl: "/app/views/_success-contest.html"
     }).state('successWorkshop', {
