@@ -201,12 +201,45 @@
       "id" : 35,
       "createdOn" : "2018-05-01T00:00:00",
       "releaseOn" : "2018-06-01T00:59:00",
-      "image" : null,
+      "image" : "/app/images/posts/July_2018.png",
       "title" : "July 14th Meeting",
       "createdBy" : "Rachel",
       "postTags" : [1,2],
       "type": "Meeting",
       "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; July 14th, 2018 - Business Meeting at 12:30 pm, Speaker at 1:30 pm<br>LOCATION &nbsp; | &nbsp; <a href='https://goo.gl/maps/2qzD4mB4fJs' target='_blank'>Norwich Township Fire Station 83 4283 Davidson Rd, Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>TOPIC &nbsp; | &nbsp; <strong>Keeping Motivated and Keep On Writing - Robin Yocum</strong></p><p>Edgar-nominated author Robin Yocum and former Columbus Dispatch investigative reporter will share his tips on overcoming impediments that keep you from writing your first novel or staying on track with your current novel. Robin will teach you his method for not only starting a novel, but also for maintaining the momentum. This will include discussion on goal-setting, creating a beginning and ending, and the tricks that will keep you working to completion. Robin likes his workshops to be interactive and will also share experiences of his reporting days. </p><p>Robin Yocum is known for his fiction set in the Ohio River Valley. His next book, A Perfect Shot, was released in April 2018. He is the author of two non-fiction books, and four additional works of fiction: A Welcome Murder, A Brilliant Death, The Essay, and Favorite Sons, which was named the 2011 Book of the Year for Mystery/Suspense by USA Book News. He is Literary Advisor for the Thurber House.</p>"
+    },
+    {
+      "id" : 35,
+      "createdOn" : "2018-05-01T00:00:00",
+      "releaseOn" : "2018-07-14T13:59:00",
+      "image" : "/app/images/posts/August_2018.png",
+      "title" : "August 18th Meeting",
+      "createdBy" : "Rachel",
+      "postTags" : [1,2],
+      "type": "Meeting",
+      "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; August 18th, 2018 - Business Meeting at 12:30 pm, Speaker at 1:30 pm<br>LOCATION &nbsp; | &nbsp; <a href='http://maps.google.com/?q=5181 Northwest Parkway, Hilliard, OH 43026' target='_blank'>Norwich Twp Safety &amp; Services Building 5181 Northwest Parkway, Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>TOPIC &nbsp; | &nbsp; <strong>RWA Conference Recap</strong></p><p>Members who attended the RWA National Conference will share their insights and information acquired at the conference.</p>"
+    },
+    {
+      "id" : 36,
+      "createdOn" : "2018-05-01T00:00:00",
+      "releaseOn" : "2018-08-18T13:59:00",
+      "image" : "/app/images/posts/Sep_2018.png",
+      "title" : "September 15th Meeting",
+      "createdBy" : "Rachel",
+      "postTags" : [1,2],
+      "type": "Meeting",
+      "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; September 15th, 2018 - Business Meeting at 12:30 pm, Speaker at 1:30 pm<br>LOCATION &nbsp; | &nbsp; <a href='http://maps.google.com/?q=5181 Northwest Parkway, Hilliard, OH 43026' target='_blank'>Norwich Twp Safety &amp; Services Building 5181 Northwest Parkway, Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>TOPIC &nbsp; | &nbsp; <strong>Mastering the Meet-Cute - J. Leigh Bailey</strong></p><p>The very first encounter between the romantic leads of your story sets the tone for the rest of the book. This encounter either pulls the reader deeper into the story or makes them decide the book isn't for them. The meet-cute--the quirky, funny, sexy, and/or memorable way two people meet for the first time--has been used for decades in film, television, and novels as a way to get the audience immediately sucked into the romantic storyline. This program will use examples from popular movies, television shows, and books to identify the main characteristics of an effective meet-cute, to recognize the basic formulas and tropes of the meet-cute, and to explore ways to create fresh versions of this classic plot device.</p><p>J. Leigh Bailey is an office drone by day and the author of Young Adult LGBT Romance by night. She can usually be found with her nose in a book or pressed up against her computer monitor. A book-a-day reading habit sometimes gets in the way of... well, everything...but some habits aren't worth breaking. She's been reading romance novels since she was ten years old. The last twenty years or so have not changed her voracious appetite for stories of romance, relationships and achieving that vitally important Happy Ever After. She's a firm believer that everyone, no matter their gender, age, sexual orientation or paranormal affiliation deserves a happy ending.</p>"
+    },
+    {
+      "id" : 37,
+      "createdOn" : "2018-05-01T00:00:00",
+      "releaseOn" : "2018-09-15T13:59:00",
+      "image" : "/app/images/posts/October_2018.png",
+      "title" : "October 13th Meeting",
+      "createdBy" : "Rachel",
+      "postTags" : [1,2],
+      "type": "Meeting",
+      "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; October 13th, 2018 - Business Meeting at 12:30 pm, Speaker at 1:30 pm<br>LOCATION &nbsp; | &nbsp; <a href='http://maps.google.com/?q=5181 Northwest Parkway, Hilliard, OH 43026' target='_blank'>Norwich Twp Safety &amp; Services Building 5181 Northwest Parkway, Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>TOPIC &nbsp; | &nbsp; <strong>Mapping Your Series - Suzanne M. Sabol</strong></p><p>Suzanne will share her Series Bible she has developed and used. Any author contemplating or currently writing a series of connected books needs such a tool to track and keep everything straight.</p><p>Suzanne M. Sabol is the author of Urban Fantasy and Paranormal Romance. She has been writing from the age of 16 when she finished her first full length novel. Suzanne M. Sabol graduated from The Ohio State University, majoring in Criminology, International Studies, Russian and Political Science. She continued to write and published her first book Cursed in March of 2009. She currently lives in Columbus Ohio with her husband and daughter.</p>"
     }
   ],
   "tags": [
