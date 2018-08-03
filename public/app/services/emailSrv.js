@@ -5,7 +5,7 @@
     emailSrv.$inject = ['$q', '$http'];
     function emailSrv($q, $http){
 
-        var template = "Registration for Larry Brooks Workshop\nName: <name>\nStreet Address: <sAddress>\nCity: <city>\nState: <state>\nZip: <zip>\nName to Appear on Badge: <badge>\nPaypal Account Name: <paypal>\nPhone: <phone>\nEmail: <email>\nFood Choice: <food>\nCOFW Member: <isMember>";
+        var template = "Registration for 2018 Workshop\nName: <name>\nStreet Address: <sAddress>\nCity: <city>\nState: <state>\nZip: <zip>\nPaypal Account Name: <paypal>\nPhone: <phone>\nEmail: <email>\nCOFW Member: <isMember>";
 
         var memberTemplate = "Name: <name>\nDisplayed Name: <displayName>\nEmail: <email>\nDisplay Email?: <displayEmail>\nWebsite: <website>\nFacebook: <facebook>\nTwitter: <twitter>\nPinterest: <pinterest>\nGoogle Plus: <googlePlus>\nNovels: <novels>\nNovellas: <novellas>\nBlurb: <blurb>";
 

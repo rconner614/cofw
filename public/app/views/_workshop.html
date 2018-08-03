@@ -22,6 +22,93 @@
                         <p>It doesn’t matter if this is your first manuscript or your 20th—writers of every experience level have “gotten Chunky” with dramatic results. Whatever your writing style, The Chunky Method Handbook will help you chart an individualized path to your creative writing goals. The Chunky Method Handbook is an essential resource for thriving in spite of all that the current market—and everyday life—demands from a writer’s creative energy.</p>
                     </div>
                 </div>
+            <div class="col-sm-12 text-center">
+                <p>Please contact Aleta via <a href="mailto:aletawrites@hotmail.com">aletawrites@hotmail.com</a> with questions!</p>
+                <h3><strong>Complete Steps 1 and 2 to Register</strong></h3>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div style="background: rgba(255,255,255, .8); padding-left: 2em; padding-right: 2em; padding-bottom: 2em;">
+                            <h4>1. Pay Workshop Fee</h4>
+                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="4ZXFWHEXHW6NL">
+                                <input type="hidden" name="on0" value="Fee">
+                                <select name="os0">
+                                    <option value="Non-COFW Member">Non-COFW Member $49.00 USD</option>
+                                    <option value="COFW Member">COFW Member $45.00 USD</option>
+                                </select>
+                                <input type="hidden" name="currency_code" value="USD">
+                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div style="background: rgba(255,255,255, .8); padding-left: 2em; padding-right: 2em">
+                            <h4 ng-hide="sent" class="text-center">2. Complete Registration</h4>
+                            <h3 ng-show="sent">Registration Submitted!</h3>
+                            <h5 ng-show="sent">Don't forget to pay your fee through paypal, or your registration spot will not be reserved.</h5>
+                            <div class="row">
+                                <div class="col-sm-12 text-left" ng-hide="sent">
+                                    <form ng-submit="sendEmail()" autocomplete="false">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6 form-group">
+                                                <label>First Name:</label>
+                                                <input class="form-control" type="text" ng-model="form.user.firstName" required>
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 form-group">
+                                                <label>Last Name:</label>
+                                                <input class="form-control" type="text" ng-model="form.user.lastName" required>
+                                            </div>
+                                            <div class="col-lg-12 form-group">
+                                                <label>Address:</label>
+                                                <input class="form-control" type="text" ng-model="form.user.address" required>
+                                            </div>
+                                            <div class="col-lg-5 col-md-6 form-group">
+                                                <label>City:</label>
+                                                <input class="form-control" type="text" ng-model="form.user.city" required>
+                                            </div>
+                                            <div class="col-lg-4 col-md-6 form-group">
+                                                <label>State:</label>
+                                                <input class="form-control" type="text" ng-model="form.user.state" required>
+                                            </div>
+                                            <div class="col-lg-3 col-md-6 form-group">
+                                                <label>Zip:</label>
+                                                <input class="form-control" type="text" ng-model="form.user.zip" required>
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 form-group">
+                                                <label>Phone:</label>
+                                                <input class="form-control" type="text" ng-model="form.user.phone" required>
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 form-group">
+                                                <label>Email:</label>
+                                                <input class="form-control" type="text" ng-model="form.user.email" required>
+                                            </div>
+                                            <div class="col-lg-12 form-group">
+                                                <label>Paypal Email (to confirm fee payment):</label>
+                                                <input class="form-control" type="text" ng-model="form.user.payPalAccount" required>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                            <div class="col-lg-12 form-group">
+                                                <label>Are you a COFW Member?&nbsp;</label>
+                                                <input class="checkbox-inline" type="checkbox" ng-model="form.user.isMember" style="margin-top: -5px">
+                                            </div>
+                                            <div class="clearfix"></div>
+                                            <input type="text" ng-model="form.catchMe" style="position: absolute; left: -4000px">
+                                            <div class="text-center">
+                                                <button class="btn btn-primary" type="submit">
+                                                    <span ng-show="!sending">Submit</span>
+                                                    <span ng-show="sending"><i class="fa fa-pulse fa-spinner"></i></span>
+                                                </button>
+                                            </div>
+                                            <div class="clearfix"></div><br>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
