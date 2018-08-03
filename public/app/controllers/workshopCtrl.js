@@ -5,7 +5,7 @@
     workshopCtrl.$inject = ['emailSrv', '$scope'];
     function workshopCtrl(emailSrv, $scope){
         $scope.form = {
-            toEmail: 'Aleta Dodson <aletawrites@hotmail.com>, Rachel Conner<cofwwebdeveloper@gmail.com>',
+            toEmail: 'Rachel Conner<cofwwebdeveloper@gmail.com>',
             text: null,
             html: null,
             subject: 'Workshop Registration Submitted',
@@ -25,9 +25,10 @@
             catchMe: null
         };
 
+        $scope.foodChoices = ['Ham and Swiss','Beef and Cheddar','Turkey and Swiss', 'Grilled Vegetable Wrap','Other [Contact Linda Rice]'];
+
         $scope.sendEmail = function(){
             if($scope.form.catchMe){
-                console.log('catch me');
                 return;
             }
             $scope.sending = true;
@@ -44,6 +45,7 @@
             $scope.form.text = template;
             $scope.form.html = $scope.form.text.replace('\n', '<br>');
             emailSrv.sendEmail($scope.form).then(function(resp){
+                console.log(resp);
                 if(resp && resp.status === 200){
                     $scope.sent = true;
                 } else {
