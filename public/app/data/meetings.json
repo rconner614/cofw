@@ -3,112 +3,111 @@
     {
       "id": 1,
       "title" : "January",
-      "speaker" : [
-        "Saralee Etter"
-      ],
-      "date" : "1/13/2018",
-      "longDate" : "January 13th 2018",
+      "speaker" : ["COFW Members"],
+      "date" : "1/19/2019",
+      "longDate" : "January 19th 2019",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
       "location": "<a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a>",
-      "topic":"Planning a Great 2018"
+      "topic":"2019 Goal Setting and Plotting/Critiquing"
     },{
       "id": 2,
       "title" : "February",
-      "speaker" : ["Andrea McConnell"],
-      "date" : "2/17/2018",
-      "longDate": "February 17th 2018",
+      "speaker" : null,
+      "date" : "2/16/2019",
+      "longDate": "February 16th 2019",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
       "location": "<a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a>",
-      "topic": "Social Media Setup<br>Andrea McConnell will provide \"hands on\" social media setup to members. Everyone is encouraged to bring their cell phones, laptop, tablets, etc. and Andrea will assist in getting HootSuite, Twitter and other social media platforms ready for your use."
+      "topic": "TBD"
     },{
       "id": 3,
       "title" : "March",
-      "speaker" : ["Sarah Portman"],
-      "date" : "3/17/2018",
-      "longDate" : "March 17th 2018",
+      "speaker" : null,
+      "date" : "3/16/2019",
+      "longDate" : "March 16th 2019",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
       "location": "<a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a>",
-      "topic": "Creating Female Characters for Historical"
+      "topic": "TBD"
     },{
       "id": 4,
       "title" : "April",
-      "speaker" : ["Maddie James"],
-      "date" : "4/14/2018",
-      "longDate" : "April 14th 2018",
+      "speaker" : null,
+      "date" : "4/13/2019",
+      "longDate" : "April 13th 2019",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
       "location": "<a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a>",
-      "topic": "How to Write a Series<br>Writing a series can be addicting—for the author and the reader. This workshop will share some strategies, tools, and behind the scenes logistics that work for Maddie James, and might work for you."
+      "topic": "TBD"
     },{
       "id": 5,
       "title" : "May",
       "speaker" : null,
-      "date" : "5/19/2018",
-      "longDate" : "May 19th 2018",
+      "date" : "5/18/2019",
+      "longDate" : "May 18th 2019",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
       "location": "<a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a>",
-      "topic": "Group Activity<br>This meeting will provide various options for members to work collectively to plot, critique, brainstorm and otherwise help each other on furthering their current work in progress."
+      "topic": "TBD"
     },{
       "id": 6,
       "title" : "June",
-      "speaker" : ["Danielle Barclay"],
-      "date" : "6/16/2018",
-      "longDate" : "June 16th 2018",
+      "speaker" : null,
+      "date" : "6/15/2019",
+      "longDate" : "June 15th 2019",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
       "location": "<a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a>",
-      "topic": "Publicity & Marketing Tips<br>As an industry recognized award winning social media expert, she has created and implemented over 700 publicity campaigns. She conducts presentations for writers groups and has a passion for mentoring aspiring and debut authors."
+      "topic": "TBD"
     },{
       "id": 7,
       "title" : "July",
-      "speaker" : ["Robin Yocum"],
-      "date" : "7/14/2018",
-      "longDate" : "July 14th 2018",
+      "speaker" : null,
+      "date" : "7/13/2019",
+      "longDate" : "July 13th 2019",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
-      "location": "<a href='https://goo.gl/maps/2qzD4mB4fJs' target='_blank'>Norwich Township Fire Station 83<br>4283 Davidson Rd<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a>",
-      "topic": "Keeping Motivated and Keep On Writing with Robin Yocum<br>Edgar-nominated author and former Columbus Dispatch investigative reporter Robin Yocum will share his tips on overcoming impediments that keep you from writing your first novel or staying on track with your current novel."
+      "location": "<strong>OTHER FIRE DEPARTMENT</strong> <a href='https://goo.gl/maps/2qzD4mB4fJs' target='_blank'>Norwich Township Fire Station 83<br>4283 Davidson Rd<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a>",
+      "topic": "TBD"
     },{
       "id": 8,
       "title" : "August",
-      "speaker" : null,
-      "date" : "8/18/2018",
-      "longDate" : "August 18th 2018",
+      "speaker" : ["COFW Members"],
+      "date" : "8/17/2019",
+      "longDate" : "August 17th 2019",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
       "location": "<a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a>",
-      "topic": "RWA National Recap<br>Members who attended the RWA National Conference will share their insights and information acquired at the conference."
+      "topic": "RWA National Recap"
     },{
       "id": 9,
       "title" : "September",
-      "speaker" : ["J. Leigh Bailey"],
-      "date" : "9/15/2018",
-      "longDate" : "September 15th 2018",
+      "speaker" : null,
+      "date" : "9/14/2019",
+      "longDate" : "September 14th 2019",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
       "location": "<a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a>",
-      "topic": "Mastering the Meet-Cute<br>This program will use examples from popular movies, television shows, and books to identify the main characteristics of an effective meet-cute, to recognize the basic formulas and tropes of the meet-cute, and to explore ways to create fresh versions of this classic plot device."
+      "topic": "TBD"
     },{
       "id": 10,
       "title" : "October",
-      "speaker" : ["Suzanne Sabol"],
-      "date" : "10/13/2018",
-      "longDate" : "October 13th 2018",
-      "time": "Business meeting at 10:30 am - 12:30, Speaker at 1:30 pm",
+      "speaker" : null,
+      "date" : "10/19/2019",
+      "longDate" : "October 19th 2019",
+      "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
       "location": "<a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a>",
-      "topic": "Mapping Your Series<br>Suzanne will share her Series Bible she has developed and used. Any author contemplating or currently writing a series of connected books needs such a tool to track and keep everything straight."
+      "topic": "TBD"
     },{
       "id": 11,
       "title" : "November",
-      "speaker" : ["Allie Pleiter"],
-      "date" : "11/10/2018",
-      "longDate" : "November 10th 2018",
-      "time": "9:30 am - 4 pm, Registration starts at 9 am",
-      "location": "<a href='https://goo.gl/maps/V7TXtXDVJP42' target='_blank'>The Clintonville Woman's Club, 3951 N High St, Columbus <i class='fa fa-map-marker'></i></a>",
-      "topic": "Chucky Writing Method<br>The afternoon will consist of writing time for attendees to work on their NANO projects.<br>Bring your laptops, extension cords and enthusiasm for a day of information and synergy of being in company of other writers."
+      "speaker" : null,
+      "date" : "11/16/2019",
+      "longDate" : "November 16th 2019",
+      "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
+      "location": "<a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a>",
+      "topic": "TBD"
     },{
       "id": 12,
       "title" : "December",
       "speaker" : null,
-      "date" : null,
-      "time": "TBA",
+      "date" : "12/7/2019",
+      "longDate" : "December 7th 2019",
+      "time": "Noon",
       "location": null,
-      "topic": "TBA"
+      "topic": "COFW Christmas Party *Members Only*"
     }
     
   ]
