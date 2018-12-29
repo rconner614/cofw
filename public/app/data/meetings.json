@@ -12,7 +12,7 @@
     },{
       "id": 2,
       "title" : "February",
-      "speaker" : null,
+      "speaker" : ["TBD"],
       "date" : "2/16/2019",
       "longDate": "February 16th 2019",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
@@ -21,7 +21,7 @@
     },{
       "id": 3,
       "title" : "March",
-      "speaker" : null,
+      "speaker" : ["TBD"],
       "date" : "3/16/2019",
       "longDate" : "March 16th 2019",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
@@ -30,7 +30,7 @@
     },{
       "id": 4,
       "title" : "April",
-      "speaker" : null,
+      "speaker" : ["TBD"],
       "date" : "4/13/2019",
       "longDate" : "April 13th 2019",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
@@ -39,7 +39,7 @@
     },{
       "id": 5,
       "title" : "May",
-      "speaker" : null,
+      "speaker" : ["TBD"],
       "date" : "5/18/2019",
       "longDate" : "May 18th 2019",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
@@ -48,7 +48,7 @@
     },{
       "id": 6,
       "title" : "June",
-      "speaker" : null,
+      "speaker" : ["TBD"],
       "date" : "6/15/2019",
       "longDate" : "June 15th 2019",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
@@ -57,7 +57,7 @@
     },{
       "id": 7,
       "title" : "July",
-      "speaker" : null,
+      "speaker" : ["TBD"],
       "date" : "7/13/2019",
       "longDate" : "July 13th 2019",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
@@ -75,7 +75,7 @@
     },{
       "id": 9,
       "title" : "September",
-      "speaker" : null,
+      "speaker" : ["TBD"],
       "date" : "9/14/2019",
       "longDate" : "September 14th 2019",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
@@ -84,7 +84,7 @@
     },{
       "id": 10,
       "title" : "October",
-      "speaker" : null,
+      "speaker" : ["TBD"],
       "date" : "10/19/2019",
       "longDate" : "October 19th 2019",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
@@ -93,7 +93,7 @@
     },{
       "id": 11,
       "title" : "November",
-      "speaker" : null,
+      "speaker" : ["TBD"],
       "date" : "11/16/2019",
       "longDate" : "November 16th 2019",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
