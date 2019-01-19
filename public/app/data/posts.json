@@ -257,11 +257,11 @@
       "createdOn" : "2018-12-20T00:00:00",
       "releaseOn" : "2018-12-24T13:59:00",
       "image" : null,
-      "title" : "First Meeting of 2019!",
+      "title" : "January Meeting Cancelled",
       "createdBy" : "Rachel",
       "postTags" : [1,2],
       "type": "Meeting",
-      "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; January 19th, 2019 - Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm<br>LOCATION &nbsp; | &nbsp; <a href='http://maps.google.com/?q=5181 Northwest Parkway, Hilliard, OH 43026' target='_blank'>Norwich Twp Safety &amp; Services Building 5181 Northwest Parkway, Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>TOPIC &nbsp; | &nbsp; <strong>COFW 2019 Goal Setting and Plotting/Critiquing</p>"
+      "content" : "<p>Due to bad weather, the January meeting is canceled.</p><p>We are looking for a place to hold the meeting on January 26th. Watch this page for updates. Thanks!</p>"
     }
   ],
   "tags": [
