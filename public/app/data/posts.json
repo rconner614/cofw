@@ -257,11 +257,11 @@
       "createdOn" : "2018-12-20T00:00:00",
       "releaseOn" : "2018-12-24T13:59:00",
       "image" : null,
-      "title" : "January Meeting Cancelled",
+      "title" : "January Meeting Rescheduled",
       "createdBy" : "Rachel",
       "postTags" : [1,2],
       "type": "Meeting",
-      "content" : "<p>Due to bad weather, the January meeting is cancelled.</p><p>We are looking for a place to hold the meeting on January 26th. Watch this page for updates. Thanks!</p>"
+      "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; January 26th, 2019 - Business Meeting at 12:30 pm, Goals Workshop at 1:30pm<br>LOCATION &nbsp; | &nbsp; <a href='https://goo.gl/maps/2qzD4mB4fJs' target='_blank'>Norwich Township Fire Station 83 4283 Davidson Rd, Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>TOPIC &nbsp; | &nbsp; <strong>Setting Writing/Business Goals for 2019</strong></p>"
     }
   ],
   "tags": [
