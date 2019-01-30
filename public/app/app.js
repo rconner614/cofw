@@ -130,9 +130,12 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
     }).state('classes', {
         url: "/classes",
         templateUrl: "/app/views/_classes.html"
-    }).state('classesSuccess', {
-        url: "/classes/success",
-        templateUrl: "/app/views/_classes_success.html"
+    }).state('classesSuccessJune', {
+        url: "/classes/success/june",
+        templateUrl: "/app/views/_classes_success_june.html"
+    }).state('classesSuccessApril', {
+        url: "/classes/success/april",
+        templateUrl: "/app/views/_classes_success_april.html"
     }).state('classApril', {
         url: "/classes/april",
         templateUrl: "/app/views/_register.html",

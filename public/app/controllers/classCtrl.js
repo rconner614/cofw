@@ -5,7 +5,7 @@
     classCtrl.$inject = ['emailSrv', '$scope', 'className', '$location'];
     function classCtrl(emailSrv, $scope, className, $location){
         $scope.form = {
-            toEmail: 'COFW Treasurer<cofwtreasurer@gmail.com>, COFW Developer<cofwwebdeveloper@gmail.com>',
+            toEmail: 'COFW Treasurer<cofwtreasurer@gmail.com>, COFW Developer<cofwwebdeveloper@gmail.com>, COFW President<cofwpresident@gmail.com>',
             text: null,
             html: null,
             subject: 'Class Registration Submitted',
