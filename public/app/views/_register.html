@@ -1,0 +1,52 @@
+<section class="content clearfix">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div style="background: rgba(255,255,255, .8); padding-left: 2em; padding-right: 2em">
+                    <h4 class="text-center">Fill out the Form Below</h4>
+                    <div class="row">
+                        <div class="col-lg-offset-2 col-lg-8 col-md-10 col-md-offset-1 col-sm-offset-0 col-sm-12 text-left">
+                            <div ng-show="error">
+                                <p>An error has occurred. If this error persists, please contact us.</p>
+                                <a class="btn btn-primary" href='mailto:cofwwebdeveloper@gmail.com'>Contact Support</a>
+                            </div>
+                            <form ng-submit="sendEmail()" autocomplete="false" ng-hide="error">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 form-group">
+                                        <label>First Name:</label>
+                                        <input class="form-control" type="text" ng-model="form.user.firstName" required>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 form-group">
+                                        <label>Last Name:</label>
+                                        <input class="form-control" type="text" ng-model="form.user.lastName" required>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 form-group">
+                                        <label>Email:</label>
+                                        <input class="form-control" type="text" ng-model="form.user.email" required>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div class="col-lg-6 col-md-6 form-group">
+                                        <label>Are you a COFW Member?&nbsp;</label>
+                                        <input class="checkbox-inline" type="checkbox" ng-model="form.user.isCOFWMember" style="margin-top: -5px">
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 form-group">
+                                        <label>Are you a RWA Member?&nbsp;</label>
+                                        <input class="checkbox-inline" type="checkbox" ng-model="form.user.isRWAMember" style="margin-top: -5px">
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div class="text-center">
+                                        <button class="btn btn-primary" type="submit">
+                                            <span ng-show="!sending">Submit</span>
+                                            <span ng-show="sending"><i class="fa fa-pulse fa-spinner"></i></span>
+                                        </button>
+                                    </div>
+                                    <div class="clearfix"></div><br>
+                                </div>
+                            </form>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

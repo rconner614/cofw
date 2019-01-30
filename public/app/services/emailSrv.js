@@ -4,6 +4,7 @@
         .factory('emailSrv', emailSrv);
     emailSrv.$inject = ['$q', '$http'];
     function emailSrv($q, $http){
+        var classTemplate = "Registration for 2019 <Class>\nName: <name>\nEmail: <email>\nCOFW Member: <isCOFWMember>\nRWA Member: <isRWAMember>";
 
         var template = "Registration for 2018 Workshop\nName: <name>\nStreet Address: <sAddress>\nCity: <city>\nState: <state>\nZip: <zip>\nPaypal Account Name: <paypal>\nPhone: <phone>\nEmail: <email>\nCOFW Member: <isMember>";
 
@@ -32,6 +33,9 @@
             },
             memberTemplate: function(){
                 return memberTemplate;
+            },
+            classTemplate: function() {
+                return classTemplate;
             }
         }
     }

@@ -127,8 +127,54 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
                 return memberSrv.getMembers();
             }]
         }
+    }).state('classes', {
+        url: "/classes",
+        templateUrl: "/app/views/_classes.html"
+    }).state('classesSuccess', {
+        url: "/classes/success",
+        templateUrl: "/app/views/_classes_success.html"
+    }).state('classApril', {
+        url: "/classes/april",
+        templateUrl: "/app/views/_register.html",
+        controller: 'classCtrl',
+        resolve: {
+            className: [function() {
+                return 'April Class'
+            }]
+        }
+    }).state('classJune', {
+        url: "/classes/june",
+        templateUrl: "/app/views/_register.html",
+        controller: 'classCtrl',
+        resolve: {
+            className: [function() {
+                return 'June Class'
+            }]
+        }
+    }).state('paypalApril', {
+        url: "/payment/april",
+        templateUrl: "/app/views/_paypal.html",
+        controller: ['$scope', 'id', function($scope, id) {
+            $scope.id = id;
+        }],
+        resolve: {
+            id: [function() {
+                return '494NG8JL6ZSWL'
+            }]
+        }
+    }).state('paypalJune', {
+        url: "/payment/june",
+        templateUrl: "/app/views/_paypal.html",
+        controller: ['$scope', 'id', function($scope, id) {
+            $scope.id = id;
+        }],
+        resolve: {
+            id: [function() {
+                return 'RENBXNKLAJ7N8'
+            }]
+        }
     });
-    //.state('workshop', {
+    // .state('workshop', {
     //     url: "/workshop",
     //     templateUrl: "/app/views/_workshop.html",
     //     controller: 'workshopCtrl'
