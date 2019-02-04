@@ -24,9 +24,9 @@
 
                         <div class="row">
                             <div class="col-lg-12 text-center">
-                                <a class="btn btn-primary" href="https://www.rwa.org/p/cm/ld/fid=521" target="_blank">Join RWA&trade;</a>
+                                <a class="btn btn-primary" href="https://www.rwa.org/Online/About_RWA/Become_a_Member/Online/About/Become_a_Member.aspx" target="_blank">Join RWA&trade;</a>
                                 <!--<a class="btn btn-primary" href="https://www.rwa.org/p/pr/vi/prodid=1110" target="_blank">2017 COFW Membership</a>-->
-                                <a class="btn btn-primary" href="https://www.rwa.org/p/pr/vi/prodid=1384" target="_blank">2018 COFW Membership</a>
+                                <a class="btn btn-primary" href="https://cofw.rwa.org/" target="_blank">2019 COFW Membership</a>
                             </div>
                         </div><br>
                         <div class="clearfix"></div><hr>
@@ -40,7 +40,7 @@
                         <div class="clearfix"></div>
                         <strong>President: </strong> <a ng-href="mailto:{{leadership.president.email}}">{{leadership.president.name}}</a><br>
                         <strong>Secretary: </strong> <span ng-hide="{{leadership.secretary.email}}">{{leadership.secretary.name}}</span><a ng-show="{{leadership.secretary.email}}" ng-href="mailto:{{leadership.secretary.email}}">{{leadership.secretary.name}}</a><br>
-                        <strong>Treasurer: </strong> <span ng-hide="{{leadership.treasurer.email}}">{{leadership.treasurer.name}}</span><a ng-show="{{leadership.treasurer.email}}" ng-href="mailto:{{leadership.treasurer.email}}">{{leadership.treasurer.name}}</a>
+                        <strong>Treasurer: </strong><a ng-show="{{leadership.treasurer.email}}" ng-href="mailto:{{leadership.treasurer.email}}">{{leadership.treasurer.name}}</a>
                         <div class="clearfix"></div>
                         <div class="col-sm-offset-3 col-sm-6">
                             <hr>
