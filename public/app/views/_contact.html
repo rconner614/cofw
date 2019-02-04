@@ -10,7 +10,7 @@
                     <div class="desc">
                         <strong>President: </strong> <a ng-href="mailto:{{leadership.president.email}}">{{leadership.president.name}}</a><br>
                         <strong>Secretary: </strong> <span ng-hide="{{leadership.secretary.email}}">{{leadership.secretary.name}}</span><a ng-show="{{leadership.secretary.email}}" ng-href="mailto:{{leadership.secretary.email}}">{{leadership.secretary.name}}</a><br>
-                        <strong>Treasurer: </strong> <span ng-hide="{{leadership.treasurer.email}}">{{leadership.treasurer.name}}</span><a ng-show="{{leadership.treasurer.email}}" ng-href="mailto:{{leadership.treasurer.email}}">{{leadership.treasurer.name}}</a><br>
+                        <strong>Treasurer: </strong> <a ng-show="{{leadership.treasurer.email}}" ng-href="mailto:{{leadership.treasurer.email}}">{{leadership.treasurer.name}}</a><br>
                         <div class="col-sm-offset-3 col-sm-6">
                             <hr>
                         </div>
