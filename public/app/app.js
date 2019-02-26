@@ -165,6 +165,9 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
                 return '494NG8JL6ZSWL'
             }]
         }
+    }).state('successContest', {
+        url: "/contest/success",
+        templateUrl: "/app/views/_success-contest.html"
     }).state('paypalJune', {
         url: "/payment/june",
         templateUrl: "/app/views/_paypal.html",
@@ -187,8 +190,3 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
     // });
     $locationProvider.html5Mode(true);
 }
-
-/*.state('successContest', {
-        url: "/contest/success",
-        templateUrl: "/app/views/_success-contest.html"
-    })*/

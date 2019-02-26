@@ -21,12 +21,12 @@
     },{
       "id": 3,
       "title" : "March",
-      "speaker" : ["TBD"],
+      "speaker" : null,
       "date" : "3/16/2019",
       "longDate" : "March 16th 2019",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
       "location": "<a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a>",
-      "topic": "TBD"
+      "topic": "Come Plot and Brainstorm with COFW<br>We will be brainstorming, plotting, and generally getting those writing juices flowing!"
     },{
       "id": 4,
       "title" : "April",
@@ -53,16 +53,16 @@
       "longDate" : "June 15th 2019",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
       "location": "<a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a>",
-      "topic": "Pitch to Tule Publishing and 4 Career Sabotages Sneaking Up On You"
+      "topic": "Pitch to Tule Publishing and 4 Career Sabotages Sneaking Up On You<br>Julie Sturgeon is currently a development editor on the Tule Publishing team, after being on contract at Crimson Romance, a division of Simon and Schuster, for nearly six years. "
     },{
       "id": 7,
       "title" : "July",
-      "speaker" : ["TBD"],
+      "speaker" : ["Laurie Schnebly Campbell"],
       "date" : "7/13/2019",
       "longDate" : "July 13th 2019",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
       "location": "<strong>(OTHER FIRE DEPARTMENT)</strong><br><a href='https://goo.gl/maps/2qzD4mB4fJs' target='_blank'>Norwich Township Fire Station 83<br>4283 Davidson Rd<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a>",
-      "topic": "TBD"
+      "topic": "Laurie Schnebly Campbell loves giving workshops for writer groups that draw on her background as a counseling therapist and romance writer. After six books for Special Edition, she turned her attention to writing non-fiction -- using her research into the nine personality types to help writers create plausible, likable people with realistic flaws."
     },{
       "id": 8,
       "title" : "August",
