@@ -1,6 +1,6 @@
 <section class="content clearfix">
     <div class="row">
-        <div class="col-lg-8 col-md-8">
+        <div class="col-md-8">
             <div ng-repeat="post in page()" class="fade-in-up">
                 <div class="post-preview text-center clearfix" style="padding-top: 0">
                     <a ng-href="/post/{{post.id}}">
@@ -22,11 +22,17 @@
             <button class="btn btn-default pull-left" ng-show="currentPage != 1" ng-click="back()">&larr; Newer Posts</button>
             <button class="btn btn-default pull-right" ng-show="currentPage != pageCount()" ng-click="forward()">Older Posts &rarr;</button>
         </div>
-            <div class="col-lg-offset-1 col-lg-3 col-md-4 col-md-offset-0 col-sm-offset-3 col-sm-6 fade-in-up">
-                <div id="sidebar" class="text-center" style="background: rgba(255,255,255,.3); padding: 10px 15px; border: #ddd 1px solid">
+            <div class="col-md-4 hidden-sm fade-in-up">
+                <div id="sidebar" class="text-center" style="background: rgba(255,255,255,.4); padding: 10px 15px; border: #a7b4b3 1px solid">
                     <h4 style="margin-top: 5px; margin-bottom: 5px" class="post-meta">Upcoming Events</h4>
                     <hr style="margin-top: 10px">
                     <div class="widget">
+                        <div class="widget-title clearfix">
+                            <h3 style="margin-top: 0">Ignite the Flame Contest</h3>
+                            <p>The contest for 2019 has begun! See the contest page for more details.</p>
+                        </div>
+                        <a class="btn btn-primary" href='/contest'>Contest Page</a>
+                        <hr>
                         <div class="widget-title clearfix">
                             <h3 style="margin-top: 0">Online Classes Available!</h3>
                         </div>

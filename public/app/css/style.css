@@ -3,8 +3,7 @@
 ------------------------------------------------------- */
 
 body {
-    background: #fef7f8;
-    background-image: url('../images/damask.png');
+    background: #fff;
     color: #121212 !important;
     font-weight: 400 !important;
     font-size: 1.7em;
@@ -13,63 +12,8 @@ body {
     overflow-x: hidden;
 }
 
-.banner{
-    float: right;
-    width: 380px;
-    padding-left: 20px;
-    margin-top: 10px;
-}
-
-@media(max-width: 768px){
-    .banner{
-        padding-left: 0;
-    }
-}
-
-@media(max-width: 380px){
-    .banner {
-        width: 100%;
-    }
-}
-@media(min-width: 992px){
-    .header-banner.col-md-offset-1{
-        margin-left: 11.3333333%
-    }
-}
-
-.banner-text{
-    line-height: 29px;
-    margin-top: 10px;
-    text-align: left;
-}
-.banner-sub-text{
-    text-align: left;
-}
-
-@media(max-width: 991px){
-    .banner-text {
-        text-align: center;
-    }
-    .banner-sub-text{
-        text-align: center;
-    }
-}
-
 .col-lg-3.col-md-4.col-sm-6.col-xs-12 {
     height: 360px;
-}
-
-@media(max-width: 991px){
-    .banner{
-        float: none;
-    }
-    /*.navbar-toggle {*/
-        /*float: left;*/
-    /*}*/
-    .banner-text{
-        line-height: 38px;
-        margin-top: 20px;
-    }
 }
 
 .pagination > li{
@@ -98,7 +42,7 @@ a.btn.btn-primary:focus
  {
     color: #000;
     font-weight: 700;
-    background-color: #ffdae4;
+    background-color: #be4a4d;
 }
 
 .pagination > li a {
@@ -121,7 +65,7 @@ a.btn.btn-primary:focus
 .pagination>li:last-child>a:hover,
 .pagination>li:first-child>a:hover {
     background-color: transparent;
-    border-color:#ffdae4;
+    border-color:#be4a4d;
     color:#121212;
 }
 
@@ -139,7 +83,7 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #fdbcd2;
+  color: #be4a4d;
 }
 
 h1 {
@@ -442,10 +386,14 @@ button.trigger span::before {
 }
 
 ul.categories > li > a.active{
-    background-color: #FDCBD8;
+    background-color: #be4a4d;
     color: #fff;
     border-radius: 4px;
     padding: 6px 12px;
+}
+
+#sidebar hr {
+    border-color: #ddd;
 }
 
 #sidebar .widget-title {
@@ -482,7 +430,8 @@ ul.categories > li > a.active{
 
 .content > div:not(.title) {
     margin: 0 auto 0;
-    max-width: 1350px;
+    width: 100%;
+    max-width: 1440px;
     padding: 0 2.25em;
 }
 
@@ -502,7 +451,7 @@ ul.categories > li > a.active{
 .content .custom {
     background: transparent;
     border-left:0;
-    color: #b28771;
+    color: #be4a4d;
     font-family: "Lora",serif;
     font-size: 1.25em;
     font-style: italic;
@@ -533,7 +482,7 @@ ul.categories > li > a.active{
 
 .pager li > a:hover, .pager li > span:hover {
     background-color: transparent;
-    border-color:#ffdae4;
+    border-color:#be4a4d;
     color:#121212;
 }
 .footer {
@@ -590,7 +539,7 @@ textarea.form-control {
     margin-bottom:20px;
 }
 .form-control:focus {
-  border-color: #ffdae4;
+  border-color: #be4a4d;
   outline: 0;
     box-shadow: none;
 }
@@ -619,7 +568,7 @@ textarea.form-control {
     font-size:14px;
     color:#121212 !important;
     padding:0 0 3px;
-    border-bottom: 1px double #ffdae4;
+    border-bottom: 1px double #be4a4d;
     font-weight: normal;
 }
 
@@ -710,7 +659,7 @@ textarea.form-control {
 
 
 .shop-rating i:hover {
-    color:#ffdae4;
+    color:#be4a4d;
 }
 
 .shop-desc {
@@ -758,7 +707,7 @@ textarea.form-control {
     margin-bottom: 15px;
 }
 .post-meta a:hover {
-    background:#ffdae4;
+    background:#be4a4d;
     color:#fff;
 }
 .post-meta a {
@@ -777,7 +726,7 @@ textarea.form-control {
 }
 .menu-footer li a:hover,
 .social-icons li a:hover {
-    color: #ffafd4;
+    color: #be4a4d;
 }
 
 .single-post small,
@@ -935,15 +884,6 @@ textarea.form-control {
     font-size: 1.3em !important;
 }
 
-.navbar-default.navbar.navbar-left{
-    margin-left: -30px;
-}
-
-@media(max-width: 991px){
-    .navbar-default.navbar.navbar-left{
-        margin-left: 0;
-    }
-}
 
 .navbar-default .navbar-nav > .open > a, 
 .navbar-default .navbar-nav > .open > a:hover, 
@@ -955,7 +895,7 @@ textarea.form-control {
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #ffafd4;
+    background-color: #be4a4d;
     border-radius: 4px;
 }
 
@@ -1022,4 +962,43 @@ textarea.form-control {
 .fade-in-up {
     -webkit-animation: fadeInUp .5s;
     animation: fadeInUp .5s;
+}
+
+@media(max-width: 1044px) {
+    .banner {
+        max-width: 100% !important;
+    }
+    .navbar-right {
+        float: none !important;
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+    .nav.navbar-nav {
+        float: none !important;
+    }
+    .navbar-default .navbar-nav > li > a {
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 768px) {
+    .navbar-default .navbar-nav > li > a {
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 425px) {
+    .navbar-default .navbar-nav > li > a {
+        font-size: 14px;
+    }
+    .navbar.navbar-default {
+        margin-top: 20px !important;
+    }
+    .navbar-collapse .nav > li {
+        display: inline-block;
+    }
+    .navbar-collapse {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
 }
