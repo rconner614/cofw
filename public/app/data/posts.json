@@ -284,6 +284,17 @@
       "postTags" : [1,2],
       "type": "Meeting",
       "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; March 16th, 2019 - Business Meeting at 12:30 pm, Speaker at 1:30pm<br>LOCATION &nbsp; | &nbsp; <a href='http://maps.google.com/?q=5181 Northwest Parkway, Hilliard, OH 43026' target='_blank'>Norwich Twp Safety &amp; Services Building 5181 Northwest Parkway, Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>TOPIC &nbsp; | &nbsp; <strong>Come Plot and Brainstorm with COFW</strong></p><p>We will be brainstorming, plotting, and generally getting those writing juices flowing! We'll have 5 plot boards available for plotting based on 3 act (short) and 4 acts and post it notes to use. If you bring a short scene we will have opportunities for critiquing and discussions on maintaining websites, newsletters & self-publishing.</p>"
+    },
+    {
+      "id" : 42,
+      "createdOn" : "2019-03-20T00:00:00",
+      "releaseOn" : "2019-03-24T13:59:00",
+      "title" : "April 13th Meeting",
+      "image" : "/app/images/posts/April_2019.png",
+      "createdBy" : "Rachel",
+      "postTags" : [1,2],
+      "type": "Meeting",
+      "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; April 13th, 2019 - Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm<br>LOCATION &nbsp; | &nbsp; <a href='http://maps.google.com/?q=5181 Northwest Parkway, Hilliard, OH 43026' target='_blank'>Norwich Twp Safety &amp; Services Building 5181 Northwest Parkway, Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>TOPIC &nbsp; | &nbsp; <strong>Exquisite Planning: Ditch the Guilt and Get More Done - Jill Kemerer</strong></p><p>Jill Kemerer is a Publishers Weekly bestselling, multi-published romance novelist with Harlequin Love Inspired. Her essentials include coffee, M&Ms, a stack of books, her mini-dachshund, and long walks outdoors. She resides in Ohio with her husband and two almost-grown children. She will be speaking about “Exquisite Planning: Ditch the Guilt and Get More Done”.</p>"
     }
   ],
   "tags": [
