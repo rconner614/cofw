@@ -39,12 +39,12 @@
     },{
       "id": 5,
       "title" : "May",
-      "speaker" : null,
+      "speaker" : ["Jeanne Estridge"],
       "date" : "5/18/2019",
       "longDate" : "May 18th 2019",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
       "location": "<a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a>",
-      "topic": "Contest Judging and How to Navigate New RWA Website"
+      "topic": "Navigating the RWA Website, Contest Judging and Brainstorming"
     },{
       "id": 6,
       "title" : "June",

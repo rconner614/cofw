@@ -272,7 +272,7 @@
       "createdBy" : "Rachel",
       "postTags" : [1,2],
       "type": "Meeting",
-      "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; February 16th, 2019 - Business Meeting at 12:30 pm, Speaker at 1:30pm<br>LOCATION &nbsp; | &nbsp; <a href='http://maps.google.com/?q=5181 Northwest Parkway, Hilliard, OH 43026' target='_blank'>Norwich Twp Safety &amp; Services Building 5181 Northwest Parkway, Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>TOPIC &nbsp; | &nbsp; <strong>Dark Heart</strong> - Damon Suede</p><p>All characters have pain in their past…a backstory which drives them inexorably into turmoil, jeopardy, and high-stakes choices.  Fatal flaw, motivation, wound, scar, trauma, mistake, shadow, ghost…no matter what you call it, that inner void never stops sucking. Accessing your characters’ darkness and danger dramatizes scenes and maximizes emotional legibility. Join Damon Suede for a two-hour RWA Workshop in a Box which teaches you to tap your story’s power and bring any character to life. (This is a video presentation from RWA’s Workshop-in-a-Box series.)</p>"
+      "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; February 16th, 2019 - Business Meeting at 12:30 pm, Speaker at 1:30pm<br>LOCATION &nbsp; | &nbsp; <a href='http://maps.google.com/?q=5181 Northwest Parkway, Hilliard, OH 43026' target='_blank'>Norwich Twp Safety &amp; Services 5181 Northwest Parkway, Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>TOPIC &nbsp; | &nbsp; <strong>Dark Heart</strong> - Damon Suede</p><p>All characters have pain in their past…a backstory which drives them inexorably into turmoil, jeopardy, and high-stakes choices.  Fatal flaw, motivation, wound, scar, trauma, mistake, shadow, ghost…no matter what you call it, that inner void never stops sucking. Accessing your characters’ darkness and danger dramatizes scenes and maximizes emotional legibility. Join Damon Suede for a two-hour RWA Workshop in a Box which teaches you to tap your story’s power and bring any character to life. (This is a video presentation from RWA’s Workshop-in-a-Box series.)</p>"
     },
     {
       "id" : 41,
@@ -294,7 +294,18 @@
       "createdBy" : "Rachel",
       "postTags" : [1,2],
       "type": "Meeting",
-      "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; April 13th, 2019 - Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm<br>LOCATION &nbsp; | &nbsp; <a href='http://maps.google.com/?q=5181 Northwest Parkway, Hilliard, OH 43026' target='_blank'>Norwich Twp Safety &amp; Services Building 5181 Northwest Parkway, Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>TOPIC &nbsp; | &nbsp; <strong>Exquisite Planning: Ditch the Guilt and Get More Done - Jill Kemerer</strong></p><p>Jill Kemerer is a Publishers Weekly bestselling, multi-published romance novelist with Harlequin Love Inspired. Her essentials include coffee, M&Ms, a stack of books, her mini-dachshund, and long walks outdoors. She resides in Ohio with her husband and two almost-grown children. She will be speaking about “Exquisite Planning: Ditch the Guilt and Get More Done”.</p>"
+      "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; April 13th, 2019 - Business meeting at 12:30 pm, Speaker at 1:30 pm<br>LOCATION &nbsp; | &nbsp; <a href='http://maps.google.com/?q=5181 Northwest Parkway, Hilliard, OH 43026' target='_blank'>Norwich Twp Safety &amp; Services 5181 Northwest Parkway, Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>TOPIC &nbsp; | &nbsp; <strong>Exquisite Planning: Ditch the Guilt and Get More Done - Jill Kemerer</strong></p><p>Jill Kemerer is a Publishers Weekly bestselling, multi-published romance novelist with Harlequin Love Inspired. Her essentials include coffee, M&Ms, a stack of books, her mini-dachshund, and long walks outdoors. She resides in Ohio with her husband and two almost-grown children. She will be speaking about “Exquisite Planning: Ditch the Guilt and Get More Done”.</p>"
+    },
+    {
+      "id" : 431,
+      "createdOn" : "2019-04-20T00:00:00",
+      "releaseOn" : "2019-04-24T13:59:00",
+      "title" : "May 18th Meeting",
+      "image" : "/app/images/posts/May_2019.png",
+      "createdBy" : "Rachel",
+      "postTags" : [1,2],
+      "type": "Meeting",
+      "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; May 18th, 2019 - Business meeting at 12:30 pm, Speaker at 1:30 pm<br>LOCATION &nbsp; | &nbsp; <a href='http://maps.google.com/?q=5181 Northwest Parkway, Hilliard, OH 43026' target='_blank'>Norwich Twp Safety &amp; Services 5181 Northwest Parkway, Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>TOPIC &nbsp; | &nbsp; <strong>Navigation the RWA Website, Contest Judging and Brainstorming - Jeanne Estridge</strong></p><p>Jeanne Estridge will present two short workships on:<br>1. Navigating the RWA Website - how to get around the new national website (15 min)<br>2. Judging Contests - giving feedback that's useful and affirming (45 min)<br>The remainder of the time will be spent on small-group brainstorming, so bring anything that has you stumped and get some help.</p>"
     }
   ],
   "tags": [
