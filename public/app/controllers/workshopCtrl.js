@@ -5,7 +5,7 @@
     workshopCtrl.$inject = ['emailSrv', '$scope'];
     function workshopCtrl(emailSrv, $scope){
         $scope.form = {
-            toEmail: 'Rachel Conner<cofwwebdeveloper@gmail.com>',
+            toEmail: 'COFW Treasurer<cofwtreasurer@gmail.com>, COFW Developer<cofwwebdeveloper@gmail.com>, COFW President<cofwpresident@gmail.com>',
             text: null,
             html: null,
             subject: 'Workshop Registration Submitted',
