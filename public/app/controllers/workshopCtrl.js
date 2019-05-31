@@ -20,12 +20,11 @@
                 payPalAccount: null,
                 phone: null,
                 email: null,
-                isMember: false
+                isMember: false,
+                diet: null
             },
             catchMe: null
         };
-
-        $scope.foodChoices = ['Ham and Swiss','Beef and Cheddar','Turkey and Swiss', 'Grilled Vegetable Wrap','Other [Contact Linda Rice]'];
 
         $scope.sendEmail = function(){
             if($scope.form.catchMe){
@@ -42,6 +41,7 @@
             template = template.replace('<phone>', $scope.form.user.phone);
             template = template.replace('<email>', $scope.form.user.email);
             template = template.replace('<isMember>', $scope.form.user.isMember ? 'Yes' : 'No');
+            template = template.replace('<diet>', `${($scope.form.user.isGF ? 'Gluten Free ' : '')}${$scope.form.user.isVeg ? 'Vegetarian' : '' }${(!$scope.form.user.isGF && !$scope.form.user.isVeg ? 'None' : '')}`);
             $scope.form.text = template;
             $scope.form.html = $scope.form.text.replace('\n', '<br>');
             emailSrv.sendEmail($scope.form).then(function(resp){
