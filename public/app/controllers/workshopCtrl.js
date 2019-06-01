@@ -41,7 +41,7 @@
             template = template.replace('<phone>', $scope.form.user.phone);
             template = template.replace('<email>', $scope.form.user.email);
             template = template.replace('<isMember>', $scope.form.user.isMember ? 'Yes' : 'No');
-            template = template.replace('<diet>', `${($scope.form.user.isGF ? 'Gluten Free ' : '')}${$scope.form.user.isVeg ? 'Vegetarian' : '' }${(!$scope.form.user.isGF && !$scope.form.user.isVeg ? 'None' : '')}`);
+            template = template.replace('<diet>', `${($scope.form.user.diet ? $scope.form.user.diet : 'None')}`);
             $scope.form.text = template;
             $scope.form.html = $scope.form.text.replace('\n', '<br>');
             emailSrv.sendEmail($scope.form).then(function(resp){
