@@ -328,6 +328,17 @@
       "postTags" : [1,2],
       "type": "Meeting",
       "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; July 13th, 2019 - Business meeting at 12:30 pm, Speaker at 1:30 pm<br>LOCATION &nbsp; | &nbsp; <a href='https://goo.gl/maps/2qzD4mB4fJs' target='_blank'>Norwich Township Fire Station 83, 4283 Davidson Rd, Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>TOPIC &nbsp; | &nbsp; <strong>Creating Your Hero’s Fatal Flaw - Laurie Schnebly Campbell</strong></p><p>The use of enneagrams, a psychological/personality tool, for developing likeable characters who will naturally come into conflict with each other...and with themselves. Creating plausible external AND internal conflicts based on each of the nine personality types' own \"fatal flaw.\" AND Challenging Couples In Love</p>"
+    },
+    {
+      "id" : 434,
+      "createdOn" : "2019-07-20T00:00:00",
+      "releaseOn" : "2019-08-04T13:59:00",
+      "title" : "August 17th Meeting",
+      "image" : "/app/images/posts/August_2019.png",
+      "createdBy" : "Rachel",
+      "postTags" : [1,2],
+      "type": "Meeting",
+      "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; August 17th, 2019 - Business meeting at 12:30 pm, Speaker at 1:30 pm<br>LOCATION &nbsp; | &nbsp; <a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>TOPIC &nbsp; | &nbsp; <strong>RWA Conference Recap</strong><br><p>Members who attended the RWA National Conference will share their insights and information acquired at the conference.</p>"
     }
   ],
   "tags": [
