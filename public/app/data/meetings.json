@@ -93,12 +93,12 @@
     },{
       "id": 11,
       "title" : "November",
-      "speaker" : ["TBD"],
-      "date" : "11/16/2019",
-      "longDate" : "November 16th 2019",
-      "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
-      "location": "<a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a>",
-      "topic": "TBD"
+      "speaker" : ["Damon Suede"],
+      "date" : "11/2/2019",
+      "longDate" : "November 2nd 2019",
+      "time": "Workshop runs from 9:00 am - 4:00 pm",
+      "location": "<a href='https://goo.gl/maps/ojwXsviksfhTFu3H7' target='_blank'>The Dublin Rec Center, 5600 Post Road, Dublin, OH 43017 <i class='fa fa-map-marker'></i></a>",
+      "topic": "Workshop with Damon Suede on <strong>Bringing Your A-Game</strong> and <strong>Tropes</strong>. See the <a href='/workshop'>workshop page</a> for more details."
     },{
       "id": 12,
       "title" : "December",
