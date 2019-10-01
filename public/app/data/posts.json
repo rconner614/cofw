@@ -338,7 +338,7 @@
       "createdBy" : "Rachel",
       "postTags" : [1,2],
       "type": "Meeting",
-      "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; August 17th, 2019 - Business meeting at 12:30 pm, Speaker at 1:30 pm<br>LOCATION &nbsp; | &nbsp; <a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>TOPIC &nbsp; | &nbsp; <strong>RWA Conference Recap</strong><br><p>Members who attended the RWA National Conference will share their insights and information acquired at the conference.</p>"
+      "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; August 17th, 2019 - Business meeting at 12:30 pm, Speaker at 1:30 pm<br>LOCATION &nbsp; | &nbsp; <a href='http://maps.google.com/?q=5181 Northwest Parkway, Hilliard, OH 43026' target='_blank'>Norwich Twp Safety &amp; Services 5181 Northwest Parkway, Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>TOPIC &nbsp; | &nbsp; <strong>RWA Conference Recap</strong><br><p>Members who attended the RWA National Conference will share their insights and information acquired at the conference.</p>"
     },
     {
       "id" : 435,
@@ -349,7 +349,18 @@
       "createdBy" : "Rachel",
       "postTags" : [1,2],
       "type": "Meeting",
-      "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; September 14th, 2019 - Business meeting at 12:30 pm, Speaker at 1:30 pm<br>LOCATION &nbsp; | &nbsp; <a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>TOPIC &nbsp; | &nbsp; Michael Hague and Chris Vogler speaking on <strong>Hero’s Two Journeys</strong> via a DVD</p>"
+      "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; September 14th, 2019 - Business meeting at 12:30 pm, Speaker at 1:30 pm<br>LOCATION &nbsp; | &nbsp; <a href='http://maps.google.com/?q=5181 Northwest Parkway, Hilliard, OH 43026' target='_blank'>Norwich Twp Safety &amp; Services 5181 Northwest Parkway, Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>TOPIC &nbsp; | &nbsp; Michael Hague and Chris Vogler speaking on <strong>Hero’s Two Journeys</strong> via a DVD</p>"
+    },
+    {
+      "id" : 436,
+      "createdOn" : "2019-09-01T00:00:00",
+      "releaseOn" : "2019-09-14T13:59:00",
+      "title" : "October 19th Meeting",
+      "image" : null,
+      "createdBy" : "Rachel",
+      "postTags" : [1,2],
+      "type": "Meeting",
+      "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; October 19th, 2019 - Business meeting at 12:30 pm, Speaker at 1:30 pm<br>LOCATION &nbsp; | &nbsp; <a href='http://maps.google.com/?q=5181 Northwest Parkway, Hilliard, OH 43026' target='_blank'>Norwich Twp Safety &amp; Services 5181 Northwest Parkway, Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>TOPIC &nbsp; | &nbsp; Alessandre Torre speaking on <strong>5 Secrets of Self-Publishing Success</strong> (marketing tips) with live Q & A afterward.</p>"
     }
   ],
   "tags": [
