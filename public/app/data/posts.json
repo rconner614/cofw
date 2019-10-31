@@ -361,6 +361,17 @@
       "postTags" : [1,2],
       "type": "Meeting",
       "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; October 19th, 2019 - Business meeting at 12:30 pm, Speaker at 1:30 pm<br>LOCATION &nbsp; | &nbsp; <a href='http://maps.google.com/?q=5181 Northwest Parkway, Hilliard, OH 43026' target='_blank'>Norwich Twp Safety &amp; Services 5181 Northwest Parkway, Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>TOPIC &nbsp; | &nbsp; Alessandre Torre speaking on <strong>5 Secrets of Self-Publishing Success</strong> (marketing tips) with live Q & A afterward.</p>"
+    },
+    {
+      "id" : 437,
+      "createdOn" : "2019-10-01T00:00:00",
+      "releaseOn" : "2019-10-14T13:59:00",
+      "title" : "November 2nd Workshop!",
+      "image" : "/app/images/posts/workshop.png",
+      "createdBy" : "Rachel",
+      "postTags" : [1,2],
+      "type": "Workshop",
+      "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; November 2nd, 2019 - Workshop runs from 9:00 am - 4:00 pm<br>LOCATION &nbsp; | &nbsp; <a href='https://goo.gl/maps/ojwXsviksfhTFu3H7' target='_blank'>The Dublin Rec Center, 5600 Post Road, Dublin, OH 43017 <i class='fa fa-map-marker'></i></a><br>Don't miss out on our workshop with Damon Suede on <strong>Branding</strong> and <strong>Tropes</strong>! There's still time to register! Note: Fee applies. Visit the <a href='/workshop'>workshop page</a> for more details and sign up today!</p>"
     }
   ],
   "tags": [
