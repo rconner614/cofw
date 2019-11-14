@@ -130,55 +130,32 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
     }).state('classes', {
         url: "/classes",
         templateUrl: "/app/views/_classes.html"
-    }).state('classesSuccessJune', {
-        url: "/classes/success/june",
-        templateUrl: "/app/views/_classes_success_june.html"
-    }).state('classesSuccessApril', {
-        url: "/classes/success/april",
-        templateUrl: "/app/views/_classes_success_april.html"
-    }).state('classApril', {
-        url: "/classes/april",
+    }).state('classesSuccessJanuary', {
+        url: "/classes/success/january",
+        templateUrl: "/app/views/_classes_success_jan.html"
+    }).state('classJanuary', {
+        url: "/classes/january",
         templateUrl: "/app/views/_register.html",
         controller: 'classCtrl',
         resolve: {
             className: [function() {
-                return 'April Class'
+                return 'January Class'
             }]
         }
-    }).state('classJune', {
-        url: "/classes/june",
-        templateUrl: "/app/views/_register.html",
-        controller: 'classCtrl',
-        resolve: {
-            className: [function() {
-                return 'June Class'
-            }]
-        }
-    }).state('paypalApril', {
-        url: "/payment/april",
+    }).state('paypalJanuary', {
+        url: "/payment/january",
         templateUrl: "/app/views/_paypal.html",
         controller: ['$scope', 'id', function($scope, id) {
             $scope.id = id;
         }],
         resolve: {
             id: [function() {
-                return '494NG8JL6ZSWL'
+                return '84ZPSZNPX5LGL'
             }]
         }
     }).state('successContest', {
         url: "/contest/success",
         templateUrl: "/app/views/_success-contest.html"
-    }).state('paypalJune', {
-        url: "/payment/june",
-        templateUrl: "/app/views/_paypal.html",
-        controller: ['$scope', 'id', function($scope, id) {
-            $scope.id = id;
-        }],
-        resolve: {
-            id: [function() {
-                return 'RENBXNKLAJ7N8'
-            }]
-        }
     }).state('workshop', {
         url: "/workshop",
         templateUrl: "/app/views/_workshop.html",
