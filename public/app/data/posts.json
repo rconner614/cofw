@@ -372,6 +372,17 @@
       "postTags" : [1,2],
       "type": "Workshop",
       "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; November 2nd, 2019 - Workshop runs from 9:00 am - 4:00 pm<br>LOCATION &nbsp; | &nbsp; <a href='https://goo.gl/maps/ojwXsviksfhTFu3H7' target='_blank'>The Dublin Rec Center, 5600 Post Road, Dublin, OH 43017 <i class='fa fa-map-marker'></i></a><br>Don't miss out on our workshop with Damon Suede on <strong>Branding</strong> and <strong>Tropes</strong>! There's still time to register! Note: Fee applies. Visit the <a href='/workshop'>workshop page</a> for more details and sign up today!</p>"
+    },
+    {
+      "id" : 29,
+      "createdOn" : "2019-11-04T00:00:00",
+      "releaseOn" : "2019-11-04T00:59:00",
+      "image" : "/app/images/posts/holidayPost.jpg",
+      "title" : "Happy Holidays from COFW!",
+      "createdBy" : "Rachel",
+      "postTags" : [1,2],
+      "type": "Meeting",
+      "content" : "<p>Member's Holiday Party!</p><p>DATE &amp; TIME &nbsp; | &nbsp; December 7th, 2019 - Party runs from 12:00 pm - 4:00 pm<br>LOCATION &nbsp; | &nbsp; Dublin, Ohio<br>For more information, email <a href='mailto:cofwpresident@gmail.com'>cofwpresident@gmail.com</a></p><p>Happy Holidays!</p>"
     }
   ],
   "tags": [
