@@ -388,7 +388,7 @@
       "id" : 50,
       "createdOn" : "2019-12-04T00:00:00",
       "releaseOn" : "2019-12-24T00:59:00",
-      "image" : "/app/images/posts/holidayPost.jpg",
+      "image" : null,
       "title" : "January 18th Meeting",
       "createdBy" : "Rachel",
       "postTags" : [1,2],
