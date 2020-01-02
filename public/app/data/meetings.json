@@ -3,108 +3,108 @@
     {
       "id": 1,
       "title" : "January",
-      "speaker" : ["COFW Members"],
-      "date" : "1/26/2019",
-      "longDate" : "January 26th 2019",
+      "speaker" : null,
+      "date" : "1/18/2020",
+      "longDate" : "January 18th 2020",
       "time": "Business meeting at 12:30 pm, Goals Workshop at 1:30 pm",
-      "location": "<a href='https://goo.gl/maps/2qzD4mB4fJs' target='_blank'>Norwich Township Fire Station 83 4283 Davidson Rd, Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a>",
-      "topic":"Setting Writing/Business Goals for 2019"
+      "location": "<a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a>",
+      "topic": null
     },{
       "id": 2,
       "title" : "February",
-      "speaker" : ["Damon Suede"],
-      "date" : "2/16/2019",
-      "longDate": "February 16th 2019",
+      "speaker" : null,
+      "date" : "2/15/2020",
+      "longDate": "February 15th 2020",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
       "location": "<a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a>",
-      "topic": "Join Damon Suede for a two-hour RWA Workshop in a Box which teaches you to tap your story’s power and bring any character to life."
+      "topic": null
     },{
       "id": 3,
       "title" : "March",
       "speaker" : null,
-      "date" : "3/16/2019",
-      "longDate" : "March 16th 2019",
+      "date" : "3/14/2020",
+      "longDate" : "March 14th 2020",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
       "location": "<a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a>",
-      "topic": "Come Plot and Brainstorm with COFW<br>We will be brainstorming, plotting, and generally getting those writing juices flowing!"
+      "topic": null
     },{
       "id": 4,
       "title" : "April",
-      "speaker" : ["Jill Kemerer"],
-      "date" : "4/13/2019",
-      "longDate" : "April 13th 2019",
+      "speaker" : null,
+      "date" : "4/18/2020",
+      "longDate" : "April 18th 2020",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
       "location": "<a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a>",
-      "topic": "Exquisite Planning: Ditch the Guilt and Get More Done"
+      "topic": null
     },{
       "id": 5,
       "title" : "May",
-      "speaker" : ["Jeanne Estridge"],
-      "date" : "5/18/2019",
-      "longDate" : "May 18th 2019",
+      "speaker" : null,
+      "date" : "5/16/2020",
+      "longDate" : "May 16th 2020",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
       "location": "<a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a>",
-      "topic": "Navigating the RWA Website, Contest Judging and Brainstorming"
+      "topic": null
     },{
       "id": 6,
       "title" : "June",
-      "speaker" : ["Julie Sturgeon"],
-      "date" : "6/15/2019",
-      "longDate" : "June 15th 2019",
+      "speaker" : null,
+      "date" : "6/13/2020",
+      "longDate" : "June 13th 2020",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
       "location": "<a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a>",
-      "topic": "Pitch to Tule Publishing and 4 Career Sabotages Sneaking Up On You<br>Julie Sturgeon is currently a development editor on the Tule Publishing team, after being on contract at Crimson Romance, a division of Simon and Schuster, for nearly six years. "
+      "topic": null
     },{
       "id": 7,
       "title" : "July",
-      "speaker" : ["Laurie Schnebly Campbell"],
-      "date" : "7/13/2019",
-      "longDate" : "July 13th 2019",
+      "speaker" : null,
+      "date" : "7/18/2020",
+      "longDate" : "July 18th 2020",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
-      "location": "<strong>(OTHER FIRE DEPARTMENT)</strong><br><a href='https://goo.gl/maps/2qzD4mB4fJs' target='_blank'>Norwich Township Fire Station 83<br>4283 Davidson Rd<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a>",
-      "topic": "Creating Your Hero’s Fatal Flaw: The use of enneagrams, a psychological/personality tool, for developing likeable characters who will naturally come into conflict with each other...and with themselves. Creating plausible external AND internal conflicts based on each of the nine personality types' own \"fatal flaw.\" AND Challenging Couples In Love"
+      "location": "TBD",
+      "topic": null
     },{
       "id": 8,
       "title" : "August",
-      "speaker" : ["COFW Members"],
-      "date" : "8/17/2019",
-      "longDate" : "August 17th 2019",
+      "speaker" : null,
+      "date" : "8/15/2020",
+      "longDate" : "August 15th 2020",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
-      "location": "<a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a>",
-      "topic": "RWA National Recap"
+      "location": "TBD",
+      "topic": null
     },{
       "id": 9,
       "title" : "September",
-      "speaker" : ["Eliot Parker"],
-      "date" : "9/14/2019",
-      "longDate" : "September 14th 2019",
+      "speaker" : null,
+      "date" : "9/19/2020",
+      "longDate" : "September 19th 2020",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
-      "location": "<a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a>",
-      "topic": "Michael Hague and Chris Vogler speaking on Hero’s Two Journeys, via a DVD"
+      "location": "TBD",
+      "topic": null
     },{
       "id": 10,
       "title" : "October",
-      "speaker" : ["Alessandre Torre"],
-      "date" : "10/19/2019",
-      "longDate" : "October 19th 2019",
+      "speaker" : null,
+      "date" : "10/17/2020",
+      "longDate" : "October 17th 2020",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
-      "location": "<a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a>",
-      "topic": "5 Secrets of Self-Publishing Success (marketing tips) with live Q & A afterward."
+      "location": "TBD",
+      "topic": null
     },{
       "id": 11,
       "title" : "November",
-      "speaker" : ["Damon Suede"],
-      "date" : "11/2/2019",
-      "longDate" : "November 2nd 2019",
+      "speaker" : null,
+      "date" : "11/14/2020",
+      "longDate" : "November 14th 2020",
       "time": "Workshop runs from 9:00 am - 4:00 pm",
-      "location": "<a href='https://goo.gl/maps/ojwXsviksfhTFu3H7' target='_blank'>The Dublin Rec Center, 5600 Post Road, Dublin, OH 43017 <i class='fa fa-map-marker'></i></a>",
-      "topic": "Workshop with Damon Suede on <strong>Branding</strong> and <strong>Tropes</strong>. Note: Fee applies. See the <a href='/workshop'>workshop page</a> for more details."
+      "location": "TBD",
+      "topic": null
     },{
       "id": 12,
       "title" : "December",
       "speaker" : null,
-      "date" : "12/7/2019",
-      "longDate" : "December 7th 2019",
+      "date" : "TBD",
+      "longDate" : "TBD",
       "time": "Noon",
       "location": null,
       "topic": "COFW Christmas Party *Members Only*"
