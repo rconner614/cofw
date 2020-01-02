@@ -383,6 +383,17 @@
       "postTags" : [1,2],
       "type": "Meeting",
       "content" : "<p>Member's Holiday Party!</p><p>DATE &amp; TIME &nbsp; | &nbsp; December 7th, 2019 - Party runs from 12:00 pm - 4:00 pm<br>LOCATION &nbsp; | &nbsp; Dublin, Ohio<br>For more information, email <a href='mailto:cofwpresident@gmail.com'>cofwpresident@gmail.com</a></p><p>Happy Holidays!</p>"
+    },
+    {
+      "id" : 50,
+      "createdOn" : "2019-12-04T00:00:00",
+      "releaseOn" : "2019-12-24T00:59:00",
+      "image" : "/app/images/posts/holidayPost.jpg",
+      "title" : "January 18th Meeting",
+      "createdBy" : "Rachel",
+      "postTags" : [1,2],
+      "type": "Meeting",
+      "content" : "<p>Join us for our first meeting of 2020!</p><p>DATE &amp; TIME &nbsp; | &nbsp; October 19th, 2019 - Business meeting at 12:30 pm, Speaker at 1:30 pm<br>LOCATION &nbsp; | &nbsp; <a href='http://maps.google.com/?q=5181 Northwest Parkway, Hilliard, OH 43026' target='_blank'>Norwich Twp Safety &amp; Services 5181 Northwest Parkway, Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a></p>"
     }
   ],
   "tags": [
