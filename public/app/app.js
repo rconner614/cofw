@@ -156,13 +156,14 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
     }).state('successContest', {
         url: "/contest/success",
         templateUrl: "/app/views/_success-contest.html"
-    }).state('workshop', {
-        url: "/workshop",
-        templateUrl: "/app/views/_workshop.html",
-        controller: 'workshopCtrl'
-    }).state('successWorkshop', {
-        url: "/workshop/success",
-        templateUrl: "/app/views/_success-workshop.html"
     });
+    // .state('workshop', {
+    //     url: "/workshop",
+    //     templateUrl: "/app/views/_workshop.html",
+    //     controller: 'workshopCtrl'
+    // }).state('successWorkshop', {
+    //     url: "/workshop/success",
+    //     templateUrl: "/app/views/_success-workshop.html"
+    // });
     $locationProvider.html5Mode(true);
 }
