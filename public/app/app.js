@@ -130,33 +130,35 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
     }).state('classes', {
         url: "/classes",
         templateUrl: "/app/views/_classes.html"
-    }).state('classesSuccessJanuary', {
-        url: "/classes/success/january",
-        templateUrl: "/app/views/_classes_success_jan.html"
-    }).state('classJanuary', {
-        url: "/classes/january",
-        templateUrl: "/app/views/_register.html",
-        controller: 'classCtrl',
-        resolve: {
-            className: [function() {
-                return 'January Class'
-            }]
-        }
-    }).state('paypalJanuary', {
-        url: "/payment/january",
-        templateUrl: "/app/views/_paypal.html",
-        controller: ['$scope', 'id', function($scope, id) {
-            $scope.id = id;
-        }],
-        resolve: {
-            id: [function() {
-                return '84ZPSZNPX5LGL'
-            }]
-        }
-    }).state('successContest', {
-        url: "/contest/success",
-        templateUrl: "/app/views/_success-contest.html"
     });
+    // .state('classesSuccessJanuary', {
+    //     url: "/classes/success/january",
+    //     templateUrl: "/app/views/_classes_success_jan.html"
+    // }).state('classJanuary', {
+    //     url: "/classes/january",
+    //     templateUrl: "/app/views/_register.html",
+    //     controller: 'classCtrl',
+    //     resolve: {
+    //         className: [function() {
+    //             return 'January Class'
+    //         }]
+    //     }
+    // }).state('paypalJanuary', {
+    //     url: "/payment/january",
+    //     templateUrl: "/app/views/_paypal.html",
+    //     controller: ['$scope', 'id', function($scope, id) {
+    //         $scope.id = id;
+    //     }],
+    //     resolve: {
+    //         id: [function() {
+    //             return '84ZPSZNPX5LGL'
+    //         }]
+    //     }
+    // })
+    // .state('successContest', {
+    //     url: "/contest/success",
+    //     templateUrl: "/app/views/_success-contest.html"
+    // })
     // .state('workshop', {
     //     url: "/workshop",
     //     templateUrl: "/app/views/_workshop.html",
