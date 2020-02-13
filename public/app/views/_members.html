@@ -6,11 +6,23 @@
                     <small>CENTRAL OHIO FICTION WRITERS</small>
                     <h2>Members</h2>
                     <div class="row">
-                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 fade-in-up" ng-repeat="member in members | orderBy:'lastName'">
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 fade-in-up"
+                            ng-repeat="member in members | orderBy:'lastName'">
                             <div class="shop-item entry">
                                 <a ng-href="/members/member/{{member.id}}">
-                                    <img ng-src="/app/images/members/{{member.image}}" alt="member.firstName" class="img-responsive member">
+                                    <img ng-src="/app/images/members/{{member.image}}" alt="member.firstName"
+                                        class="img-responsive member">
                                 </a>
+                                <div ng-click="goTo(member.id)" class="magnifier" ng-show="member.email || member.facebook || member.twitter || member.pinterest || member.instagram || member.googlePlus">
+                                    <div class="buttons">
+                                        <a href="mailto:{{member.email}}" ng-show="member.email" target="_blank"><i class="fa fa-envelope"></i></a>
+                                        <a href="{{member.facebook}}" ng-show="member.facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+                                        <a href="{{member.twitter}}" ng-show="member.twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+                                        <a href="{{member.pinterest}}" ng-show="member.pinterest" target="_blank"><i class="fa fa-pinterest"></i></a>
+                                        <a href="{{member.googlePlus}}" ng-show="member.googlePlus" target="_blank"><i class="fa fa-google-plus"></i></a>
+                                        <a href="{{member.instagram}}" ng-show="member.instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+                                    </div>
+                                </div>
                             </div>
                             <div class="shop-title text-center">
                                 <h3><a ng-href="/members/member/{{member.id}}">{{member.firstName}} {{member.lastName}}</a></h3>

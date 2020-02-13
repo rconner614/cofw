@@ -70,7 +70,7 @@ a.btn.btn-primary:focus
 }
 
 a {
-    color:#121212;
+    color:#be4a4d;
     padding: 0;
     margin: 0;
     text-decoration: none; 
@@ -83,7 +83,7 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #be4a4d;
+  color: #832125;
 }
 
 h1 {
@@ -642,6 +642,10 @@ textarea.form-control {
     font-size:18px !important;
 }
 
+.shop-title h3 a {
+    color: #000 !important;
+}
+
 .related .shop-title h2 {
   font-size:21px !important;
 }
@@ -707,11 +711,10 @@ textarea.form-control {
     margin-bottom: 15px;
 }
 .post-meta a:hover {
-    background:#be4a4d;
-    color:#fff;
+    color:#832125;
 }
 .post-meta a {
-    color:#858e97;
+    color:#be4a4d;
 }
 .menu-footer {
     margin:0 0 20px;
@@ -768,6 +771,57 @@ textarea.form-control {
     -ms-transform: rotate(-10deg) scale(1.4);
     -o-transform: rotate(-10deg) scale(1.4);
     transform: rotate(-10deg) scale(1.4);
+}
+
+.magnifier {
+    position: absolute;
+    cursor: pointer;
+    background: rgba(190, 75, 79,0.6);
+    text-align: center;
+    top: 15px;
+    left: 15px;
+    bottom: 15px;
+    right: 15px;
+    opacity: 0;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+}
+
+.magnifier .buttons {
+    visibility: hidden;
+    position: absolute;
+    cursor: pointer;
+    width: 100%;
+    top: 50%;
+    margin-top: -20px;
+    opacity: 0;
+    -webkit-transition: all .3s ease 0;
+    -moz-transition: all .3s ease 0;
+    -ms-transition: all .3s ease 0;
+    -o-transition: all .3s ease 0;
+    transition: all .3s ease 0;
+}
+
+.magnifier .buttons a {
+    color: #fff;
+    font-size: 31px;
+}
+
+.entry:hover .magnifier {
+    opacity: 1;
+}
+
+.entry:hover .magnifier .buttons {
+    visibility: visible;
+    opacity: 1;
 }
 
 /* ----------------------------------------------------
