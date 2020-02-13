@@ -13,8 +13,9 @@
                                     <img ng-src="/app/images/members/{{member.image}}" alt="member.firstName"
                                         class="img-responsive member">
                                 </a>
-                                <div ng-click="goTo(member.id)" class="magnifier" ng-show="member.email || member.facebook || member.twitter || member.pinterest || member.instagram || member.googlePlus">
-                                    <div class="buttons">
+                                <div ng-click="goTo(member.id)" class="magnifier" ng-show="member.website || member.email || member.facebook || member.twitter || member.pinterest || member.instagram || member.googlePlus">
+                                    <div class="buttons" ng-click="$event.stopPropagation()">
+                                    <a ng-show="member.website" href="{{member.website}}" target="_blank"><i class="fa fa-home"></i></a>
                                         <a href="mailto:{{member.email}}" ng-show="member.email" target="_blank"><i class="fa fa-envelope"></i></a>
                                         <a href="{{member.facebook}}" ng-show="member.facebook" target="_blank"><i class="fa fa-facebook"></i></a>
                                         <a href="{{member.twitter}}" ng-show="member.twitter" target="_blank"><i class="fa fa-twitter"></i></a>
