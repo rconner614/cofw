@@ -21,6 +21,7 @@
             email: null,
             displayEmail: true,
             pinterest: null,
+            instagram: null,
             facebook: null,
             website: null,
             googlePlus: null,
@@ -46,6 +47,7 @@
             template = template.replace('<pinterest>', $scope.form.member.pinterest ? $scope.form.member.pinterest : 'N/A');
             template = template.replace('<facebook>', $scope.form.member.facebook ? $scope.form.member.facebook : 'N/A');
             template = template.replace('<twitter>', $scope.form.member.twitter ? $scope.form.member.twitter : 'N/A');
+            template = template.replace('<instagram>', $scope.form.member.instagram ? $scope.form.member.instagram : 'N/A');
             template = template.replace('<googlePlus>', $scope.form.member.googlePlus ? $scope.form.member.googlePlus : 'N/A');
             template = template.replace('<blurb>', $scope.form.member.blurb);
             template = template.replace('<novels>', $scope.form.member.novels ? $scope.form.member.novels : '');

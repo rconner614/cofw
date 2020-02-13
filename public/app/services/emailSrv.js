@@ -8,7 +8,7 @@
 
         var template = "Registration for 2020 Workshop\nName: <name>\nStreet Address: <sAddress>\nCity: <city>\nState: <state>\nZip: <zip>\nPaypal Account Name: <paypal>\nPhone: <phone>\nEmail: <email>\nCOFW Member: <isMember>\nDietary Restrictions: <diet>";
 
-        var memberTemplate = "Name: <name>\nDisplayed Name: <displayName>\nEmail: <email>\nDisplay Email?: <displayEmail>\nWebsite: <website>\nFacebook: <facebook>\nTwitter: <twitter>\nPinterest: <pinterest>\nGoogle Plus: <googlePlus>\nNovels: <novels>\nNovellas: <novellas>\nBlurb: <blurb>";
+        var memberTemplate = "Name: <name>\nDisplayed Name: <displayName>\nEmail: <email>\nDisplay Email?: <displayEmail>\nWebsite: <website>\nFacebook: <facebook>\nInstagram: <instagram>\nTwitter: <twitter>\nPinterest: <pinterest>\nGoogle Plus: <googlePlus>\nNovels: <novels>\nNovellas: <novellas>\nBlurb: <blurb>";
 
         function sendEmail(obj){
             var df = $q.defer();
