@@ -127,10 +127,11 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
                 return memberSrv.getMembers();
             }]
         }
-    }).state('classes', {
-        url: "/classes",
-        templateUrl: "/app/views/_classes.html"
     });
+    // .state('classes', {
+    //     url: "/classes",
+    //     templateUrl: "/app/views/_classes.html"
+    // })
     // .state('classesSuccessJanuary', {
     //     url: "/classes/success/january",
     //     templateUrl: "/app/views/_classes_success_jan.html"

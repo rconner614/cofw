@@ -21,12 +21,12 @@
     },{
       "id": 3,
       "title" : "March",
-      "speaker" : null,
+      "speaker" : ["Jeanne Oates Estridge","Juliette Hyland"],
       "date" : "3/14/2020",
       "longDate" : "March 14th 2020",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
       "location": "<a href='https://goo.gl/maps/2qzD4mB4fJs' target='_blank'>Norwich Township Fire Station 83 4283 Davidson Rd, Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a>",
-      "topic": null
+      "topic": "Craft class: Building Better Scenes Using Beats by Author Jeanne Oates Estridge <strong>OR</strong> Understanding Federal Law Enforcement and Intelligence Community for Writers by Author Juliette Hyland"
     },{
       "id": 4,
       "title" : "April",
