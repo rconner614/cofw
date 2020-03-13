@@ -21,12 +21,12 @@
     },{
       "id": 3,
       "title" : "March",
-      "speaker" : ["Jeanne Oates Estridge","Juliette Hyland"],
+      "speaker" : null,
       "date" : "3/14/2020",
       "longDate" : "March 14th 2020",
-      "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
-      "location": "<a href='https://goo.gl/maps/2qzD4mB4fJs' target='_blank'>Norwich Township Fire Station 83 4283 Davidson Rd, Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a>",
-      "topic": "Craft class: Building Better Scenes Using Beats by Author Jeanne Oates Estridge <strong>OR</strong> Understanding Federal Law Enforcement and Intelligence Community for Writers by Author Juliette Hyland"
+      "time": "CANCELLED",
+      "location": null,
+      "topic": "Due to COVID-19, our meeting for March is cancelled."
     },{
       "id": 4,
       "title" : "April",
@@ -39,12 +39,12 @@
     },{
       "id": 5,
       "title" : "May",
-      "speaker" : null,
+      "speaker" : ["Laurie Cooper"],
       "date" : "5/16/2020",
       "longDate" : "May 16th 2020",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
       "location": "<a href='https://goo.gl/maps/2qzD4mB4fJs' target='_blank'>Norwich Township Fire Station 83 4283 Davidson Rd, Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a>",
-      "topic": null
+      "topic": "<strong>A Crash Course in Online Advertising For Authors</strong><p>Join the Pub-Craft Team as they teach you how to execute an effective promo push, including how to easily book ads online, cultivate your own network of useful contacts, use social media as a powerful promo tool, and engage in effective and affordable outreach and promotion. "
     },{
       "id": 6,
       "title" : "June",

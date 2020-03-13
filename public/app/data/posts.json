@@ -411,11 +411,11 @@
       "createdOn" : "2020-02-18T00:00:00",
       "releaseOn" : "2020-02-17T00:59:00",
       "image" : null,
-      "title" : "March 14th Meeting",
+      "title" : "March 14th Meeting Cancelled",
       "createdBy" : "Rachel",
       "postTags" : [1,2],
       "type": "Meeting",
-      "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; March 14th, 2020 - Business meeting at 12:30 pm, Speaker at 1:30 pm<br>LOCATION &nbsp; | &nbsp; <a href='https://goo.gl/maps/2qzD4mB4fJs' target='_blank'>Norwich Township Fire Station 83, 4283 Davidson Rd, Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>TOPIC &nbsp; | &nbsp; Craft class: Building Better Scenes Using Beats by Author Jeanne Oates Estridge <strong>OR</strong> Understanding Federal Law Enforcement and Intelligence Community for Writers by Author Juliette Hyland</p>"
+      "content" : "<p>Due to COVID-19, our meeting for March is cancelled.</p>"
     }
   ],
   "tags": [
