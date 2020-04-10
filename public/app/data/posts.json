@@ -416,6 +416,17 @@
       "postTags" : [1,2],
       "type": "Meeting",
       "content" : "<p>Due to COVID-19, our meeting for March is cancelled.</p>"
+    },
+    {
+      "id" : 53,
+      "createdOn" : "2020-03-18T00:00:00",
+      "releaseOn" : "2020-03-21T00:59:00",
+      "image" : "/app/images/posts/april_2020.png",
+      "title" : "April 18th Meeting",
+      "createdBy" : "Rachel",
+      "postTags" : [1,2],
+      "type": "Meeting",
+      "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; April 18th, 2020 - Business meeting at 12:30 pm, Speaker at 1:30 pm<br>LOCATION &nbsp; | &nbsp; <strong>Meeting will be held via Zoom.</strong> See below for further instructions.<br>TOPIC &nbsp; | &nbsp; <strong>Beyond the Bureau and the Agency</strong> with Juliette Hyland</p><p>Juliette Hyland began crafting heroes and heroines in high school. She lives in Ohio, USA, with her prince charming, who has patiently listened to many rants regarding characters failing to follow the outline. When not working on fun and flirty happily ever afters, Juliette can be found spending time with her beautiful daughters, giant dogs or sewing uneven stitches with her sewing machine.</p><p>Our meeting will be held via Zoom. The password will be posted on the Central Ohio Fiction Writers Group page which can be accessed via the Romance Writers of America website under the Forums tab. If anyone has any questions, email <a href='mailto:authorkimberlybeckett@yahoo.com'>authorkimberlybeckett@yahoo.com</a></p>"
     }
   ],
   "tags": [
