@@ -48,12 +48,12 @@
     },{
       "id": 6,
       "title" : "June",
-      "speaker" : null,
+      "speaker" : ["Jeanne Oates Estridge"],
       "date" : "6/13/2020",
       "longDate" : "June 13th 2020",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
       "location": "<a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a>",
-      "topic": null
+      "topic": "<strong>Building Better Scenes Using Beats</strong><p>This class will offer a technique for prodding reluctant scenes forward, even when you’re not feeling inspired.</p>"
     },{
       "id": 7,
       "title" : "July",
@@ -71,7 +71,7 @@
       "longDate" : "August 15th 2020",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
       "location": "<a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a>",
-      "topic": null
+      "topic": "Recap from National Conference"
     },{
       "id": 9,
       "title" : "September",
@@ -84,12 +84,12 @@
     },{
       "id": 10,
       "title" : "October",
-      "speaker" : null,
+      "speaker" : ["Grace Burrowes"],
       "date" : "10/17/2020",
       "longDate" : "October 17th 2020",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
       "location": "<a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a>",
-      "topic": null
+      "topic": "Workshop with Grace Burrowes"
     },{
       "id": 11,
       "title" : "November",
@@ -107,7 +107,7 @@
       "longDate" : "TBD",
       "time": "Noon",
       "location": null,
-      "topic": "COFW Christmas Party *Members Only*"
+      "topic": "COFW Holiday Party *Members Only*"
     }
     
   ]
