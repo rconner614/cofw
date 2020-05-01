@@ -43,30 +43,30 @@
       "date" : "5/16/2020",
       "longDate" : "May 16th 2020",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
-      "location": "<a href='https://goo.gl/maps/2qzD4mB4fJs' target='_blank'>Norwich Township Fire Station 83 4283 Davidson Rd, Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a>",
-      "topic": "<strong>A Crash Course in Online Advertising For Authors</strong><p>Join the Pub-Craft Team as they teach you how to execute an effective promo push, including how to easily book ads online, cultivate your own network of useful contacts, use social media as a powerful promo tool, and engage in effective and affordable outreach and promotion. "
+      "location": "Zoom meeting!",
+      "topic": "<strong>A Crash Course in Online Advertising For Authors</strong><p>Join the Pub-Craft Team as they teach you how to execute an effective promo push, including how to easily book ads online, cultivate your own network of useful contacts, use social media as a powerful promo tool, and engage in effective and affordable outreach and promotion.</p><p><strong>Meeting will be held via Zoom.</strong>The password will be posted on the Central Ohio Fiction Writers Group page which can be accessed via the Romance Writers of America website under the Forums tab.</p>"
     },{
       "id": 6,
       "title" : "June",
-      "speaker" : ["Jeanne Oates Estridge"],
+      "speaker" : ["Becky Barker", "Erin Novotny", "Janice Beckett", "Justine Covington"],
       "date" : "6/13/2020",
       "longDate" : "June 13th 2020",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
       "location": "<a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a>",
-      "topic": "<strong>Building Better Scenes Using Beats</strong><p>This class will offer a technique for prodding reluctant scenes forward, even when you’re not feeling inspired.</p>"
+      "topic": "Panel of authors will share their experiences producing and selling audiobooks."
     },{
       "id": 7,
       "title" : "July",
-      "speaker" : null,
+      "speaker" : ["Karen Sweeney"],
       "date" : "7/18/2020",
       "longDate" : "July 18th 2020",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
-      "location": "<a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a>",
-      "topic": null
+      "location": "<a href='https://goo.gl/maps/2qzD4mB4fJs' target='_blank'>Norwich Township Fire Station 83 4283 Davidson Rd, Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a>",
+      "topic": "<strong>Bookbrush</strong><p>Join us for a fun live walk-through of the Book Brush tools & see how easy it is to create your own eye-catching images. See why authors say that Book Brush saves them both time and money!</p>"
     },{
       "id": 8,
       "title" : "August",
-      "speaker" : null,
+      "speaker" : ["Janice Beckett"],
       "date" : "8/15/2020",
       "longDate" : "August 15th 2020",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
@@ -75,12 +75,12 @@
     },{
       "id": 9,
       "title" : "September",
-      "speaker" : null,
+      "speaker" : ["Jeanne Oates Estridge"],
       "date" : "9/19/2020",
       "longDate" : "September 19th 2020",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
       "location": "<a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a>",
-      "topic": null
+      "topic": "<strong>Building Better Scenes Using Beats</strong><p>This class will offer a technique for prodding reluctant scenes forward, even when you’re not feeling inspired.</p>"
     },{
       "id": 10,
       "title" : "October",
