@@ -75,12 +75,12 @@
     },{
       "id": 9,
       "title" : "September",
-      "speaker" : ["Jeanne Oates Estridge"],
+      "speaker" : ["Patricia Matthews"],
       "date" : "9/19/2020",
       "longDate" : "September 19th 2020",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
       "location": "<a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a>",
-      "topic": "<strong>Building Better Scenes Using Beats</strong><p>This class will offer a technique for prodding reluctant scenes forward, even when you’re not feeling inspired.</p>"
+      "topic": "<strong>Fun With Plotting</strong><p> -- Seven elements needed to develop your plot.</p>"
     },{
       "id": 10,
       "title" : "October",
@@ -93,12 +93,12 @@
     },{
       "id": 11,
       "title" : "November",
-      "speaker" : null,
+      "speaker" : ["Jeanne Oates Estridge"],
       "date" : "11/14/2020",
       "longDate" : "November 14th 2020",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
       "location": "<a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a>",
-      "topic": null
+      "topic": "<strong>Building Better Scenes Using Beats</strong><p>This class will offer a technique for prodding reluctant scenes forward, even when you’re not feeling inspired.</p>"
     },{
       "id": 12,
       "title" : "December",
