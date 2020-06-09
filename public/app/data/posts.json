@@ -1,148 +1,6 @@
 {
   "posts": [
     {
-      "id" : 16,
-      "createdOn" : "2016-12-20T00:00:00",
-      "image" : "/app/images/posts/January_2017.png",
-      "title" : "First Meeting of 2017!",
-      "createdBy" : "Rachel",
-      "postTags" : [1,2],
-      "type": "Meeting",
-      "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; January 14th, 2017 - Business meeting at 12:30 pm, Speaker at 1:30 pm<br>LOCATION &nbsp; | &nbsp; <a href='http://maps.google.com/?q=5181 Northwest Parkway, Hilliard, OH 43026' target='_blank'>Norwich Twp Safety &amp; Services Building 5181 Northwest Parkway, Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>TOPIC &nbsp; | &nbsp; <strong>COFW Author Panel Discussion: Market Day</strong><br><br>Join us for this multiple-author panel comprised of an array of writers from COFW's list of distinguished novelists. The discussion will concentrate on the current market in publishing these days, as seen through the eyes of our panelists. These talented authors were chosen as a microcosm of the vast spectrum within the publishing industry, ranging from traditionally published NYT best-sellers to small press authors and self-published works, as well as hybrid authors who do it all.  Each writer will offer a summary of their personal experiences with the industry and give their take on today's market, before answering your questions during a Q&amp;A session. Our panelists are: <br><br><strong>Karen Harper</strong>, NYT and USA Today Best-selling author of historical fiction and contemporary romance. Karen has been traditionally published with Harlequin and other publishers for over 30 years. (<a href='http://karenharperauthor.com' target='_blank'>karenharperauthor.com</a>)<br><strong>Becky Barker</strong>, award winning author of contemporary romance and romantic suspense who has published works with multiple publishers (Harlequin, Kensington, Samhain, Dell and more) as well as Indie publishing her own work. (<a href='http://beckybarker.com' target='_blank'>beckybarker.com</a>)<br><strong>Donna MacMeans</strong>, award winning author of historical romances, as well as suspense. Donna is traditionally published with Berkley, e-pubbed with Samhain and has self-published too. (<a href='http://www.donnamacmeans.com' target='_blank'>donnamacmeans.com</a>)<br><strong>Robin Gianna</strong>, author of category romances for Harlequin's Medical line. (<a href='http://www.robingianna.com' target='_blank'>robingianna.com</a>)<br><strong>Susan Gee Heino</strong>, award winning author of witty historical romances, both traditionally published with Berkley Publishing and Indie-Published too. <a href='http://susangh.com' target='_blank'>(susangh.com</a>)<br><strong>Karin Shah</strong>, author of paranormal romances for e-publishers, Samhain and Soul Mate Publishing. (<a href='http://facebook.com/KarinShahAuthor' target='_blank'>facebook.com/KarinShahAuthor</a>)</p>"
-    },
-    {
-      "id" : 19,
-      "createdOn" : "2016-12-20T00:00:00",
-      "releaseOn" : "2017-01-14T23:59:00",
-      "image" : "/app/images/posts/February_2017.png",
-      "title" : "February Meeting",
-      "createdBy" : "Rachel",
-      "postTags" : [1,2],
-      "type": "Meeting",
-      "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; February 18th, 2017 - Business Meeting at 12:30 pm, Speaker at 1:30 pm<br>LOCATION &nbsp; | &nbsp; <a href='http://maps.google.com/?q=5181 Northwest Parkway, Hilliard, OH 43026' target='_blank'>Norwich Twp Safety &amp; Services Building 5181 Northwest Parkway, Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>TOPIC &nbsp; | &nbsp; <strong>Simplify and Thrive – Declutter your Career</strong><br><h5 style='letter-spacing: .2em; font-weight: 700'>HOUR ONE | YOUR CORE STORY AND YOUR BRAND</h5><p>Zeroing in on your core story provides clarity in your writing, branding, and overall satisfaction as an author. Who doesn't want to take away some of the stress and clutter and enjoy their job a little more? In this hour-long workshop, Donna Alward explains why simplifying is so helpful, how to find your core story, and how this helps with brand-building.</p><h5 style='letter-spacing: .2em; font-weight: 700'>HOUR TWO | PASSIVE AGGRESSIVE MARKETING</h5><p>Facebook parties. Bookbub Ads. Live Chats. Blog Tours. The list of \"must dos\" goes on and on – and how can an author possibly do it all and still maintain a rigorous publishing schedule (and avoid burnout)? If you have a love/hate relationship with marketing, join author Donna Alward for this one-hour workshop as she helps you get off the promotion merry-go-round, and develop simple strategies so that your marketing plan keeps working for you while you're sleeping - or busy writing your next bestseller.</p><p>Donna's Awards and Recognition</p><ul style='margin-top: -15px'><li>2012 Colorado Award of Excellence: How A Cowboy Stole Her Heart</li><li>2012 RITA Award Finalist: How a Cowboy Stole Her Heart</li><li>2011 Cataromance Reviewer's Choice Award: How A Cowboy Stole Her Heart</li><li>2011 Bookseller's Best Award: Her Lone Cowboy</li><li>2011 Colorado Award of Excellence: Her Lone Cowboy</li><li>2011 Dunes and Dreams Cover Contest: Sold to the Highest Bidder</li><li>2008 Cataromance Reviewer's Choice Award:  Falling for Mr. Dark and Dangerous</li><li>2008 Bookseller's Best Award:  Hired By The Cowboy</li><li>2007 Cataromance Reviewer's Choice Award:  Marriage at Circle M</li></ul><p>Donna lives on Canada's east coast with her family which includes a husband, a couple of kids, a senior dog and two crazy cats. When she's not writing she enjoys reading (of course!), knitting, gardening, cooking...and is a Masterpiece Theater addict. You can visit her on the web at <a href='http://www.DonnaAlward.com' target='_blank'>www.DonnaAlward.com</a></p>"
-    },
-    {
-      "id" : 15,
-      "createdOn" : "2016-12-20T00:00:00",
-      "releaseOn" : "2017-02-20T23:59:00",
-      "image" : "",
-      "title" : "Special COFW Event: March 18th!",
-      "createdBy" : "Rachel",
-      "postTags" : [1,2],
-      "type": "Meeting",
-      "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; March 18th, 2017 - Event begins at 8:30 am<br>LOCATION &nbsp; | &nbsp; <a href='http://www.germanvillage.com' target='_blank'>German Village Society Haus 588 South Third St, Columbus, OH 43215</a><br><h5 class='text-center' style='text-transform: uppercase; letter-spacing: .2em'>Central Ohio Fiction Writers Is Proud to Host</h5><h3 class='text-center' style='margin-top: -5px'><strong>Deborah Gilbert, Publisher and lead Editor of SoulMate Publishing<br>&amp;<br>NYT Best-Selling Historical Author Eloisa James.</strong></h3><br><p>Join us for an all-day event on March 18, 2017 at the <a href='http://www.germanvillage.com' target='_blank'>German Village Society Haus 588 South Third St, Columbus, OH 43215</a>. Extra parking has been secured for the event.</p><p>Free to COFW Members / $10 for non-members at door. <strong><a href='/membership'>Join COFW today</a></strong> to get into this event for free! Plus so much more!</p><p>Event begins at 8:30 am.<br>Eloisa James Book Signing: 3:30-5:00 pm. Signing is FREE and open to public!<br>Book signing hosted by <a href='http://www.bookloft.com' target='_blank'>The Book Loft</a> but will be held at the German Village Haus. For more information on the event email coordinator <strong><a href='mailto:sherirenaeadkins@gmail.com'>Sheri Adkins</a></strong>.</p>"
-    },
-    {
-      "id" : 20,
-      "createdOn" : "2017-03-15T00:00:00",
-      "releaseOn" : "2017-03-18T23:59:00",
-      "image" : "/app/images/posts/April_2017.jpg",
-      "title" : "April Meeting with Lisa Cooke!",
-      "createdBy" : "Rachel",
-      "postTags" : [1,2],
-      "type": "Meeting",
-      "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; April 15th, 2017 - Business Meeting at 12:30 pm, Speaker at 1:30 pm<br>LOCATION &nbsp; | &nbsp; <a href='http://maps.google.com/?q=5181 Northwest Parkway, Hilliard, OH 43026' target='_blank'>Norwich Twp Safety &amp; Services Building 5181 Northwest Parkway, Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>TOPIC &nbsp; | &nbsp; <strong>The 12 Steps of Intimacy</strong><br><p>Looking for a way to make the building romance between your hero and heroine more believable? Psychologists have identified 12 stages of intimacy that, if incorporated into your manuscript, can pull your reader into the passion between your characters in a natural and believable way. This workshop with <a href='http://www.lisacookebooks.com' target='_blank'>Lisa Cooke</a> will explore these stages and give examples for ways to blend them into your story.</p>"
-    },
-    {
-      "id" : 21,
-      "createdOn" : "2017-04-17T00:00:00",
-      "releaseOn" : "2017-04-16T23:59:00",
-      "image" : "/app/images/posts/May_2017.jpg",
-      "title" : "May Meeting - Lorie Langdon",
-      "createdBy" : "Rachel",
-      "postTags" : [1,2],
-      "type": "Meeting",
-      "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; May 13th, 2017 - Business Meeting at 12:30 pm, Speaker at 1:30 pm<br>LOCATION &nbsp; | &nbsp; <a href='http://maps.google.com/?q=5181 Northwest Parkway, Hilliard, OH 43026' target='_blank'>Norwich Twp Safety &amp; Services Building 5181 Northwest Parkway, Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>TOPIC &nbsp; | &nbsp; <strong>How to Hook Your Reader</strong><br><p>YA Author of the Amazon #1 Best-selling DOON series, <a href='http://www.lorielangdon.com/' target='_blank'>Lorie Langdon</a>, will speak to our chapter about emotionally descriptive writing.</p><p>Lorie Langdon is one half of the author team that writes the best-selling Doon series, a YA re-imagining of Brigadoon! published by Blink/HarperCollins. She has longed to write her own novels since she was a wee girl reading every Judy Blume book she could get her hands on. So a few years ago, she left her thriving corporate career to satisfy the voices in her head. Now as a full-time author and stay-at-home mom, she spends her days tucked into her cozy office, Havanese puppy by her side, working to translate her effusive imagination into the written word. Lorie’s first solo novel, Gilt Hollow, a YA romantic thriller, was released in September 2016.</p>"
-    },
-    {
-      "id" : 23,
-      "createdOn" : "2017-05-01T00:00:00",
-      "releaseOn" : "2017-03-18T23:59:00",
-      "image" : "/app/images/posts/June_2017.jpg",
-      "title" : "June Meeting with Lori Foster",
-      "createdBy" : "Rachel",
-      "postTags" : [1,2],
-      "type": "Meeting",
-      "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; June 17th, 2017 - Business Meeting at 12:30 pm, Speaker at 1:30 pm<br>LOCATION &nbsp; | &nbsp; <a href='http://maps.google.com/?q=5181 Northwest Parkway, Hilliard, OH 43026' target='_blank'>Norwich Twp Safety &amp; Services Building 5181 Northwest Parkway, Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>TOPIC &nbsp; | &nbsp; <strong>A Visit from NYT Best-Selling Author, Lori Foster</strong><br><p>Join us for one of our favorite presenters, Lori Foster, who has always been a strong supporter of COFW. Lori will give us a run down of her career thus far, share her take on the current industry and all its changes, as well divulge some of the struggles she's faced in her illustrious career.</p><p>If time allows (and she always makes sure it does!) Lori has graciously agreed to follow up with a Q&A, so bring your questions for this veteran of the romance genre!</p>"
-    },
-    {
-      "id" : 24,
-      "createdOn" : "2017-06-18T00:00:00",
-      "releaseOn" : "2017-06-11T23:59:00",
-      "image" : "/app/images/posts/July_2017.png",
-      "title" : "July 15th Meeting - Laurie Schnebly",
-      "createdBy" : "Rachel",
-      "postTags" : [1,2],
-      "type": "Meeting",
-      "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; July 15th, 2017 9am - 5pm<br>LOCATION &nbsp; | &nbsp; <a href='https://goo.gl/maps/sUuCpSvssXs' target='_blank'>Columbus Metropolitan Library (Auditorium) 96 S Grant Ave Columbus, OH 43215 <i class='fa fa-map-marker'></i></a><br>TOPIC &nbsp; | &nbsp; <strong>Plotting, Building Conflict and \"Alpha Males from Abe to Zeus\"</strong><br><p>Free to members. $10 donation requested from non-members.<br>All proceeds will help offset the cost of the event.</p><p><strong>Morning Session:</strong><br>BUILDING CONFLICT FROM THE HEAD DOWN: They're perfect for each other, so why can't things ever seem to go as smoothly for these people as they deserve? It's because nobody wants the happy ending to arrive five minutes into the book, which means we need to stir up conflict for these characters. No matter what kind of conflict is happening around them, it'll be even more dramatic when you get the conflict happening  ​inside.</p><p>PLOTTING VIA MOTIVATION: Any one of us could write a book in which characters set out for a three-hour tour and get shipwrecked on an uncharted desert isle. But if you nail down the characters' motivation, it doesn't matter whether the ship capsizes or lands safely three hours later. Your characters will create a plot from WHATEVER happens because you've got their motivation built in from the very beginning...and here's how to do it.</p><p><strong>Afternoon Session:</strong><br>​FROM PLOT TO FINISH: Once a writer knows the elements that belong in her characters and her plot, she's all ​set...right? Well, not always. Making the move from a few basic answers to a manuscript which is ready to type involves a series of steps that people have called \"incredible...a plotting system which truly RESPECTS that I'm a pantser\" and \"the easiest way I've ever seen of getting from Basic Idea to Finished Book.\"​</p><p>ALPHA MALES, FROM ABE TO ZEUS: Readers love alpha males. (Maybe not for real-life marriage, but for romantic adventure there’s nothing better.) Yet writers ​often find it tricky to create one without falling into stereotypes. What makes an alpha male? (It’s more than just power.) What challenges does he face? (The answers will surprise you.) How can your hero take on solely the alpha traits you want? Get ready to find out​...and maybe to fall in love.</p><p>Laurie Schnebly also writes and produces videos, brochures and commercials for a Phoenix advertising agency. She'd written six books for Special Edition before turning to non-fiction, using her research into the nine personality types to help writers create plausible, likable people with realistic flaws. Visit her at <a href='http://booklaurie.com/' target='_blank'>http://booklaurie.com/</a></p>"
-    },
-    {
-      "id" : 25,
-      "createdOn" : "2017-07-15T00:00:00",
-      "releaseOn" : "2017-07-18T23:59:00",
-      "image" : "/app/images/posts/August_2017.png",
-      "title" : "August 19th Meeting",
-      "createdBy" : "Rachel",
-      "postTags" : [1,2],
-      "type": "Meeting",
-      "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; August 19th, 2017 - Business Meeting at 12:30 pm, Speakers at 1:30 pm<br>LOCATION &nbsp; | &nbsp; <a href='http://maps.google.com/?q=5181 Northwest Parkway, Hilliard, OH 43026' target='_blank'>Norwich Twp Safety &amp; Services Building 5181 Northwest Parkway, Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>TOPIC &nbsp; | &nbsp; <strong>RWA Conference Recap</strong><br><p>Members who attended the RWA National Conference will share their insights and information acquired at the conference.</p>"
-    },
-    {
-      "id" : 26,
-      "createdOn" : "2017-08-26T00:00:00",
-      "releaseOn" : "2017-08-25T23:59:00",
-      "image" : "/app/images/posts/Sep_2017.png",
-      "title" : "September 16th Meeting",
-      "createdBy" : "Rachel",
-      "postTags" : [1,2],
-      "type": "Meeting",
-      "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; September 16th, 2017 - Business Meeting at 12:30 pm, Speakers at 1:30 pm<br>LOCATION &nbsp; | &nbsp; <a href='http://maps.google.com/?q=5181 Northwest Parkway, Hilliard, OH 43026' target='_blank'>Norwich Twp Safety &amp; Services Building 5181 Northwest Parkway, Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>TOPIC &nbsp; | &nbsp; <strong>Self-Publishing with Lita Lawson and Kat Sheridan</strong><br><p><u>Editing and Formatting</u><br>Lita Lawson, self-published, contemporary author and COFW member, will discuss how to hire an editor and format your work, along with other handy tips regarding publishing your own work. <a href='www.litalawson.net' target='_blank'>www.litalawson.net</a></p>A COFW member off and on for over 15 years, Lita says, \"I love COFW as we have so many great speakers at our monthly meetings, annual conference or workshop. COFW has an amazing group of authors willing to share their experience in writing romance. COFW rocks!\" <a href='https://www.facebook.com/authorlitalawson' target='_blank'>https://www.facebook.com/authorlitalawson</a></p><p><u>Writing the Back Cover Blurb</u><br> Kat Sheridan, self-published historical author, will discuss how to write a back cover blurb for your book.</p><p>Kat is addicted to historical, gothic novels and any romance that includes storms, castles, bat-shit crazy villains and a high body count. Heroes and heroines must be larger than life. She's excessively fond of shiny things and bourbon and is non-functioning until she's had her coffee. Her latest release is a Victorian Gothic Romance Echoes in Stone. <a href='www.facebook.com/Kat-Sheridan' target='_blank'>www.facebook.com/Kat-Sheridan</a></p>"
-    },
-    {
-      "id" : 27,
-      "createdOn" : "2017-09-04T00:00:00",
-      "releaseOn" : "2017-09-04T00:59:00",
-      "image" : null,
-      "title" : "October 21st Workshop!",
-      "createdBy" : "Rachel",
-      "postTags" : [2,6],
-      "type": "Workshop",
-      "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; October 21st, 2017 - 9am to 5pm<br>LOCATION &nbsp; | &nbsp; <a href='https://goo.gl/maps/RUkXuKf1Q6P2' target='_blank'>The Courtyard Marriott, 2350 Westbest Drive, Columbus <i class='fa fa-map-marker'></i></a><br><p>Join us for an all-day workshop with Larry Brooks, author of <em>Story Fix and Story Engineering</em></p><p>Larry is a recognized writing expert and loves to share his expertise and love of the craft. He is the author of several excellent books on writing, including STORY ENGINEERING, STORY PHYSICS, and STORY FIX. The workshop will help you understand the principles and craft of fiction, and harness the various forces of storytelling.</p><p><strong>Workshop Topics:</strong></p><ol><li>The Hidden Secrets of Story Structure</li><li>The Beautiful Collision of Concept and Premise</li><li>Dramatic Arc as the Key to Everything (including character)</li><li>When Every Month is NanoWriMo</li></ol>"
-    },
-    {
-      "id" : 28,
-      "createdOn" : "2017-10-04T00:00:00",
-      "releaseOn" : "2017-10-04T00:59:00",
-      "image" : null,
-      "title" : "November 18th Meeting",
-      "createdBy" : "Rachel",
-      "postTags" : [1,2],
-      "type": "Meeting",
-      "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; November 18th, 2017 - Business Meeting at 12:30 pm, Speakers at 1:30 pm<br>LOCATION &nbsp; | &nbsp; <a href='http://maps.google.com/?q=5181 Northwest Parkway, Hilliard, OH 43026' target='_blank'>Norwich Twp Safety &amp; Services Building 5181 Northwest Parkway, Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>TOPIC &nbsp; | &nbsp; <strong>Making COFW Stronger. Brainstorming. Idea Sharing.<br></strong></p><p>Attend the November 18 COFW meeting as we engage in small and large group sharing. Voice your opinion. Express your needs as a writer, yet-to-be published and  published. How can COFW help you? Be a part of the discussion.</p>"
-    },
-    {
-      "id" : 29,
-      "createdOn" : "2017-11-04T00:00:00",
-      "releaseOn" : "2017-11-04T00:59:00",
-      "image" : "/app/images/posts/holidayPost.jpg",
-      "title" : "Happy Holidays from COFW!",
-      "createdBy" : "Rachel",
-      "postTags" : [1,2],
-      "type": "Meeting",
-      "content" : null
-    },
-    {
-      "id" : 30,
-      "createdOn" : "2017-12-04T00:00:00",
-      "releaseOn" : "2017-12-04T00:59:00",
-      "image" : null,
-      "title" : "January 13th Meeting",
-      "createdBy" : "Rachel",
-      "postTags" : [1,2],
-      "type": "Meeting",
-      "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; January 13th, 2018 - Business Meeting at 12:30 pm, Speakers at 1:30 pm<br>LOCATION &nbsp; | &nbsp; <a href='http://maps.google.com/?q=5181 Northwest Parkway, Hilliard, OH 43026' target='_blank'>Norwich Twp Safety &amp; Services Building 5181 Northwest Parkway, Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>TOPIC &nbsp; | &nbsp; <strong>Planning for a Great 2018<br></strong></p><p>Saralee Etter's goal in life is to be the most organized and productive writer she can be! At our January meeting, she will share the strategies she has learned for planning her work and working her plan. Together, we will explore goal-setting, motivation and habit-building techniques that will help us all have a satisfying and productive 2018.</p>"
-    },
-    {
       "id" : 31,
       "createdOn" : "2018-01-21T00:00:00",
       "releaseOn" : "2018-01-04T00:59:00",
@@ -449,6 +307,61 @@
       "postTags" : [1,2],
       "type": "Meeting",
       "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; June 13th, 2020 - Business meeting at 12:30 pm, Speaker at 1:30 pm<br>LOCATION &nbsp; | &nbsp; <strong>Meeting will be held via Zoom.</strong> See below for further instructions.<br>TOPIC &nbsp; | &nbsp; <strong>Panel: Creating Audiobooks for Your Romance Titles</strong><p>The panel will discuss their experiences with creating audiobooks and answer audience questions.</p><p>Panelists: <ul><li>Becky Barker, Award-winning, bestselling author</li><li>Kimberly Beckett, Author of <em>Dressage Dreaming</em>, <em>Racing Toward Love</em> and <em>Lionel’s Leap of Faith</em></li><li>Justine Covington, Author of <em>His Lady to Protect</em></li><li>Erin Novotny, Author of <em>Rebound Baby</em></li></ul></p><p>Our meeting will be held via Zoom. The password will be posted on the Central Ohio Fiction Writers Group page which can be accessed via the Romance Writers of America website under the Forums tab. If anyone has any questions, email <a href='mailto:authorkimberlybeckett@yahoo.com'>authorkimberlybeckett@yahoo.com</a></p>"
+    },
+    {
+      "id" : 56,
+      "createdOn" : "2020-06-10T00:00:00",
+      "releaseOn" : "2020-06-14T00:59:00",
+      "image" : null,
+      "title" : "July 18th Meeting",
+      "createdBy" : "Rachel",
+      "postTags" : [1,2],
+      "type": "Meeting",
+      "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; July 18th, 2020 - Business meeting at 12:30 pm, Speaker at 1:30 pm<br>LOCATION &nbsp; | &nbsp; <a href='https://goo.gl/maps/2qzD4mB4fJs' target='_blank'>Norwich Township Fire Station 83 4283 Davidson Rd, Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>TOPIC &nbsp; | &nbsp; <strong>Bookbrush</strong><p>Join us for a fun live walk-through with Karen Sweeney of the Book Brush tools & see how easy it is to create your own eye-catching images. See why authors say that Book Brush saves them both time and money!</p>"
+    },
+    {
+      "id" : 57,
+      "createdOn" : "2020-07-10T00:00:00",
+      "releaseOn" : "2020-07-19T00:59:00",
+      "image" : null,
+      "title" : "August 15th Meeting",
+      "createdBy" : "Rachel",
+      "postTags" : [1,2],
+      "type": "Meeting",
+      "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; August 15th, 2020 - Business meeting at 12:30 pm, Speaker at 1:30 pm<br>LOCATION &nbsp; | &nbsp; <a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>TOPIC &nbsp; | &nbsp; <strong>Recap from National Conference</strong> with Janice Beckett"
+    },
+    {
+      "id" : 58,
+      "createdOn" : "2020-08-10T00:00:00",
+      "releaseOn" : "2020-08-16T00:59:00",
+      "image" : null,
+      "title" : "September 19th Meeting",
+      "createdBy" : "Rachel",
+      "postTags" : [1,2],
+      "type": "Meeting",
+      "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; September 19th, 2020 - Business meeting at 12:30 pm, Speaker at 1:30 pm<br>LOCATION &nbsp; | &nbsp; <a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>TOPIC &nbsp; | &nbsp; <strong>Fun With Plotting</strong><p>Seven elements needed to develop your plot with Patricia Matthews.</p>"
+    },
+    {
+      "id" : 59,
+      "createdOn" : "2020-09-10T00:00:00",
+      "releaseOn" : "2020-09-20T00:59:00",
+      "image" : null,
+      "title" : "October 17th Meeting",
+      "createdBy" : "Rachel",
+      "postTags" : [1,2],
+      "type": "Meeting",
+      "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; October 17th, 2020 - Business meeting at 12:30 pm, Speaker at 1:30 pm<br>LOCATION &nbsp; | &nbsp; <a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>TOPIC &nbsp; | &nbsp; <strong>Workshop with Grace Burrowes</strong>"
+    },
+    {
+      "id" : 60,
+      "createdOn" : "2020-10-10T00:00:00",
+      "releaseOn" : "2020-10-18T00:59:00",
+      "image" : null,
+      "title" : "November 14th Meeting",
+      "createdBy" : "Rachel",
+      "postTags" : [1,2],
+      "type": "Meeting",
+      "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; November 14th, 2020 - Business meeting at 12:30 pm, Speaker at 1:30 pm<br>LOCATION &nbsp; | &nbsp; <a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>TOPIC &nbsp; | &nbsp; <strong>Building Better Scenes Using Beats</strong><p>This class will offer a technique for prodding reluctant scenes forward, even when you’re not feeling inspired.</p>"
     }
   ],
   "tags": [
