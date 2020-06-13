@@ -57,12 +57,12 @@
     },{
       "id": 7,
       "title" : "July",
-      "speaker" : ["Karen Sweeney"],
+      "speaker" : ["Kathleen Sweeney"],
       "date" : "7/18/2020",
       "longDate" : "July 18th 2020",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
-      "location": "<a href='https://goo.gl/maps/2qzD4mB4fJs' target='_blank'>Norwich Township Fire Station 83 4283 Davidson Rd, Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a>",
-      "topic": "<strong>Bookbrush</strong><p>Join us for a fun live walk-through of the Book Brush tools & see how easy it is to create your own eye-catching images. See why authors say that Book Brush saves them both time and money!</p>"
+      "location": "Zoom meeting!",
+      "topic": "<strong>Book Brush</strong><p>Join us for a fun live walk-through of the Book Brush tools & see how easy it is to create your own eye-catching images. See why authors say that Book Brush saves them both time and money!</p><p><strong>Meeting will be held via Zoom.</strong>The password will be posted on the Central Ohio Fiction Writers Group page which can be accessed via the Romance Writers of America website under the Forums tab.</p>"
     },{
       "id": 8,
       "title" : "August",
@@ -70,8 +70,8 @@
       "date" : "8/15/2020",
       "longDate" : "August 15th 2020",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
-      "location": "<a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a>",
-      "topic": "Recap from National Conference"
+      "location": "Zoom meeting!",
+      "topic": "Recap from National Conference<p><strong>Meeting will be held via Zoom.</strong>The password will be posted on the Central Ohio Fiction Writers Group page which can be accessed via the Romance Writers of America website under the Forums tab.</p>"
     },{
       "id": 9,
       "title" : "September",

@@ -311,13 +311,13 @@
     {
       "id" : 56,
       "createdOn" : "2020-06-10T00:00:00",
-      "releaseOn" : "2020-06-14T00:59:00",
-      "image" : null,
+      "releaseOn" : "2020-06-13T16:00:00",
+      "image" : "/app/images/posts/july_2020.png",
       "title" : "July 18th Meeting",
       "createdBy" : "Rachel",
       "postTags" : [1,2],
       "type": "Meeting",
-      "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; July 18th, 2020 - Business meeting at 12:30 pm, Speaker at 1:30 pm<br>LOCATION &nbsp; | &nbsp; <a href='https://goo.gl/maps/2qzD4mB4fJs' target='_blank'>Norwich Township Fire Station 83 4283 Davidson Rd, Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>TOPIC &nbsp; | &nbsp; <strong>Bookbrush</strong><p>Join us for a fun live walk-through with Karen Sweeney of the Book Brush tools & see how easy it is to create your own eye-catching images. See why authors say that Book Brush saves them both time and money!</p>"
+      "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; July 18th, 2020 - Business meeting at 12:30 pm, Speaker at 1:30 pm<br>LOCATION &nbsp; | &nbsp; <strong>Meeting will be held via Zoom.</strong> See below for further instructions.<br>TOPIC &nbsp; | &nbsp; <strong>Book Brush</strong><p>Join us for a fun live walk-through with Kathleen Sweeney of the Book Brush tools & see how easy it is to create your own eye-catching images. See why authors say that Book Brush saves them both time and money!</p><p>Our meeting will be held via Zoom. The password will be posted on the Central Ohio Fiction Writers Group page which can be accessed via the Romance Writers of America website under the Forums tab. If anyone has any questions, email <a href='mailto:authorkimberlybeckett@yahoo.com'>authorkimberlybeckett@yahoo.com</a></p>"
     },
     {
       "id" : 57,
@@ -328,7 +328,7 @@
       "createdBy" : "Rachel",
       "postTags" : [1,2],
       "type": "Meeting",
-      "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; August 15th, 2020 - Business meeting at 12:30 pm, Speaker at 1:30 pm<br>LOCATION &nbsp; | &nbsp; <a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>TOPIC &nbsp; | &nbsp; <strong>Recap from National Conference</strong> with Janice Beckett"
+      "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; August 15th, 2020 - Business meeting at 12:30 pm, Speaker at 1:30 pm<br>LOCATION &nbsp; | &nbsp; <strong>Meeting will be held via Zoom.</strong> See below for further instructions.<br>TOPIC &nbsp; | &nbsp; <strong>Recap from National Conference</strong> with Janice Beckett.<p>Our meeting will be held via Zoom. The password will be posted on the Central Ohio Fiction Writers Group page which can be accessed via the Romance Writers of America website under the Forums tab. If anyone has any questions, email <a href='mailto:authorkimberlybeckett@yahoo.com'>authorkimberlybeckett@yahoo.com</a></p>"
     },
     {
       "id" : 58,
