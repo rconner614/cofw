@@ -2,13 +2,11 @@
     'use strict';
     angular.module('cofw.core')
         .controller('homeCtrl', homeCtrl);
-    homeCtrl.$inject = ['$scope', 'data', '$sce', '$filter', '$location'];
-    function homeCtrl($scope, data, $sce, $filter, $location) {
+    homeCtrl.$inject = ['$scope', 'data', '$sce', '$filter'];
+    function homeCtrl($scope, data, $sce, $filter) {
         $scope.posts = data.posts;
-        $scope.tags = data.tags;
         $scope.currentPage = 1;
         $scope.entryLimit = 5;
-        $scope.tag = '';
 
         $scope.$on('resetHome', function(){
             $scope.currentPage = 1;
@@ -27,17 +25,12 @@
 
         $scope.totalPosts = $scope.posts.length;
 
-        $scope.changeTag = function(x){
-            $scope.tag = x.postTags[0];
-        };
-
         $scope.safeHTML = function (x) {
             return $sce.trustAsHtml(x);
         };
 
         $scope.filteredList = function(){
-            var list = $filter('orderBy')($scope.posts, 'createdOn', true);
-            return $filter('filter')(list, {postTags: $scope.tag});
+          return $filter('orderBy')($scope.posts, 'createdOn', true);
         };
 
         $scope.page = function(){
