@@ -323,7 +323,7 @@
       "id" : 57,
       "createdOn" : "2020-07-10T00:00:00",
       "releaseOn" : "2020-07-19T00:59:00",
-      "image" : null,
+      "image" : "/app/images/posts/aug_2020.png",
       "title" : "August 15th Meeting",
       "createdBy" : "Rachel",
       "postTags" : [1,2],
@@ -356,12 +356,12 @@
       "id" : 60,
       "createdOn" : "2020-10-10T00:00:00",
       "releaseOn" : "2020-10-18T00:59:00",
-      "image" : null,
+      "image" : "/app/images/posts/nov_2020.png",
       "title" : "November 14th Meeting",
       "createdBy" : "Rachel",
       "postTags" : [1,2],
       "type": "Meeting",
-      "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; November 14th, 2020 - Business meeting at 12:30 pm, Speaker at 1:30 pm<br>LOCATION &nbsp; | &nbsp; <a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>TOPIC &nbsp; | &nbsp; <strong>Building Better Scenes Using Beats</strong><p>This class will offer a technique for prodding reluctant scenes forward, even when you’re not feeling inspired.</p>"
+      "content" : "<p>DATE &amp; TIME &nbsp; | &nbsp; November 14th, 2020 - Business meeting at 12:30 pm, Speaker at 1:30 pm<br>LOCATION &nbsp; | &nbsp; <a href='http://maps.google.com/?q=5181%20Northwest%20Parkway,%20Hilliard,%20OH%2043026' target='_blank'>Norwich Township Safety &amp; Services Building<br>5181 Northwest Parkway<br>Hilliard, OH 43026 <i class='fa fa-map-marker'></i></a><br>TOPIC &nbsp; | &nbsp; <strong>Building Better Scenes Using Beats</strong><p>Have you ever noticed how some scenes seem to flow from our brains straight to the tips of our fingers effortlessly? The characters are vivid, the dialogue is dazzling, and the plot progress—both internal and external—is subtle but unmistakable. These are the days when it’s a joy to be an author.</p><p>Other scenes aren’t that easy. The characters remain stubbornly flat, the dialogue confines itself to a request for a glass of water and an aspirin and the plot doesn’t seem to know where it’s going. These are the days when we decide it’s five o’clock somewhere and start drinking early.</p><p>This class will offer a technique for prodding reluctant scenes forward, even when you’re not feeling inspired.</p><p>Jeanne Oates Estridge is the author of two award-winning paranormal romances, <em>The Demon Always Wins</em> and <em>The Demon’s in the Details</em>. She learned the technique she will teach in this class from the Master’s Certificate Program in Romance Writing at McDaniel College in Baltimore.</p>"
     }
   ],
   "tags": [
