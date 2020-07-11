@@ -624,6 +624,27 @@ textarea.form-control {
     padding:30px 0;
 }
 
+.classes-container img {
+    max-height: 200px; 
+    margin-left: 10px; 
+    margin-top: 25px;
+    float: right;
+}
+
+@media (max-width: 450px) {
+    .classes-container img {
+        float: none; 
+        width: 100%;
+        height: auto;
+        max-height: inherit;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .classes-container {
+        margin-bottom: 10px;
+    }
+}
+
 
 .shop-title h3,
 .widget-title h3{

@@ -127,35 +127,104 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
                 return memberSrv.getMembers();
             }]
         }
+    })
+    .state('classes', {
+        url: "/classes",
+        templateUrl: "/app/views/_classes.html"
+    })
+    .state('classesSuccessAugust', {
+        url: "/classes/success/august",
+        templateUrl: "/app/views/_classes_success_august.html"
+    }).state('classAugust', {
+        url: "/classes/august",
+        templateUrl: "/app/views/_register.html",
+        controller: 'classCtrl',
+        resolve: {
+            className: [function() {
+                return 'August Class'
+            }]
+        }
+    }).state('paypalAugust', {
+        url: "/payment/august",
+        templateUrl: "/app/views/_paypal.html",
+        controller: ['$scope', 'id', function($scope, id) {
+            $scope.id = id;
+        }],
+        resolve: {
+            id: [function() {
+                return '3WY4P27925T7Q'
+            }]
+        }
+    }).state('classesSuccessSeptember', {
+        url: "/classes/success/september",
+        templateUrl: "/app/views/_classes_success_september.html"
+    }).state('classSeptember', {
+        url: "/classes/september",
+        templateUrl: "/app/views/_register.html",
+        controller: 'classCtrl',
+        resolve: {
+            className: [function() {
+                return 'September Class'
+            }]
+        }
+    }).state('paypalSeptember', {
+        url: "/payment/september",
+        templateUrl: "/app/views/_paypal.html",
+        controller: ['$scope', 'id', function($scope, id) {
+            $scope.id = id;
+        }],
+        resolve: {
+            id: [function() {
+                return 'TSGJQRMEC3AJY'
+            }]
+        }
+    }).state('classesSuccessOctober', {
+        url: "/classes/success/october",
+        templateUrl: "/app/views/_classes_success_october.html"
+    }).state('classOctober', {
+        url: "/classes/october",
+        templateUrl: "/app/views/_register.html",
+        controller: 'classCtrl',
+        resolve: {
+            className: [function() {
+                return 'October Class'
+            }]
+        }
+    }).state('paypalOctober', {
+        url: "/payment/october",
+        templateUrl: "/app/views/_paypal.html",
+        controller: ['$scope', 'id', function($scope, id) {
+            $scope.id = id;
+        }],
+        resolve: {
+            id: [function() {
+                return '7NTBA3PJE79BQ'
+            }]
+        }
+    }).state('classesSuccessjanuary', {
+        url: "/classes/success/january",
+        templateUrl: "/app/views/_classes_success_jan.html"
+    }).state('classjanuary', {
+        url: "/classes/january",
+        templateUrl: "/app/views/_register.html",
+        controller: 'classCtrl',
+        resolve: {
+            className: [function() {
+                return 'January Class'
+            }]
+        }
+    }).state('paypaljanuary', {
+        url: "/payment/january",
+        templateUrl: "/app/views/_paypal.html",
+        controller: ['$scope', 'id', function($scope, id) {
+            $scope.id = id;
+        }],
+        resolve: {
+            id: [function() {
+                return '86JEUN9TPGWR6'
+            }]
+        }
     });
-    // .state('classes', {
-    //     url: "/classes",
-    //     templateUrl: "/app/views/_classes.html"
-    // })
-    // .state('classesSuccessJanuary', {
-    //     url: "/classes/success/january",
-    //     templateUrl: "/app/views/_classes_success_jan.html"
-    // }).state('classJanuary', {
-    //     url: "/classes/january",
-    //     templateUrl: "/app/views/_register.html",
-    //     controller: 'classCtrl',
-    //     resolve: {
-    //         className: [function() {
-    //             return 'January Class'
-    //         }]
-    //     }
-    // }).state('paypalJanuary', {
-    //     url: "/payment/january",
-    //     templateUrl: "/app/views/_paypal.html",
-    //     controller: ['$scope', 'id', function($scope, id) {
-    //         $scope.id = id;
-    //     }],
-    //     resolve: {
-    //         id: [function() {
-    //             return '84ZPSZNPX5LGL'
-    //         }]
-    //     }
-    // })
     // .state('successContest', {
     //     url: "/contest/success",
     //     templateUrl: "/app/views/_success-contest.html"
