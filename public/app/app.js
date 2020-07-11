@@ -141,7 +141,7 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
         controller: 'classCtrl',
         resolve: {
             className: [function() {
-                return 'August Class'
+                return 'August 2020 Class'
             }]
         }
     }).state('paypalAugust', {
@@ -164,7 +164,7 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
         controller: 'classCtrl',
         resolve: {
             className: [function() {
-                return 'September Class'
+                return 'September 2020 Class'
             }]
         }
     }).state('paypalSeptember', {
@@ -187,7 +187,7 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
         controller: 'classCtrl',
         resolve: {
             className: [function() {
-                return 'October Class'
+                return 'October 2020 Class'
             }]
         }
     }).state('paypalOctober', {
@@ -210,7 +210,7 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
         controller: 'classCtrl',
         resolve: {
             className: [function() {
-                return 'January Class'
+                return 'January 2021 Class'
             }]
         }
     }).state('paypaljanuary', {
