@@ -16,7 +16,8 @@
                 email: null,
                 isCOFWMember: false,
                 isRWAMember: false,
-                className: className
+                className: className,
+                paypalEmail: null
             }
         };
         $scope.redirect = window.location.pathname.replace('classes', 'payment');
@@ -29,6 +30,7 @@
             template = template.replace('<isCOFWMember>', $scope.form.user.isCOFWMember ? 'Yes' : 'No');
             template = template.replace('<isRWAMember>', $scope.form.user.isRWAMember ? 'Yes' : 'No');
             template = template.replace('<Class>', $scope.form.user.className);
+            template = template.replace('<paypalEmail>', $scope.form.user.paypalEmail);
             $scope.form.text = template;
             $scope.form.html = $scope.form.text.replace('\n', '<br>');
             emailSrv.sendEmail($scope.form).then(function(resp){
