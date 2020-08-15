@@ -178,6 +178,12 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
                 return 'TSGJQRMEC3AJY'
             }]
         }
+    }).state('meetingSuccessSeptember', {
+        url: "/meetings/success/september",
+        templateUrl: "/app/views/_meeting_success.html"
+    }).state('meetingSuccessOctober', {
+        url: "/meetings/success/october",
+        templateUrl: "/app/views/_meeting_success.html"
     }).state('classesSuccessOctober', {
         url: "/classes/success/october",
         templateUrl: "/app/views/_classes_success_october.html"
