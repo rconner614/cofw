@@ -184,29 +184,6 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
     }).state('meetingSuccessOctober', {
         url: "/meetings/success/october",
         templateUrl: "/app/views/_meeting_success.html"
-    }).state('classesSuccessOctober', {
-        url: "/classes/success/october",
-        templateUrl: "/app/views/_classes_success_october.html"
-    }).state('classOctober', {
-        url: "/classes/october",
-        templateUrl: "/app/views/_register.html",
-        controller: 'classCtrl',
-        resolve: {
-            className: [function() {
-                return 'October 2020 Class'
-            }]
-        }
-    }).state('paypalOctober', {
-        url: "/payment/october",
-        templateUrl: "/app/views/_paypal.html",
-        controller: ['$scope', 'id', function($scope, id) {
-            $scope.id = id;
-        }],
-        resolve: {
-            id: [function() {
-                return '7NTBA3PJE79BQ'
-            }]
-        }
     }).state('classesSuccessjanuary', {
         url: "/classes/success/january",
         templateUrl: "/app/views/_classes_success_jan.html"
