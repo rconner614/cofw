@@ -14,23 +14,6 @@
   },
   "members": [
     {
-      "firstName": "Alicia",
-      "lastName": "Anthony",
-      "id": 2,
-      "email": "alicia@aliciaanthonybooks.com",
-      "image": "Anthony.jpg",
-      "blurb": "Alicia Anthony’s first novels were illegible scribbles on the back of her truck driver father’s logbook trip tickets. Having graduated from scribbles to laptop, she now pens novels of psychological suspense in the quiet of the wee morning hours. A full-time elementary school Literacy Specialist, Alicia hopes to pass on her passion for books and writing to the students she teaches. <br><br>A two time Golden Heart® finalist and Silver Quill Award winner, Alicia finds her inspiration in exploring the dark, dusty corners of the human experience. Alicia is a graduate of Spalding University’s School of Creative & Professional Writing (MFA), Ashland University (M.Ed.) and THE Ohio State University (BA). Go Bucks! She lives in rural south-central Ohio with her amazingly patient and supportive husband, incredibly understanding teenage daughter, two dogs, three horses, a plethora of both visiting and resident barn cats, and some feral raccoons who have worn out their welcome. <br><br>When she’s not writing or teaching, Alicia loves to travel and experience new places. Connect with her on <a target='_blank' href='http://www.facebook.com/AliciaAnthonyBooks'>Facebook</a> or <a target='_blank' href='https://instagram.com/aliciaanthonybooks'>Instagram</a>. She’d love to hear from you!",
-      "website": "http://www.aliciaanthonybooks.com",
-      "facebook": "http://www.facebook.com/AliciaAnthonyBooks",
-      "twitter": "http://www.twitter.com/AliciaAAnthony",
-      "instagram": "https://instagram.com/aliciaanthonybooks",
-      "novels": [
-        "Inherent Truth, Blood Secrets Book 1 (January 2020)",
-        "Inherent Lies, Blood Secrets Book 2 (March 2020)",
-        "Inherent Fate, Blood Secrets Book 3 (Late Spring 2020)"
-      ]
-    },
-    {
       "firstName": "Barbara",
       "lastName": "Lohr",
       "id": 3,
@@ -99,14 +82,6 @@
       ]
     },
     {
-      "firstName": "Bree",
-      "lastName": "Roberts",
-      "id": 5,
-      "website": "http://www.breeroberts.com",
-      "blurb": "Writer Bree Roberts worked as a programmer before deciding to end her career and become a stay-at-home mom.  This gave her plenty of time to pursue a career in fiction writing. Bree is a native of Kingsport, Tennessee.  Growing up, she was a voracious reader of anything she could get her hands on, including her friend Cindi's Nancy Drew books, her father's Greek mythology books, sports books, Agatha Christie books from her weekly library trips, and by the age of eight had read the KJV Bible cover-to-cover.  As she got older, she gravitated more toward mystery fiction. Any book at the public library that had a skull and crossbones symbol on its spine inevitably found its way home with Bree. And then she discovered Stephen King. It was love. Or maybe it was just indigestion. Fully intending to write Mystery, perhaps even Horror, Bree was steered toward Romance Writers of America by a high-school friend, and Bree fell in love with Contemporary Romance. Stephen King was kicked to the curb (sorry Stephen!). Bree is a member of Romance Writers of America and Central Ohio Fiction Writers, and is currently living her own Happily Ever After in Ohio with her husband, their two toddlers, and a Black Labrador, Jasmine.",
-      "image": "Roberts.jpg"
-    },
-    {
       "firstName": "Donna",
       "lastName": "MacMeans",
       "id": 6,
@@ -129,41 +104,6 @@
         "WELCOME TO HAVEN HARBOR (anthology), October 2016",
         "IN A HEARTBEAT (reissue), self-published, July 2016"
       ]
-    },
-    {
-      "firstName": "Elysa",
-      "lastName": "Hendricks",
-      "id": 7,
-      "image": "Hendricks.jpg",
-      "blurb": "After trying her hand at a variety of careers, insurance underwriter, video store owner, home day care and cleaning houses, Elysa Hendricks, a longtime reader sat down to write a short contemporary novel. When her heroine turned out to be a winged, telepathic alien, Elysa decided she enjoyed writing stories set in different places and times. While living in north east Illinois she helped found the Windy City Chapter and the Futuristic, Fantasy & Paranormal Chapters of Romance Writers of America and taught workshops on writing at writer's conferences and at local community colleges. Recently relocated to central Ohio she's happy to be part of the COFW family. Someday she dreams of writing on a laptop while sitting on a tropical beach. In the meantime she keeps warms during Ohio's chilling winters by creating sizzling love scenes.",
-      "email": "elysa@elysahendricks.com",
-      "website": "http://www.elysahendricks.com",
-      "novels": [
-        "THE BABY RACE Smashwords 2011",
-        "RAWHIDE SURRENDER Hard Shell Word Factory",
-        "GEMINI MOON ImaJinn Books",
-        "CRYSTAL MOON ImaJinn Books",
-        "SHADOW MOON ImaJinn Books",
-        "FORBIDDEN MOON ImaJinn 2009",
-        "STAR CRASH Dorchester 2007",
-        "THE SWORD AND THE PEN Dorchester 2009",
-        "STAR RAIDERS Coming from Dorchester, March 2010"
-      ]
-    },
-    {
-      "firstName": "IreAnne",
-      "lastName": "Chambers",
-      "id": 8,
-      "blurb": "IreAnne Chambers' books contain the spirit and tone of the traditional regency with the promise of mystery, adventure and mishap intermixed to create a happy ever after with plenty of fun and surprises along the way. When creating her pen name, she looked to her Scottish and Irish heritage and discovered the name Eireann.  Eire means Ireland in Gaelic and the name Erin is a variant in both English and Irish.  IreAnne was born after a quick search of the internet yielded zero hits, confirming the name's uniqueness. In high school, IreAnne enjoyed writing poetry and song lyrics.  But, her love for the traditional regency romances of Jane Austen, filled with dashing heroes and feisty heroines, spurred her desire to write in the genre.  As Novelist and Nobel Prize Winner Toni Morrison said, “If there's a book you really want to read, but it hasn't been written yet, then you must write it.”  IreAnne does just that.",
-      "website": "http://www.IreAnneChambers.com",
-      "facebook": "https://www.facebook.com/AuthorIreAnneChambers",
-      "twitter": "https://twitter.com/IreAnne",
-      "googlePlus": "https://plus.google.com/u/0/108643846401187304464/posts",
-      "novels": [
-        "An Adventure in Guernsey – 2015",
-        "Storm Chasers of Wentworth Hall – 2016"
-      ],
-      "image": "chambers.jpg"
     },
     {
       "firstName": "J. Paulette",
@@ -228,15 +168,6 @@
       "blurb": "Lily Vega lives in the Midwest with her sexy husband who combines all of Dean Winchester's best qualities with a flair for computers. She continually cultivates her dirty mind, fueling it with caffeine and craft beer. She believes all creatures, especially those of the night, deserve mind-blowing sex with a happily ever after.",
       "facebook": "http://www.facebook.com/LilyVegaWriter",
       "twitter": "https://twitter.com/LV_Writer"
-    },
-    {
-      "firstName": "Lita",
-      "lastName": "Lawson",
-      "id": 15,
-      "image": "Lawson.jpg",
-      "blurb": "Lita fell in love with romance and alpha males when her mother took her to see Gone With the Wind.  An avid reader since she was young, her passion for love stories evolved when she decided to try her hand at writing one. Lita writes traditional romance with sexy heroes you will fall in love with. She hopes you enjoy her stories, from the first kiss to the happily ever after.  Lita is a member of Romance Writers of America® and lives in Ohio with her husband and two cats.",
-      "facebook": "https://www.facebook.com/authorlitalawson",
-      "website": "http://www.allromancenovels.com"
     },
     {
       "firstName": "Marcia",
@@ -353,23 +284,6 @@
       ]
     },
     {
-      "firstName": "Suzanne M.",
-      "lastName": "Sabol",
-      "id": 30,
-      "image": "Sabol.jpg",
-      "website": "http://www.suzannemsabol.com",
-      "email": "suzanne.m.sabol@gmail.com",
-      "twitter": "https://twitter.com/SuzanneMSabol",
-      "blurb": "Suzanne M. Sabol is the author of Urban Fantasy and Paranormal Romance. She has been writing from the age of 16 when she finished her first full length novel. Suzanne M. Sabol graduated from The Ohio State University, majoring in Criminology, International Studies, Russian and Political Science. She continued to write and published her first book Cursed in March of 2009. She currently lives in Columbus Ohio with her husband and works as a Human Resources Professional and Fiscal Officer. She is a member of Central Ohio Fiction Writers and Romance Writers of America.",
-      "novels": [
-        "SLIVER OF SILVER, 2013, Soul Mate Publishing",
-        "THE GOLDEN ANIDAE, 2013, Soul Mate Publishing",
-        "MIDNIGHT ASH, November 2012, Soul Mate Publishing",
-        "POOL OF CRIMSON, April 2012, Soul Mate Publishing",
-        "CURSED, March 2009, Strategic Book Publishing"
-      ]
-    },
-    {
       "firstName": "Jeanne",
       "lastName": "Estridge",
       "id": 32,
@@ -428,6 +342,7 @@
       "novellas": [
         "Shot Through the Heart"
       ],
+      "novels": ["Runaway Wife"],
       "blurb": "Maren lives on twelve acres with her husband and dog. She enjoys taking walks, traveling, writing and reading. You can learn more about Maren by visiting <a target='_blank' href='http://marenbirk.com'>MarenBirk.com</a>"
     },
     {
