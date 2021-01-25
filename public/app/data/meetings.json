@@ -12,12 +12,12 @@
     },{
       "id": 2,
       "title" : "February",
-      "speaker" : null,
-      "date" : "TBD",
-      "longDate": "TBD",
+      "speaker" : ["Donna MacMeans"],
+      "date" : "2/13/2021",
+      "longDate": "February 13th 2021",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
-      "location": "TBD",
-      "topic": "TBD"
+      "location": "Zoom meeting!",
+      "topic": "<strong>The Other HEA: Grab Your Readers with Emotional Attachment</strong><p>In order for a reader to care about a story, they must care about the characters. Learn how employing rooting interests in your stories that will create an emotional attachment-- without the reader ever realizing how you manipulated their emotions.</p>"
     },{
       "id": 3,
       "title" : "March",
