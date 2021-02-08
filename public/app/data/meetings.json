@@ -21,47 +21,47 @@
     },{
       "id": 3,
       "title" : "March",
-      "speaker" : null,
-      "date" : "TBD",
-      "longDate": "TBD",
+      "speaker" : ["Nikki Sloane"],
+      "date" : "3/13/2021",
+      "longDate": "March 13th 2021",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
-      "location": "TBD",
-      "topic": "TBD"
+      "location": "Zoom meeting!",
+      "topic": "<strong>Slay Your Promos</strong>"
     },{
       "id": 4,
       "title" : "April",
-      "speaker" : null,
-      "date" : "TBD",
-      "longDate": "TBD",
+      "speaker" : ["Kate McMurry"],
+      "date" : "4/17/2021",
+      "longDate": "April 17th 2021",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
-      "location": "TBD",
-      "topic": "TBD"
+      "location": "Zoom meeting!",
+      "topic": "<strong>Better, stronger, faster first drafts.</strong>"
     },{
       "id": 5,
       "title" : "May",
-      "speaker" : null,
-      "date" : "TBD",
-      "longDate": "TBD",
+      "speaker" : ["Liz Pelletier"],
+      "date" : "5/15/2021",
+      "longDate": "May 15th 2021",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
-      "location": "TBD",
-      "topic": "TBD"
+      "location": "Zoom meeting!",
+      "topic": "<strong>Growth Hacking a Bestseller</strong>"
     },{
       "id": 6,
       "title" : "June",
-      "speaker" : null,
-      "date" : "TBD",
-      "longDate": "TBD",
+      "speaker" : ["Gwen Henandez"],
+      "date" : "6/19/2021",
+      "longDate": "June 19th 2021",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
-      "location": "TBD",
-      "topic": "TBD"
+      "location": "Zoom meeting!",
+      "topic": "<strong>Scrivener Lessons</strong>"
     },{
       "id": 7,
       "title" : "July",
       "speaker" : null,
-      "date" : "TBD",
-      "longDate": "TBD",
+      "date" : "7/17/2021",
+      "longDate": "July 17th 2021",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
-      "location": "TBD",
+      "location": "Zoom meeting!",
       "topic": "TBD"
     },{
       "id": 8,
