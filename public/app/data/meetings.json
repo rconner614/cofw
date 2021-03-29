@@ -53,7 +53,7 @@
       "longDate": "June 19th 2021",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
       "location": "Zoom meeting!",
-      "topic": "<strong>Scrivener Lessons</strong>"
+      "topic": "<strong>Scrivener Lessons</strong><br/>Scrivener is excellent writing software for both plotters and pantsers. Want to find out what makes it so popular, or learn some new tricks? The author of Scrivener For Dummies will walk you through the basics and cover some of her favorite features."
     },{
       "id": 7,
       "title" : "July",
@@ -66,21 +66,21 @@
     },{
       "id": 8,
       "title" : "August",
-      "speaker" : null,
-      "date" : "TBD",
-      "longDate": "TBD",
+      "speaker" : ["Jordyn Blanson"],
+      "date" : "8/14/2021",
+      "longDate": "August 14th 2021",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
-      "location": "TBD",
-      "topic": "TBD"
+      "location": "Zoom meeting!",
+      "topic": "<strong>The Case for Diversity and Inclusion</strong><br/>This is a workshop that focuses on understanding what Diversity and inclusion really is, how it affects each and every one of us, and focuses on examining the way that we think about the world we live in."
     },{
       "id": 9,
       "title" : "September",
-      "speaker" : null,
+      "speaker" : ["Juliette Hyland"],
       "date" : "TBD",
       "longDate": "TBD",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
-      "location": "TBD",
-      "topic": "TBD"
+      "location": "Zoom meeting!",
+      "topic": "<strong>Trope Your Way to a First Draft</strong><br/>In genre fiction tropes are marketing devices. Everyone has their favorite! But as writers you can use these tropes to build your characters, and conflicts - basically your first draft!"
     },{
       "id": 10,
       "title" : "October",
