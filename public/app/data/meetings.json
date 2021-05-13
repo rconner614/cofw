@@ -57,12 +57,12 @@
     },{
       "id": 7,
       "title" : "July",
-      "speaker" : null,
+      "speaker" : ["Beth Barany"],
       "date" : "7/17/2021",
       "longDate": "July 17th 2021",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
       "location": "Zoom meeting!",
-      "topic": "TBD"
+      "topic": "<strong>NLP and Writing Great Novels</strong><br/>NLP, or neurolinguistic programming, is a tool that helps you write more, better, and faster. Used with respect and compassion, NLP is a gentle way to help you have what you want without having to “work” to be different than who you are."
     },{
       "id": 8,
       "title" : "August",
@@ -76,8 +76,8 @@
       "id": 9,
       "title" : "September",
       "speaker" : ["Juliette Hyland"],
-      "date" : "TBD",
-      "longDate": "TBD",
+      "date" : "9/18/2021",
+      "longDate": "September 18th 2021",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
       "location": "Zoom meeting!",
       "topic": "<strong>Trope Your Way to a First Draft</strong><br/>In genre fiction tropes are marketing devices. Everyone has their favorite! But as writers you can use these tropes to build your characters, and conflicts - basically your first draft!"
@@ -85,8 +85,8 @@
       "id": 10,
       "title" : "October",
       "speaker" : null,
-      "date" : "TBD",
-      "longDate": "TBD",
+      "date" : "10/16/2021",
+      "longDate": "October 16th 2021",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
       "location": "TBD",
       "topic": "TBD"
@@ -94,8 +94,8 @@
       "id": 11,
       "title" : "November",
       "speaker" : null,
-      "date" : "TBD",
-      "longDate": "TBD",
+      "date" : "11/13/2021",
+      "longDate": "November 13th 2021",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
       "location": "TBD",
       "topic": "TBD"
