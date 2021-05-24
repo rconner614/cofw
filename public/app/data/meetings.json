@@ -52,7 +52,7 @@
       "date" : "6/19/2021",
       "longDate": "June 19th 2021",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
-      "location": "Zoom meeting!",
+      "location": "Zoom meeting and <a href='https://goo.gl/maps/ijGhjLiYMu8uxeXz8' target='_blank'>The Forge Tavern 1375 Bethel Road, Columbus, OH 43220<i class='fa fa-map-marker'></i></a>",
       "topic": "<strong>Scrivener Lessons</strong><br/>Scrivener is excellent writing software for both plotters and pantsers. Want to find out what makes it so popular, or learn some new tricks? The author of Scrivener For Dummies will walk you through the basics and cover some of her favorite features."
     },{
       "id": 7,
@@ -61,7 +61,7 @@
       "date" : "7/17/2021",
       "longDate": "July 17th 2021",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
-      "location": "Zoom meeting!",
+      "location": "Zoom meeting and <a href='https://goo.gl/maps/ijGhjLiYMu8uxeXz8' target='_blank'>The Forge Tavern 1375 Bethel Road, Columbus, OH 43220<i class='fa fa-map-marker'></i></a>",
       "topic": "<strong>NLP and Writing Great Novels</strong><br/>NLP, or neurolinguistic programming, is a tool that helps you write more, better, and faster. Used with respect and compassion, NLP is a gentle way to help you have what you want without having to “work” to be different than who you are."
     },{
       "id": 8,
@@ -70,7 +70,7 @@
       "date" : "8/14/2021",
       "longDate": "August 14th 2021",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
-      "location": "Zoom meeting!",
+      "location": "Zoom meeting and <a href='https://goo.gl/maps/ijGhjLiYMu8uxeXz8' target='_blank'>The Forge Tavern 1375 Bethel Road, Columbus, OH 43220<i class='fa fa-map-marker'></i></a>",
       "topic": "<strong>The Case for Diversity and Inclusion</strong><br/>This is a workshop that focuses on understanding what Diversity and inclusion really is, how it affects each and every one of us, and focuses on examining the way that we think about the world we live in."
     },{
       "id": 9,
@@ -79,17 +79,17 @@
       "date" : "9/18/2021",
       "longDate": "September 18th 2021",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
-      "location": "Zoom meeting!",
+      "location": "Zoom meeting and <a href='https://goo.gl/maps/ijGhjLiYMu8uxeXz8' target='_blank'>The Forge Tavern 1375 Bethel Road, Columbus, OH 43220<i class='fa fa-map-marker'></i></a>",
       "topic": "<strong>Trope Your Way to a First Draft</strong><br/>In genre fiction tropes are marketing devices. Everyone has their favorite! But as writers you can use these tropes to build your characters, and conflicts - basically your first draft!"
     },{
       "id": 10,
       "title" : "October",
-      "speaker" : null,
+      "speaker" : ["Jeffe Kennedy"],
       "date" : "10/16/2021",
       "longDate": "October 16th 2021",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
-      "location": "TBD",
-      "topic": "TBD"
+      "location": "Zoom meeting and <a href='https://goo.gl/maps/ijGhjLiYMu8uxeXz8' target='_blank'>The Forge Tavern 1375 Bethel Road, Columbus, OH 43220<i class='fa fa-map-marker'></i></a>",
+      "topic": "Sexual Tension – Getting Away from Wham, Bam, Thank you, Ma’am"
     },{
       "id": 11,
       "title" : "November",
