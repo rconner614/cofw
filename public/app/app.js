@@ -131,20 +131,19 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
     .state('classes', {
         url: "/classes",
         templateUrl: "/app/views/_classes.html"
-    })
-    .state('classesSuccessAugust', {
+    }).state('classesSuccessAugust', {
         url: "/classes/success/august",
         templateUrl: "/app/views/_classes_success_august.html"
-    }).state('classAugust', {
+    }).state('classaug', {
         url: "/classes/august",
         templateUrl: "/app/views/_register.html",
         controller: 'classCtrl',
         resolve: {
             className: [function() {
-                return 'August 2020 Class'
+                return 'August 2021 Class'
             }]
         }
-    }).state('paypalAugust', {
+    }).state('paypalaugust', {
         url: "/payment/august",
         templateUrl: "/app/views/_paypal.html",
         controller: ['$scope', 'id', function($scope, id) {
@@ -152,59 +151,7 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
         }],
         resolve: {
             id: [function() {
-                return '3WY4P27925T7Q'
-            }]
-        }
-    }).state('classesSuccessSeptember', {
-        url: "/classes/success/september",
-        templateUrl: "/app/views/_classes_success_september.html"
-    }).state('classSeptember', {
-        url: "/classes/september",
-        templateUrl: "/app/views/_register.html",
-        controller: 'classCtrl',
-        resolve: {
-            className: [function() {
-                return 'September 2020 Class'
-            }]
-        }
-    }).state('paypalSeptember', {
-        url: "/payment/september",
-        templateUrl: "/app/views/_paypal.html",
-        controller: ['$scope', 'id', function($scope, id) {
-            $scope.id = id;
-        }],
-        resolve: {
-            id: [function() {
-                return 'TSGJQRMEC3AJY'
-            }]
-        }
-    }).state('meetingSuccessSeptember', {
-        url: "/meetings/success/september",
-        templateUrl: "/app/views/_meeting_success.html"
-    }).state('meetingSuccessOctober', {
-        url: "/meetings/success/october",
-        templateUrl: "/app/views/_meeting_success.html"
-    }).state('classesSuccessjanuary', {
-        url: "/classes/success/january",
-        templateUrl: "/app/views/_classes_success_jan.html"
-    }).state('classjanuary', {
-        url: "/classes/january",
-        templateUrl: "/app/views/_register.html",
-        controller: 'classCtrl',
-        resolve: {
-            className: [function() {
-                return 'January 2021 Class'
-            }]
-        }
-    }).state('paypaljanuary', {
-        url: "/payment/january",
-        templateUrl: "/app/views/_paypal.html",
-        controller: ['$scope', 'id', function($scope, id) {
-            $scope.id = id;
-        }],
-        resolve: {
-            id: [function() {
-                return '86JEUN9TPGWR6'
+                return 'Q2JAHW52STZEA'
             }]
         }
     });
