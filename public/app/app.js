@@ -81,11 +81,13 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
                 return memberSrv.getMembers();
             }]
         }
-    }).state('contest', {
-        url: "/contest",
-        templateUrl: "/app/views/_contest.html",
-        controller: 'contestCtrl'
-    }).state('newMember', {
+    })
+    // .state('contest', {
+    //     url: "/contest",
+    //     templateUrl: "/app/views/_contest.html",
+    //     controller: 'contestCtrl'
+    // })
+    .state('newMember', {
         url: "/member-form",
         templateUrl: "/app/views/_addMember.html",
         controller: 'newMemberCtrl'
