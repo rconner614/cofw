@@ -93,12 +93,12 @@
     },{
       "id": 11,
       "title" : "November",
-      "speaker" : null,
+      "speaker" : ["Patricia Sargeant"],
       "date" : "11/13/2021",
       "longDate": "November 13th 2021",
       "time": "Networking at 12:00 pm, Business meeting at 12:30 pm, Speaker at 1:30 pm",
-      "location": "TBD",
-      "topic": "TBD"
+      "location": "Zoom meeting and <a href='https://goo.gl/maps/ijGhjLiYMu8uxeXz8' target='_blank'>The Forge Tavern 1375 Bethel Road, Columbus, OH 43220<i class='fa fa-map-marker'></i></a>",
+      "topic": "The Storyteller’s Toolkit<br/>The Storyteller’s Toolkit is a plotting presentation that applies to all fiction genres and to authors in all stages of their publishing careers, particularly beginner and intermediate storytellers. The presentation will diagram premise, high concept, and conflict in a movie to demonstrate how the three elements work together to make a compelling story.<br/>Presentation is <strong>free</strong> for members. <strong>If you are not a COFW member</strong> and wish to attend this presentation, registration will open October 17th."
     },{
       "id": 12,
       "title" : "December",

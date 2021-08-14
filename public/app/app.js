@@ -136,6 +136,9 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
     }).state('classesSuccessAugust', {
         url: "/classes/success/august",
         templateUrl: "/app/views/_classes_success_august.html"
+    }).state('classesSuccessOctober', {
+        url: "/classes/success/october",
+        templateUrl: "/app/views/_classes_success_october.html"
     }).state('classaug', {
         url: "/classes/august",
         templateUrl: "/app/views/_register.html",
@@ -143,6 +146,15 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
         resolve: {
             className: [function() {
                 return 'August 2021 Class'
+            }]
+        }
+    }).state('classoct', {
+        url: "/classes/october",
+        templateUrl: "/app/views/_register.html",
+        controller: 'classCtrl',
+        resolve: {
+            className: [function() {
+                return 'October 2021 Class'
             }]
         }
     }).state('paypalaugust', {
@@ -154,6 +166,17 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
         resolve: {
             id: [function() {
                 return 'Q2JAHW52STZEA'
+            }]
+        }
+    }).state('paypaloctober', {
+        url: "/payment/october",
+        templateUrl: "/app/views/_paypal.html",
+        controller: ['$scope', 'id', function($scope, id) {
+            $scope.id = id;
+        }],
+        resolve: {
+            id: [function() {
+                return 'XJRHLKE2CHA3S'
             }]
         }
     });
